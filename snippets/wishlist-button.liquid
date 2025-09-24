@@ -1,0 +1,86 @@
+
+
+{%- assign button_text = text | default: 'Add to wishlist' -%}
+{%- assign icon_color = color | default: '#ff0000' -%}
+{%- assign api_base_url = app_url | default: 'https://cord-warrant-tar-medicine.trycloudflare.com/' -%}
+
+{%- if product and product.id -%}
+  <div class="wishlist-inspire__icon" x-data="wishlistButton({{ product.id }}, '{{ api_base_url }}', '{{ icon_color }}', '{{ shop.permanent_domain }}', '{{ customer.id }}')">
+    <button type="button" @click.debounce="addToWishlist()" :aria-pressed="wishlisted">
+      <svg class="wishlist-inspire__icon--svg" viewBox="0 0 24 24" stroke-width="2" :stroke="iconColor" :fill="wishlisted ? iconColor : '#fff'">
+       <path d="M12 21.35l-1.45-1.32C5.4 15.73 2 12.27 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.77-3.4 7.23-8.55 11.53L12 21.35z"/>
+     </svg>
+      <span class="wishlist-inspire__icon--text">{{ button_text }}</span>
+    </button>
+  </div>
+{%- endif -%}
+
+<script>
+  window.__wishlist_alpine_loaded__ = window.__wishlist_alpine_loaded__ || false;
+  if (!window.__wishlist_alpine_loaded__) {
+    window.__wishlist_alpine_loaded__ = true;
+    (function(){
+      var s = document.createElement('script');
+     s.defer = true;
+      s.src = 'https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js';
+     document.head.appendChild(s);
+   })();
+  }
+
+  document.addEventListener('alpine:init', () => {
+    Alpine.data('wishlistButton', (productId, appUrl, iconColor, shop, customerId) => ({
+      wishlisted: false,
+      appUrl,
+      iconColor,
+      async init() {
+        if (!customerId) {
+          return;
+}
+        try {
+          const formdata = new FormData();
+          formdata.append('customerId', String(customerId));
+          formdata.append('productId', String(productId));
+          formdata.append('shop', String(shop));
+          formdata.append('_action', 'STATUS');
+
+          const response = await fetch(`${this.appUrl}api/wishlist`, { method: 'POST', body: formdata });
+          if (!response.ok) throw new Error(`Status: ${response.status}`);
+          const result = await response.json();
+          this.wishlisted = result.wishlisted === true;
+        } catch (e) {          this.wishlisted = false;
+        }
+      },
+      async addToWishlist() {
+        if (!customerId) {
+          return;
+        }
+        try {
+          const formdata = new FormData();
+          formdata.append('customerId', String(customerId));
+          formdata.append('productId', String(productId));
+          formdata.append('shop', String(shop));
+          formdata.append('_action', this.wishlisted ? 'DELETE' : 'CREATE');
+
+          const response = await fetch(`${this.appUrl}api/wishlist`, { method: 'POST', body: formdata });
+          if (!response.ok) throw new Error(`Status: ${response.status}`);
+          const result = await response.json();
+          this.wishlisted = result.wishlisted === true;
+
+          window.dispatchEvent(new CustomEvent('wishlist:updated', {
+            detail: { wishlisted: this.wishlisted, productId: String(productId), customerId: String(customerId), shop: String(shop) }
+          }));
+        } catch (e) {
+          // noop
+        }
+      }
+    }));
+ });
+</script>
+
+<style>
+  .wishlist-inspire__icon { display: flex; align-items: center; gap: 0.5rem; }
+  .wishlist-inspire__icon button { background: none; border: none; padding: 0; margin: 0; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem; }
+  .wishlist-inspire__icon--svg { width: 1.6rem; height: 1.6rem; }
+  .wishlist-inspire__icon--text { font-size: 0.9rem; }
+</style>
+

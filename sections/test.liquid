@@ -1,0 +1,465 @@
+<style>
+  .product-grid {
+    display: grid;
+    gap: 5px;
+    list-style-type: none;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr); /* Mobile default: 2 columns */
+  }
+  @media (min-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(4, 1fr); /* Desktop: 4 columns */
+    }
+  }
+  @media (max-width: 767px) {
+    .product__img, .product__img--second {
+      height: 150px !important;
+    }
+    .product-grid {
+      gap: 10px !important;
+    }
+  }
+  .productitem {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden; /* Ensure the second image stays within the product box */
+  }
+  .product__img,
+  .product__img--second {
+    width: 100%;
+    height: 200px;
+    transition: opacity 0.3s ease;
+  }
+  .product__img--second {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .productitem:hover .product__img {
+    opacity: 0;
+  }
+  .productitem:hover .product__img--second {
+    opacity: 1;
+  }
+  .bss_product_list {
+    max-width: 120rem;
+    padding: 0 5rem;
+    margin: auto;
+  }
+  .product__title {
+    color: rgba(var(--color-foreground), 0.75);
+  }
+  .product_link{
+    color: rgba(var(--color-foreground), 0.75);
+  }
+  .product_link:hover {
+    text-decoration: unset !important;
+  }
+
+
+
+  .btn-addToCart {
+    text-align: center;
+  }
+  .btn-addToCart button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .btn-addToCart button:hover{
+    font-size: 15px;
+  }
+  .btn-addToCart a {
+    text-decoration: none;
+  }
+
+
+  .load-more {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .load-more__spinner {
+    display: none;
+    height: 35px;
+    width: 35px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3a3a3a;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+  }
+</style>
+
+{% if product.metafields.custom.bss_related_products %}
+  <div class="bss_related_product">
+    <h2>{{ section.settings['section-name'] }}</h2>
+    <div class="bss_product_list">
+      <ul id="product-list" class="product-grid">
+        {%- for product in product.metafields.custom.bss_related_products.value
+          limit: section.settings.products_per_page
+        -%}
+          {% assign has_stock = false %}
+          {% for variant in product.variants %}
+            {% if variant.inventory_quantity > 0 %}
+              {% assign has_stock = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if has_stock %}
+            <li class="productitem">
+              <a href="{{ product.url }}" class="product_link">
+                <img
+                  class="product__img"
+                  src="{{ product.featured_image | image_url: width: 300, height: 300 }}"
+                  alt="{{ product.featured_image.alt }}"
+                >
+                {% if section.settings.show_second_image and product.images.size > 1 %}
+                  <img
+                    class="product__img product__img--second"
+                    src="{{ product.images[1] | image_url: width: 300, height: 300 }}"
+                    alt="{{ product.second_image.alt }}"
+                  >
+                {% else %}
+                  <img
+                    class="product__img product__img--second"
+                    src="{{ product.featured_image | image_url: width: 300, height: 300 }}"
+                    alt="{{ product.featured_image.alt }}"
+                  >
+                {% endif %}
+              </a>
+              <a href="{{ product.url }}" class="product_link">
+                <p class="product__title">{{ product.title }}</p>
+              </a>
+              <p class="product__price">{{ product.price | money }}</p>
+              {% if product.variants.size == 1 %}
+                <div class="btn-addToCart">
+                  <form action="/cart/add" method="post" id="addToCartForm">
+                    <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                    <button type="submit" class="btn addToCartBtn">Add to Cart</button>
+                  </form>
+                </div>
+              {% else %}
+                <div class="btn-addToCart">
+                  <a href="{{ product.url }}">
+                    <button type="button" class="btn addToCartBtn">View Details</button>
+                  </a>
+                </div>
+              {% endif %}
+            </li>
+          {% endif %}
+        {%- endfor -%}
+      </ul>
+
+      <div id="load-more" class="load-more">
+        <div class="load-more__spinner"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var allProducts = {{ product.metafields.custom.bss_related_products.value | json }};
+      var productsPerPage = {{ section.settings.products_per_page }};
+      var currentPage = 1;
+      var showSecondImage = {{ section.settings.show_second_image }};
+      var columnsMobile = {{ section.settings.columns_mobile }};
+      var columnsDesktop = {{ section.settings.columns_desktop }};
+      
+      function setGridColumns() {
+        if (window.innerWidth < 768) {
+          document.getElementById('product-list').style.gridTemplateColumns = `repeat(${columnsMobile}, 1fr)`;
+        } else {
+          document.getElementById('product-list').style.gridTemplateColumns = `repeat(${columnsDesktop}, 1fr)`;
+        }
+      }
+
+      function renderProducts(products) {
+        var productHtml = '';
+        products.forEach(function(product) {
+          var productUrl = product.url ? product.url : '/products/' + product.handle;
+          var imageSrc = product.featured_image ? product.featured_image : 'placeholder_image_url';
+          var imageAlt = product.featured_image ? product.featured_image.alt : 'Product Image';
+          var secondImageSrc = product.images && product.images[1] && showSecondImage ? product.images[1] : product.featured_image;
+          var secondImageAlt = product.images && product.images[1] && showSecondImage ? product.images[1].alt : product.featured_image.alt;
+
+          productHtml += `
+            <li class="productitem">
+              <a href="${productUrl}"  class="product_link">
+                <img
+                  class="product__img"
+                  src="${imageSrc}"
+                  alt="${imageAlt}"
+                >
+                <img
+                  class="product__img product__img--second"
+                  src="${secondImageSrc}"
+                  alt="${secondImageAlt}"
+                >
+              </a>
+              <a href="${productUrl}"  class="product_link">
+                <p class="product__title">${product.title}</p>
+              </a>
+              <p class="product__price">${(product.price / 100).toFixed(2)} ${Shopify.currency.active}</p>
+              {% if product.variants.size == 1 %}
+                <div class="btn-addToCart">
+                  <form action="/cart/add" method="post" id="addToCartForm">
+                    <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                    <button type="submit" class="btn addToCartBtn">Add to Cart</button>
+                  </form>
+                </div>
+              {% else %}
+                <div class="btn-addToCart">
+                  <a href="{{ product.url }}">
+                    <button type="submit" class="btn addToCartBtn">View Details</button>
+                  </a>
+                </div>
+              {% endif %}
+            </li>
+          `;
+        });
+        document.getElementById('product-list').insertAdjacentHTML('beforeend', productHtml);
+      }
+
+      function loadMoreProducts() {
+        var nextProducts = allProducts.slice(currentPage * productsPerPage, (currentPage + 1) * productsPerPage);
+        if (nextProducts.length > 0) {
+          document.querySelector('.load-more__spinner').classList.remove('hidden');
+          setTimeout(function() { // Introduce a delay before loading more products
+            renderProducts(nextProducts);
+            currentPage++;
+            document.querySelector('.load-more__spinner').classList.add('hidden');
+          }, 1000); // 0.5-second delay
+        }
+        if ((currentPage * productsPerPage) >= allProducts.length) {
+          observer.unobserve(document.getElementById('load-more')); // Stop observing when all products are loaded
+        }
+      }
+
+      var observer = new IntersectionObserver(function(entries) {
+        if (entries[0].isIntersecting) {
+          loadMoreProducts();
+        }
+      }, {
+        root: null,
+        rootMargin: '0px',
+        threshold: 1.0
+      });
+
+      observer.observe(document.getElementById('load-more'));
+
+      // Update columns on window resize
+      window.addEventListener('resize', setGridColumns);
+
+      // Trigger the resize event initially to set the correct columns
+      setGridColumns();
+  });
+  </script>
+
+{% else %}
+  <div class="bss_related_product">
+    {% assign collectiona = collections[section.settings['bss-collection-name']] %}
+    {% if collectionb_title %}
+      <h2>{{ section.settings['section-name'] }}</h2>
+    {% endif %}
+    <div class="bss_product_list">
+      {%- paginate collectiona.products by section.settings.products_per_page -%}
+        <ul
+          data-next-url="{{ paginate.next.url}}"
+          data-max-page="{{ paginate.pages }}"
+          data-id="{{ section.id }}"
+          class="products-on-page product-grid"
+        >
+          {%- for product in collectiona.products -%}
+            {% assign has_stock = false %}
+            {% for variant in product.variants %}
+              {% if variant.inventory_quantity > 0 %}
+                {% assign has_stock = true %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+
+            {% if has_stock %}
+              <li class="productitem">
+                <a href="{{ product.url }}" class="product_link">
+                  <img
+                    class="product__img"
+                    src="{{ product.featured_image | image_url: width: 300, height: 300 }}"
+                    alt="{{ product.featured_image.alt }}"
+                  >
+                  {% if section.settings.show_second_image and product.images.size > 1 %}
+                    <img
+                      class="product__img product__img--second"
+                      src="{{ product.images[1] | image_url: width: 300, height: 300 }}"
+                      alt="{{ product.second_image.alt }}"
+                    >
+                  {% else %}
+                    <img
+                      class="product__img product__img--second"
+                      src="{{ product.featured_image | image_url: width: 300, height: 300 }}"
+                      alt="{{ product.featured_image.alt }}"
+                    >
+                  {% endif %}
+                </a>
+
+                <a href="{{ product.url }}" class="product_link">
+                  <p class="product__title">{{ product.title }}</p>
+                </a>
+                <p class="product__price">{{ product.price | money }}</p>
+
+                {% if product.variants.size == 1 %}
+                  <div class="btn-addToCart">
+                    <form action="/cart/add" method="post" id="addToCartForm">
+                      <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                      <button type="submit" class="btn addToCartBtn">Add to Cart</button>
+                    </form>
+                  </div>
+                {% else %}
+                  <div class="btn-addToCart">
+                    <a href="{{ product.url }}">
+                      <button type="submit" class="btn addToCartBtn">View Details</button>
+                    </a>
+                  </div>
+                {% endif %}
+              </li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+
+        <div class="load-more">
+          <div class="load-more__spinner"></div>
+        </div>
+      {%- endpaginate -%}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+    "name": "Testtest",
+    "class": "app-dashboard-form",
+    "settings": [
+    {
+      "type": "text",
+      "id": "section-name",
+      "label": "Section name"
+    },
+    {
+      "type": "text",
+      "id": "bss-collection-name",
+      "label": "collection name"
+    },
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "min": 2,
+      "max": 36,
+      "step": 1,
+      "default": 16,
+      "label": "Products per page"
+    },
+    {
+    "type": "checkbox",
+    "id": "show_second_image",
+    "label": "Show second image on hover",
+    "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_stock_products",
+      "label": "Show On Stock Products",
+      "default": false
+    },
+    {
+    "type": "range",
+    "id": "columns_mobile",
+    "min": 1,
+    "max": 6,
+    "step": 1,
+    "default": 2,
+    "label": "Columns on mobile"
+    },
+    {
+    "type": "range",
+    "id": "columns_desktop",
+    "min": 1,
+    "max": 6,
+    "step": 1,
+    "default": 4,
+    "label": "Columns on desktop"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testtest",
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+   var products_on_page = $('.products-on-page');
+  var load_more_btn = $('.load-more__btn');
+  var load_more_spinner = $('.load-more__spinner');
+
+  var next_url = products_on_page.data('next-url');
+  var maxpage = products_on_page.data('max-page');
+  var current_page = parseInt(next_url.match(/page=(\d+)/)[1]);
+  var isLoading = false; // Flag to track if a request is in progress
+
+  function loadMoreProducts() {
+    if (isLoading || current_page > maxpage) {
+      return; // Don't load more products if the max page is reached or if a request is already in progress
+    }
+
+    isLoading = true; // Set the flag to true indicating a request is in progress
+
+    $.ajax({
+      url: next_url,
+      type: 'GET',
+      datatype: 'html',
+      beforeSend: function() {
+        load_more_btn.hide();
+        load_more_spinner.show();
+      }
+    }).done(function(next_page) {
+      load_more_spinner.hide();
+
+      var new_products = $(next_page).find('.products-on-page');
+      products_on_page.append(new_products.html());
+
+      current_page++;
+      if (current_page > maxpage) {
+        next_url = null; // No more pages to load
+        load_more_btn.hide();
+      } else {
+        next_url = next_url.replace(/page=\d+/, 'page=' + current_page);
+        load_more_btn.show();
+      }
+
+      isLoading = false; // Reset the flag once the request is complete
+    }).fail(function() {
+      isLoading = false; // Reset the flag if the request fails
+    });
+  }
+
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() + $(window).height() >= $(document).height() - 100) {
+      if (next_url) {
+        loadMoreProducts();
+      }
+    }
+  });
+</script>
