@@ -1949,7 +1949,9 @@
           "credit_card_verification_value_blank": "በካርድዎ ላይ የሲቪቪ ወይም የደህንነት ኮድ ያስገቡ"
         },
         "unavailable": {
-          "text": "የብድር እና የዴቢት ካርድ ክፍያዎች አሁን አይገኙም።"
+          "text": "የብድር እና የዴቢት ካርድ ክፍያዎች አሁን አይገኙም።",
+          "link_text": "ይህን ገጽ አድስ",
+          "suffix": "ወይም ቆይተው እንደገና ይሞክሩ።"
         }
       },
       "replacement_payment_method_title": "መተኪያ የመክፈያ ዘዴ",
@@ -1971,7 +1973,49 @@
       "edit_payment_method_button_accessibility_label": "በ {{lastDigits}} የሚያበቃውን {{paymentMethodName}} } ያርትዑ",
       "edit_payment_method_brand_button_accessibility_label": "{{paymentMethodName}} ን ያርትዑ",
       "delete_payment_method_button": "ሰርዝ",
-      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}} ን ሰርዝ"
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}} ን ሰርዝ",
+      "payment_delete": {
+        "title": "የመክፈያ ዘዴን ሰርዝ",
+        "description_without_replacement": "ይህ የመክፈያ ዘዴ ለወደፊት ግዢዎች አይገኝም።",
+        "description_with_replacement": "ይህን የመክፈያ ዘዴ መሰረዝ አስቀድሞ የተፈቀዱ ክፍያዎች ላይ ተጽእኖ ይኖረዋል። መጪ ትዕዛዞችን መቀበልን ለመቀጠል እንደ አማራጭ በሌላ የመክፈያ ዘዴ መተካት ይችላሉ።",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "ይህን የመክፈያ ዘዴ መሰረዝ አስቀድሞ የተፈቀዱ ክፍያዎች ላይ ተጽእኖ ይኖረዋል። አማራጭ የመክፈያ ዘዴ ካልመረጡ በስተቀር ይህ የመክፈያ ዘዴ በነባር ትዕዛዞች ላይ ላሉ ቀሪ ሒሳቦች አሁንም እንዲከፍል ይደረጋል። አማራጭ የመክፈያ ዘዴ መምረጥ መጪ የደንበኝነት ምዝገባ ትዕዛዞችን ያለማቋረጥ እንዲቀበሉ ያስችልዎታል።",
+          "with_pending_orders": "ይህን የመክፈያ ዘዴ መሰረዝ ከመለያዎ ያስወግደዋል እና ለወደፊት ግዢዎች አይገኝም። አማራጭ የመክፈያ ዘዴ ካልመረጡ በቀር በነባር ትዕዛዞች ላይ ላሉ ቀሪ ሒሳቦች አሁንም እንዲከፍል ይደረጋል።",
+          "with_subscriptions": "ይህን የመክፈያ ዘዴ መሰረዝ አስቀድሞ የተፈቀዱ ክፍያዎች ላይ ተጽእኖ ይኖረዋል። መጪ ትዕዛዞችን መቀበልን ለመቀጠል በአማራጭ የመክፈያ ዘዴ ይቀይሩት።"
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "ይህን የመክፈያ ዘዴ መሰረዝ አስቀድሞ የተፈቀዱ ክፍያዎች ላይ ተጽእኖ ይኖረዋል። ይህ የመክፈያ ዘዴ በነባር ትእዛዞች ላይ ላሉ ቀሪ ሒሳቦች አሁንም እንዲከፍል ይደረጋል፣ ነገር ግን መጪ የደንበኝነት ምዝገባ ትዕዛዞችን አይቀበሉም። የደንበኝነት ምዝገባ ትዕዛዞችን መቀበልን ለመቀጠል አማራጭ የመክፈያ ዘዴ ያክሉ።",
+          "with_pending_orders": "ይህን የመክፈያ ዘዴ መሰረዝ ከመለያዎ ያስወግደዋል እና ለወደፊት ግዢዎች አይገኝም። በነባር ትዕዛዞች ላይ ለሚገኝ ማንኛውም ያልተከፈለ ቀሪ ሂሳብ አሁንም እንዲከፍል ይደረጋል።",
+          "with_subscriptions": "ይህን የመክፈያ ዘዴ መሰረዝ አስቀድሞ የተፈቀዱ ክፍያዎች ላይ ተጽእኖ ይኖረዋል። መጪ ትዕዛዞችን መቀበልን ለመቀጠል አማራጭ የመክፈያ ዘዴ ያክሉ።"
+        },
+        "payment_method_selector_placeholder": "የመክፈያ ዘዴ ይምረጡ (አማራጭ)",
+        "payment_method_selector_no_alternative_payment": "ምንም የመተኪያ ዘዴ የለም",
+        "replace_method_with_new_method_description": "የእርስዎ {{currentPaymentMethodName}} ይሰረዛል እና በእርስዎ {{newPaymentMethodName}} ይተካል።",
+        "error_when_deleting": "ይቅርታ እንጠይቃለን ግን የሆነ ችግር ተፈጥሯል እና ይህን የመክፈያ ዘዴ መሰረዝ አልቻልንም። እባክዎ ቆይተው እንደገና ይሞክሩ ወይም ገጹን ያድሱ።",
+        "delete_and_replace_button": "ሰርዝ እና ተካ",
+        "delete_and_replace_button_accessibility_label": "{{currentPaymentMethodName}} ይሰርዙ እና በ {{newPaymentMethodName}} ይተኩ።",
+        "deleted_successfully": "የመክፈያ ዘዴ በተሳካ ሁኔታ ተሰርዟል።",
+        "loading_available_payment_methods_accessibility_label": "ያሉትን የመክፈያ ዘዴዎች በመጫን ላይ"
+      },
+      "add_payment_method": {
+        "title": "የመክፈያ ዘዴ ያክሉ",
+        "payment_method_added_confirmation": "የመክፈያ ዘዴ ታክሏል።",
+        "replace_mode_warning": "ይህን የመክፈያ ዘዴ መሰረዝ የደንበኝነት ምዝገባዎችን ወይም ቅድመ-ትዕዛዞችን ይነካል። መጪ ትዕዛዞችን መቀበልን ለመቀጠል በአማራጭ የመክፈያ ዘዴ ይቀይሩት።",
+        "choose_from_list": "ከዝርዝር ውስጥ ይምረጡ",
+        "add_new_button": "አዲስ ያክሉ",
+        "billing_address": {
+          "title": "የመክፈያ አድራሻ",
+          "add_billing_address_button": "አዲስ ያክሉ",
+          "add_billing_address_button_accessibility_label": "አዲስ የክፍያ መጠየቂያ አድራሻ ያክሉ",
+          "choose_billing_address_from_list_button": "ከዝርዝር ውስጥ ይምረጡ",
+          "choose_billing_address_from_list_button_accessibility_label": "ከዝርዝሩ ውስጥ የክፍያ መጠየቂያ አድራሻ ይምረጡ",
+          "missing_billing_address_error_message": "እባክዎን የሂሳብ መጠየቂያ አድራሻ ይጥቀሱ",
+          "default_checkbox": "እንደ ነባሪ የመክፈያ ዘዴ ያዘጋጁ"
+        }
+      },
+      "three_d_secure": {
+        "title": "3D ደህንነቱ የተጠበቀ"
+      }
     },
     "orders": {
       "order_status": {
@@ -2276,6 +2320,80 @@
         "message": "በጣም ብዙ ሙከራዎች",
         "description": "እባክዎ ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ"
       }
+    },
+    "payment_method_brands": {
+      "visa": "ቪዛ",
+      "mastercard": "ማስተርካርድ",
+      "americanexpress": "አሜሪካን ኤክስፕረስ",
+      "discover": "አግኝ",
+      "dinersclub": "Diners ክለብ",
+      "jcb": "ጄሲቢ",
+      "elo": "ኢሎ",
+      "visaelectron": "ቪዛ ኤሌክትሮን",
+      "maestro": "ማይስትሮ",
+      "dankort": "ዳንኮርት",
+      "hipercard": "ሃይፐርካርድ",
+      "unionpay": "ህብረት ክፍያ",
+      "laser": "ሌዘር",
+      "shoppay": "ክፍያ ይግዙ",
+      "applepay": "አፕል ክፍያ",
+      "googlepay": "ጎግል ክፍያ",
+      "storecredit": "የማከማቻ ክሬዲት",
+      "bogus": "የውሸት"
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "የኩኪ ምርጫዎች"
+    },
+    "ui_components": {
+      "clear": "ግልጽ",
+      "clipboardCopied": "ተገልብጧል",
+      "clipboardFailedToCopy": "መቅዳት አልተሳካም።",
+      "closeNotification": "ገጠመ",
+      "expandNotification": "ተጨማሪ ይመልከቱ",
+      "closeModal": "ገጠመ",
+      "submit": "አስገባ",
+      "processing": "በማስሄድ ላይ…",
+      "increase": "{{type}} ን ጨምር",
+      "decrease": "ቀንስ {{type}}",
+      "minimumReached": "ዝቅተኛው {{value}} ደርሷል",
+      "maximumReached": "ከፍተኛው {{value}} ደርሷል",
+      "january": "ጥር",
+      "february": "የካቲት",
+      "march": "መጋቢት",
+      "april": "ሚያዚያ",
+      "may": "ግንቦት",
+      "june": "ሰኔ",
+      "july": "ሀምሌ",
+      "august": "ነሐሴ",
+      "september": "መስከረም",
+      "october": "ጥቅምት",
+      "november": "ህዳር",
+      "december": "ታህሳስ",
+      "monday": "ሰኞ",
+      "tuesday": "ማክሰኞ",
+      "wednesday": "እሮብ",
+      "thursday": "ሐሙስ",
+      "friday": "አርብ",
+      "saturday": "ቅዳሜ",
+      "sunday": "እሁድ",
+      "mondayAbbreviation": "ሞ",
+      "tuesdayAbbreviation": "ቱ",
+      "wednesdayAbbreviation": "እኛ",
+      "thursdayAbbreviation": "ት",
+      "fridayAbbreviation": "አብ",
+      "saturdayAbbreviation": "ሳ",
+      "sundayAbbreviation": "ሱ",
+      "showNextMonth": "በሚቀጥለው ወር፣ {{month}} {{year}} አሳይ",
+      "showPreviousMonth": "ያለፈውን ወር፣ {{month}} {{year}} አሳይ",
+      "rangeStart": "ክልል መጀመሪያ",
+      "inRange": "በክልል ውስጥ",
+      "rangeEnd": "ክልል መጨረሻ",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} ንጥል አለ።",
+        "other": "{{count}} ንጥሎች ይገኛሉ"
+      },
+      "removeItem": "አስወግድ {{label}}",
+      "removeTag": "መለያን ያስወግዱ"
     }
   },
   "products": {
