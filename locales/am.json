@@ -123,17 +123,134 @@
             "selected_pickup_option_no_longer_available": "ከዚህ ቀደም የተመረጠው የመውሰጃ አማራጭ ከአሁን በኋላ አይገኝም።",
             "local_pickup_no_delivery_strategy_available": "ምንም የሚገኝ የአካባቢ የመውሰጃ ማቅረቢያ ስልት አልተገኘም።",
             "origin_location_id_required": "የRETAIL ማቅረቢያ ዘዴ ሲጠየቅ የመነሻ መገኛ መታወቂያ ያስፈልጋል።",
-            "invalid_origin_location_id": "ከመነሻ መገኛ መታወቂያው ጋር የሚዛመድ አካባቢ ማግኘት አልተቻለም።"
+            "invalid_origin_location_id": "ከመነሻ መገኛ መታወቂያው ጋር የሚዛመድ አካባቢ ማግኘት አልተቻለም።",
+            "origin_location_id_not_allowed": "የተጠየቁት የመላኪያ ዘዴዎች የመነሻ አካባቢ መታወቂያን አይደግፉም።",
+            "auto_fulfill_not_allowed": "ይህ ክፍለ ጊዜ የማሟላት ባህሪን ለመሻር አልተፈቀደለትም።",
+            "auto_fulfill_required": "የRETAIL መላኪያ ዘዴ ሲጠየቅ በራስ ሰር መሙላት ያስፈልጋል።",
+            "prefetch_shipping_rates_used": "አስቀድመው የቀረቡ የመላኪያ ተመኖች ተመኖችን መመለስ የለባቸውም።",
+            "fulfillment_constraints_not_satisfied": "አንድ ወይም ከዚያ በላይ የማሟያ ገደቦች አልረኩም።",
+            "must_fulfill_from_constraint_not_satisfied": "የማሟያ ገደቦች አልረኩም ምክንያቱም እቃዎች ከተፈለጉ ቦታዎች ሊሟሉ አይችሉም.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "የማሟያ ገደቦች አልተሟሉም ምክንያቱም እቃዎች ከተመሳሳይ ቦታ ሊሟሉ አይችሉም.",
+            "delivery_strategy_conditions_not_satisfied": "የማድረስ ስልቶች ለዚህ ቦታ ይገኛሉ፣ ነገር ግን ሁኔታቸው አልረካም።",
+            "out_of_stock_at_origin_location": "በመነሻ ቦታ ላይ ምንም ክምችት የለም።",
+            "invalid_signature": "ልክ ያልሆነ የቅናሽ ፊርማ።"
           },
           "captcha": {
             "token_invalid": "የቀረበው የካፕቻ ቶከን ልክ ያልሆነ ነበር። ማረጋገጥ ለመቀጠል አዲስ ካፕቻን ያጠናቅቁ።",
-            "token_not_valid_for_session": "የቀረበው ካፕቻ ከዚህ ቼክ ጋር መጠቀም አይቻልም።"
+            "token_not_valid_for_session": "የቀረበው ካፕቻ ከዚህ ቼክ ጋር መጠቀም አይቻልም።",
+            "metadata_missing": "ለዚህ ማረጋገጫ ካፕቻን መሙላት ያስፈልጋል።",
+            "metadata_mismatch": "የቀረበው captcha አቅራቢ እና ዓይነት ከተጠበቁት እሴቶች ጋር አይዛመድም።",
+            "token_missing": "ይህንን ፍተሻ ለማጠናቀቅ የካፕቻ ቶከን መቅረብ አለበት።",
+            "job_enqueue_failed": "የ captcha የማረጋገጫ ሥራ መሰለፍ አልቻለም።",
+            "job_already_queued": "Captcha ማረጋገጥ አስቀድሞ ለዚህ ካፕቻ ማስመሰያ ተሰልፏል።",
+            "token_expired": "የቀረበው captcha ቶከን ጊዜው አልፎበታል። ማረጋገጥ ለመቀጠል አዲስ ካፕቻን ያጠናቅቁ።"
           },
           "fx_reconciliation_override": {
             "shop_currency_mismatch": "የተቀበለው መጠን በማከማቻ ምንዛሬ ውስጥ መሆን አለበት።"
           },
           "checkout_source": {
             "revoked": "ይህ ፍተሻ ከአሁን በኋላ አይገኝም።"
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "በ B2B መደብሮች ውስጥ ቅናሾች አይፈቀዱም።",
+            "custom_discount_not_honoured": "የቀረበው ብጁ ቅናሽ አልተከበረም።",
+            "unsupported_expectation": "የቀረበው የቅናሽ መስመር ፖሊሲው ሊተረጎም የማይችለውን ግምት ይዟል።",
+            "additional_requested_discount_code_discarded": "{{code}} የሚሰራ ነው ግን አይተገበርም። የቅናሽ ውሎችን ያረጋግጡ።",
+            "additional_requested_discount_discarded": "የእርስዎ ቅናሽ ትክክለኛ ነው ግን አይተገበርም። የቅናሽ ውሎችን ያረጋግጡ።",
+            "allocations_mismatch": "የቅናሽ ኮድህ ተቀይሯል። ጋሪዎን ይገምግሙ እና እንደገና ይሞክሩ።",
+            "discount_title_too_long": "የቅናሽ ርዕስ ከ255 ቁምፊዎች በላይ መሆን አይችልም።"
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "ከትዕዛዝዎ ጋር የተያያዙ ግብሮች ተለውጠዋል። ይገምግሙ እና እንደገና ይሞክሩ።",
+            "unresolvable_tax_terms": "አሁን ካለው የድርድር አውድ አንፃር የቀረቡት ውሎች ሊፈቱ የማይችሉ ናቸው።",
+            "delivery_price_is_abstract": "ተዛማጅ የመላኪያ ዋጋ ረቂቅ ነው።",
+            "tax_inclusivity_mismatch": "በተጨባጭ ጠቅላላTaxAndDutyAmount ወይም በጠቅላላAmountIncludedInTarget እሴት እንደገና መደራደር።",
+            "tax_exemption_not_supported": "ለአሁኑ የድርድር ክፍለ ጊዜ ከቀረጥ ነፃ መሆን አይደገፍም።",
+            "delivery_tax_exemption_not_supported": "ለመላኪያ መስመሮች ከቀረጥ ነጻ መውጣት በአሁኑ ጊዜ አይደገፍም።",
+            "proposed_allocations_required": "'የታቀዱ ምደባዎች' መስክ ይጎድላል።",
+            "merchandise_terms_must_be_defined": "የሸቀጦች ቃላቶች መገለጽ አለባቸው።",
+            "delivery_terms_must_be_defined": "የማስረከቢያ ውሎች መገለጽ አለባቸው።",
+            "merchandise_discount_terms_must_be_defined": "የሸቀጦች ቅናሽ ውሎች መገለጽ አለባቸው።",
+            "delivery_discount_terms_must_be_defined": "የአቅርቦት ቅናሽ ውሎች መገለጽ አለባቸው።",
+            "allocated_required": "'የተመደበው' መስክ ይጎድላል።",
+            "value_required": "የጠፋ 'ዋጋ' መስክ።",
+            "line_splits_not_supported": "'የሸቀጣሸቀጥ መስመሮች' መስክ እያንዳንዳቸው በሻጩ ሀሳብ ውስጥ አንድ ነጠላ መስመር እንዲኖራቸው መከፈል አለበት።"
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "በ B2B መደብሮች ውስጥ በእጅ ክፍያዎች አይፈቀዱም።",
+            "positive_amount_expected": "የሚከፈለው መጠን ከ0 በላይ መሆን አለበት።",
+            "total_amount_mismatch": "ጠቅላላ ክፍያ ከክፍያው መጠን ጋር አይዛመድም።",
+            "subscription_terms_not_accepted": "የደንበኝነት ምዝገባ ውል ተቀባይነት አላገኘም።",
+            "missing_session_id": "የክሬዲት ካርድ ክፍለ ጊዜ መረጃ ይጎድላል።",
+            "gateway_not_supported": "የክፍያ ፍኖት የመክፈያ ዘዴን ማከማቸትን አይደግፍም።",
+            "credit_card_last_name_required": "'የአያት ስም' ምንም ሊሆን አይችልም።",
+            "credit_card_update_failed": "የክሬዲት ካርድ ማዘመን አልተሳካም።",
+            "installments_amount_invalid": "ለጭነቶች ግብይት ልክ ያልሆነ መጠን።",
+            "installments_test_mode_not_allowed": "የሙከራ ሁነታ አይፈቀድም.",
+            "installments_gift_card_not_allowed": "ጭነቶች የስጦታ ካርዶችን መጠቀም አይፈቅድም.",
+            "installments_unsupported_currency": "ጭነቶች ይህን ምንዛሬ አይደግፉም።",
+            "installments_unsupported_shipping": "ጭነቶች ወደዚህ አድራሻ መላክን አይደግፉም።",
+            "installments_unsupported_billing": "ጭነቶች ይህን የክፍያ መጠየቂያ አድራሻ አይደግፉም።",
+            "installments_unsupported_subscriptions": "ጭነቶች ምዝገባዎችን አይደግፉም።",
+            "installments_ineligible_line_item": "በዚህ ግዢ ውስጥ ላለው የመስመር ንጥል ጭነቶች ተሰናክለዋል።",
+            "shop_cash_not_found": "የሱቅ ጥሬ ገንዘብ አልተገኘም።",
+            "shop_cash_not_allowed": "የሱቅ ጥሬ ገንዘብ ያለ ሱቅ ክፍያ አይፈቀድም።",
+            "shop_cash_unsupported_checkout_source": "የሱቅ ጥሬ ገንዘብ ይህን ቼክ አይደግፍም።",
+            "shop_cash_gift_card_not_allowed": "የሱቅ ጥሬ ገንዘብ የስጦታ ካርዶችን መግዛት አይፈቅድም.",
+            "shop_cash_not_enabled": "የሱቅ ጥሬ ገንዘብ ለዚህ ሱቅ አልነቃም።",
+            "shop_cash_not_available": "የሱቅ ጥሬ ገንዘብ በዚህ ቼክ ውስጥ አይደገፍም።",
+            "shop_cash_unsupported_subscriptions": "የሱቅ ጥሬ ገንዘብ ምዝገባዎችን አይደግፍም።",
+            "shop_cash_unsupported_shipping": "የሱቅ ጥሬ ዕቃ ምንም መላኪያ የሌለውን አይደግፍም።",
+            "invalid_address_type": "ለዚህ የመክፈያ ዘዴ የቀረበው የአድራሻ አይነት ልክ ያልሆነ ነው።",
+            "missing_retail_attributions": "በእጅ ለገቡ የክሬዲት ካርድ ክፍያዎች የችርቻሮ ባህሪዎች ያስፈልጋሉ።",
+            "unexpected_retail_attributions": "ለክሬዲት ካርድ ክፍያ የችርቻሮ ባህሪዎች ሳይታሰብ ቀርበዋል።",
+            "invalid_card_source": "ይህ ክፍለ ጊዜ ይህን የካርድ ምንጭ ለመጠቀም ፍቃድ የለውም።",
+            "wallet_content_missing": "የኪስ ቦርሳ ይዘት ይጎድላል።",
+            "payment_instrument_not_found": "የመክፈያ ዘዴ ማግኘት አልተቻለም",
+            "unauthorized_capture_method": "የክፍያ ቀረጻ ዘዴን ማዋቀር አይፈቀድም።",
+            "saved_payment_methods_not_allowed": "የተቀመጡ የመክፈያ ዘዴዎች አይፈቀዱም።",
+            "saved_payment_methods_not_enabled": "ለዚህ ሱቅ የተቀመጡ የመክፈያ ዘዴዎች አልነቁም።",
+            "saved_payment_methods_cvv_verification_disabled": "የተመረጠው የመክፈያ ዘዴ ለዚህ ሱቅ ያልነቃ CVV ማረጋገጫ ያስፈልገዋል። የተለየ የመክፈያ ዘዴ ይምረጡ።",
+            "store_credit_not_enabled": "የሱቅ ክሬዲት ለዚህ ሱቅ አልነቃም።",
+            "store_credit_account_not_found": "የማከማቻ ክሬዲት መለያ አልተገኘም።",
+            "store_credit_account_mismatch": "የሱቅ ክሬዲት መለያ ከገዢው ማንነት ጋር አይዛመድም።",
+            "store_credit_mismatched_currency": "የሱቅ ክሬዲት መለያ ምንዛሬ ከቼክ መውጫ ምንዛሬ ጋር አይዛመድም።",
+            "store_credit_insufficient_funds": "በሱቅ ክሬዲት መለያ ውስጥ በቂ ያልሆኑ ገንዘቦች አሉ።",
+            "store_credit_buying_gift_card": "የስጦታ ካርድ ለመግዛት የሱቅ ክሬዲት መጠቀም አይችሉም።",
+            "gift_cards_not_allowed_for_b2b": "የስጦታ ካርዶች በ B2B መደብሮች ውስጥ አይፈቀዱም።",
+            "method_required": "የመክፈያ ዘዴ መቅረብ አለበት።",
+            "paypal_express_address_invalid": "PayPal ልክ ያልሆነ አድራሻ መልሷል።",
+            "shop_cash_unsupported_currency": "የሱቅ ጥሬ ገንዘብ ይህንን ገንዘብ አይደግፍም።"
+          },
+          "tip": {
+            "not_accepted_by_shop": "ሱቅ ጠቃሚ ምክሮችን አይቀበልም።",
+            "only_one_tip_line_allowed": "በርካታ ምክሮች መስመሮች አይደገፉም.",
+            "tips_not_allowed_for_b2b": "ጠቃሚ ምክሮች በ B2B መደብሮች ውስጥ አይፈቀዱም.",
+            "currency_change_reset": "ጠቃሚ ምክር በምንዛሪ ለውጥ ምክንያት ዳግም ተጀምሯል።",
+            "tips_not_allowed_for_deferred_purchase_options": "ጠቃሚ ምክሮች ለተላለፉ የግዢ አማራጮች ገና አልተደገፉም።"
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "ይህ ረቂቅ ትዕዛዝ አሁን ባለው ሱቅ ውስጥ የለም።",
+            "staff_member_not_exist": "ይህ ሰራተኛ አሁን ባለው ሱቅ ውስጥ የለም።",
+            "location_not_exist": "ይህ አካባቢ አሁን ባለው ሱቅ ውስጥ የለም።",
+            "point_of_sale_device_not_exist": "ይህ የመሸጫ ቦታ አሁን ባለው ሱቅ ውስጥ የለም።",
+            "unresolvable_target_merchandise_lines": "አሁን ካለው የድርድር አውድ አንፃር የቀረቡት የሽያጭ ባህሪዎች ሊፈቱ የማይችሉ ናቸው።"
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "የገዢዎ ሃሳብ ለድርድር የማይቀርቡ_ውሎችን መያዝ አለበት።",
+            "invalid_signature": "የ {{target_terms}} ፊርማ ልክ ያልሆነ ነው።"
+          },
+          "inventory": {
+            "missing_quantity_value": "የብዛት መስክ በገዢው ዝርዝር መስመሮች ውስጥ ይጎድላል።",
+            "changing_behavior_not_allowed": "ይህ ደንበኛ የምርት ባህሪን የመቀየር ፍቃድ የለውም።",
+            "only_one_inventory_behavior_allowed": "በአሁኑ ጊዜ አንድ የእቃ ዝርዝር ባህሪ በአንድ ፍተሻ ይፈቀዳል።"
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "ግዴታዎችን አለመቀበል ለዚህ ቼክ አይፈቀድም።"
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "ለዚህ ቼክ የችርቻሮ ባለቤትነት አይፈቀድም።",
+            "retail_attribution_required": "ለዚህ ፍተሻ የችርቻሮ መለያ ባህሪ ያስፈልጋል።"
           }
         },
         "full_price": "ሙሉ ዋጋ፡",
