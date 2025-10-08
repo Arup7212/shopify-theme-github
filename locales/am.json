@@ -1636,7 +1636,147 @@
           "manage_label": "የመደብር ክሬዲት ያስተዳድሩ",
           "buying_gift_card": "የስጦታ ካርድ ለመግዛት የሱቅ ክሬዲት መጠቀም አይችሉም",
           "no_fixed_selling_plans": "በተዘገዩ የግዢ አማራጮች የመደብር ክሬዲት መጠቀም አይችሉም"
-        }
+        },
+        "clear": "ግልጽ",
+        "billing_must_match_shipping_notice": "የመክፈያ ዘዴዎ የመክፈያ አድራሻ ከመላኪያ አድራሻው ጋር መዛመድ አለበት።",
+        "same_billing_address_checkbox_label": "የመላኪያ አድራሻን እንደ የክፍያ መጠየቂያ አድራሻ ይጠቀሙ",
+        "location_billing_address_label": "የመገኛ ቦታ ማስከፈያ አድራሻ",
+        "fact_billing_address_label": "የመክፈያ አድራሻ",
+        "location_shipping_address_label": "የመገኛ ቦታ አድራሻ",
+        "use_order_billing_address_label": "የትዕዛዝ መጠየቂያ አድራሻ ይጠቀሙ",
+        "use_location_billing_address_label": "የአካባቢ ማስከፈያ አድራሻ ይጠቀሙ",
+        "use_location_shipping_address_label": "የመገኛ ቦታ አድራሻን ተጠቀም",
+        "no_working_method_error": "ይህ መደብር አሁን ክፍያዎችን መቀበል አይችልም። ይህን ገጽ ያድሱ ወይም በኋላ ተመልሰው ይምጡ።",
+        "brand_not_available": "ይህ መደብር {{brand}} ን አይቀበልም። እባክዎ ለመክፈል የተለየ ካርድ ይጠቀሙ።",
+        "shipping_rate_updated": "የሚገኙ የመላኪያ ዘዴዎች ተዘምነዋል። ከመፈተሽዎ በፊት ምርጫዎን ያረጋግጡ።",
+        "billing_address_invalid_phone": "ለመቀጠል {{label}} {{last_digits}} ለመቀጠል በሂሳብ አከፋፈል አድራሻዎ ውስጥ ያለውን ስልክ ቁጥር ያዘምኑ።",
+        "billing_address_invalid_phone_no_card": "ለመቀጠል በሂሳብ አከፋፈል አድራሻዎ ውስጥ ያለውን ስልክ ቁጥር ያዘምኑ።",
+        "preview_not_available": {
+          "title": "ቅድመ እይታ አይገኝም",
+          "content": "አይጨነቁ፣ ይህ ፈጣን ፍተሻ ለደንበኞችዎ ይሰራል።",
+          "button": "እሺ"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "የሚሰራ የህትመት ቀን አስገባ",
+              "issue_number": "የሚሰራ ቁጥር አስገባ"
+            },
+            "invalid": {
+              "verification_value": "የሚሰራ CVV ወይም የደህንነት ኮድ ያስገቡ"
+            }
+          }
+        },
+        "simulated_checkout": "ቅድመ እይታ በቅርቡ ይመጣል",
+        "simulated_express_checkout": "በክልልዎ ወይም በአሳሽዎ ምክንያት የኪስ ቦርሳ በአርታዒው ቅድመ እይታ ውስጥ አይገኙም።",
+        "vaulting_agreement_label": "ለፈጣን ፍተሻ ከ%{company} ጋር የክፍያ መረጃዬን አስቀምጥ።",
+        "business_customer_vaulting_payment_label": "ይህን የመክፈያ ዘዴ በፍተሻ ላይ ያስቀምጡ እና %{company} ለዚህ አካባቢ ለሚደረጉ ግዢዎች እንዲከፍል ፍቃድ ይስጡት። ለዚህ አካባቢ የተመደቡ ሁሉም እውቂያዎች የመክፈያ ዘዴን መጠቀም ይችላሉ።",
+        "purchase_options_and_vaulting_agreement_label": "በጋሪዎ ውስጥ ያሉ አንድ ወይም ተጨማሪ እቃዎች የዘገየ ወይም የደንበኝነት ምዝገባ ግዢ ናቸው። በክፍያዎ በመቀጠል፣ የመክፈያ ዘዴዎ እስኪያልቅ ወይም እስኪሰርዝ ድረስ በዚህ ገጽ ላይ በተዘረዘረው ዋጋ እና ድግግሞሽ በራስ-ሰር እንዲከፍል ተስማምተዋል። ሁሉም ስረዛዎች ለ%{መሰረዝ_ፖሊሲ_label} ተገዢ ናቸው።",
+        "purchase_options_cancellation_policy_label": "የስረዛ ፖሊሲ",
+        "use_different_credit_card_label": "የተለየ ካርድ ይጠቀሙ",
+        "saved_credit_card": "የተቀመጠ ክሬዲት ካርድህ",
+        "saved_credit_card_info": "የመጨረሻዎቹ አራት አሃዞች",
+        "saved_credit_card_cvv_verification": "ለማረጋገጫ ዓላማ፣ እባክዎ የካርድዎን የደህንነት ኮድ ያስገቡ።",
+        "saved_credit_card_actions": {
+          "edit": "አርትዕ",
+          "delete": "ሰርዝ"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "ሁሉንም የተቀመጡ ካርዶችን ይመልከቱ",
+          "done": "ተከናውኗል",
+          "cancel": "ሰርዝ"
+        },
+        "add_credit_card_modal": {
+          "title": "ካርድ ጨምር",
+          "save": "አስቀምጥ",
+          "cancel": "ሰርዝ"
+        },
+        "delete_credit_card_modal": {
+          "title": "ካርድ ሰርዝ",
+          "confirmation": "እርግጠኛ ነህ በ {{lastDigits}} የሚያበቃውን {{brandName}} መሰረዝ ትፈልጋለህ?",
+          "cancel": "ሰርዝ",
+          "delete": "ሰርዝ"
+        },
+        "edit_credit_card_modal": {
+          "title": "ካርድ ያርትዑ",
+          "done": "ተከናውኗል",
+          "cancel": "ሰርዝ",
+          "description": "የካርድዎን የክፍያ መጠየቂያ አድራሻ ብቻ ነው መቀየር የሚችሉት።",
+          "fields": {
+            "default": "እንደ ነባሪ አዘጋጅ",
+            "card_number": "የካርድ ቁጥር",
+            "expiry": "የሚያበቃበት ቀን",
+            "security_code": "የደህንነት ኮድ",
+            "name": "በካርድ ላይ ስም",
+            "billing": "ቢል ለ"
+          }
+        },
+        "expired_cards_info": {
+          "one": "%{count} ጊዜው ያለፈበት ካርድ አለ፣ ይህም በመለያዎ ውስጥ ሊያዩት እና ሊያርትዑት ይችላሉ።",
+          "other": "%{count} ጊዜ ያለፈባቸው ካርዶች አሉ፣ እነሱም በመለያህ ውስጥ ማየት እና አርትዕ ማድረግ ትችላለህ።"
+        },
+        "local_payment_method_receiver_notice": "ትዕዛዝዎን ካስገቡ በኋላ የክፍያ ዝርዝሮችን ይደርሰዎታል. ክፍያውን በኤቲኤም ወይም በመስመር ላይ በ {{dueDays}} ቀናት ውስጥ ይፈጽሙ።",
+        "order_edit_banner_title": "የ {{amount_owed}} ክፍያ ያስፈልጋል",
+        "order_edit_banner_subtitle": "ትዕዛዝህ {{order_number}} ተዘምኗል። እነዚህን ለውጦች ይገምግሙ፣ ከዚያ ትዕዛዝዎን ለማረጋገጥ ይክፈሉ።",
+        "order_edit_banner_items_added": {
+          "one": "ታክሏል።",
+          "other": "%{count} ታክሏል"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "ተወግዷል",
+          "with_quantities": "ከ {{delta}} {{quantity}} ተወግዷል"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "ተመልሷል {{quantity}}",
+          "with_quantities": "ከ{ {{quantity}} {{delta}} } ተመልሷል"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "ከመመለስ ተወግዷል",
+          "with_quantities": "{{delta}} ከመመለስ ተወግዷል"
+        },
+        "order_edit_banner_single_item_added": "ታክሏል።",
+        "order_edit_banner_multiple_items_added": "ታክሏል {{amount}}",
+        "order_edit_banner_single_item_removed": "ተወግዷል",
+        "order_edit_banner_multiple_items_removed": "{{amount}} ተወግዷል",
+        "order_edit_banner_single_item_returned": "ተመልሷል",
+        "order_edit_banner_multiple_items_returned": "ተመልሷል {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "ከመመለስ ተወግዷል",
+        "order_edit_banner_multiple_items_return_line_item_removed": "ከመመለስ {{amount}} ተወግዷል",
+        "order_edit_banner_updated_order_label": "የዘመነ ትዕዛዝ",
+        "gift_card_wrapper": {
+          "heading": "የስጦታ ካርድ",
+          "apply_gift_card_label": "የስጦታ ካርድ ተግብር",
+          "apply_another_gift_card_label": "ሌላ የስጦታ ካርድ ያመልክቱ",
+          "gift_card_label": "የስጦታ ካርድ %{መለያ}",
+          "payment_tag": "የስጦታ ካርድ",
+          "add_label": "የስጦታ ካርድ ያክሉ",
+          "manage_label": "የስጦታ ካርዶችን ያስተዳድሩ"
+        },
+        "gift_card_store_credit": {
+          "add_label": "የስጦታ ካርድ ወይም የሱቅ ክሬዲት ያክሉ",
+          "manage_label": "የስጦታ ካርዶችን ወይም ክሬዲትን ያከማቹ"
+        },
+        "gift_card_checkbox_label": "የስጦታ ካርድ ተግብር",
+        "custom_onsite_payment_method_modal": {
+          "title": "ብጁ የቦታ ክፍያ ማረጋገጫ"
+        },
+        "markets_pro_disclaimer_label": "ከታች ጠቅ በማድረግ እና ትዕዛዝዎን በማጠናቀቅ፣ ለእዚህ ግብይት እንደ ነጋዴ ሪከርድ ከGlobal-e የእርስዎን እቃ(ዎች) ለመግዛት ተስማምተዋል፣ በ Global-e's %{markets_pro_terms} እና %{privacy_policy}። Global-e ለ%{shop_name} ዓለም አቀፍ ሙላት አገልግሎት አቅራቢ ነው።",
+        "markets_pro_disclaimer_terms_and_conditions": "ውሎች እና ሁኔታዎች",
+        "markets_pro_disclaimer_privacy_policy": "የግላዊነት ፖሊሲ",
+        "markets_pro_disclaimer_terms_and_conditions_title": "የመዝገብ ውሎች እና ሁኔታዎች ነጋዴ",
+        "markets_pro_disclaimer_privacy_policy_title": "የመዝገቡ የግላዊነት ፖሊሲ ነጋዴ",
+        "markets_pro_disclaimer_label_express_checkout": "በመግዛት፣ በ%{markets_pro_terms} እና %{privacy_policy} Global-e፣የእኛ አለም አቀፍ አገልግሎት ሰጪ ተስማምተሃል",
+        "markets_pro_disclaimer_express_terms_and_conditions": "ውሎች",
+        "markets_pro_disclaimer_express_privacy_policy": "የግላዊነት ፖሊሲ",
+        "purchase_order_number": {
+          "title": "የፖስታ ቁጥር",
+          "label": "የፖስታ ቁጥር (አማራጭ)"
+        },
+        "alternative_payment_currency_total_notice": "ማስታወሻ፡ %{amount_due} እንዲከፍሉ ይደረጋሉ።",
+        "alternative_payment_currency_total_manual_payment_notice": "ማስታወሻ፡ የተለወጠው ጠቅላላ %{amount_due} ነው።",
+        "waiting_on_taxes_message": "ግብሮችዎ በሚቀጥሉት ጥቂት ሰከንዶች ውስጥ ካላሰሉ ገጹን ያድሱ።",
+        "waiting_on_taxes_notice": "ግብሮችን በማስላት ላይ",
+        "payment_method": "የመክፈያ ዘዴ"
       },
       "billing": {
         "billing_address_title": "ቢል ለ",
