@@ -891,7 +891,104 @@
     "facets": {
       "sort_by_label": "Sorteer volgens:",
       "to": "Aan",
-      "clear_filter": "Verwyder filter"
+      "clear_filter": "Verwyder filter",
+      "filter_and_operator_subtitle": "Pas alles by",
+      "apply": "Dien toe",
+      "clear": "Duidelik",
+      "clear_all": "Verwyder alles",
+      "from": "Van",
+      "filter_and_sort": "Filter en sorteer",
+      "filters_selected": {
+        "one": "{{ count }} gekies",
+        "other": "{{ count }} gekies"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} filters gekies)",
+      "show_more": "Wys meer",
+      "show_less": "Wys minder",
+      "max_price": "Die hoogste prys is {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} van {{ count }} produk",
+        "other": "{{ product_count }} van {{ count }} produkte"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} produk",
+        "other": "{{ count }} produkte"
+      },
+      "reset": "Herstel",
+      "sort_button": "Sorteer"
+    },
+    "product": {
+      "add_to_cart": "Voeg by mandjie",
+      "choose_options": "Kies opsies",
+      "choose_product_options": "Kies opsies vir {{ product_name }}",
+      "description": "Beskrywing",
+      "inventory_in_stock": "In voorraad",
+      "inventory_in_stock_show_count": "{{ quantity }} in voorraad",
+      "inventory_low_stock": "Lae voorraad",
+      "inventory_low_stock_show_count": "Lae voorraad: {{ quantity }} oor",
+      "inventory_out_of_stock": "Uit voorraad",
+      "inventory_out_of_stock_continue_selling": "In voorraad",
+      "on_sale": "Uitverkoping",
+      "product_variants": "Produkvariante",
+      "media": {
+        "gallery_viewer": "Galery-kyker",
+        "load_image": "Laai beeld {{ index }} in galery-aansig",
+        "load_model": "Laai 3D-model {{ index }} in galery-aansig",
+        "load_video": "Speel video {{ index }} in galery-aansig",
+        "image_available": "Beeld {{ index }} is nou beskikbaar in galery-aansig",
+        "open_media": "Maak media {{ index }} in modal oop",
+        "play_model": "Speel 3D-kyker",
+        "play_video": "Speel video"
+      },
+      "quantity": {
+        "label": "Hoeveelheid",
+        "input_label": "Hoeveelheid vir {{ product }}",
+        "increase": "Verhoog hoeveelheid vir {{ product }}",
+        "decrease": "Verminder hoeveelheid vir {{ product }}",
+        "minimum_of": "Minimum van {{ quantity }}",
+        "maximum_of": "Maksimum van {{ quantity }}",
+        "multiples_of": "Inkremente van {{ quantity }}",
+        "min_of": "Min. {{ quantity }}",
+        "max_of": "Maks. {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in mandjie",
+        "note": "Bekyk hoeveelheidsreëls"
+      },
+      "volume_pricing": {
+        "title": "Volumepryse",
+        "note": "Volumepryse beskikbaar",
+        "minimum": "{{ quantity }} +",
+        "price_at_each": "teen {{ price }} /elk"
+      },
+      "pickup_availability": {
+        "view_store_info": "Bekyk winkelinligting",
+        "check_other_stores": "Gaan beskikbaarheid na by ander winkels",
+        "pick_up_available": "Afhaal beskikbaar",
+        "pick_up_available_at_html": "Afhaal beskikbaar by <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Afhaal tans nie beskikbaar by <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Kon nie afhaalbeskikbaarheid laai nie",
+        "refresh": "Verfris"
+      },
+      "price": {
+        "from_price_html": "Vanaf {{ price }}",
+        "regular_price": "Gewone prys",
+        "sale_price": "Verkoopprys",
+        "unit_price": "Eenheidsprys"
+      },
+      "share": "Deel hierdie produk",
+      "sold_out": "Uitverkoop",
+      "unavailable": "Nie beskikbaar nie",
+      "vendor": "Verkoper",
+      "value_unavailable": "{{ option_value }} - Nie beskikbaar nie",
+      "variant_sold_out_or_unavailable": "Variant uitverkoop of onbeskikbaar",
+      "video_exit_message": "{{ title }} maak volskermvideo in dieselfde venster oop.",
+      "view_full_details": "Bekyk volledige besonderhede",
+      "xr_button": "Kyk in jou ruimte",
+      "xr_button_label": "Bekyk in jou ruimte, laai item in toegevoegde realiteit-venster",
+      "include_taxes": "Belasting ingesluit.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Versending</a> word by die betaalpunt bereken."
+    },
+    "modal": {
+      "label": "Mediagalery"
     }
   },
   "templates": {
@@ -1025,5 +1122,34 @@
       "total_refunded": "Terugbetaal",
       "fulfilled_at_html": "Vervul {{ date }}"
     }
+  },
+  "accessibility": {
+    "total_reviews": "totale resensies",
+    "star_reviews_info": "{{ rating_value }} uit {{ rating_max }} sterre",
+    "collapsible_content_title": "Invoubare inhoud",
+    "complementary_products": "Aanvullende produkte"
+  },
+  "blogs": {
+    "article": {
+      "read_more_title": "Lees meer: {{ title }}",
+      "comments": {
+        "one": "{{ count }} kommentaar",
+        "other": "{{ count }} kommentare"
+      },
+      "moderated": "Let asseblief daarop dat kommentare goedgekeur moet word voordat dit gepubliseer word.",
+      "comment_form_title": "Lewer kommentaar",
+      "name": "Naam",
+      "email": "E-pos",
+      "message": "Kommentaar",
+      "post": "Plaas kommentaar",
+      "back_to_blog": "Terug na blog",
+      "share": "Deel hierdie artikel",
+      "success": "Jou kommentaar is suksesvol geplaas! Dankie!",
+      "success_moderated": "Jou kommentaar is suksesvol geplaas. Ons sal dit binnekort publiseer, aangesien ons blog gemodereer word."
+    }
+  },
+  "onboarding": {
+    "product_title": "Voorbeeld produktitel",
+    "collection_title": "Jou versameling se naam"
   }
 }
