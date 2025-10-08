@@ -1379,6 +1379,80 @@
           "tax_credential_tr": "ቱርኪዬ ኩምሁሪየቲ ኪምሊክ ኑማራሲ/ኬዲቪ",
           "shipping_credential_tr": "ቱርኪዬ ኩምሁሪየቲ ኪምሊክ ኑማራሲ/ኬዲቪ"
         }
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "city": "ከተማ ግባ",
+            "billing_city": "የክፍያ መጠየቂያ አድራሻ ከተማ ያስገቡ",
+            "province": "ግዛት/አውራጃ ይምረጡ",
+            "billing_province": "የክፍያ መጠየቂያ አድራሻ ሁኔታ/አውራጃ ይምረጡ",
+            "country": "አገር/ክልል ይምረጡ",
+            "zip": "ዚፕ/ፖስታ ኮድ አስገባ",
+            "billing_zip": "የክፍያ መጠየቂያ አድራሻ ዚፕ/ፖስታ ኮድ ያስገቡ",
+            "phone": "ስልክ ቁጥር አስገባ",
+            "contact_info": "የእውቂያ መረጃ ያስገቡ"
+          },
+          "formatting": {
+            "name_contains_emojis": "ስሜት ገላጭ ምስልን ከስምዎ ይሰርዙ",
+            "postal_code_contains_emoji": "ስሜት ገላጭ ምስሎችን ከፖስታ ኮድዎ ይሰርዙ",
+            "first_name_too_long": "የመጀመሪያ ስም በጣም ብዙ ፊደሎችን ይዟል",
+            "last_name_too_long": "የአያት ስም በጣም ብዙ ፊደላትን ይዟል",
+            "address_too_long": "የአድራሻ መስመር በጣም ረጅም ነው።"
+          },
+          "select_different_shipping_address_to_resolve_errors": "የመላኪያ አድራሻዎ ልክ ያልሆነ ነው። የተለየ አድራሻ ይምረጡ ወይም አዲስ ይጠቀሙ።"
+        },
+        "scrim": {
+          "continue_purchase_in_window": "ግዢዎን በ {{walletName}} መስኮት ይቀጥሉ",
+          "and_return_to_checkout": "እና ወደ Checkout ይመለሱ",
+          "cancel": "ሰርዝ"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "የማስታወሻውን መጠን ወደ 5000 ወይም ከዚያ ያነሱ ቁምፊዎች ይቀንሱ።"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "የስጦታ ካርድ ዋጋ ከ0 በላይ መሆን አለበት።",
+            "gift_card_price_must_not_exceed_limit": "የስጦታ ካርድ ዋጋ ከ%{gift_card_limit} መብለጥ የለበትም።",
+            "subtotal_limit_reached": "ከፍተኛው የመስመር ንጥሎች ዋጋ ላይ ደርሷል።",
+            "signature_mismatch": "የሸቀጦች ፊርማ ከመስመር %{stable_id} ጋር አለመዛመድ።"
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "ተመዝግቦ መውጫው የርቀት ምርቶችን ብቻ ይዟል። ፍተሻውን ለማጠናቀቅ ወደ የርቀት ሱቅ ማዘዋወር ያስፈልጋል።",
+          "currency_mismatch": "ይህ ንጥል ወደ ጋሪዎ ሊታከል አይችልም ምክንያቱም የተለየ ምንዛሪ ከሚጠቀም መደብር የመጣ ነው።",
+          "max_remote_shops_exceeded": "ይህ ምርት ሊታከል አይችልም ምክንያቱም የእርስዎ ጋሪ አስቀድሞ ከሌሎች መደብሮች ከፍተኛውን ይዟል።"
+        }
+      },
+      "units": {
+        "milligram": "ሚ.ግ",
+        "kilogram": "ኪ.ግ",
+        "millimeter": "ሚ.ሜ",
+        "centimeter": "ሴሜ",
+        "ounce": "ኦዝ",
+        "pound": "ፓውንድ",
+        "gallon": "ገላ",
+        "inch": "ውስጥ",
+        "foot": "ጫማ",
+        "square_foot": "ጫማ²",
+        "item": "ንጥል"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "አድራሻው ለአሁኑ አባልነት አይደገፍም።",
+        "items_split_across_locations_unsupported": "ዋና መላኪያ ለትዕዛዝዎ አይገኝም። የማጓጓዣ አማራጮችዎ ተዘምነዋል።"
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "ወደ የመስመር ላይ መደብር ይሂዱ"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "ስለ%{context} ተጨማሪ መረጃ",
+        "additional_payment_methods": "ተጨማሪ የመክፈያ ዘዴዎች"
       }
     },
     "notices": {
@@ -1672,6 +1746,70 @@
             "shopify_support_link_text": "Shopify ድጋፍ"
           }
         }
+      },
+      "blank": "ባዶ መሆን አይችልም",
+      "blocked_address": "ይህ አካባቢ አይደገፍም።",
+      "credit_card_session_expired": "የክሬዲት ካርድ ፍቃድ ጊዜው አልፎበታል፣ እባክዎ የክፍያ መረጃዎን እንደገና ያስገቡ። ካርድዎ አልተከፈለም።",
+      "empty": "ባዶ መሆን አይችልም",
+      "invalid_email": "ትክክለኛ የኢሜይል አድራሻ መሆን አለበት።",
+      "discount_disabled": "ይህ ቅናሽ ተሰናክሏል።",
+      "discount_expired": "ይህ ቅናሽ ከአሁን በኋላ የሚሰራ አይደለም።",
+      "discount_limit_reached": "ይህ ቅናሽ የአጠቃቀም ገደብ ላይ ደርሷል",
+      "discount_not_found": "ከገባው ኮድ ጋር የሚዛመድ ትክክለኛ ቅናሽ ማግኘት አልተቻለም",
+      "customer_already_used_once_per_customer_discount_notice": "ይህ ቅናሽ የአጠቃቀም ገደብ ላይ ደርሷል",
+      "gift_card_already_applied": "ኮድ አስቀድሞ በቼክ መውጫዎ ላይ ተተግብሯል።",
+      "gift_card_code_invalid": "ኮድ ልክ ያልሆነ ነው።",
+      "gift_card_currency_mismatch": "የስጦታ ካርድህ በ%{gift_card_currency} ነው። በ%{checkout_currency} እንደገና እንዲወጣ ያነጋግሩን።",
+      "gift_card_depleted": "በዚህ የስጦታ ካርድ ላይ ምንም የተረፈ ገንዘብ የለም።",
+      "gift_card_disabled": "የስጦታ ካርድ ተሰናክሏል።",
+      "gift_card_expired": "የስጦታ ካርድ ጊዜው አልፎበታል።",
+      "invalid": "ልክ ያልሆነ ነው።"
+    },
+    "pagination": {
+      "previous": "ቀዳሚ",
+      "next": "ቀጥሎ"
+    },
+    "links": {
+      "powered_by_shopify": "በShopify የተጎላበተ",
+      "learn_more": "የበለጠ ተማር"
+    },
+    "feed": {
+      "more": "ተጨማሪ"
+    },
+    "attributes": {
+      "email": "ኢሜይል",
+      "password": "የይለፍ ቃል",
+      "password_confirmation": "የይለፍ ቃል ማረጋገጫ",
+      "first_name": "የመጀመሪያ ስም",
+      "last_name": "የአያት ስም",
+      "body": "አካል",
+      "signature": "አድራሻ"
+    },
+    "addresses": {
+      "zip_code": "አካባቢያዊ መለያ ቁጥር",
+      "postal_code": "የፖስታ መላኪያ ኮድ",
+      "postcode": "የፖስታ ኮድ",
+      "pincode": "ፒን ኮድ",
+      "region": "ክልል",
+      "prefecture": "ክልል",
+      "province": "ክፍለ ሀገር",
+      "state": "ግዛት",
+      "state_and_territory": "ግዛት/ግዛት።",
+      "county": "ካውንቲ",
+      "emirate": "ኢምሬት",
+      "governorate": "ጠቅላይ ግዛት",
+      "confirm": "እርግጠኛ ነዎት ይህን አድራሻ መሰረዝ ይፈልጋሉ?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "ተለይቶ የቀረበ",
+        "best_selling": "ምርጥ ሽያጭ",
+        "az": "በፊደል፣ AZ",
+        "za": "በፊደል፣ ZA",
+        "price_ascending": "ዋጋ ከዝቅተኛ እስከ ከፍተኛ",
+        "price_descending": "ዋጋ ከከፍተኛ እስከ ዝቅተኛ",
+        "date_ascending": "ቀን፣ ከአሮጌ እስከ አዲስ",
+        "date_descending": "ቀን፣ አዲስ ለአሮጌ"
       }
     }
   },
