@@ -1367,144 +1367,291 @@
       }
     },
     "orders": {
-      "order_list": {
-        "empty_state_order_source_description": "በ {{email}} የተሰጡ ትዕዛዞች ብቻ እዚህ ይታያሉ።",
-        "empty_state_subtitle": "ለማዘዝ ወደ መደብር ይሂዱ።",
-        "empty_state_title": "እስካሁን ምንም ትዕዛዞች የሉም",
-        "empty_state_with_location_title": "ለ {{locationName}} ምንም ትዕዛዞች የሉም",
-        "empty_state_title_for_pending_orders": "ምንም በመጠባበቅ ላይ ያሉ ትዕዛዞች የሉም",
-        "no_order_banner": "ቅጥያዎን በትዕዛዝ ሁኔታ ገጽ ላይ ለመሞከር ትዕዛዝ ይፍጠሩ።",
-        "estimated_shortform": "እ.ኤ.አ. {{date}}",
-        "estimated_delivery": "የሚጠበቀው {{date}}",
-        "one_images_accessibility_label": "ትዕዛዙ {{lineItemName1}} ን ያካትታል",
-        "two_images_accessibility_label": "ትዕዛዙ {{lineItemName1}} ፣ {{lineItemName2}} ን ያካትታል",
-        "three_images_accessibility_label": "ትዕዛዙ {{lineItemName1}} ፣ {{lineItemName2}} ፣ {{lineItemName3}} ን ያካትታል።",
-        "four_images_accessibility_label": "ትዕዛዙ {{lineItemName1}} ፣ {{lineItemName2}} ፣ {{lineItemName3}} ፣ {{lineItemName4}} ን ያካትታል።",
-        "more_than_three_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ፣ {{lineItemName2}} እና {{numberOfAdditionalProducts}} ተጨማሪ ምርቶችን ያካትታል",
-        "more_than_four_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ፣ {{lineItemName2}} ፣ {{lineItemName3}} እና {{numberOfAdditionalProducts}} ተጨማሪ ምርቶችን ያካትታል።",
-        "plus_more": "+ {{numberOfAdditionalProducts}}",
-        "plus_more_products": "+ {{numberOfAdditionalProducts}} ምርቶች",
-        "carousel": {
-          "one_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ብዛት {{lineItemQuantity1}} ን ያካትታል",
-          "two_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ብዛት {{lineItemQuantity1}} ፣ {{lineItemName2}} ብዛት {{lineItemQuantity2}} ያካትታል።",
-          "three_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ብዛት {{lineItemQuantity1}} ፣ {{lineItemName2}} ብዛት {{lineItemQuantity2}} ፣ {{lineItemName3}} ብዛት {{lineItemQuantity3}} ን ያካትታል።",
-          "four_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ብዛት {{lineItemQuantity1}} ፣ {{lineItemName2}} ብዛት {{lineItemQuantity2}} ፣ {{lineItemName3}} ብዛት {{lineItemQuantity3}} ፣ {{lineItemName4}} ብዛት {{lineItemQuantity4}} ያካትታል።",
-          "five_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ብዛት {{lineItemQuantity1}} ፣ {{lineItemName2}} ብዛት {{lineItemQuantity2}} ፣ {{lineItemName3}} ብዛት {{lineItemQuantity3}} {{lineItemName4}} {{lineItemName4}} ብዛት {{lineItemQuantity4}} {{lineItemName5}} ያካትታል። ብዛት {{lineItemQuantity5}}",
-          "six_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ብዛት {{lineItemQuantity1}} ፣ {{lineItemName2}} ብዛት {{lineItemQuantity2}} ፣ {{lineItemName3}} ብዛት {{lineItemQuantity3}} {{lineItemName4}} {{lineItemName4} {{lineItemQuantity4}} {{lineItemName5}} ያካትታል። ብዛት {{lineItemQuantity5}} ፣ {{lineItemName6}} ብዛት {{lineItemQuantity6}}",
-          "six_and_more_products_accessibility_label": "ትዕዛዙ {{lineItemName1}} ብዛት {{lineItemQuantity1}} ፣ {{lineItemName2}} ብዛት {{lineItemQuantity2}} ፣ {{lineItemName3}} ብዛት {{lineItemQuantity3}} {{lineItemName4}} {{lineItemName4} {{lineItemQuantity4}} {{lineItemName5}} ያካትታል። ብዛት {{lineItemQuantity5}} ፣ {{lineItemName6}} ብዛት {{lineItemQuantity6}} እና ተጨማሪ",
-          "view_order_details": "የትዕዛዝ ዝርዝሮችን ይመልከቱ",
-          "previous": "ቀዳሚ",
-          "next": "ቀጥሎ"
-        },
-        "items": {
-          "one": "{{count}} ንጥል ነገር",
-          "other": "{{count}} ንጥሎች"
-        },
-        "no_filtered_results_description": "ትዕዛዞችዎን ለማየት ማጣሪያዎችን ያስወግዱ ወይም ያስተካክሉ",
-        "no_filtered_results_title": "ምንም የተጣራ ውጤቶች የሉም",
-        "order_link": "ትዕዛዝ ይመልከቱ {{name}}",
-        "order_number": "እዘዝ {{name}}",
-        "orders_title": "ተረጋግጧል",
-        "pagination": {
-          "nav_accessibility_label": "የአሰሳ አዝራሮችን ያዛል",
-          "next": "ቀጥሎ",
-          "next_accessibility_label": "ቀጣይ ትዕዛዞች",
-          "previous": "ቀዳሚ",
-          "previous_accessibility_label": "ቀዳሚ ትዕዛዞች",
-          "load_more": "ተጨማሪ ጫን",
-          "load_more_accessibility_label": "ተጨማሪ ትዕዛዞችን ጫን"
-        },
-        "order_status_message": {
-          "list_view": {
-            "view_order_for_details": "ለዝርዝሮች ትዕዛዙን ይመልከቱ",
-            "estimated_delivery": "የሚጠበቀው {{date}}",
-            "last_updated": "መጨረሻ የዘመነው {{date}}"
-          },
-          "table_view": {
-            "estimated_delivery": "እ.ኤ.አ. የማድረስ {{date}}"
-          }
-        },
-        "payment_status": {
-          "gallery_view": {
-            "overdue": "ክፍያ ዘግይቷል",
-            "due": "የሚከፈልበት ጊዜ {{date}}",
-            "due_today": "ክፍያ ዛሬ ቀርቷል።",
-            "due_without_date": "የሚከፈልበት ክፍያ",
-            "due_on_fulfillment": "በመሙላት ላይ የሚከፈል ክፍያ",
-            "pay_to_confirm": "ለማረጋገጥ ይክፈሉ።",
-            "payment_not_due": "ክፍያ ገና አልተጠናቀቀም።"
-          },
-          "list_view": {
-            "overdue": "ዘግይቷል",
-            "due": "የሚያበቃው {{date}}",
-            "due_today": "ዛሬ የሚጠናቀቅ",
-            "paid": "የተከፈለ",
-            "due_without_date": "የሚከፈል",
-            "due_on_fulfillment": "በመሙላት ምክንያት",
-            "pay_to_confirm": "ለማረጋገጥ ይክፈሉ።",
-            "payment_not_due": "ገና አልተጠናቀቀም።"
-          }
-        },
-        "sort_by": "ደርድር በ {{option}}",
-        "sort_hide_options_accessibility_label": "ለተረጋገጡ ትዕዛዞች የመደርደር አማራጮችን ደብቅ።",
-        "sort_show_options_accessibility_label": "ለተረጋገጡ ትዕዛዞች የመደርደር አማራጮችን አሳይ።",
-        "sort_currently_sorted_by_accessibility_label": "አሁን የተደረደረው በ {{option}}",
-        "sort_title": "ደርድር",
-        "sort": {
-          "date": {
-            "newest": "ከአዲሱ እስከ ትልቁ",
-            "oldest": "ከጥንት እስከ አዲሱ"
-          },
-          "location": {
-            "ascending": "አካባቢ (AZ)",
-            "descending": "አካባቢ (ZA)"
-          },
-          "order_number": {
-            "ascending": "የትዕዛዝ ቁጥር (ከዝቅተኛ እስከ ከፍተኛ)",
-            "descending": "የትዕዛዝ ቁጥር (ከከፍተኛ ወደ ዝቅተኛ)"
-          },
-          "order_total": {
-            "ascending": "የትዕዛዝ ድምር (ከዝቅተኛ እስከ ከፍተኛ)",
-            "descending": "የትዕዛዝ ድምር (ከከፍተኛ ወደ ዝቅተኛ)"
-          }
-        },
-        "location_filter_picker": {
-          "all_location": "ሁሉም ቦታዎች",
-          "current_location": "የአሁኑ አካባቢ",
-          "switch_view": "እይታን ቀይር"
-        },
-        "filter_title": "አጣራ",
-        "filter": {
-          "clear_section": "ክፍል አጽዳ",
-          "clear_all": "ሁሉንም አጽዳ",
-          "apply": "ያመልክቱ",
-          "date": {
-            "start_date": "የመጀመሪያ ቀን",
-            "end_date": "የመጨረሻ ቀን",
-            "title": "የትዕዛዝ ቀን",
-            "today": "ዛሬ",
-            "last_7_days": "ያለፉት 7 ቀናት",
-            "last_30_days": "ያለፉት 30 ቀናት",
-            "last_90_days": "ያለፉት 90 ቀናት",
-            "last_365_days": "ያለፉት 12 ወራት",
-            "custom": "ብጁ"
-          }
-        },
-        "show_order_actions_accessibility_label": "የትዕዛዝ ድርጊቶችን አሳይ {{name}}"
-      },
       "order_status": {
-        "attempted_delivery_label": "ለማድረስ ሞክሯል።",
-        "attempted_to_deliver_label": "ለማቅረብ ሞክሯል።",
-        "preparing_for_shipping_label": "ለመላክ በመዘጋጀት ላይ",
-        "ready_for_pickup_label": "ለማንሳት ዝግጁ",
-        "ready_for_pickup_description": "እነዚህ እቃዎች ለመውሰድ ዝግጁ ናቸው. እባክዎን ትዕዛዝዎን ሲወስዱ የትእዛዝ ማረጋገጫዎን ይዘው ይምጡ።",
-        "ready_for_pickup_location": "ትእዛዝዎ በቦታ ለመውሰድ ዝግጁ ነው።",
-        "picked_up_label": "ተነሳ",
-        "canceled_label": "ተሰርዟል።",
-        "canceled_title": "ትዕዛዝህ ተሰርዟል።",
-        "come_back": "ስለ ጭነትዎ ሁኔታ ዝማኔዎችን ለማግኘት ወደዚህ ገጽ ይመለሱ።",
-        "company_tracking_number": "{{company}} የመከታተያ ቁጥር፡-"
+        "confirmed_label": "ተረጋግጧል",
+        "confirmed_title": "ትዕዛዝህ ተረጋግጧል",
+        "confirmed_description_pickup": "ትዕዛዝዎ ለመውሰድ ዝግጁ ሲሆን ኢሜይል ይደርስዎታል።",
+        "confirmed_description_digital": "ትዕዛዝዎ ዝግጁ ሲሆን ኢሜይል ይደርስዎታል።",
+        "confirmed_description_gift_card_text": "ትዕዛዝዎ ዝግጁ ሲሆን ጽሁፍ ይደርስዎታል።",
+        "complete_label": "ተጠናቀቀ",
+        "delivered_label": "ደረሰ",
+        "delivered_description_gift_card": {
+          "one": "የስጦታ ካርድ በኢሜል ተልኳል።",
+          "other": "የስጦታ ካርዶች በኢሜል ተልከዋል."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "የስጦታ ካርድ በጽሑፍ ተልኳል።",
+          "other": "የስጦታ ካርዶች በጽሑፍ ተልከዋል."
+        },
+        "gift_card_label": {
+          "one": "የስጦታ ካርድ",
+          "other": "የስጦታ ካርዶች"
+        },
+        "gift_card_resend_button": {
+          "one": "የስጦታ ካርድ እንደገና ላክ",
+          "other": "የስጦታ ካርዶችን እንደገና ላክ"
+        },
+        "gift_resend_success": {
+          "one": "የስጦታ ካርድ ቀርቷል።",
+          "other": "የስጦታ ካርዶች ተቃውመዋል"
+        },
+        "gift_resend_failure": {
+          "one": "የስጦታ ካርድዎን እንደገና በመላክ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም ያግኙን።",
+          "other": "የስጦታ ካርዶችዎን እንደገና በመላክ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም ያግኙን።"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "የስጦታ ካርድ በተለየ ኢሜል ይላካል።",
+          "other": "እያንዳንዱ የስጦታ ካርድ በተለየ ኢሜል ይላካል።"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "የስጦታ ካርድ በተለየ ጽሑፍ ይላካል።",
+          "other": "እያንዳንዱ የስጦታ ካርድ በተለየ ጽሑፍ ይላካል."
+        },
+        "status_timestamp": "የዘመነ {{date}}",
+        "estimated_delivery": "የሚጠበቀው {{date}}",
+        "expected_by": "የሚጠበቀው በ {{date}}",
+        "was_expected_by": "በ {{date}} ይጠበቅ ነበር",
+        "delivered": "ደርሷል {{date}}",
+        "buy_with_prime_logo_accessibility_label": "አማዞን በፕራይም አርማ ይግዙ",
+        "in_review_label": "በግምገማ ላይ",
+        "in_review_title": "ትዕዛዝህ እየተገመገመ ነው።",
+        "last_updated": "መጨረሻ የዘመነው {{date}}",
+        "multiple_shipments_label": "በርካታ ማጓጓዣዎች",
+        "multiple_statuses_label": "በርካታ የትዕዛዝ ሁኔታዎች",
+        "no_tracking_number": "ለዚህ ጭነት ምንም የመከታተያ ቁጥር የለም።",
+        "tracking_number": {
+          "one": "የመከታተያ ቁጥር",
+          "other": "የመከታተያ ቁጥሮች"
+        },
+        "on_its_way_label": "በመንገዱ ላይ",
+        "out_for_delivery_label": "ለማድረስ ወጥቷል።",
+        "resume_tracking": "መከታተልን ከቆመበት ቀጥል",
+        "submitted_label": "ገብቷል።",
+        "submitted_description": "የትዕዛዝ እና የክፍያ ዝርዝሮችን ይገምግሙ።",
+        "there_was_a_problem_label": "ችግር ነበር።",
+        "track_shipment": "ጭነትን ይከታተሉ",
+        "request_return": "መመለስን ጠይቅ",
+        "view_order_for_details": "ለዝርዝሮች ትዕዛዙን ይመልከቱ",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "በአማዞን ላይ ያስተዳድሩ"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "በአማዞን ያስተዳድሩ",
+            "new_window_disclaimer": "(አዲስ መስኮት ይከፍታል)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "ማድረስ የተረጋገጠው በ",
+            "external_promise_brand_label": "ማድረስ በ",
+            "not_delivered_by_label": "ከ {{date}} በኋላ ደርሷል",
+            "delivery_guarantee_expired_label": "የማስረከቢያ ዋስትና ጊዜው አልፎበታል።",
+            "modal_accessibility_button_label": "የማስረከቢያ ቃል ዝርዝሮች",
+            "download_shop_app_button_label": "ለመከታተል ሱቅ ያውርዱ",
+            "track_with_shop_button_label": "በሱቅ ይከታተሉ",
+            "claim_shop_cash_button_label": "የይገባኛል ጥያቄ ሱቅ ጥሬ ገንዘብ"
+          },
+          "details_modal": {
+            "title": "የማስረከቢያ ዋስትና",
+            "active_delivery_guarantee_label": "በ {{date}} ማድረስ",
+            "expired_delivery_guarantee_description": "የዚህ ትዕዛዝ የ30 ቀን የሱቅ ተስፋ ዋስትና ጊዜው አልፎበታል።",
+            "expired_badge_label": "ጊዜው አልፎበታል።",
+            "order_includes_guarantees_label": "የእርስዎ ትዕዛዝ {{deliveryAgreementsCount}} ዋስትናዎችን ያካትታል",
+            "order_includes_guarantees_description": "የሱቅ ተስፋ ፈጣን እና አስተማማኝ መላኪያ ዋስትና ይሰጣል። ትዕዛዝዎ ከ {{date}} በኋላ ከደረሰ የሱቅ ገንዘብ ይጠይቁ።",
+            "delivered_after_label": "ከ {{date}} በኋላ ደርሷል",
+            "delivered_after_description": "ትዕዛዝዎ ዘግይቶ ስለደረሰ፣ {{amount}} የሱቅ ጥሬ ገንዘብ ለመጠየቅ ብቁ ነዎት።",
+            "claimed_shop_cash_description": "ይህ ትዕዛዝ ዘግይቶ ስለደረሰ፣ {{amount}} የሱቅ ጥሬ ገንዘብ ይገባኛል ብለዋል።",
+            "eligible_to_claim_shop_cash_description": "ትዕዛዝዎ ዘግይቶ ስለደረሰ፣ {{amount}} የሱቅ ጥሬ ገንዘብ ለመጠየቅ ብቁ ነዎት።",
+            "learn_more_button_label": "የበለጠ ተማር",
+            "claim_shop_cash_button_label": "የይገባኛል ጥያቄ ሱቅ ጥሬ ገንዘብ",
+            "view_balance_in_shop_button_label": "በሱቅ ውስጥ ያለውን ቀሪ ሂሳብ ይመልከቱ",
+            "scan_to_claim_shop_cash_label": "{{amount}} ጥሬ ገንዘብ ይግዙ ለመጠየቅ ይቃኙ"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "ማድረስ የተደገፈ",
+            "mixed_brands_label": "የማድረስ ዋስትና ተሰጥቷል።",
+            "not_delivered_by_label": "በ {{date}} አልደረሰም",
+            "modal_accessibility_button_label": "የማስረከቢያ ቃል ዝርዝሮች"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "የሱቅ ገንዘብዎን ይጠይቁ",
+            "no_shop_app_label": "የሱቅ ጥሬ ገንዘብ ለመጠየቅ {{appDownloadLink}}",
+            "download_shop_app_label": "ያውርዱ ሱቅ"
+          },
+          "details_modal": {
+            "title": "ማድረስ የተደገፈ",
+            "modal_accessiblity_label": "የማስረከቢያ ቃል ዝርዝሮች",
+            "delivery_guarantee_label": "የማስረከቢያ ዋስትና",
+            "delivery_by_label": "በ {{date}} ማድረስ",
+            "delivery_guaranteed_by_label": "በ {{date}} ማድረስ የተረጋገጠ",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "የሱቅ ተስፋ ፈጣን እና አስተማማኝ መላኪያ ዋስትና ይሰጣል። ትዕዛዝዎ ዘግይቶ ከደረሰ በጥሬ ገንዘብ ይግዙ።",
+              "may_be_eligible_not_authorized_label": "ይህ ትእዛዝ ዘግይቶ ስለደረሰ የሱቅ ጥሬ ገንዘብ ለመጠየቅ ብቁ ሊሆኑ ይችላሉ። ዝርዝሮችን ለማየት ይግቡ።",
+              "redeemed_label": "ይህ ትእዛዝ ዘግይቶ ስለደረሰ የሱቅ ጥሬ ገንዘብ ይገባኛል ብለዋል።",
+              "expired_label": "ይህ ትእዛዝ ለዘገየ የማድረስ ጥያቄ ብቁ አይደለም ምክንያቱም የ30 ቀን ዋስትና ጊዜው አልፎበታል።",
+              "no_shop_cash_label": "ይህ ትእዛዝ በሱቅ ክፍያ ስላልተከፈለ ዘግይቶ ለማድረስ የይገባኛል ጥያቄ ብቁ አይደለም።",
+              "no_longer_guaranteed_label": "እነዚህ እቃዎች ከአሁን በኋላ በመላኪያ ዋስትና አይደገፉም።",
+              "claim_shop_cash_title": "በሱቅ ጥሬ ገንዘብ ውስጥ {{amount}} ን ለመጠየቅ ይቃኙ",
+              "claim_shop_cash_description": "በሱቅ መተግበሪያ ውስጥ ለወደፊት ግዢዎች የሱቅ ጥሬ ገንዘብዎን መጠቀም ይችላሉ።"
+            }
+          }
+        }
+      },
+      "status_mark_as_delivered": "እንደደረሰ ምልክት አድርግበት",
+      "fulfillment_status_title": "የማሟያ ሁኔታ {{status}}",
+      "buy_again": "እንደገና ይግዙ",
+      "buy_again_accessibility_label": "ለትዕዛዝ እንደገና ይግዙ {{orderId}}",
+      "manage": "አስተዳድር",
+      "manage_accessiblity_label": "ትዕዛዝ አስተዳድር {{orderId}}",
+      "group_title_label": "ክፍል {{groupTitle}}",
+      "group_title_label_with_parent": "ለ {{groupTitle}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "ዝርዝሮችን አሳይ"
       }
+    }
+  },
+  "products": {
+    "facets": {
+      "sort_by_label": "ደርድር በ፡",
+      "to": "ለ",
+      "clear_filter": "ማጣሪያን ያስወግዱ"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "ለ\" {{ terms }} \" ምንም ውጤቶች አልተገኙም። አጻጻፉን ያረጋግጡ ወይም የተለየ ቃል ወይም ሐረግ ይጠቀሙ።",
+      "page": "ገጽ",
+      "products": "ምርቶች",
+      "results_pages_with_count": {
+        "one": "{{ count }} ገጽ",
+        "other": "{{ count }} ገፆች"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} ጥቆማ",
+        "other": "{{ count }} ጥቆማዎች"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} ምርት",
+        "other": "{{ count }} ምርቶች"
+      },
+      "results_with_count": {
+        "one": "{{ count }} ውጤት",
+        "other": "{{ count }} ውጤቶች"
+      },
+      "results_with_count_and_term": {
+        "one": "ለ\" {{ terms }} \" {{ count }} ውጤት ተገኝቷል",
+        "other": "ለ\" {{ terms }} \" {{ count }} ውጤቶች ተገኝተዋል"
+      },
+      "title": "የፍለጋ ውጤቶች",
+      "search_for": "« {{ terms }} } »ን ፈልግ",
+      "suggestions": "ጥቆማዎች",
+      "pages": "ገፆች"
+    },
+    "cart": {
+      "cart": "ጋሪ"
+    },
+    "contact": {
+      "form": {
+        "title": "የእውቂያ ቅጽ",
+        "name": "ስም",
+        "email": "ኢሜይል",
+        "phone": "ስልክ ቁጥር",
+        "comment": "አስተያየት",
+        "send": "ላክ",
+        "post_success": "ስላገኙን እናመሰግናለን። በተቻለ ፍጥነት ወደ እርስዎ እንመለሳለን።",
+        "error_heading": "እባክዎ የሚከተለውን ያስተካክሉ።"
+      }
+    },
+    "404": {
+      "title": "ገጽ አልተገኘም።"
+    }
+  },
+  "localization": {
+    "country_label": "ሀገር/ክልል።",
+    "language_label": "ቋንቋ",
+    "update_language": "ቋንቋ አዘምን",
+    "update_country": "አገር/ክልል ያዘምኑ",
+    "search": "ፈልግ",
+    "popular_countries_regions": "ታዋቂ አገሮች/ክልሎች",
+    "country_results_count": "{{ count }} አገሮች/ክልሎች ተገኝተዋል"
+  },
+  "customer": {
+    "account": {
+      "title": "መለያ",
+      "details": "የመለያ ዝርዝሮች",
+      "view_addresses": "አድራሻዎችን ይመልከቱ",
+      "return": "ወደ መለያ ዝርዝሮች ተመለስ"
+    },
+    "account_fallback": "መለያ",
+    "activate_account": {
+      "title": "መለያ አግብር",
+      "subtext": "መለያዎን ለማግበር የይለፍ ቃልዎን ይፍጠሩ።",
+      "password": "የይለፍ ቃል",
+      "password_confirm": "የይለፍ ቃል ያረጋግጡ",
+      "submit": "መለያ አግብር",
+      "cancel": "ግብዣን አትቀበል"
+    },
+    "addresses": {
+      "title": "አድራሻዎች",
+      "default": "ነባሪ",
+      "add_new": "አዲስ አድራሻ ያክሉ",
+      "edit_address": "አድራሻ አርትዕ",
+      "first_name": "የመጀመሪያ ስም",
+      "last_name": "የአያት ስም",
+      "company": "ኩባንያ",
+      "address1": "አድራሻ 1",
+      "address2": "አድራሻ 2",
+      "city": "ከተማ",
+      "country": "ሀገር/ክልል።",
+      "province": "ክፍለ ሀገር",
+      "zip": "የፖስታ/ዚፕ ኮድ",
+      "phone": "ስልክ",
+      "set_default": "እንደ ነባሪ አድራሻ ያዘጋጁ",
+      "add": "አድራሻ ጨምር",
+      "update": "አድራሻ አዘምን",
+      "cancel": "ሰርዝ",
+      "edit": "አርትዕ",
+      "delete": "ሰርዝ",
+      "delete_confirm": "እርግጠኛ ነዎት ይህን አድራሻ መሰረዝ ይፈልጋሉ?"
+    },
+    "log_in": "ግባ",
+    "log_out": "ውጣ",
+    "login_page": {
+      "cancel": "ሰርዝ",
+      "create_account": "መለያ ይፍጠሩ",
+      "email": "ኢሜይል",
+      "forgot_password": "የይለፍ ቃልህን ረሳህ?",
+      "guest_continue": "ቀጥል",
+      "guest_title": "እንደ እንግዳ ቀጥል።",
+      "password": "የይለፍ ቃል",
+      "title": "ግባ",
+      "sign_in": "ይግቡ",
+      "submit": "አስገባ",
+      "alternate_provider_separator": "ወይም"
+    },
+    "order": {
+      "title": "እዘዝ {{ name }}",
+      "date_html": "በ {{ date }} ላይ ተቀምጧል",
+      "cancelled_html": "በ {{ date }} ትዕዛዙ ተሰርዟል",
+      "cancelled_reason": "ምክንያት {{ reason }}",
+      "billing_address": "የመክፈያ አድራሻ",
+      "payment_status": "የክፍያ ሁኔታ",
+      "shipping_address": "የመላኪያ አድራሻ",
+      "fulfillment_status": "የማሟያ ሁኔታ",
+      "discount": "ቅናሽ",
+      "shipping": "መላኪያ",
+      "tax": "ግብር",
+      "product": "ምርት",
+      "price": "ዋጋ",
+      "quantity": "ብዛት",
+      "total": "ጠቅላላ",
+      "total_refunded": "ተመላሽ ተደርጓል",
+      "fulfilled_at_html": "የተፈጸመው {{ date }}"
     }
   }
 }
