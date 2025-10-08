@@ -1372,8 +1372,30 @@
             "address1": "Voer 'n adres in",
             "billing_address1": "Voer 'n faktuuradres in",
             "address2": "Betree 'n woonstel, suite, ens.",
-            "billing_address2": "Voer 'n faktuuradres in vir woonstel, suite, ens."
-          }
+            "billing_address2": "Voer 'n faktuuradres in vir woonstel, suite, ens.",
+            "city": "Voer 'n stad in",
+            "billing_city": "Voer 'n faktureringsadresstad in",
+            "province": "Kies 'n staat/provinsie",
+            "billing_province": "Kies 'n faktuuradres, staat/provinsie",
+            "country": "Kies 'n land/streek",
+            "zip": "Voer 'n poskode in",
+            "billing_zip": "Voer 'n faktuuradres in, poskode",
+            "phone": "Voer 'n telefoonnommer in",
+            "contact_info": "Voer kontakinligting in"
+          },
+          "formatting": {
+            "name_contains_emojis": "Vee emoji uit jou naam uit",
+            "postal_code_contains_emoji": "Vee emoji uit jou poskode uit",
+            "first_name_too_long": "Voornaam bevat te veel letters",
+            "last_name_too_long": "Van bevat te veel letters",
+            "address_too_long": "Adresreël is te lank"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Jou afleweringsadres is ongeldig. Kies 'n ander adres of gebruik 'n nuwe een."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Gaan voort met jou aankoop in die {{walletName}} venster",
+          "and_return_to_checkout": "en keer terug na die afhandeling",
+          "cancel": "Kanselleer"
         }
       },
       "payment": {
@@ -1901,7 +1923,115 @@
           "tax_credential_it": "Fiskale kode (opsioneel)",
           "tax_email_it": "PEC (opsioneel)"
         }
+      },
+      "note": {
+        "length_exceeds_maximum": "Verminder die grootte van die nota tot 5000 of minder karakters."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Geskenkbewysprys moet groter as 0 wees.",
+            "gift_card_price_must_not_exceed_limit": "Geskenkbewysprys mag nie %{gift_card_limit} oorskry nie.",
+            "subtotal_limit_reached": "Die maksimum waarde van lynitems is bereik.",
+            "signature_mismatch": "Handelsware-handtekening verskil vir lyn %{stable_id}."
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "Die afhandeling bevat slegs goedere op afstand. 'n Aanstuur na die winkel op afstand is nodig om die afhandeling te voltooi.",
+          "currency_mismatch": "Hierdie item kan nie by jou mandjie gevoeg word nie, want dit is van 'n winkel wat 'n ander geldeenheid gebruik.",
+          "max_remote_shops_exceeded": "Hierdie produk kan nie bygevoeg word nie, want jou mandjie het reeds die maksimum van ander winkels."
+        }
+      },
+      "units": {
+        "ounce": "ons",
+        "pound": "pond",
+        "fluid_ounce": "vloeistof onse",
+        "quart": "kwartier",
+        "gallon": "meisie",
+        "foot": "vt",
+        "square_foot": "vt²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Die adres word nie vir die huidige lidmaatskap ondersteun nie.",
+        "items_split_across_locations_unsupported": "Prime-aflewering is nie beskikbaar vir jou bestelling nie. Jou versendingsopsies is opgedateer."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navigeer na Aanlynwinkel"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Meer inligting oor %{konteks}",
+        "additional_payment_methods": "Bykomende betaalmetodes"
       }
+    },
+    "pagination": {
+      "previous": "Vorige",
+      "next": "Volgende"
+    },
+    "links": {
+      "powered_by_shopify": "Aangedryf deur Shopify",
+      "learn_more": "Leer meer"
+    },
+    "feed": {
+      "more": "Meer"
+    },
+    "attributes": {
+      "email": "e-pos",
+      "password": "wagwoord",
+      "password_confirmation": "Die wagwoordbevestiging",
+      "first_name": "voornaam",
+      "last_name": "vannaam",
+      "body": "liggaam",
+      "signature": "Adres"
+    },
+    "addresses": {
+      "zip_code": "Poskode",
+      "postal_code": "Poskode",
+      "postcode": "Poskode",
+      "pincode": "Poskode",
+      "region": "Streek",
+      "prefecture": "Prefektuur",
+      "province": "Provinsie",
+      "state": "Staat",
+      "state_and_territory": "Staat/gebied",
+      "county": "Graafskap",
+      "emirate": "Emiraat",
+      "governorate": "Goewerneursgebied",
+      "confirm": "Is jy seker jy wil hierdie adres verwyder?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Uitgelig",
+        "best_selling": "Beste verkoop",
+        "az": "Alfabeties, AZ",
+        "za": "Alfabeties, ZA",
+        "price_ascending": "Prys, laag na hoog",
+        "price_descending": "Prys, hoog na laag",
+        "date_ascending": "Datum, oud na nuut",
+        "date_descending": "Datum, nuut na oud"
+      }
+    },
+    "errors": {
+      "blank": "kan nie leeg wees nie",
+      "blocked_address": "Hierdie ligging word nie ondersteun nie",
+      "credit_card_session_expired": "Kredietkaartmagtiging het verval, voer asseblief u betalingsinligting weer in. U kaart is nie gedebiteer nie.",
+      "empty": "kan nie leeg wees nie",
+      "invalid_email": "moet 'n geldige e-posadres wees",
+      "discount_disabled": "Hierdie afslag is gedeaktiveer",
+      "discount_expired": "Hierdie afslag is nie meer geldig nie",
+      "discount_limit_reached": "Hierdie afslag het sy gebruikslimiet bereik",
+      "discount_not_found": "Kan nie 'n geldige afslag vind wat ooreenstem met die ingevoerde kode nie",
+      "customer_already_used_once_per_customer_discount_notice": "Hierdie afslag het sy gebruikslimiet bereik",
+      "gift_card_already_applied": "Kode is reeds op jou betaalpunt toegepas",
+      "gift_card_code_invalid": "Kode is ongeldig",
+      "gift_card_currency_mismatch": "Jou geskenkbewys is in %{gift_card_currency}. Kontak ons ​​om dit weer uit te reik in %{checkout_currency}.",
+      "gift_card_depleted": "Daar is geen fondse oor op hierdie geskenkbewys nie",
+      "gift_card_disabled": "Geskenkbewys is gedeaktiveer",
+      "gift_card_expired": "Geskenkbewys het verval",
+      "invalid": "is ongeldig"
     }
   },
   "customer_accounts": {
