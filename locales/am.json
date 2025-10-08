@@ -3263,7 +3263,106 @@
     "facets": {
       "sort_by_label": "ደርድር በ፡",
       "to": "ለ",
-      "clear_filter": "ማጣሪያን ያስወግዱ"
+      "clear_filter": "ማጣሪያን ያስወግዱ",
+      "filter_and_operator_subtitle": "ሁሉንም አዛምድ",
+      "apply": "ያመልክቱ",
+      "clear": "ግልጽ",
+      "clear_all": "ሁሉንም አስወግድ",
+      "from": "ከ",
+      "filter_and_sort": "አጣራ እና ደርድር",
+      "filter_by_label": "አጣራ፡",
+      "filter_button": "አጣራ",
+      "filters_selected": {
+        "one": "{{ count }} ተመርጧል",
+        "other": "{{ count }} ተመርጧል"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} ማጣሪያዎች ተመርጠዋል)",
+      "show_more": "ተጨማሪ አሳይ",
+      "show_less": "ያነሰ አሳይ",
+      "max_price": "ከፍተኛው ዋጋ {{ price }} ነው",
+      "product_count": {
+        "one": "{{ product_count }} ከ {{ count }} ምርት",
+        "other": "{{ product_count }} ከ {{ count }} ምርቶች"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} ምርት",
+        "other": "{{ count }} ምርቶች"
+      },
+      "reset": "ዳግም አስጀምር",
+      "sort_button": "ደርድር"
+    },
+    "product": {
+      "add_to_cart": "ወደ ጋሪው አክል",
+      "choose_options": "አማራጮችን ይምረጡ",
+      "choose_product_options": "ለ {{ product_name }} አማራጮችን ይምረጡ",
+      "description": "መግለጫ",
+      "inventory_in_stock": "ለሽያጭ የቀረበ እቃ",
+      "inventory_in_stock_show_count": "{{ quantity }} በክምችት ላይ",
+      "inventory_low_stock": "ዝቅተኛ ክምችት",
+      "inventory_low_stock_show_count": "ዝቅተኛ ክምችት {{ quantity }} ቀርቷል።",
+      "inventory_out_of_stock": "ክምችት አልቋል",
+      "inventory_out_of_stock_continue_selling": "ለሽያጭ የቀረበ እቃ",
+      "on_sale": "ሽያጭ",
+      "product_variants": "የምርት ልዩነቶች",
+      "media": {
+        "gallery_viewer": "ጋለሪ መመልከቻ",
+        "load_image": "ምስል {{ index }} በጋለሪ እይታ ውስጥ ጫን",
+        "load_model": "በጋለሪ እይታ ውስጥ 3D ሞዴል {{ index }} ጫን",
+        "load_video": "በጋለሪ እይታ ውስጥ ቪዲዮ {{ index }} አጫውት።",
+        "image_available": "ምስል {{ index }} አሁን በጋለሪ እይታ ውስጥ ይገኛል።",
+        "open_media": "ሚዲያ {{ index }} ን በሞዳል ክፈት",
+        "play_model": "3D መመልከቻን አጫውት።",
+        "play_video": "ቪዲዮ አጫውት።"
+      },
+      "quantity": {
+        "label": "ብዛት",
+        "input_label": "የ {{ product }} ብዛት",
+        "increase": "ለ {{ product }} ብዛት ይጨምሩ",
+        "decrease": "የ {{ product }} ብዛትን ቀንስ",
+        "minimum_of": "ዝቅተኛው {{ quantity }}",
+        "maximum_of": "ከፍተኛው {{ quantity }}",
+        "multiples_of": "የ {{ quantity }} ጭማሪዎች",
+        "min_of": "ዝቅተኛ {{ quantity }}",
+        "max_of": "ከፍተኛው {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> በጋሪ",
+        "note": "የመጠን ደንቦችን ይመልከቱ"
+      },
+      "volume_pricing": {
+        "title": "የድምጽ መጠን ዋጋ",
+        "note": "የድምፅ ዋጋ አለ።",
+        "minimum": "{{ quantity }} +",
+        "price_at_each": "በ {{ price }} /ea"
+      },
+      "pickup_availability": {
+        "view_store_info": "የማከማቻ መረጃን ይመልከቱ",
+        "check_other_stores": "በሌሎች መደብሮች መገኘቱን ያረጋግጡ",
+        "pick_up_available": "ማንሳት ይገኛል።",
+        "pick_up_available_at_html": "መውሰድ በ <span class=\"color-foreground\">{{ location_name }}</span> ይገኛል",
+        "pick_up_unavailable_at_html": "ማንሳት በአሁኑ ጊዜ በ <span class=\"color-foreground\">{{ location_name }}</span> አይገኝም",
+        "unavailable": "የመውሰጃ ተገኝነትን መጫን አልተቻለም",
+        "refresh": "አድስ"
+      },
+      "price": {
+        "from_price_html": "ከ {{ price }}",
+        "regular_price": "መደበኛ ዋጋ",
+        "sale_price": "የሽያጭ ዋጋ",
+        "unit_price": "የክፍል ዋጋ"
+      },
+      "share": "ይህን ምርት አጋራ",
+      "sold_out": "ተሽጧል",
+      "unavailable": "አይገኝም",
+      "vendor": "ሻጭ",
+      "value_unavailable": "{{ option_value }} - አይገኝም",
+      "variant_sold_out_or_unavailable": "ተለዋጭ ተሽጧል ወይም አይገኝም",
+      "video_exit_message": "{{ title }} የሙሉ ስክሪን ቪዲዮን በተመሳሳይ መስኮት ይከፍታል።",
+      "view_full_details": "ሙሉ ዝርዝሮችን ይመልከቱ",
+      "xr_button": "በእርስዎ ቦታ ላይ ይመልከቱ",
+      "xr_button_label": "በእርስዎ ቦታ ላይ ይመልከቱ፣ በተጨመረው የእውነታ መስኮት ውስጥ ንጥልን ይጭናል።",
+      "include_taxes": "ግብር ተካትቷል።",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">የማጓጓዣ</a> ክፍያ ሲወጣ ይሰላል።"
+    },
+    "modal": {
+      "label": "የሚዲያ ማዕከለ-ስዕላት"
     }
   },
   "templates": {
@@ -3615,6 +3714,34 @@
       "new_window": "ይከፈታል ።",
       "external": "የውጭ ድር ጣቢያ ይከፍታል።"
     },
-    "loading": "በመጫን ላይ..."
+    "loading": "በመጫን ላይ...",
+    "total_reviews": "አጠቃላይ ግምገማዎች",
+    "star_reviews_info": "{{ rating_value }} ከ {{ rating_max }} ኮከቦች ውስጥ",
+    "collapsible_content_title": "ሊሰበሰብ የሚችል ይዘት",
+    "complementary_products": "ተጨማሪ ምርቶች"
+  },
+  "blogs": {
+    "article": {
+      "blog": "ብሎግ",
+      "read_more_title": "ተጨማሪ ያንብቡ {{ title }}",
+      "comments": {
+        "one": "{{ count }} አስተያየት",
+        "other": "{{ count }} አስተያየቶች"
+      },
+      "moderated": "እባክዎን አስተያየቶች ከመታተማቸው በፊት መጽደቅ አለባቸው።",
+      "comment_form_title": "አስተያየት ይስጡ",
+      "name": "ስም",
+      "email": "ኢሜይል",
+      "message": "አስተያየት",
+      "post": "አስተያየት ይለጥፉ",
+      "back_to_blog": "ወደ ብሎግ ተመለስ",
+      "share": "ይህን ጽሑፍ አጋራ",
+      "success": "አስተያየትዎ በተሳካ ሁኔታ ተለጠፈ! አመሰግናለሁ!",
+      "success_moderated": "አስተያየትህ በተሳካ ሁኔታ ተለጥፏል። ብሎጋችን ስለተቆጣጠረ ከጥቂት ጊዜ በኋላ እናተምታለን።"
+    }
+  },
+  "onboarding": {
+    "product_title": "የምርት ርዕስ ምሳሌ",
+    "collection_title": "የእርስዎ ስብስብ ስም"
   }
 }
