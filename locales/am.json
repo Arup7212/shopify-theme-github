@@ -2920,8 +2920,142 @@
     },
     "order_details": {
       "shipment_timeline": {
-        "expand_events_label": "ዝርዝሮችን አሳይ"
-      }
+        "expand_events_label": "ዝርዝሮችን አሳይ",
+        "expand_events_accessibility_label": "የትዕዛዝ ጭነት ዝርዝሮችን አሳይ",
+        "hide_events_label": "ዝርዝሮችን ደብቅ",
+        "hide_events_accessibility_label": "የትዕዛዝ ጭነት ዝርዝሮችን ደብቅ"
+      },
+      "addresses_section_title": "የሂሳብ አከፋፈል እና መላኪያ",
+      "order_details": "የትዕዛዝ ዝርዝሮች",
+      "order_details_skeleton_accessibility_label": "ሁሉንም የትዕዛዝ ዝርዝሮች ለማየት ይግቡ።",
+      "billing_address": "የመክፈያ አድራሻ",
+      "card_ending_with": "የሚያበቃው በ {{lastDigits}}",
+      "contact": "ተገናኝ",
+      "contact_information": "የእውቂያ መረጃ",
+      "company": "ኩባንያ",
+      "company_and_location": "ኩባንያ እና አካባቢ",
+      "fully_refunded_label": "ተመላሽ ተደርጓል",
+      "group_title_label": "ክፍል {{groupTitle}}",
+      "group_title_label_with_parent": "ለ {{groupTitle}}",
+      "view_controls": {
+        "gallery": "ማዕከለ-ስዕላት",
+        "list": "ዝርዝር"
+      },
+      "grouped_view_components": {
+        "expand_line_items": "{{count}} ንጥሎችን አሳይ",
+        "collapse_line_items": "{{count}} ንጥሎችን ደብቅ",
+        "line_item_summary_list_accessibility_label": "በ {{productTitle}} ጥቅል ውስጥ ያሉ እቃዎች"
+      },
+      "discount": "ቅናሽ",
+      "hide_items": "እቃዎችን ደብቅ",
+      "loading": "የትዕዛዝ ዝርዝሮችን በመጫን ላይ",
+      "loading_finished_accessibility_message": "የትዕዛዝ ዝርዝሮች ተጭነዋል",
+      "location": "አካባቢ",
+      "image_gallery": {
+        "next": "ቀጣይ ንጥሎችን አሳይ",
+        "previous": "ቀዳሚ ንጥሎችን አሳይ",
+        "load_more_items": {
+          "one": "{{count}} ተጨማሪ ንጥሎችን ጫን",
+          "other": "{{count}} ተጨማሪ ንጥሎችን ጫን"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "የትዕዛዝ ማጠቃለያ አሳይ",
+        "closed": "የትዕዛዝ ማጠቃለያን ደብቅ"
+      },
+      "no_data": "ምንም",
+      "no_data_provided_accessibility_label": "{{fieldName}} ባዶ ነው።",
+      "not_applicable": "ኤን/ኤ",
+      "paid_amount": "የተከፈለ",
+      "partially_refunded_label": "በከፊል ተመላሽ ተደርጓል",
+      "payment": {
+        "status_in_review": "ከግምገማ በኋላ የሚከፈል ክፍያ",
+        "status_unpaid": "የሚከፈለው ክፍያ በ {{date}}",
+        "title": "ክፍያ",
+        "payment_type": {
+          "gift_card": "የስጦታ ካርድ",
+          "store_credit": "የማከማቻ ክሬዲት",
+          "money_order": "የገንዘብ ማዘዣ",
+          "cash_on_delivery": "በማድረስ ላይ ያለ ገንዘብ (COD)",
+          "bank_deposit": "የባንክ ተቀማጭ ገንዘብ",
+          "manual": "መመሪያ"
+        },
+        "card_payment_details": "የሚያበቃው በ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "የሚያበቃው በ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "የማከማቻ ክሬዲት - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "በሱቅ ክፍያ ክፍያዎች ተከፍሏል።",
+          "view_schedule": "መርሐግብር ይመልከቱ"
+        },
+        "manual_payment_methods": {
+          "money_order": "የገንዘብ ማዘዣ - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "በማድረስ ላይ ጥሬ ገንዘብ (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "የባንክ ተቀማጭ ገንዘብ - {{formattedTransactionAmount}}",
+          "manual": "መመሪያ - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "ሁሉንም አሳይ",
+          "show_less": "ያነሰ አሳይ",
+          "details": "ዝርዝሮች",
+          "payment_details": "የክፍያ ዝርዝሮች"
+        },
+        "emv_details": {
+          "auth": "AUTH፡",
+          "aid": "እርዳታ፡",
+          "source": "ምንጭ፡-"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "በሱቅ ክፍያ ጭነቶች ተከፍሏል።",
+        "description": "በሱቅ መተግበሪያ ውስጥ ካሉ አስታዋሾች ጋር የክፍያ መርሃ ግብርዎን እንደያዙ ይቆዩ።",
+        "payment_reminders_button": "የክፍያ አስታዋሾችን ያግኙ",
+        "desktop_qr_code_content": {
+          "title": "አስታዋሾችን ይቃኙ",
+          "description": "በሱቅ የተከፈለዎትን አስታዋሾች ያግኙ።"
+        }
+      },
+      "refunded_amount": "ተመላሽ ተደርጓል",
+      "request_return_failed": "ጥያቄህን ማስተናገድ ላይ ችግር ነበር። እባክዎ እንደገና ይሞክሩ።",
+      "login_card": {
+        "resend_link_and_login": "የትዕዛዝ ዝርዝሮችን ለማየት በመለያ ይግቡ ወይም አዲስ አገናኝ ወደ ኢሜል ወይም ስልክ ቁጥር ይላኩ ።",
+        "resend_link_only": "የትዕዛዝ ዝርዝሮችን ለማየት፣ ተመዝግቦ መውጫ ላይ ጥቅም ላይ የዋለውን ኢሜይል ወይም ስልክ ቁጥር አዲስ አገናኝ ይላኩ።",
+        "log_in": "ይግቡ",
+        "resend_link": "አዲስ አገናኝ ላክ",
+        "link_expired": "ማገናኛ ጊዜው አልፎበታል።"
+      },
+      "remaining_amount": "የቀረው",
+      "marketing_section_title": "ዜና እና ቅናሾች",
+      "marketing_description": "የግብይት ኢሜይሎች ይደርስዎታል። በማንኛውም ጊዜ ከደንበኝነት ምዝገባ መውጣት ይችላሉ።",
+      "marketing_checkbox_label": "በዜና እና ቅናሾች ኢሜል ያድርጉልኝ",
+      "marketing_checkmark_label": "የኢሜል ዜናዎችን እና ቅናሾችን ለመቀበል ተመዝግበዋል።",
+      "returns": {
+        "expand_events_label": "ዝርዝሮችን አሳይ",
+        "hide_events_label": "ዝርዝሮችን ደብቅ",
+        "ineligible_return_message": "በዚህ ቅደም ተከተል ውስጥ ምንም ዕቃዎች ለመመለስ ብቁ አይደሉም።",
+        "ineligible_return_message_when_returned": "በዚህ ቅደም ተከተል ውስጥ ምንም ተጨማሪ ዕቃዎች ለመመለስ ብቁ አይደሉም።",
+        "print_shipping_label": "የመላኪያ መለያ ያትሙ",
+        "return_and_refund_modal_header": "የተመላሽ ገንዘብ ፖሊሲ",
+        "tracking_number": "የመከታተያ ቁጥር፡-",
+        "exchange_header": "ዕቃዎችን መለዋወጥ",
+        "exchange_subheader": "መመለሻው ከተጠናቀቀ በኋላ የልውውጥ እቃዎች ወደ ትዕዛዙ ይታከላሉ።"
+      },
+      "shipping": {
+        "address": "የመላኪያ አድራሻ",
+        "address_map_marker": "የመላኪያ አድራሻ",
+        "method": "የማጓጓዣ ዘዴ",
+        "summary": "መላኪያ",
+        "free": "ፍርይ",
+        "free_shipping_discount": "ነጻ ማጓጓዣ",
+        "one_time": "የአንድ ጊዜ መላኪያ",
+        "subscription": "የደንበኝነት ምዝገባ መላኪያ"
+      },
+      "pickup": {
+        "pickup": "ማንሳት",
+        "pickup_location": "የመውሰጃ ቦታ",
+        "pickup_point": "የመውሰጃ ነጥብ"
+      },
+      "show_items": "ንጥሎችን አሳይ",
+      "show_order_summary": "የትዕዛዝ ማጠቃለያ አሳይ"
     },
     "B2B": {
       "draft_order_details": {
