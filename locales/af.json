@@ -517,7 +517,31 @@
       "card_fields": {
         "unavailable": {
           "link_text": "Verfris hierdie bladsy",
-          "suffix": "of probeer later weer."
+          "suffix": "of probeer later weer.",
+          "text": "Krediet- en debietkaartbetalings is tans nie beskikbaar nie."
+        },
+        "card_number_label": "Kaartnommer",
+        "card_number_placeholder": "Kaartnommer",
+        "name_on_card_label": "Naam op kaart",
+        "name_on_card_placeholder": "Naam op kaart",
+        "card_expiry_label": "Vervaldatum (MM / JJ)",
+        "card_expiry_placeholder": "Vervaldatum (MM / JJ)",
+        "card_verification_value_label": "Sekuriteitskode",
+        "card_verification_value_placeholder": "Sekuriteitskode",
+        "card_start_label": "Uitgawedatum (MM / JJ)",
+        "card_start_placeholder": "Uitgawedatum (MM / JJ)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Meer inligting",
+          "card_verification_value_explanation_amex": "4-syfer sekuriteitskode op die voorkant van jou kaart",
+          "card_verification_value_explanation_other": "3-syfer sekuriteitskode op die agterkant van jou kaart",
+          "card_verification_value_explanation": "3-syfer-sekuriteitskode wat gewoonlik op die agterkant van jou kaart gevind word. American Express-kaarte het 'n 4-syfer-kode op die voorkant.",
+          "card_security_notice": "Alle transaksies is veilig en geïnkripteer."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Voer jou naam presies in soos dit op jou kaart geskryf is",
+          "credit_card_number_invalid": "Voer 'n geldige kaartnommer in",
+          "credit_card_expiry_invalid": "Voer 'n geldige kaartvervaldatum in",
+          "credit_card_verification_value_blank": "Voer die CVV of sekuriteitskode op jou kaart in"
         }
       },
       "payment_delete": {
@@ -561,6 +585,108 @@
       },
       "three_d_secure": {
         "title": "3D-veilig"
+      },
+      "back_button": "Terug",
+      "back_button_accessibility_label": "Terug na {{paymentMethodStepTitle}}",
+      "default": "Standaard",
+      "generic_card": "Kaart",
+      "expiration_warning_button_accessibility_label": "Wys vervalwaarskuwing vir {{paymentMethodName}} wat eindig op {{lastDigits}}",
+      "expires_soon": "Hierdie kaart verval binnekort",
+      "expired": "Hierdie kaart het verval",
+      "card_update_consent": "Hierdie betaalmetode sal vir toekomstige aankope gestoor word.",
+      "card_update_consent_subscriptions": "Hierdie betaalmetode sal vir toekomstige aankope gestoor word en kan vir enige herhalende of uitgestelde aankoop gebruik word.",
+      "digital_wallet_title": "Digitale Beursie",
+      "credit_or_debit_card_title": "Krediet- of debietkaart",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Voeg Google Pay-betaalmetode by",
+        "loading_accessibility_message": "Laai Google Pay",
+        "loading": "Laai Google Pay",
+        "errors": {
+          "generic": "Daar was 'n probleem met Google Pay. Probeer weer of gebruik 'n ander betaalmetode.",
+          "missing_billing_address": "Google Pay vereis 'n faktuuradres. Voeg asseblief een by jou rekening."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Voeg PayPal-betaalmetode by",
+        "loading_accessibility_message": "Laai PayPal"
+      },
+      "apple_pay": {
+        "loading": "Laai Apple Pay",
+        "errors": {
+          "generic": "Daar was 'n probleem met Apple Pay. Probeer weer of gebruik 'n ander betaalmetode.",
+          "not_available": "Apple Pay is nie op hierdie toestel beskikbaar nie.",
+          "missing_billing_address": "Apple Pay vereis 'n faktuuradres. Voeg asseblief een by jou rekening."
+        }
+      },
+      "store_credit": {
+        "label": "Winkelkrediet",
+        "accesibility_label": "Winkelkrediet - {{formattedBalance}}",
+        "expirable_amounts_button": "Bekyk vervalbare bedrae",
+        "expirable_amounts_label": "Vervalbare bedrae",
+        "details_modal": {
+          "title": "Vervalbare winkelkrediet",
+          "balance_label": "Saldo",
+          "expiration_date_label": "Vervaldatum",
+          "amount_label": "Bedrag",
+          "date_label": "Datum",
+          "event_label": "Geleentheid",
+          "events": {
+            "adjustment": "Aanpassing",
+            "order_payment": "Bestel betaling",
+            "order_refund": "Terugbetaling van bestelling",
+            "payment_failure": "Betalingsmislukking",
+            "payment_returned": "Betaling terugbetaal",
+            "order_cancellation": "Bestelling kansellasie",
+            "tax_finalization": "Belastingfinalisering"
+          },
+          "expirable_balance_info": "'n Gedeelte van jou saldo sal op 'n toekomstige datum verval",
+          "expirable_amount_label": "Totale vervalbare bedrag",
+          "expirable_amounts_info": "Bedrae wat vroeër verval, word eerste by die betaalpunt toegepas.",
+          "expirable_amounts_button": "Bekyk",
+          "expired_amounts_button": "Bekyk vervalde bedrae",
+          "pagination": {
+            "load_more_label": "Laai meer",
+            "load_more_accessibility_label": "Laai meer vervalbare bedrae"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "Besonderhede van betaalmetode",
+        "credit_card_details_accessibility_label": "eindigend op {{lastDigits}}",
+        "billing_title": "Faktuuradres",
+        "card_info_title": "Kaartinligting",
+        "payment_method_expiring_on": "Verval op {{expiryDate}}",
+        "payment_method_expired_on": "Verval op {{expiryDate}}",
+        "preauthorized_payments": "Voorafgemagtigde betalings",
+        "close_payment_modal": "Maak toe",
+        "close_payment_modal_accessibility_label": "Maak betaalmetodebesonderhede modaal toe",
+        "payment_method_not_found_error": "Kan nie betaalmetode vind nie",
+        "payment_details_loading": "Laai tans betaalmetodebesonderhede",
+        "pre_authorized_payments": "Voorafgemagtigde betalings",
+        "total_amount_of_subscription_line_items_left": "en {{total}} meer",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} items totaal, vertoon {{totalItemsToDisplay}} items.",
+        "next_payment_due": "Volgende betaling verskuldig {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Wysig",
+        "edit_payment_method_button_accessibility_label": "Wysig betaalmetode wat eindig op {{lastDigits}}",
+        "loading_shop_pay": "Laai Winkelbetaal",
+        "invalid_payment_method": "Ongeldige betaalmetode",
+        "invalid_payment_method_message": "Gebruik 'n nuwe kredietkaart om voort te gaan met die ontvangs van komende bestellings.",
+        "replace_payment_method": "Vervang betaalmetode",
+        "checkout_card_banner": "Hierdie betaalmetode kan slegs vir voorafgemagtigde betalings gebruik word. Dit sal nie by die betaalpunt verskyn as jy by hierdie winkel aangemeld is nie. ",
+        "default_checkbox": "Stel as verstek",
+        "default_checkbox_accessibility_label": "Stel hierdie betaalmetode as verstek",
+        "replace_payment_method_button": "Vervang"
+      },
+      "edit_payment_method": {
+        "title": "Wysig betaalmetode",
+        "save_payment_method_button": "Stoor",
+        "cancel_edit_payment_method_button": "Kanselleer",
+        "payment_method_updated_toast": "Betaalmetode opgedateer",
+        "billing_address": "Faktuuradres",
+        "billing_address_add_new": "Voeg nuwe by",
+        "billing_address_choose_from_list": "Kies uit lys",
+        "future_purchases_notice": "Hierdie betaalmetode sal vir toekomstige aankope gestoor word.",
+        "generic_error": "Daar was 'n probleem met die opdatering. Probeer asseblief weer."
       }
     },
     "payment_method_brands": {
@@ -622,6 +748,145 @@
       },
       "removeItem": "Verwyder {{label}}",
       "removeTag": "Verwyder etiket"
+    }
+  },
+  "products": {
+    "facets": {
+      "sort_by_label": "Sorteer volgens:",
+      "to": "Aan",
+      "clear_filter": "Verwyder filter"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "Geen resultate gevind vir “ {{ terms }} ” nie. Kontroleer die spelling of gebruik 'n ander woord of frase.",
+      "page": "Bladsy",
+      "products": "Produkte",
+      "results_pages_with_count": {
+        "one": "{{ count }} bladsy",
+        "other": "{{ count }} bladsye"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} voorstel",
+        "other": "{{ count }} voorstelle"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} produk",
+        "other": "{{ count }} produkte"
+      },
+      "results_with_count": {
+        "one": "{{ count }} resultaat",
+        "other": "{{ count }} resultate"
+      },
+      "results_with_count_and_term": {
+        "one": "{{ count }} resultaat gevind vir “ {{ terms }} ”",
+        "other": "{{ count }} resultate gevind vir “ {{ terms }} ”"
+      },
+      "title": "Soekresultate",
+      "search_for": "Soek vir “ {{ terms }} ”",
+      "suggestions": "Voorstelle",
+      "pages": "Bladsye"
+    },
+    "cart": {
+      "cart": "Mandjie"
+    },
+    "contact": {
+      "form": {
+        "title": "Kontakvorm",
+        "name": "Naam",
+        "email": "E-pos",
+        "phone": "Telefoonnommer",
+        "comment": "Kommentaar",
+        "send": "Stuur",
+        "post_success": "Dankie dat u ons gekontak het. Ons sal so gou as moontlik met u in verbinding tree.",
+        "error_heading": "Pas asseblief die volgende aan:"
+      }
+    },
+    "404": {
+      "title": "Bladsy nie gevind nie"
+    }
+  },
+  "localization": {
+    "country_label": "Land/streek",
+    "language_label": "Taal",
+    "update_language": "Opdateer taal",
+    "update_country": "Dateer land/streek op",
+    "search": "Soek",
+    "popular_countries_regions": "Gewilde lande/streke",
+    "country_results_count": "{{ count }} lande/streke gevind"
+  },
+  "customer": {
+    "account": {
+      "title": "Rekening",
+      "details": "Rekeningbesonderhede",
+      "view_addresses": "Bekyk adresse",
+      "return": "Keer terug na rekeningbesonderhede"
+    },
+    "account_fallback": "Rekening",
+    "activate_account": {
+      "title": "Aktiveer rekening",
+      "subtext": "Skep jou wagwoord om jou rekening te aktiveer.",
+      "password": "Wagwoord",
+      "password_confirm": "Bevestig wagwoord",
+      "submit": "Aktiveer rekening",
+      "cancel": "Weier uitnodiging"
+    },
+    "addresses": {
+      "title": "Adresse",
+      "default": "Standaard",
+      "add_new": "Voeg 'n nuwe adres by",
+      "edit_address": "Wysig adres",
+      "first_name": "Voornaam",
+      "last_name": "Vannaam",
+      "company": "Maatskappy",
+      "address1": "Adres 1",
+      "address2": "Adres 2",
+      "city": "Stad",
+      "country": "Land/streek",
+      "province": "Provinsie",
+      "zip": "Poskode",
+      "phone": "Foon",
+      "set_default": "Stel as verstekadres",
+      "add": "Voeg adres by",
+      "update": "Opdateer adres",
+      "cancel": "Kanselleer",
+      "edit": "Wysig",
+      "delete": "Vee uit",
+      "delete_confirm": "Is jy seker jy wil hierdie adres verwyder?"
+    },
+    "log_in": "Teken aan",
+    "log_out": "Meld af",
+    "login_page": {
+      "cancel": "Kanselleer",
+      "create_account": "Skep rekening",
+      "email": "E-pos",
+      "forgot_password": "Wagwoord vergeet?",
+      "guest_continue": "Gaan voort",
+      "guest_title": "Gaan voort as 'n gas",
+      "password": "Wagwoord",
+      "title": "Aanmeld",
+      "sign_in": "Teken aan",
+      "submit": "Dien in",
+      "alternate_provider_separator": "of"
+    },
+    "order": {
+      "title": "Bestelling {{ name }}",
+      "date_html": "Geplaas op {{ date }}",
+      "cancelled_html": "Bestelling gekanselleer op {{ date }}",
+      "cancelled_reason": "Rede: {{ reason }}",
+      "billing_address": "Faktuuradres",
+      "payment_status": "Betalingsstatus",
+      "shipping_address": "Versendingsadres",
+      "fulfillment_status": "Vervullingsstatus",
+      "discount": "Afslag",
+      "shipping": "Versending",
+      "tax": "Belasting",
+      "product": "Produk",
+      "price": "Prys",
+      "quantity": "Hoeveelheid",
+      "total": "Totaal",
+      "total_refunded": "Terugbetaal",
+      "fulfilled_at_html": "Vervul {{ date }}"
     }
   }
 }
