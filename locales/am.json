@@ -1,0 +1,402 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " እና ",
+      "last_word_connector": ", እና "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "እርግጠኛ ነህ አድራሻውን {{address}} መሰረዝ ትፈልጋለህ?"
+      },
+      "general": {
+        "page_title": "ይመልከቱ",
+        "error_page_title": "ስህተት",
+        "skip_to_content": "ወደ ይዘት ዝለል",
+        "breadcrumb": "የዳቦ ፍርፋሪ",
+        "continue_button_label": "ቀጥል",
+        "complete_purchase_button_label": "ሙሉ ትዕዛዝ",
+        "pay_now_button_label": "አሁን ይክፈሉ።",
+        "authenticate_purchase_button_label": "ክፍያን ያረጋግጡ",
+        "edit_link_label": "አርትዕ",
+        "all_rights_reserved": "ሁሉም መብቶች የተጠበቁ ናቸው %{shop_name}",
+        "print_policies_link_label": "አትም",
+        "cart": "ጋሪ",
+        "close_modal_label": "ገጠመ",
+        "close_notice_label": "ገጠመ",
+        "expand_notice_label": "ተጨማሪ ይመልከቱ",
+        "continue_to_shipping_method": "ወደ መላኪያ ይቀጥሉ",
+        "continue_to_payment_method": "መክፈሉን ይቀጥሉ",
+        "continue_to_review": "ትዕዛዝን ይገምግሙ",
+        "back_to_cart": "ወደ ጋሪው ተመለስ",
+        "back_to_contact_information": "ወደ መረጃ ተመለስ",
+        "back_to_shipping_method": "ወደ መላኪያ ይመለሱ",
+        "back_to_payment_method": "ወደ ክፍያ ይመለሱ",
+        "choose_shipping_method": "የመላኪያ ዘዴ ይምረጡ",
+        "choose_payment_method": "የመክፈያ ዘዴ ይምረጡ",
+        "choose_billing_address": "የክፍያ መጠየቂያ አድራሻ ይምረጡ",
+        "contact_us_html": "ለበለጠ መረጃ ያግኙን።",
+        "autocomplete_title": "ጥቆማዎች",
+        "autocomplete_single_item": "1 ንጥል አለ።",
+        "autocomplete_multi_item": "{{number}} ንጥሎች ይገኛሉ",
+        "autocomplete_close": "ጥቆማዎችን ዝጋ",
+        "forwarding_indicator": {
+          "new_window": "ይከፈታል ።",
+          "external": "የውጭ ድር ጣቢያ ይከፍታል።",
+          "external_and_new_window": "የውጭ ድር ጣቢያ በአዲስ መስኮት ይከፈታል።"
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - ይመልከቱ"
+        },
+        "tooltip_accessibility_label": "ተጨማሪ መረጃ",
+        "qr_code": "QR ኮድ",
+        "errors": {
+          "only_empty_terms_accepted": "ይህ መመሪያ ባዶ ውሎችን ብቻ ይቀበላል።",
+          "session_identifier_not_unique_error": "በትዕዛዝህ ላይ የሆነ ችግር ተፈጥሯል፣ እባክህ እንደገና ለማየት ሞክር።",
+          "line_item_limit_reached": "ከፍተኛው የመስመር ንጥሎች ብዛት ላይ ደርሷል።",
+          "session_is_already_finished": "ይህ የፍተሻ ክፍለ ጊዜ አስቀድሞ ተጠናቅቋል።",
+          "merchandise": {
+            "only_value_constraint": "በሸቀጦች ግቤት ውስጥ ትክክለኛ እሴቶች ብቻ ይፈቀዳሉ።",
+            "merchandise_not_found": "ምርት አልተገኘም።",
+            "merchandise_variant_not_found": "የምርት ልዩነት አልተገኘም።",
+            "merchandise_not_applicable": "የምርት ልዩነት ሊገዛ አይችልም።",
+            "mixed_currencies": "Checkout ከተለያዩ ምንዛሬዎች ጋር የመስመር ንጥሎችን ይዟል።",
+            "bundle_products_not_supported_for_b2b": "ለዚህ አካባቢ የታሸጉ ንጥሎች ወደ B2B ትዕዛዞች ሊታከሉ አይችሉም።",
+            "gift_card_quantity_mismatch": "የስጦታ ካርድ ኮዶችን ሲገልጹ የመስመር ንጥል ብዛት እና የስጦታ ካርድ ኮዶች ብዛት መዛመድ አለባቸው።",
+            "gift_card_not_supported": "በዚህ ቼክ ላይ የስጦታ ካርዶች አይደገፉም።",
+            "gift_card_not_unique": "ኮድ {{code}} ያለው የስጦታ ካርድ በዚህ ቼክ ውስጥ ከአንድ ጊዜ በላይ ይከሰታል። ኮዶች ከማነፃፀር በፊት ተቀርፀዋል።",
+            "gift_card_used": "የስጦታ ካርድ ኮድ {{code}} አስቀድሞ ለስጦታ ካርድ ተመድቧል። ኮዶች ከማነፃፀር በፊት ተቀርፀዋል።",
+            "gift_card_invalid": "የስጦታ ካርድ ኮድ {{code}} ልክ ያልሆነ ነው።",
+            "gift_card_code_changed": "የቅርጸት ደንቦችን ለማክበር የስጦታ ካርድ ኮድ {{proposed_code}} ወደ {{formatted_code}} ተቀይሯል።",
+            "gift_card_with_attributes_not_supported": "ብጁ ባህሪያት ያላቸው የስጦታ ካርዶች በዚህ ቼክ አይደገፉም።",
+            "gift_card_with_components_not_supported": "አካላት ያሏቸው የስጦታ ካርዶች በዚህ ቼክ ላይ አይደገፉም።",
+            "selling_plan_mismatch": "የደንበኝነት ምዝገባው ተዘምኗል።",
+            "selling_plan_not_supported": "የደንበኝነት ምዝገባዎች አይደገፉም።",
+            "selling_plan_not_supported_b2b": "የደንበኝነት ምዝገባዎች ለ B2B ፍተሻ አይደገፉም።",
+            "price_mismatch": "ለዚህ ሸቀጥ ከዚህ ቀደም የታቀደው ዋጋ ልክ ያልሆነ እና ተዘምኗል።",
+            "inventory_not_found": "ለዚህ ሸቀጥ ምንም ክምችት አልተገኘም።",
+            "product_not_published": "ምርቱ አልታተመም።",
+            "product_not_published_in_buyer_location": "ምርቱ በገዢ ቦታ ላይ አልታተምም.",
+            "duplicated_stable_id": "ይህ የሸቀጣሸቀጥ መስመር ከሌላ መስመር ጋር ተመሳሳይ የተረጋጋ መታወቂያ አለው።",
+            "minimum_quantity_not_met": "የአንዳንድ ዕቃዎች ብዛት የሚፈለገውን ዝቅተኛውን አያሟላም።",
+            "maximum_quantity_exceeded": "የአንዳንድ ዕቃዎች ብዛት ከሚፈቀደው ከፍተኛ ይበልጣል።",
+            "quantity_increment_not_met": "የአንዳንድ ዕቃዎች ብዛት የትዕዛዝ ገደቡን አያሟላም።",
+            "quantity_rules_not_met": "የአንዳንድ ዕቃዎች ብዛት የትዕዛዝ ገደቡን አያሟላም።",
+            "bundle_requires_components": "ይህ ጥቅል ሸቀጥ ምንም ክፍሎች የሉትም።",
+            "title_too_long": "የሸቀጦች ርዕስ በጣም ረጅም ነው።",
+            "title_empty": "የሸቀጦች ርዕስ ባዶ ነው።"
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "የኩባንያው ግንኙነት ለኩባንያው መዳረሻ የለውም.",
+            "customer_account_required": "ለመቀጠል በመለያ መግባት አለብህ።",
+            "company_location_required": "ደንበኛው ለመቀጠል የኩባንያውን ቦታ መምረጥ አለበት።",
+            "company_purchase_permission_required": "ደንበኛው የኩባንያውን ትዕዛዝ የማዘዝ ፍቃድ የለውም።",
+            "personal_order_not_allowed": "ለዚህ ሱቅ የግል ማዘዣ አይፈቀድም።",
+            "lost_access_to_company": "ደንበኛው የማንኛውም ኩባንያ መዳረሻ አጥቷል።",
+            "contact_info_does_not_match_customer_account": "የእውቂያ መረጃ ከገባህበት መለያ ጋር መዛመድ አለበት።",
+            "phone_number_does_not_match_expected_pattern": "የተገለጸው ስልክ ቁጥር ከተጠበቀው ስርዓተ-ጥለት ጋር አይዛመድም።",
+            "email_required": "ሸቀጦቹ የደንበኝነት ምዝገባን በመጠቀም ሲገዙ ኢሜይል ያስፈልጋል።",
+            "email_domain_is_invalid": "ይህ የተገለጸው ጎራ ሊፈታ አይችልም።",
+            "missing_contact_method": "የሚሰራ የግንኙነት ዘዴ ይጎድላል።",
+            "checkout_completion_target_is_missing": "የፍተሻ ማጠናቀቂያ ዒላማ ጠፍቷል።",
+            "invalid_customer_profile": "ልክ ያልሆነ የደንበኛ መገለጫ ቀርቧል።",
+            "customer_profile_access_restricted": "Checkout የደንበኛ መገለጫን የመድረስ ፍቃድ የለውም።",
+            "checkout_completion_target_is_invalid_proc": "ልክ ያልሆነ የፍተሻ ማጠናቀቂያ ዒላማ።",
+            "buyer_identity_presentment_currency_does_not_match": "ትዕዛዝህን ማስኬድ ላይ ችግር ነበር። ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ።"
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "ጋሪ አንድ የመላኪያ መስመር ብቻ ሊኖረው ይገባል።",
+            "wrong_number_of_delivery_lines": "ለእያንዳንዱ የሸቀጦች ቡድን የማድረሻ መስመር መገለጽ አለበት።",
+            "external_delivery_promise_error": "የውጪ መላኪያ ቃል ስህተት ያመጣል።",
+            "options_instructions_invalid": "የተገለጹት መመሪያዎች ከተጠበቀው ንድፍ ጋር አይዛመዱም.",
+            "destination_address_required": "ለመቀጠል የመድረሻ አድራሻ ያስፈልጋል።",
+            "pickup_points_unavailable": "የመውሰጃ ነጥቦች በአሁኑ ጊዜ አይገኙም።",
+            "local_pickup_delivery_line_detail_changed": "ለመቀጠል አሁን ያለው የአካባቢ መውሰጃ አሰጣጥ ስልት መቀየር አለበት።",
+            "selected_pickup_option_no_longer_available": "ከዚህ ቀደም የተመረጠው የመውሰጃ አማራጭ ከአሁን በኋላ አይገኝም።",
+            "local_pickup_no_delivery_strategy_available": "ምንም የሚገኝ የአካባቢ የመውሰጃ ማቅረቢያ ስልት አልተገኘም።",
+            "origin_location_id_required": "የRETAIL ማቅረቢያ ዘዴ ሲጠየቅ የመነሻ መገኛ መታወቂያ ያስፈልጋል።",
+            "invalid_origin_location_id": "ከመነሻ መገኛ መታወቂያው ጋር የሚዛመድ አካባቢ ማግኘት አልተቻለም።"
+          },
+          "captcha": {
+            "token_invalid": "የቀረበው የካፕቻ ቶከን ልክ ያልሆነ ነበር። ማረጋገጥ ለመቀጠል አዲስ ካፕቻን ያጠናቅቁ።",
+            "token_not_valid_for_session": "የቀረበው ካፕቻ ከዚህ ቼክ ጋር መጠቀም አይቻልም።"
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "የተቀበለው መጠን በማከማቻ ምንዛሬ ውስጥ መሆን አለበት።"
+          },
+          "checkout_source": {
+            "revoked": "ይህ ፍተሻ ከአሁን በኋላ አይገኝም።"
+          }
+        },
+        "full_price": "ሙሉ ዋጋ፡",
+        "title": "ተመዝግበው ይውጡ - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - ይመልከቱ",
+        "loading": "በመጫን ላይ…",
+        "loading_title": "ተመዝግበው ይውጡ - {{shopName}}",
+        "google_map_title": "ጎግል ካርታ",
+        "confirm_order_button_label": "ትዕዛዝ አረጋግጥ",
+        "submit_order_button_label": "ትዕዛዝ አስገባ",
+        "submit_for_review_button_label": "ለግምገማ አስገባ",
+        "submit_for_review_notice_label": "ትዕዛዝዎ እስኪገመገም ድረስ ክፍያ አይፈጸምም።",
+        "continue_to_payment_plans_button_label": "ወደ ክፍያ ዕቅዶች ይቀጥሉ",
+        "back_button_label": "ተመለስ",
+        "choose_delivery_strategy": "የመላኪያ ዘዴ ይምረጡ",
+        "autocomplete_zero_item": "ምንም እቃዎች የሉም",
+        "autocomplete_powered_by_google": "በ {{brandName}} የተጎላበተ",
+        "submit": "አስገባ",
+        "processing": "በማስሄድ ላይ…",
+        "stepper": {
+          "increase": "{{type}} ን ጨምር",
+          "decrease": "ቀንስ {{type}}",
+          "minimum_reached": "ዝቅተኛው {{value}} ደርሷል",
+          "maximum_reached": "ከፍተኛው {{value}} ደርሷል"
+        },
+        "remove_chip": "ንጥሉን ያስወግዱ",
+        "remove_item": "%{label}ን አስወግድ",
+        "remove_tag": "መለያን ያስወግዱ",
+        "dates": {
+          "weekdays": {
+            "monday": "ሰኞ",
+            "tuesday": "ማክሰኞ",
+            "wednesday": "እሮብ",
+            "thursday": "ሐሙስ",
+            "friday": "አርብ",
+            "saturday": "ቅዳሜ",
+            "sunday": "እሁድ"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ሞ",
+            "tuesday": "ቱ",
+            "wednesday": "እኛ",
+            "thursday": "ት",
+            "friday": "አብ",
+            "saturday": "ሳ",
+            "sunday": "ሱ"
+          },
+          "months": {
+            "january": "ጥር",
+            "february": "የካቲት",
+            "march": "መጋቢት",
+            "april": "ሚያዚያ",
+            "may": "ግንቦት",
+            "june": "ሰኔ",
+            "july": "ሀምሌ",
+            "august": "ነሐሴ",
+            "september": "መስከረም",
+            "october": "ጥቅምት",
+            "november": "ህዳር",
+            "december": "ታህሳስ"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "ያለፈውን ወር፣ {{month}} {{year}} አሳይ",
+          "show_next_month": "በሚቀጥለው ወር፣ {{month}} {{year}} አሳይ",
+          "range_start": "ክልል መጀመሪያ",
+          "in_range": "በክልል ውስጥ",
+          "range_end": "ክልል መጨረሻ"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "የ {{number}} ምልክት ማድረጊያ ስብስብ",
+            "other": "የ {{number}} ማርከሮች ስብስብ"
+          }
+        },
+        "sheet": {
+          "expand": "ዘርጋ"
+        },
+        "dropzone": {
+          "add_file": "ፋይል አክል",
+          "invalid_file_type": "የፋይል አይነት አይደገፍም።",
+          "dragged_over": "ለመስቀል ፋይል ጣል ያድርጉ"
+        }
+      },
+      "contact": {
+        "title": "መረጃ",
+        "address_title": "አድራሻ",
+        "shipping_used_as_billing_notice": "ይህ እንዲሁም ለዚህ ትዕዛዝ እንደ የክፍያ መጠየቂያ አድራሻዎ ያገለግላል።",
+        "delivery_option_title": "የማስረከቢያ ዘዴ",
+        "contact_method_title": "ተገናኝ",
+        "email_label": "ኢሜይል",
+        "email_rollup_accessibility_label": "የኢሜል አማራጮች",
+        "email_placeholder": "ኢሜይል",
+        "email_or_phone_label": "ኢሜል ወይም የሞባይል ስልክ ቁጥር",
+        "email_or_phone_placeholder": "ኢሜል ወይም የሞባይል ስልክ ቁጥር",
+        "stored_addresses_label": "የተቀመጡ አድራሻዎች",
+        "available_addresses_label": "የሚገኙ አድራሻዎች",
+        "new_address_label": "አዲስ አድራሻ ተጠቀም",
+        "first_name_label": "የመጀመሪያ ስም",
+        "optional_first_name_label": "የመጀመሪያ ስም (አማራጭ)",
+        "last_name_label": "የአያት ስም",
+        "company_label": "ኩባንያ",
+        "company_attention_label": "ኩባንያ / ትኩረት",
+        "optional_company_attention_label": "ኩባንያ/ ትኩረት (አማራጭ)",
+        "optional_company_label": "ኩባንያ (አማራጭ)",
+        "address1_label": "አድራሻ",
+        "address2_label": "አፓርታማ ፣ ክፍል ፣ ወዘተ.",
+        "optional_address2_label": "አፓርታማ፣ ክፍል፣ ወዘተ (አማራጭ)",
+        "city_label": "ከተማ",
+        "country_label": "ሀገር/ ክልል",
+        "country_code": "የአገር/የክልል ኮድ",
+        "province_label": "ክፍለ ሀገር",
+        "province_placeholder": "ክፍለ ሀገር",
+        "county_label": "ካውንቲ",
+        "county_placeholder": "ካውንቲ",
+        "state_label": "ግዛት",
+        "state_placeholder": "ግዛት",
+        "region_label": "ክልል",
+        "region_placeholder": "ክልል",
+        "region_none": "ምንም አልተመረጠም።"
+      },
+      "order_summary": {
+        "payment_terms_totals": {
+          "due_later": "ጠቅላላ ክፍያ %{due_at}",
+          "due_on_fulfillment": "በመሙላት ላይ አጠቃላይ ክፍያ",
+          "due_on_fulfillment_next": "በመሙላት ምክንያት",
+          "due_on_receipt": "ጠቅላላ ክፍያ ደረሰኝ ላይ",
+          "due_later_checkout_to_draft": "ጠቅላላ በኋላ የሚከፈል",
+          "total_paid": "ጠቅላላ የተከፈለ"
+        },
+        "maximum_discount_code_limit_reached": "ከፍተኛው የቅናሽ ኮዶች ብዛት ላይ ደርሰዋል። <strong style=\"text-transform:uppercase\">%{code}</strong> ለመጠቀም ያለውን ኮድ ያስወግዱ።",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> አሁን እየሰራ አይደለም። ለእርዳታ ያነጋግሩን።",
+        "due_on_fulfillment": "በመሙላት ምክንያት",
+        "gift_card_masked": "•••• %{የመጨረሻ_ገጸ-ባህሪያት}",
+        "subscriptions": "የደንበኝነት ምዝገባዎች",
+        "duties_label": "ግዴታዎች",
+        "duties_and_taxes_label": "ግዴታዎች እና ግብሮች",
+        "error_duties_tooltip": "ይህ ትእዛዝ ከሌላ ሀገር እየተላከ ነው፣ ስለዚህ ቀረጥና ታክስ በማስረከብ ላይ ሊከፈል ይችላል።",
+        "may_be_charged_on_delivery": "በማስረከብ ላይ ሊከፈል ይችላል።",
+        "total_updated_label_with_price": "የዘመነ ጠቅላላ ዋጋ፡ %{totalPrice}",
+        "updated_shipping_method": "የዘመነ የመላኪያ ዘዴ፡ %{shipping_method}",
+        "recurring_payments": "ተደጋጋሚ ክፍያዎች",
+        "recurring_total_multiple_label": "ይህ ትዕዛዝ ለብዙ እቃዎች ተደጋጋሚ ክፍያ አለው።",
+        "deferred_total_due_date_label": "ጠቅላላ የማለቂያ ቀን {{date}}",
+        "deferred_total_due_date_label_next": "የሚያበቃው %{ቀን}",
+        "full_price": "ሙሉ ዋጋ፡ %{price}",
+        "custom_discount": "ብጁ ቅናሽ",
+        "expand_component_information": {
+          "one": "%{count} ንጥል አሳይ",
+          "other": "%{count} ንጥሎችን አሳይ"
+        },
+        "collapse_component_information": {
+          "one": "%{count} ንጥልን ደብቅ",
+          "other": "%{count} ንጥሎችን ደብቅ"
+        },
+        "discount_discovery": {
+          "add_code": "ቅናሽ ይጨምሩ",
+          "merchandise_quantity_label": {
+            "one": "%{count} ንጥል",
+            "other": "%{count} ንጥሎች"
+          }
+        },
+        "alternative_payment_currency_total": "እንደ %{amount_due} ተከፍሏል"
+      },
+      "shipping": {
+        "title": "መላኪያ",
+        "delivery_title": "ማድረስ",
+        "shipping_method_title": "የማጓጓዣ ዘዴ",
+        "shipping_method_rollup_accessibility_label": "የመላኪያ ዘዴ አማራጮች",
+        "shipping_method_one_time_purchase_group_title": "የአንድ ጊዜ ግዢ",
+        "shipping_method_first_shipment_group_title": {
+          "one": "የመጀመሪያ ጭነት",
+          "other": "የመጀመሪያ መላኪያዎች"
+        },
+        "shipping_method_subscription_group_title": "የደንበኝነት ምዝገባ",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "ተደጋጋሚ ጭነት",
+          "other": "ተደጋጋሚ ጭነት"
+        },
+        "subscription_shipping": "የደንበኝነት ምዝገባ መላኪያ",
+        "subscription_local_delivery": "የደንበኝነት ምዝገባ አካባቢያዊ ማድረስ",
+        "subscription_pickup": "የደንበኝነት ምዝገባ መውሰድ",
+        "waiting_on_rate_notice": "የሚገኙ የመላኪያ ዋጋዎችን በማግኘት ላይ…",
+        "waiting_on_pickup_location_notice": "የሚገኙ የመልቀሚያ ቦታዎችን በማግኘት ላይ…",
+        "no_rates_for_cart_or_destination_notice": "ለጋሪዎ ወይም አድራሻዎ ምንም የማጓጓዣ ዘዴዎች የሉም",
+        "no_pickup_location_notice": "ቢያንስ ከምርቶችዎ ውስጥ አንዱ ለመውሰድ አይገኝም",
+        "no_rates_for_country_notice": "ለዚህ አድራሻ ምንም የመላኪያ ተመኖች አልተገኙም።",
+        "no_rates_contact_notice": "ለበለጠ መረጃ ያግኙን።",
+        "free_rate_label": "ፍርይ",
+        "cheapest_rate_label": "በጣም ርካሹ",
+        "please_enter_your_shipping_information_notice": "እባክዎ የመላኪያ መረጃዎን ያስገቡ።",
+        "estimated_delivery_date": {
+          "one": "%{count} የስራ ቀን",
+          "other": "%{count} የስራ ቀናት"
+        },
+        "estimated_delivery_date_range": "ከ%{ቢያንስ} እስከ %{maximum} የስራ ቀናት",
+        "estimated_delivery_time": "የተገመተው የማድረሻ ጊዜ %{time}",
+        "estimated_delivery_time_range": "የተገመተው የማድረሻ ጊዜ %{min_time}–%{max_time}",
+        "delivery_today": "በተመሳሳይ ቀን ማድረስ %{time}",
+        "delivery_tomorrow": "በሚቀጥለው ቀን ማድረስ %{time}",
+        "two_day_delivery": "የ2-ቀን ማድረስ %{time}",
+        "delivery": "ማድረስ %{time}",
+        "arrives_time": "%{time} ይደርሳል",
+        "arrives_time_range": "%{min_time}–%{max_time} ይደርሳል",
+        "estimated_time": "የተገመተው %{time}",
+        "estimated_time_range": "የተገመተው %{min_time}–%{max_time}",
+        "default_description": "በ1 የስራ ቀን ውስጥ ይላካል",
+        "unbranded_default_description": "ለመላክ ዝግጁ",
+        "shipping_line_phone_label": "የሞባይል ስልክ ቁጥር (የሚያስፈልግ)",
+        "shipping_line_phone": "መልእክተኛዎ እርስዎን ለማግኘት ይህንን ቁጥር ሊጠቀም ይችላል።",
+        "shipping_line_delivery_phone_label": "የሞባይል ስልክ ቁጥር",
+        "shipping_line_delivery_phone": "በማድረስዎ ላይ ካሉ ዝመናዎች ጋር ሊገናኙዎት ይችላሉ።",
+        "optional_shipping_line_delivery_instructions_label": "የመላኪያ መመሪያዎች (አማራጭ)",
+        "shipping_line_delivery_instructions": "እንደ የበር ኮዶች ወይም የመውረጃ መመሪያዎችን የመሳሰሉ አስፈላጊ መረጃዎችን ያስገቡ።",
+        "other_method": {
+          "zero": "ሌሎች ዘዴዎች የሉም",
+          "one": "%{count} ሌላ ዘዴ በ ላይ ይገኛል።",
+          "other": "%{count} ሌሎች ዘዴዎች ከ ጀምሮ ይገኛሉ"
+        },
+        "shipping_rate_discounted_amount": "ነበር፡ %{የመጀመሪያው_ገንዘብ}። አሁን፡ %{መጠን}",
+        "local_delivery": "የአካባቢ አቅርቦት",
+        "prime_not_available": {
+          "default": "ዋና መላኪያ ለትዕዛዝዎ አይገኝም። የማጓጓዣ አማራጮችዎ ተዘምነዋል።"
+        },
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "ለ%{count} ተጨማሪ መላኪያ ነፃ መላኪያ",
+            "other": "ለ%{count} ተጨማሪ መላኪያዎች ነፃ መላኪያ"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "ለ%{count} መላኪያ ነፃ መላኪያ",
+            "other": "ለ%{count} ማቅረቢያዎች ነፃ መላኪያ"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "ነፃ መላኪያ ለ%{count} ተጨማሪ ማድረስ፣ ከዚያ %{recurring_order_shipping_price}",
+            "other": "ለ%{count} ተጨማሪ መላኪያዎች፣ ከዚያ %{recurring_order_shipping_price} ነጻ መላኪያ"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "ለ%{count} መላኪያ፣ ከዚያ %{recurring_order_shipping_price} ነጻ መላኪያ",
+            "other": "ለ%{count} ማቅረቢያዎች ነፃ መላኪያ፣ ከዚያ %{ተደጋጋሚ_ትእዛዝ_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} ተጨማሪ መላኪያ ለ%{shipping_price}",
+            "other": "%{count} ተጨማሪ መላኪያዎች ለእያንዳንዱ %{shipping_price}"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} መላኪያ በ%{shipping_price}",
+            "other": "%{count} ተጨማሪ መላኪያዎች ለእያንዳንዱ %{shipping_price}"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "ለመጀመሪያው %{cycle} ነፃ መላኪያ፣ ከዚያም %{recurring_order_shipping_price}",
+            "other": "ለመጀመሪያው %{cycle} ነፃ መላኪያ፣ ከዚያም %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} ለ %{count} ተጨማሪ ማድረስ",
+            "other": "%{shipping_price} ለ%{count} ተጨማሪ መላኪያዎች (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} ለ%{count} ማድረሻ",
+            "other": "%{shipping_price} ለ%{count} ማድረሻ (%{per_delivery_cost})"
+          }
+        }
+      }
+    }
+  }
+}
