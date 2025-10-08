@@ -509,6 +509,459 @@
             "other": "%{shipping_price} ለ%{count} ማድረሻ (%{per_delivery_cost})"
           }
         }
+      },
+      "review": {
+        "blocks": {
+          "change_link_label": "ለውጥ",
+          "change_contact_method_link_label": "የእውቂያ መረጃ ለውጥ",
+          "change_billing_address_link_label": "የመክፈያ አድራሻ ቀይር",
+          "change_company_location_link_label": "የኩባንያውን ቦታ ይለውጡ",
+          "change_shipping_address_link_label": "የመላኪያ አድራሻ ቀይር",
+          "change_shipping_method_link_label": "የማጓጓዣ ዘዴን ይቀይሩ",
+          "change_payment_method_link_label": "የመክፈያ ዘዴን ይቀይሩ",
+          "pick_up_in_store_shipping_method_html": "በመደብር ውስጥ መውሰድ · %{location_name}",
+          "purchase_order_number_title": "የፖስታ ቁጥር",
+          "change_purchase_order_number_label": "የፖስታ ቁጥር ቀይር",
+          "change_delivery_method_link_label": "የመላኪያ ዘዴን ይቀይሩ",
+          "no_address": "(አድራሻ የለም)",
+          "no_purchase_order_number": "(የፖስታ ቁጥር የለም)",
+          "due_after_order_reviewed_html": "ትዕዛዙ ከተገመገመ በኋላ",
+          "review_title_free_order": "ትዕዛዝዎን ይገምግሙ እና ያጠናቅቁ",
+          "payment_method_saved_company_location": "ለዚህ ቦታ ካርድ ያስቀምጡ",
+          "company_location": "የኩባንያው ቦታ"
+        },
+        "block_title": "መረጃዎን ይገምግሙ",
+        "item_header": {
+          "change_value": "ዋጋ ቀይር",
+          "section": "ክፍል",
+          "value": "ዋጋ"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "በዜና እና ቅናሾች ኢሜል ያድርጉልኝ",
+        "post_accept_marketing_checkbox_label": "የኢሜል ዜናዎችን እና ቅናሾችን ለመቀበል ተመዝግበዋል።",
+        "pending_accept_marketing_checkbox_label": "ለዜና እና ቅናሾች መመዝገብዎን ለማረጋገጥ ኢሜልዎን ያረጋግጡ",
+        "accept_sms_checkbox_label": "በዜና እና ቅናሾች መልእክት ይላኩልኝ።",
+        "disclaimer": {
+          "privacy_policy": "የግላዊነት ፖሊሲ",
+          "terms_of_service": "የአገልግሎት ውል"
+        },
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "የግላዊነት ፖሊሲ",
+            "terms_of_service": "የአገልግሎት ውል",
+            "description_html": "በጽሁፍ በመመዝገብ፣የጋሪ አስታዋሾችን ጨምሮ ተደጋጋሚ የግብይት መልዕክቶችን በተጠቀሰው ስልክ ቁጥር ለመቀበል ተስማምተሃል። ፈቃድ የግዢ ሁኔታ አይደለም። ከደንበኝነት ምዝገባ ለመውጣት STOP ብለው ይመልሱ። ለእርዳታ HELP ብለው ይመልሱ። የመልእክት ድግግሞሽ ይለያያል። የመልእክት እና የውሂብ ተመኖች ተፈጻሚ ሊሆኑ ይችላሉ። የእኛን %{privacy_policy_link} እና %{የአገልግሎት_ውል} ይመልከቱ።",
+            "description_transactional_html": "ከትዕዛዝ ማረጋገጫ እና የማጓጓዣ ዝመናዎች ጋር የተያያዙ የጽሑፍ መልዕክቶችን ሊደርሱዎት ይችላሉ። ከደንበኝነት ምዝገባ ለመውጣት STOP ብለው ይመልሱ። ለእርዳታ HELP ብለው ይመልሱ። የመልእክት ድግግሞሽ ይለያያል። የመልእክት እና የውሂብ ተመኖች ተፈጻሚ ሊሆኑ ይችላሉ። የእኛን %{privacy_policy_modal_link} እና %{የአገልግሎት_ሞዳል_link}ን ይመልከቱ።"
+          },
+          "mobile_phone_number": "የሞባይል ስልክ ቁጥር",
+          "get_offers_by_text": "ቅናሾችን በጽሑፍ ያግኙ"
+        },
+        "unsubscribe": {
+          "title": "ከደንበኝነት ምዝገባ ወጥተዋል።",
+          "description": "ከእኛ ምንም ተጨማሪ የጋሪ አስታዋሾችን አይቀበሉም።"
+        },
+        "accept_shop_pay_marketing_checkbox_label": "ከዚህ መደብር ለዜና እና ቅናሾች ይመዝገቡኝ።"
+      },
+      "shop_policies": {
+        "policy_label": "ፖሊሲ",
+        "policies_label": "ፖሊሲዎች",
+        "select_policy_label": "መመሪያ ይምረጡ",
+        "refund_policy": "የተመላሽ ገንዘብ ፖሊሲ",
+        "privacy_policy": "የግላዊነት ፖሊሲ",
+        "terms_of_service": "የአገልግሎት ውል",
+        "legal_notice": "ህጋዊ ማስታወቂያ",
+        "shipping_policy": "መላኪያ",
+        "terms_of_sale": "የሽያጭ ውል",
+        "subscription_policy": "ስረዛዎች",
+        "purchase_options_policy": "የግዢ አማራጮች ፖሊሲ",
+        "contact_information": "ተገናኝ",
+        "purchase_options_cancellation_policy": "ስረዛዎች",
+        "cookie_preferences": "ኩኪዎች"
+      },
+      "remote_policies": {
+        "unavailable_policy": "ለዚህ መደብር ምንም %{policy_name} አልተሰጠም። ለበለጠ መረጃ፣እባክዎ %{shop_name}ን በቀጥታ ያግኙ።"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "የመዝገብ ውሎች እና ሁኔታዎች ነጋዴ",
+        "privacy_policy": "የመዝገቡ የግላዊነት ፖሊሲ ነጋዴ"
+      },
+      "markets": {
+        "invalid_market_manager_error": "ክፍያ ከማጠናቀቅዎ በፊት የእውቂያ መረጃዎን ይገምግሙ"
+      },
+      "notifications": {
+        "title": "ማሳወቂያዎች"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "%{order_name} ለትዕዛዝ የሚከፍለው መጠን",
+        "changes_summary": {
+          "added": {
+            "one": "ታክሏል።",
+            "other": "%{count} ታክሏል"
+          },
+          "removed": "ተወግዷል",
+          "subtracted": "%{count} ተወግዷል",
+          "returned": "%{count} ተመልሷል",
+          "return_line_item_removed": "%{count} ከመመለስ ተወግዷል"
+        },
+        "additional_payment_requested": "የ%{total_outstanding} ክፍያ ያስፈልጋል",
+        "checkout_review_and_pay": "የእርስዎ ትዕዛዝ %{order_name} ተዘምኗል። እነዚህን ለውጦች ይገምግሙ፣ ከዚያ ትዕዛዝዎን ለማረጋገጥ ይክፈሉ።",
+        "order_updated_on": "ትዕዛዝህ በ%{last_edited_at} ተዘምኗል።",
+        "order_review_and_pay": "ትዕዛዝህ ተዘምኗል። ትዕዛዝዎን ለማረጋገጥ ይገምግሙ እና ይክፈሉ።",
+        "pay_now": "አሁን ይክፈሉ።"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "ክሬዲት ካርድዎ %{መጠን} እንዲከፍል ይደረጋል",
+        "payment_total_label": "ጠቅላላ ክፍያ",
+        "change_currency_link": "ወደ %{currency_name} ቀይር",
+        "card_provider_fx_charges_warning": "የካርድ አቅራቢዎ በ%{currency_code} ግብይቶች ላይ ክፍያዎችን ሊያስከፍል ይችላል።",
+        "currency_not_supported_by_shop": "የመረጥከው ገንዘብ ከአሁን በኋላ አይገኝም። ሁሉም ዋጋዎች አሁን በ%{currency_code} ናቸው።"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "በእርስዎ የመላኪያ አገር ላይ በመመስረት ጋሪዎ ተዘምኗል።",
+        "cart_and_currency_updated_based_on_country": "በእርስዎ የመላኪያ አገር ላይ በመመስረት የእርስዎ ጋሪ እና ምንዛሬ ተዘምኗል።"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "አገርዎ/ክልልዎ ተዘምኗል። መውጣቱን ለመቀጠል የመላኪያ አድራሻዎን ያስገቡ።"
+      },
+      "tips": {
+        "title": "ጠቃሚ ምክር ጨምር",
+        "description": "በ%{shop_name} ላይ ለቡድኑ ድጋፍዎን ያሳዩ",
+        "presets_description": "ጠቃሚ ምክር መቶኛ ይምረጡ",
+        "custom_label": "ብጁ ጠቃሚ ምክር",
+        "add_tip": "ጠቃሚ ምክር ጨምር",
+        "update_tip": "ጠቃሚ ምክር አዘምን",
+        "message": "እናመሰግናለን እናመሰግናለን።",
+        "no_tip_label": "ምንም"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "%{product_name}ን ይግዙ",
+          "one": "%{product_name} እና %{count} ሌላ ንጥል ይግዙ",
+          "other": "%{product_name} እና %{count} ሌሎች ንጥሎችን ይግዙ"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "ቀን",
+            "other": "%{count} ቀናት"
+          },
+          "week": {
+            "one": "ሳምንት",
+            "other": "%{count} ሳምንታት"
+          },
+          "month": {
+            "one": "ወር",
+            "other": "%{count} ወራት"
+          },
+          "year": {
+            "one": "አመት",
+            "other": "%{count} ዓመታት"
+          }
+        },
+        "recurring_totals": "%{total_price} በየ%{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "የመጀመሪያ ክፍያ %{total_price_with_discount}፣ ከዚያ %{ተደጋጋሚ_ቶታል}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "የመጀመሪያ ክፍያ %{total_price}"
+          }
+        }
+      }
+    },
+    "notices": {
+      "cart": {
+        "all_items_in_cart": "ሁሉም %{count} %{name} በእርስዎ ጋሪ ውስጥ ናቸው።",
+        "empty_update": "ባዶ ጋሪ ማዘመን አይችልም።",
+        "missing_parameters": "ምንም የሚሰራ መታወቂያ ወይም የመስመር መለኪያ የለም።",
+        "generic_error": "የካርት ስህተት",
+        "invalid_input": "%{parameter} ግቤት ልክ ያልሆነ ነው።",
+        "product_not_available": "ምርቱ አይገኝም",
+        "too_many_line_items_error": "ጋሪህ ከ%{max} በላይ ንጥሎችን ሊይዝ አይችልም።",
+        "link_expired": "ማገናኛ ጊዜው አልፎበታል።",
+        "link_no_longer_exists": "ማገናኛ ከአሁን በኋላ የለም።",
+        "stock_problems_html": "አንድ ወይም ከዚያ በላይ ንጥሎች ከአሁን በኋላ አይገኙም። <a href=\"%{link}\">የዘመነ ጋሪ</a> አቅርበናል።",
+        "changed": "ጋሪ ተለውጧል",
+        "items_changed": "አንድ ወይም ከዚያ በላይ ንጥሎች ተለውጠዋል።",
+        "product_sold_out": "ምርቱ '%{name}' አስቀድሞ ተሽጧል።",
+        "variant_not_found": "ተለዋጭ ማግኘት አልተቻለም",
+        "variant_requires_selling_plan": "ተለዋዋጭ መግዛት የሚቻለው በሽያጭ እቅድ ብቻ ነው።",
+        "selling_plan_not_available_for_company_locations": "ለB2B ትዕዛዞች የአንድ ጊዜ ግዢ ብቻ ይገኛል።",
+        "digital_product_not_available_for_company_locations": "ይህ ንጥል ነገር ወደ B2B ትዕዛዝ ሊታከል አይችልም።",
+        "buyer_cannot_purchase_for_company_locations": "ለዚህ አካባቢ መግዛት አይችሉም",
+        "selling_plan_not_applicable": "የሽያጭ እቅድን ለተለዋዋጭነት መተግበር አይቻልም",
+        "shipping_address_not_required": "ይህ ጋሪ መላኪያ አያስፈልገውም",
+        "shipping_address_invalid": "የማጓጓዣ ዋጋዎን በማስላት ላይ ችግር ነበር። ትዕዛዝዎን ከማጠናቀቅዎ በፊት የማጓጓዣ ዋጋን ለመምረጥ ቼኩን ይቀጥሉ።",
+        "bundle_requires_components": "የጥቅል ምርት «%{name}» ወደ ጋሪው ሊታከል አይችልም።",
+        "gift_card_with_components_not_supported": "የጥቅል ምርት «%{name}» ወደ ጋሪው ሊታከል አይችልም።",
+        "gift_card_price_must_be_greater_than_zero": "የጥቅል ምርት «%{name}» ወደ ጋሪው ሊታከል አይችልም።",
+        "gift_card_recipient_validation_error": "የተገለጸው የስጦታ ካርድ ተቀባይ ልክ ያልሆነ ነው።",
+        "view_lines_limit_reached": "መስመሮች ከ%{limit} ያነሱ መሆን አለባቸው",
+        "cart_too_large": "ጋሪው በጣም ትልቅ ነው።",
+        "cart_attributes_error": "የካርት ባህሪያት ልክ ያልሆነ ውሂብ ይይዛሉ።",
+        "merchandise_line_transformers": {
+          "run_error": "በጋሪህ ላይ ስህተት ተከስቷል።"
+        },
+        "merchandise_not_applicable": "ንጥሉ እንደ ተዋቀረ ሊገዛ አይችልም።"
+      },
+      "storefront": {
+        "invalid_password": "የይለፍ ቃል ትክክል አይደለም፣ እባክዎ እንደገና ይሞክሩ።"
+      },
+      "tags": {
+        "add_articles": "%{tag} መለያ ያለው ወደ መጣጥፎች ጠባብ ፍለጋ",
+        "add_products": "%{tag} መለያ ወደሚዛመዱ ምርቶች ምርጫ ጠባብ",
+        "remove_articles": "%{tag} ላልተሰጣቸው ጽሑፎች ፍለጋን አስፋ።",
+        "remove_products": "መለያ %{tag} አስወግድ"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "ለደብዳቤ ዝርዝራችን ደንበኝነት ስለተመዘገቡ እናመሰግናለን።",
+        "disclaimer": "በማንኛውም ጊዜ ከደንበኝነት ምዝገባ መውጣት ይችላሉ።",
+        "unsubscribe": "ከደንበኝነት ምዝገባ ይውጡ"
+      },
+      "unsubscribed": {
+        "confirmation": "ከደብዳቤ ዝርዝራችን ደንበኝነት ምዝገባ ወጥተዋል።",
+        "disclaimer": "ከእኛ ምንም ተጨማሪ የግብይት ዝማኔዎችን አይቀበሉም። በማንኛውም ጊዜ እንደገና መመዝገብ ይችላሉ።",
+        "preview": "ደንበኞች ከደንበኝነት ምዝገባ ሲወጡ ምን እንደሚመለከቱ አስቀድመው እየተመለከቱ ነው።"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>ክፍት ክትትልን በኢሜይል ለመላክ መርጠሃል።</b>",
+          "visibility": "የኢሜል ክፍት ተመኖች ስም-አልባ ሪፖርት ይደረጋሉ። እንደ አንድ የተዋሃደ የኢሜይል ክፍት ዋጋ አካል ኢሜል ከከፈቱ ብቻ ነው የምናየው።",
+          "opt_out_html": "ይህንን መረጃ ማጋራት ካልፈለጉ ከኢሜል ክፍት ክትትል <a style=\"text-decoration:underline;\" href=\"%{link}\">መርጠው መውጣት</a> ይችላሉ።",
+          "preview_bar": "ክፍት ክትትልን በኢሜይል ለመላክ መርጠው ሲገቡ ደንበኞች የሚያዩትን አስቀድመው እየተመለከቱ ነው።"
+        },
+        "opt_out": {
+          "opted_out_html": "<b>ከኢሜይል ክፍት ክትትል መርጠሃል።</b>",
+          "visibility": "ኢሜይሎቻችንን ከፈቱ አናይም።",
+          "opt_in_html": "ክፍት መከታተያ ኢሜይል ለማድረግ <a style=\"text-decoration:underline;\" href=\"%{link}\">መርጠው ይግቡ</a> ።",
+          "preview_bar": "ከኢሜይል ክፍት ክትትል መርጠው ሲወጡ ደንበኞች የሚያዩትን አስቀድመው እየተመለከቱ ነው።"
+        },
+        "no_longer_track": {
+          "status_html": "<b>ከአሁን በኋላ የትኛውንም ኢሜል መክፈት አንፈልግም።</b>",
+          "privacy_policy": "ይህ ኢሜይል ከተላከ በኋላ የግላዊነት ፖሊሲያችንን አዘምነናል እና ከአሁን በኋላ መከፈቶችን መከታተል አንችልም።"
+        },
+        "track": {
+          "status_html": "<b>የኢሜል ክፍት ክትትል ሪፖርት ተደርጓል።</b>",
+          "visibility": "ኢሜይሉን እንደከፈቱት ብቻ ነው የምናየው፣ እንደ አጠቃላይ የኢሜይል ክፍት ዋጋ አካል ነው።"
+        },
+        "updated_policy": {
+          "status_html": "<b>የኢሜል ክፍት ክትትል ሪፖርት ተደርጓል።</b>",
+          "visibility": "መመሪያችንን አዘምነናል፣ እና አሁን ኢሜይሎች ይከፈታሉ። የኢሜል ክፍት ተመኖች ስም-አልባ ሪፖርት ይደረጋሉ። እንደ አጠቃላይ የኢሜል ክፍት ዋጋ አካል ኢሜል ከከፈቱ ብቻ ነው የምናየው።",
+          "opt_out_html": "ይህንን መረጃ ማጋራት ካልፈለጉ <a style=\"text-decoration:underline;\" href=\"%{link}\">ከደንበኝነት ምዝገባ መውጣት ይችላሉ።</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "ለሽያጭ የቀረበ እቃ",
+          "out_of_stock": "ክምችት አልቋል"
+        }
+      },
+      "boolean": {
+        "true_label": "አዎ",
+        "false_label": "አይ"
+      }
+    },
+    "search": {
+      "error": "የፍለጋ ውጤቶችዎን መጫን ላይ ችግር ነበር። እባክዎ ገጹን ያድሱ ወይም ቆይተው እንደገና ይሞክሩ።",
+      "sorting": {
+        "relevance": "አግባብነት",
+        "price_ascending": "ዋጋ ከዝቅተኛ እስከ ከፍተኛ",
+        "price_descending": "ዋጋ ከከፍተኛ እስከ ዝቅተኛ"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "ስህተት - %{title}",
+      "products": "ምርቶች",
+      "shopping_cart": "የእርስዎ የግዢ ጋሪ",
+      "account": "መለያ",
+      "create_account": "መለያ ፍጠር",
+      "reset_account": "መለያ ዳግም አስጀምር",
+      "addresses": "አድራሻዎች",
+      "order": "እዘዝ %{name}",
+      "search": "ፈልግ",
+      "search_results": {
+        "one": "ፍለጋ፡ %{count} ውጤት ለ\"%{terms}\" ተገኝቷል",
+        "other": "ፍለጋ፡ %{count} ውጤቶች ለ\"%{terms}\" ተገኝተዋል"
+      },
+      "collections": "ስብስቦች",
+      "not_found": "404 አልተገኘም።",
+      "challenge": "ፈተና",
+      "checkpoint": "የፍተሻ ነጥብ"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} ቅናሾች ተተግብረዋል።"
+    },
+    "challenge": {
+      "message": "ለመቀጠል፣ እርስዎ ሮቦት እንዳልሆኑ ያሳውቁን።",
+      "error": "መልስህ ትክክል አልነበረም፣ እባክህ እንደገና ሞክር።",
+      "submit_button_text": "አስገባ"
+    },
+    "checkpoint": {
+      "message": "ለመቀጠል Captcha ን ይፍቱ",
+      "error": "Captcha ማረጋገጥ አልተሳካም።",
+      "submit_button_text": "አስገባ"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "ብዙውን ጊዜ በ 1 ሰዓት ውስጥ ዝግጁ ነው",
+        "two_hours": "ብዙውን ጊዜ በ 2 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "four_hours": "ብዙውን ጊዜ በ 4 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "twenty_four_hours": "ብዙውን ጊዜ በ 24 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "two_to_four_days": "ብዙውን ጊዜ በ2-4 ቀናት ውስጥ ዝግጁ ነው",
+        "five_or_more_days": "ብዙውን ጊዜ በ5+ ቀናት ውስጥ ዝግጁ ነው።",
+        "zero_to_two_hours": "ብዙውን ጊዜ በ 2 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "two_to_four_hours": "ብዙውን ጊዜ በ 4 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "immediately": "አሁን ለመውሰድ ዝግጁ",
+        "next_day": "በሚቀጥለው ቀን ለመውሰድ ዝግጁ"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "ይህ ንጥል ተደጋጋሚ ወይም የዘገየ ግዢ ነው። በመቀጠል፣ በ%{cancellationPolicyLink} ተስማምቼ የመክፈያ ዘዴዬን በዚህ ገጽ ላይ በተዘረዘሩት ዋጋዎች፣ ድግግሞሾች እና ቀናቶች እንድትከፍሉ ፍቃድ እሰጥሃለሁ ትዕዛዜ እስኪፈጸም ወይም ከፈቀድኩ እሰርዝሃለሁ።",
+      "buyer_consent_cart": "በጋሪዎ ውስጥ ካሉት አንድ ወይም ተጨማሪ እቃዎች ተደጋጋሚ ወይም የዘገየ ግዢ ነው። በመቀጠል፣ በ%{cancellationPolicyLink} ተስማምቼ የመክፈያ ዘዴዬን በዚህ ገጽ ላይ በተዘረዘሩት ዋጋዎች፣ ድግግሞሾች እና ቀናቶች እንድትከፍሉ ፍቃድ እሰጥሃለሁ ትዕዛዜ እስኪፈጸም ወይም ከፈቀድኩ እሰርዝሃለሁ።",
+      "cancellation_policy": "የስረዛ ፖሊሲ"
+    }
+  },
+  "customer_accounts": {
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "one": "{{count}} ደቂቃ በፊት"
+        }
+      }
+    },
+    "payment_methods": {
+      "back_button": "ተመለስ",
+      "back_button_accessibility_label": "ወደ {{paymentMethodStepTitle}} ተመለስ",
+      "default": "ነባሪ",
+      "generic_card": "ካርድ",
+      "expiration_warning_button_accessibility_label": "በ {{lastDigits}} {{paymentMethodName}} } የማለፊያ ማስጠንቀቂያ አሳይ",
+      "expires_soon": "ይህ ካርድ በቅርቡ ጊዜው ያበቃል",
+      "expired": "ይህ ካርድ ጊዜው አልፎበታል።",
+      "card_update_consent": "ይህ የመክፈያ ዘዴ ለወደፊት ግዢዎች ይቀመጣል።",
+      "card_update_consent_subscriptions": "ይህ የመክፈያ ዘዴ ለወደፊት ግዢዎች የሚቀመጥ ሲሆን ለማንኛውም ተደጋጋሚ ወይም ለሌላ ጊዜ ግዢ ሊውል ይችላል።",
+      "digital_wallet_title": "ዲጂታል ቦርሳ",
+      "credit_or_debit_card_title": "ክሬዲት ወይም ዴቢት ካርድ",
+      "google_pay": {
+        "iframe_title_accessibility_label": "የGoogle Pay መክፈያ ዘዴን ያክሉ",
+        "loading_accessibility_message": "ጎግል ክፍያን በመጫን ላይ",
+        "loading": "ጎግል ክፍያን በመጫን ላይ",
+        "errors": {
+          "generic": "በGoogle Pay ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+          "missing_billing_address": "Google Pay የክፍያ መጠየቂያ አድራሻ ያስፈልገዋል። እባክዎ አንዱን ወደ መለያዎ ያክሉ።"
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "የፔይፓል መክፈያ ዘዴን ያክሉ",
+        "loading_accessibility_message": "PayPal በመጫን ላይ"
+      },
+      "apple_pay": {
+        "loading": "አፕል ክፍያን በመጫን ላይ",
+        "errors": {
+          "generic": "በአፕል ክፍያ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+          "not_available": "አፕል ክፍያ በዚህ መሳሪያ ላይ አይገኝም።",
+          "missing_billing_address": "አፕል ክፍያ የክፍያ መጠየቂያ አድራሻ ይፈልጋል። እባክዎ አንዱን ወደ መለያዎ ያክሉ።"
+        }
+      },
+      "store_credit": {
+        "label": "የማከማቻ ክሬዲት",
+        "accesibility_label": "የማከማቻ ክሬዲት - {{formattedBalance}}",
+        "expirable_amounts_button": "ጊዜያቸው የሚያልፍባቸው መጠኖችን ይመልከቱ",
+        "expirable_amounts_label": "ጊዜ ያለፈባቸው መጠኖች",
+        "details_modal": {
+          "title": "ጊዜው ያለፈበት የመደብር ክሬዲት",
+          "balance_label": "ሚዛን",
+          "expiration_date_label": "የሚያበቃበት ቀን",
+          "amount_label": "መጠን",
+          "date_label": "ቀን",
+          "event_label": "ክስተት",
+          "events": {
+            "adjustment": "ማስተካከል",
+            "order_payment": "ክፍያ ማዘዝ",
+            "order_refund": "ተመላሽ ገንዘብ ያዝዙ",
+            "payment_failure": "የክፍያ አለመሳካት።",
+            "payment_returned": "ክፍያ ተመልሷል",
+            "order_cancellation": "የትእዛዝ ስረዛ",
+            "tax_finalization": "የግብር ማጠናቀቅ"
+          },
+          "expirable_balance_info": "አንዳንድ ቀሪ ሒሳቦችዎ ወደፊት ቀን ጊዜው ያልፍባቸዋል",
+          "expirable_amount_label": "ጠቅላላ ጊዜው የሚያልፍበት መጠን",
+          "expirable_amounts_info": "ጊዜው የሚያበቃው መጠን መጀመሪያ ሲወጣ ነው የሚተገበረው።",
+          "expirable_amounts_button": "ይመልከቱ",
+          "expired_amounts_button": "ጊዜያቸው ያለፈባቸውን መጠኖች ይመልከቱ",
+          "pagination": {
+            "load_more_label": "ተጨማሪ ጫን",
+            "load_more_accessibility_label": "ተጨማሪ ጊዜ ያለፈባቸው መጠኖችን ጫን"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "የመክፈያ ዘዴ ዝርዝሮች",
+        "credit_card_details_accessibility_label": "የሚያበቃው በ {{lastDigits}}",
+        "billing_title": "የመክፈያ አድራሻ",
+        "card_info_title": "የካርድ መረጃ",
+        "payment_method_expiring_on": "ጊዜው የሚያበቃው በ {{expiryDate}}",
+        "payment_method_expired_on": "ጊዜው ያለፈበት በ {{expiryDate}}",
+        "preauthorized_payments": "አስቀድሞ የተፈቀዱ ክፍያዎች",
+        "close_payment_modal": "ገጠመ",
+        "close_payment_modal_accessibility_label": "የመክፈያ ዘዴ ዝርዝሮች ሞዳልን ዝጋ",
+        "payment_method_not_found_error": "የመክፈያ ዘዴ ማግኘት አልተቻለም",
+        "payment_details_loading": "የመክፈያ ዘዴ ዝርዝሮችን በመጫን ላይ",
+        "pre_authorized_payments": "አስቀድሞ የተፈቀዱ ክፍያዎች",
+        "total_amount_of_subscription_line_items_left": "እና {{total}} ተጨማሪ",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} ንጥሎች በድምሩ፣ {{totalItemsToDisplay}} ንጥሎችን በማሳየት ላይ።",
+        "next_payment_due": "የሚቀጥለው ክፍያ {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "አርትዕ",
+        "edit_payment_method_button_accessibility_label": "በ {{lastDigits}} የሚያበቃ የመክፈያ ዘዴ ያርትዑ",
+        "loading_shop_pay": "የሱቅ ክፍያን በመጫን ላይ",
+        "invalid_payment_method": "ልክ ያልሆነ የመክፈያ ዘዴ",
+        "invalid_payment_method_message": "መጪ ትዕዛዞችን መቀበልዎን ለመቀጠል አዲስ ክሬዲት ካርድ ይጠቀሙ።",
+        "replace_payment_method": "የመክፈያ ዘዴን ይተኩ",
+        "checkout_card_banner": "ይህ የመክፈያ ዘዴ አስቀድሞ ለተፈቀዱ ክፍያዎች ብቻ ጥቅም ላይ ሊውል ይችላል። ወደዚህ መደብር ከገቡ ተመዝግቦ መውጫ ላይ አይታይም። ",
+        "default_checkbox": "እንደ ነባሪ አዘጋጅ",
+        "default_checkbox_accessibility_label": "ይህን የመክፈያ ዘዴ እንደ ነባሪ ያቀናብሩት።",
+        "replace_payment_method_button": "ተካ"
+      },
+      "edit_payment_method": {
+        "title": "የመክፈያ ዘዴን ያርትዑ",
+        "save_payment_method_button": "አስቀምጥ",
+        "cancel_edit_payment_method_button": "ሰርዝ",
+        "payment_method_updated_toast": "የመክፈያ ዘዴ ተዘምኗል",
+        "billing_address": "የመክፈያ አድራሻ",
+        "billing_address_add_new": "አዲስ ያክሉ",
+        "billing_address_choose_from_list": "ከዝርዝር ውስጥ ይምረጡ",
+        "future_purchases_notice": "ይህ የመክፈያ ዘዴ ለወደፊት ግዢዎች ይቀመጣል።",
+        "generic_error": "ማዘመን ላይ ችግር ነበር። እባክዎ እንደገና ይሞክሩ።"
+      },
+      "card_fields": {
+        "card_number_label": "የካርድ ቁጥር",
+        "card_number_placeholder": "የካርድ ቁጥር",
+        "name_on_card_label": "በካርድ ላይ ስም",
+        "name_on_card_placeholder": "በካርድ ላይ ስም",
+        "card_expiry_label": "የሚያበቃበት ቀን (ወወ/ዓ.ዓ)",
+        "card_expiry_placeholder": "የሚያበቃበት ቀን (ወወ/ዓ.ም)",
+        "card_verification_value_label": "የደህንነት ኮድ",
+        "card_verification_value_placeholder": "የደህንነት ኮድ",
+        "card_start_label": "የወጣበት ቀን (ወወ/ዓ.ም)",
+        "card_start_placeholder": "የወጣበት ቀን (ወወ/ዓ.ም)",
+        "tooltip": {
+          "tooltip_accessibility_label": "ተጨማሪ መረጃ",
+          "card_verification_value_explanation_amex": "በካርድዎ ፊት ላይ ባለ 4-አሃዝ የደህንነት ኮድ",
+          "card_verification_value_explanation_other": "በካርድዎ ጀርባ ላይ ባለ 3-አሃዝ የደህንነት ኮድ",
+          "card_verification_value_explanation": "ባለ 3-አሃዝ የደህንነት ኮድ ብዙውን ጊዜ በካርድዎ ጀርባ ላይ ይገኛል። የአሜሪካ ኤክስፕረስ ካርዶች ከፊት ለፊት የሚገኝ ባለ 4-አሃዝ ኮድ አላቸው።",
+          "card_security_notice": "ሁሉም ግብይቶች ደህንነታቸው የተጠበቀ እና የተመሰጠሩ ናቸው።"
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "በካርድዎ ላይ እንደተጻፈው ስምዎን በትክክል ያስገቡ",
+          "credit_card_number_invalid": "የሚሰራ የካርድ ቁጥር አስገባ",
+          "credit_card_expiry_invalid": "የሚሰራ ካርድ የሚያበቃበት ቀን አስገባ",
+          "credit_card_verification_value_blank": "በካርድዎ ላይ የሲቪቪ ወይም የደህንነት ኮድ ያስገቡ"
+        },
+        "unavailable": {
+          "text": "የብድር እና የዴቢት ካርድ ክፍያዎች አሁን አይገኙም።"
+        }
       }
     }
   }
