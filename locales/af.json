@@ -380,7 +380,24 @@
         "draft_order_payment_due_later_terms": "Jy sal onder {{translatedName}} se terme wees sodra jou bestelling bevestig is.",
         "draft_order_payment_due_on_fulfillment": "Jou betaling sal betaalbaar wees sodra jou bestelling bevestig en afgehandel is.",
         "draft_order_deposit_due_later": "{{depositAmount}} sal betaalbaar wees wanneer u bestelling bevestig is. Die saldo sal op {{translatedName}} terme wees.",
-        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sal betaalbaar wees wanneer jou bestelling bevestig is. Die balans sal betaalbaar wees sodra jou bestelling afgehandel is."
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sal betaalbaar wees wanneer jou bestelling bevestig is. Die balans sal betaalbaar wees sodra jou bestelling afgehandel is.",
+        "credit_card_label": "Kredietkaart",
+        "bank_deposit_label": "Bankdeposito",
+        "cash_on_delivery_label": "Kontant by aflewering (COD)",
+        "money_order_label": "Geldorder",
+        "debit_card_label": "Debietkaart",
+        "deferred_payment_label": "Kies later betaalmetode",
+        "fixed_payment_label": "Jou betaling sal betaalbaar wees op {{dueDate}} .",
+        "generic_payment_terms": "Jy is op {{translatedName}} se terme. Jou betaling sal betaalbaar wees op {{dueDate}} .",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} aan 'n rekening met toegang tot hierdie ligging om gestoorde betaalmetodes by te voeg of te gebruik.",
+            "link": "Teken aan"
+          }
+        },
+        "direct_payment_terms": "Jy is op {{translatedName}} se terme. Jou kaart sal op {{dueDate}} gehef word.",
+        "fixed_direct_payment_terms": "Jou kaart sal op {{dueDate}} gedebiteer word.",
+        "order_due_on_fulfillment_choose_later": "Jou betaling sal betaalbaar wees sodra jou bestelling voltooi is."
       },
       "thank_you": {
         "title": "Dankie vir jou aankoop!",
@@ -913,6 +930,121 @@
         },
         "payment_method_not_available_with_payment_terms": "Die betaalmetode wat jy gekies het, is nie meer beskikbaar nie, want betaling vir hierdie bestelling is nou onder {{paymentTerms}} voorwaardes.",
         "payment_method_not_available_with_fulfillment_terms": "Die betaalmetode wat jy gekies het, is nie meer beskikbaar nie, want betaling vir hierdie bestelling is nou betaalbaar met afhandeling"
+      },
+      "payment_errors": {
+        "selected_payment_method": "Daar was 'n probleem met jou gekose betaalmetode en jy is nie gehef nie. Probeer weer of gebruik 'n ander betaalmetode.",
+        "payment_method_billing_address": "Daar was 'n probleem met jou gekose betaalmetode se faktuuradres en jy is nie gehef nie. Kontroleer die adres en probeer weer of gebruik 'n ander betaalmetode.",
+        "call_issuer": "Jou kaart is geweier. Gebruik 'n ander betaalmetode of kontak jou bank vir meer inligting.",
+        "test_mode_live_card": "Hierdie winkel kan nie regte bestellings of regte betalings aanvaar nie.",
+        "test_mode_enabled_only_test_cards": "Toetsmodus is geaktiveer, slegs toetskredietkaarte kan bygevoeg word.",
+        "transient_error": "Daar was 'n probleem met die verwerking van jou betaling. Probeer om hierdie bladsy te verfris of jou internetverbinding na te gaan.",
+        "missing_shipping_address": "Jou betaling kon nie verwerk word nie, want jou afleweringsadres ontbreek. Voeg 'n afleweringsadres by en probeer weer.",
+        "invalid_shipping_address": "Jou betaling kon nie verwerk word nie, want ons kon nie jou afleweringsadres vind nie. Kontroleer jou afleweringsadres en probeer weer.",
+        "successful_offsite_with_gift_card_error": "Daar was 'n probleem met die verwerking van jou geskenkbewysbetaling. Probeer weer of gebruik 'n ander betaalmetode.",
+        "development_store_order_limit_reached": "Jy het die limiet vir ontwikkelingswinkelbestellings met hierdie betalingsverwerker bereik. Om nog 'n bestelling te plaas, moet jy 'n toetsbetalingspoort gebruik. Leer meer oor %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Om 'n toetsbestelling te plaas, moet jy 'n toetsbetalingspoort gebruik. Leer meer oor %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "toetsbestellings in ontwikkelingswinkels",
+        "payment_above_threshold": "Die betalingsbedrag is bo die monetêre limiet vir hierdie streek. Verminder die totaal en probeer weer.",
+        "risky": "Daar was 'n probleem met die verwerking van jou betaling. Probeer weer of gebruik 'n ander betaalmetode.",
+        "expired_buyer_action": "Die betaalmetode het verstryk. Probeer asseblief weer.",
+        "name_mismatch": "Kontroleer asseblief u kaartbesonderhede. Die naam op u kaart en faktuuradres stem nie ooreen nie.",
+        "shop_pay_wallet_not_available": "Shop Pay is nie vir hierdie betaalpunt beskikbaar nie.",
+        "market_manager_blocks_wallet_payments": "Betaalmetode word nie in jou land ondersteun nie.",
+        "paypal_over_capture": "Jou bestellingstotaal is opgedateer. Betaal met {{walletName}} om jou bestelling te voltooi."
+      },
+      "shipping_errors": {
+        "shipping_method": "Die versendingsopsies het vir jou bestelling verander. Hersien asseblief jou keuse.",
+        "shipping_method_not_available": "Jou mandjie is opgedateer en die items wat jy bygevoeg het, kan nie na jou adres gestuur word nie. Verwyder die items om jou bestelling te voltooi.",
+        "shipping_method_not_available_generic": {
+          "one": "Jou bestelling kan nie na die gekose adres gestuur word nie. Gaan jou adres na om te verseker dat dit korrek is en probeer weer, of kies 'n ander adres.",
+          "other": "Sommige items in jou mandjie kan nie na die adres wat jy ingevoer het, gestuur word nie. Gaan jou adres na om seker te maak dit is korrek en probeer weer, of kies 'n ander adres."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Items in die mandjie voldoen nie aan die prys- of gewigvereistes om vir versending te kwalifiseer nie. Dateer jou mandjie op en probeer weer.",
+        "shipping_method_not_available_updated": {
+          "one": "Die item wat jy bygevoeg het, word nie na jou ligging gestuur nie. Verwyder dit om te betaal, of kontak die winkel.",
+          "other": "Een of meer items wat jy bygevoeg het, word nie na jou ligging gestuur nie. Verwyder hulle om te betaal, of kontak die winkel."
+        },
+        "payment_method_not_supported": "Jy kan nie hierdie betaalmetode vir %{country} gebruik nie. Gebruik asseblief 'n ander betaalmetode om na hierdie land te stuur.",
+        "empty_state": "Voer jou afleweringsadres in om beskikbare afleweringsmetodes te sien.",
+        "title": "Versending nie beskikbaar nie",
+        "invalid_selected_address": "Gekose afleweringsadres is nie geldig nie",
+        "invalid_selected_address_with_update_link": "Gekose afleweringsadres is nie geldig nie. %{update_address_link} of kies 'n ander adres.",
+        "unavailable_addresses_only_countries": "Jou bestelling kan slegs na {{countriesList}} gestuur word. Voeg 'n nuwe adres by om voort te gaan.",
+        "unavailable_selected_address": "Versending nie beskikbaar vir gekose adres nie",
+        "unavailable_selected_address_for_region": "Versending is nie beskikbaar vir {{region}} nie. Kies 'n ander adres om voort te gaan."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ekspres-uitbetaling",
+        "or": "OF",
+        "or_pay_another_way": "Of betaal op 'n ander manier",
+        "or_check_out_another_way": "Of kyk op 'n ander manier",
+        "or_pay_with_credit_card": "Of betaal met kredietkaart",
+        "show_more_options": "Wys meer opsies",
+        "hide_more_options": "Versteek meer opsies"
+      },
+      "post_purchase": {
+        "page_title": "Na-aankoop",
+        "title": "Na-aankoop",
+        "escape_confirmation": "Jy het vir jou bestelling betaal.",
+        "escape_action": "Bekyk bestellingsbevestiging ›",
+        "components": {
+          "close": "Maak toe",
+          "expand": "Bekyk meer",
+          "processing": "Verwerk…",
+          "submit": "Dien in"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Herlei tans…",
+        "redirecting_title": "Herlei tans…",
+        "redirecting_notice": "Wag terwyl ons jou herlei.",
+        "redirecting_to_bank": "Herlei na {{bank}}",
+        "complete_your_purchase_title": "Voltooi jou aankoop",
+        "continue_to_payment_gateway_notice": "Gaan voort na betaling om jou betalingsinligting by te voeg.",
+        "continue_to_payment_gateway_button_label": "Gaan voort na betaling",
+        "complete_your_purchase_title_error": "Korrigeer jou betalingsinligting",
+        "continue_to_payment_gateway_notice_error": "Jou betalingsinligting kon nie geverifieer word nie.",
+        "continue_to_payment_gateway_button_label_error": "Dateer betalingsinligting op",
+        "page_title": "Verwerk bestelling",
+        "title": "Verwerk bestelling",
+        "your_order_has_been_received_title": "Dankie vir jou bestelling",
+        "you_will_receive_confirmation": "Ons kry tans baie bestellings. Jy behoort binnekort bevestiging per e-pos of SMS te ontvang. Indien jy dit nie binne die volgende uur ontvang nie, laat weet ons.",
+        "you_will_not_be_charged": "Jy sal nog nie gehef word nie",
+        "wait": {
+          "short": "Jou bestelling word verwerk.",
+          "medium": {
+            "one": "Jou bestelling word verwerk. Die beraamde wagtyd is %{count} minuut.",
+            "other": "Jou bestelling word verwerk. Die beraamde wagtyd is %{count} minute."
+          },
+          "long": "Jy sal 'n e-pos ontvang sodra jou bestelling verwerk is. Daar is tans 'n hoë volume bestellings.",
+          "no_auto_refresh_html": "Indien jy nie outomaties herlei word nie, %{link}.",
+          "refresh_this_page": "verfris hierdie bladsy"
+        },
+        "remote_shops_payments_processing": "Verwerking van betalings",
+        "action_required": "Aksie vereis",
+        "modal_notice": "Ons kontak {{paymentMethod}}",
+        "remote_checkout_count": "%{huidige} van %{totaal}"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Voltooi jou aankoop met jou {{paymentMethod}} kode",
+        "timer_message": "Jy het {{timeLeft}} om te betaal",
+        "copy_text": "Kopieer {{paymentMethod}} -kode",
+        "open_app_text": "Maak {{paymentMethod}} app oop",
+        "header": "Betaal met {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Voltooi jou aankoop met jou {{paymentMethod}} kode"
+        },
+        "external": {
+          "instructions": "Bevestig betaling op jou toepassing om hierdie aankoop te voltooi"
+        },
+        "close": "Maak die uitdaging toe"
+      },
+      "failed_payment": {
+        "page_title": "Betaling kon nie verwerk word nie",
+        "title": "Betaling kon nie verwerk word nie",
+        "payment_not_processed_title": "Jou betaling kon nie verwerk word nie",
+        "payment_not_processed_text": "Jy is nie gehef nie. Keer terug na jou mandjie om jou aankoop te voltooi.",
+        "return_to_cart_button_label": "Keer terug na mandjie"
       }
     }
   },
@@ -1288,7 +1420,129 @@
         "pickup_point": "Afhaalpunt"
       },
       "show_items": "Wys items",
-      "show_order_summary": "Wys bestellingsopsomming"
+      "show_order_summary": "Wys bestellingsopsomming",
+      "hide_order_summary": "Versteek bestellingsopsomming",
+      "subtitle": "Bevestig {{date}}",
+      "subtotal": "Subtotaal",
+      "summary_list_title_accessibility_label": "Bestel items",
+      "summary_title": "Bestellingsopsomming",
+      "summary_totals_title_accessibility_label": "Bestellingtotale",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Laai Winkel af om pakket op te spoor",
+        "track_order_with_shop": "Volg bestelling met Winkel",
+        "title_header": "Skandeer met jou foon",
+        "real_time_delivery_updates": "Die winkel sal vir jou intydse afleweringsopdaterings stuur sodra jou bestelling versend is."
+      },
+      "edit_summary": {
+        "added": "Bygevoeg",
+        "added_with_quantity": "Het {{quantity}} bygevoeg",
+        "removed": "Verwyder",
+        "removed_with_quantity": "Verwyder {{quantity}}",
+        "updated_at": "Jou bestelling is op {{date}} opgedateer",
+        "returned": "Terugbesorg",
+        "returned_with_quantities": "Het {{delta}} van {{total}} terugbesorg",
+        "removed_with_quantities": "Verwyder {{delta}} van {{total}}",
+        "return_line_item_removed": "Verwyder van terugkeer",
+        "return_line_item_removed_with_quantities": "Verwyder {{delta}} van terugkeer"
+      },
+      "shop_pay": {
+        "order_completed_with": "Bestelling voltooi met",
+        "learn_more": "Leer meer"
+      },
+      "taxes": "Belasting",
+      "taxes_included": "Insluitend {{amount}} in belasting",
+      "duties_and_taxes_included": "Totaal sluit heffings en belasting in. Geen ekstra koste met aflewering nie.",
+      "duties": "Pligte",
+      "ok_duties_tooltip": "Hierdie bestelling word vanaf 'n ander land gestuur, daarom is heffings by jou bestellingstotaal gevoeg.",
+      "error_duties_tooltip": "Hierdie bestelling word vanaf 'n ander land gestuur, daarom kan belasting en heffings met aflewering gehef word.",
+      "zero_duties_tooltip": "Hierdie bestelling word vanaf 'n ander land gestuur. Belasting word nie gehef op bestellings van hierdie waarde nie.",
+      "tip": "Fooitjie",
+      "title": "Bestelling {{name}}",
+      "total": "Totaal",
+      "unit_price": "{{price}} /elk",
+      "pagination": {
+        "load_more": "Laai meer",
+        "load_more_accessibility_label": "Laai meer items",
+        "loading_accessibility_label": "Laai items"
+      },
+      "login_to_view_all_order_details": "Meld aan om alle bestellingsbesonderhede te sien.",
+      "log_in": "Teken aan",
+      "logged_in_account_no_permission_to_order": "Jy is aangemeld as {{email}} . Hierdie rekening het nie toestemming om hierdie bestelling te bestuur nie.",
+      "log_in_to_a_different_account": "Meld aan by 'n ander rekening",
+      "fees": {
+        "restocking_fee": "Hervoorraadfooi",
+        "return_shipping_fee": "Terugstuur"
+      },
+      "vat_invoices": {
+        "title": "BTW-fakture"
+      },
+      "link_sent": "Skakel gestuur",
+      "cash_rounding": "Kontant afronding",
+      "adjusted_payment": "Aangepaste betaling",
+      "adjusted_total": "Aangepaste totaal",
+      "due_on_date": "Vervaldatum {{date}}",
+      "due_on_fulfillment": "Verskuldig op vervulling",
+      "due_on_receipt": "Verskuldig met ontvangs"
+    },
+    "addresses": {
+      "add_button": "Voeg adres by",
+      "add_button_text": "Voeg by",
+      "add_button_accessibility_label": "Voeg adres by",
+      "back_button": "Terug",
+      "back_button_accessibility_label": "Terug na wysigingsadres {{address}}",
+      "add_address_banner": "Voeg adresse by om by die betaalpunt te gebruik",
+      "no_addresses_banner": "Geen adresse bygevoeg nie",
+      "address_deleted_notification": "Adres uitgevee",
+      "cancel_adding_address_accessibility_label": "Kanselleer die byvoeging van adres",
+      "cancel_deletion_button": "Kanselleer",
+      "cancel_deletion_button_accessibility_label": "Kanselleer die verwydering van {{address}}",
+      "default_address": {
+        "title": "Standaardadres",
+        "title_accessibility_label": "Standaardadres: {{address}}"
+      },
+      "delete_button": "Vee uit",
+      "delete_button_accessibility_label": "Vee {{address}} uit",
+      "delete_confirmation_button": "Vee adres uit",
+      "delete_confirmation_button_accessibility_label": "Vee {{address}} uit",
+      "delete_confirmation_message": "Vee adres uit? Bestaande bestellings word nie beïnvloed nie.",
+      "delete_confirmation_title": "Vee adres uit?",
+      "delete_confirmation_description": "Bestaande bestellings word nie beïnvloed nie.",
+      "edit_button": "Wysig",
+      "edit_button_accessibility_label": "Wysig {{address}}",
+      "edit_section_accessibility_label": "Wysig {{address}}",
+      "edit_modal_title": {
+        "default": "Wysig adres",
+        "billing": "Wysig faktuuradres",
+        "shipping": "Wysig afleweringsadres"
+      },
+      "loading_accessibility_message": "Laai adres",
+      "loading_addresses_accessibility_message": "Laai adresse",
+      "loading_billing_accessibility_message": "Laai faktuuradres",
+      "loading_finished_accessibility_message": "Nuwe bladsy met adresse is gelaai",
+      "loading_shipping_accessibility_message": "Laai afleweringsadres",
+      "pagination": {
+        "load_more": "Laai meer",
+        "load_more_accessibility_label": "Laai meer adresse"
+      },
+      "save_new_address_accessibility_label": "Stoor adres",
+      "title": "Adresse",
+      "billing_address_dropdown_placeholder": "Faktuuradres"
+    },
+    "address_form": {
+      "attention": "Aandag",
+      "attention_company": "Maatskappy/aandag",
+      "attention_help_text": "Die naam van 'n persoon of departement",
+      "auto_complete_close_accessibility_label": "Maak voorstelle toe",
+      "auto_complete_title": "Voorstelle",
+      "billing_address": "Gebruik as faktuuradres",
+      "cancel": "Kanselleer",
+      "cancel_accessibility_label": "Kanselleer wysiging van adres {{address}}",
+      "creation_success_notification": "Adres bygevoeg",
+      "default_address": "Dit is my standaardadres",
+      "default_address_creation_success_notification": "Standaardadres bygevoeg",
+      "default_address_update_success_notification": "Standaardadres opgedateer",
+      "loading_add_form_accessibility_message": "Laai nuwe adresvorm",
+      "loading_edit_form_accessibility_message": "Laai adreswysigingsvorm"
     }
   },
   "products": {
