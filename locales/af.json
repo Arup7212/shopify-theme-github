@@ -1,0 +1,255 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " en ",
+      "last_word_connector": ", en "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "Is jy seker jy wil die adres {{address}} verwyder?"
+      },
+      "general": {
+        "page_title": "Afreken",
+        "error_page_title": "Fout",
+        "skip_to_content": "Slaan oor na inhoud",
+        "breadcrumb": "Broodkrummel",
+        "continue_button_label": "Gaan voort",
+        "complete_purchase_button_label": "Voltooi bestelling",
+        "pay_now_button_label": "Betaal nou",
+        "authenticate_purchase_button_label": "Verifieer betaling",
+        "edit_link_label": "Wysig",
+        "all_rights_reserved": "Alle regte voorbehou %{shop_name}",
+        "print_policies_link_label": "Druk",
+        "cart": "Mandjie",
+        "close_modal_label": "Maak toe",
+        "close_notice_label": "Maak toe",
+        "expand_notice_label": "Bekyk meer",
+        "continue_to_shipping_method": "Gaan voort met versending",
+        "continue_to_payment_method": "Gaan voort na betaling",
+        "continue_to_review": "Hersien bestelling",
+        "back_to_cart": "Keer terug na mandjie",
+        "back_to_contact_information": "Keer terug na inligting",
+        "back_to_shipping_method": "Keer terug na versending",
+        "back_to_payment_method": "Terug na betaling",
+        "choose_shipping_method": "Kies 'n versendingsmetode",
+        "choose_payment_method": "Kies 'n betaalmetode",
+        "choose_billing_address": "Kies 'n faktuuradres",
+        "contact_us_html": "Kontak ons ​​vir meer inligting",
+        "autocomplete_title": "Voorstelle",
+        "autocomplete_single_item": "1 item beskikbaar",
+        "autocomplete_multi_item": "{{number}} items beskikbaar",
+        "autocomplete_close": "Maak voorstelle toe",
+        "forwarding_indicator": {
+          "new_window": "Maak oop in 'n nuwe venster.",
+          "external": "Maak eksterne webwerf oop.",
+          "external_and_new_window": "Maak eksterne webwerf in 'n nuwe venster oop."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Afreken"
+        },
+        "tooltip_accessibility_label": "Meer inligting",
+        "qr_code": "QR-kode",
+        "errors": {
+          "only_empty_terms_accepted": "Hierdie beleid aanvaar slegs leë terme.",
+          "session_identifier_not_unique_error": "Iets het verkeerd geloop met jou bestelling, probeer asseblief weer om te betaal.",
+          "line_item_limit_reached": "Die maksimum aantal lynitems is bereik.",
+          "session_is_already_finished": "Hierdie afhandelingsessie is reeds gefinaliseer.",
+          "merchandise": {
+            "only_value_constraint": "Slegs presiese waardes word in die handelsware-invoer toegelaat.",
+            "merchandise_not_found": "Produk nie gevind nie.",
+            "merchandise_variant_not_found": "Produkvariant nie gevind nie.",
+            "merchandise_not_applicable": "Produkvariant kan nie gekoop word nie.",
+            "mixed_currencies": "Die afhandeling bevat lynitems met verskillende geldeenhede.",
+            "bundle_products_not_supported_for_b2b": "Gebondelde items kan nie by B2B-bestellings vir hierdie ligging gevoeg word nie.",
+            "gift_card_quantity_mismatch": "Wanneer geskenkbewyskodes gespesifiseer word, moet die hoeveelheid van die lynitem en die aantal geskenkbewyskodes ooreenstem.",
+            "gift_card_not_supported": "Geskenkkaarte word nie met hierdie afhandeling ondersteun nie.",
+            "gift_card_not_unique": "Geskenkbewys met kode {{code}} kom meer as een keer in hierdie afhandeling voor. Kodes word geformateer voor vergelyking.",
+            "gift_card_used": "Geskenkbewyskode {{code}} is reeds aan 'n geskenkbewys toegeken. Kodes word geformateer voor vergelyking.",
+            "gift_card_invalid": "Geskenkbewyskode {{code}} is ongeldig.",
+            "gift_card_code_changed": "Geskenkbewyskode {{proposed_code}} is verander na {{formatted_code}} om aan formateringsreëls te voldoen.",
+            "gift_card_with_attributes_not_supported": "Geskenkkaarte met persoonlike eienskappe word nie met hierdie afhandeling ondersteun nie.",
+            "gift_card_with_components_not_supported": "Geskenkkaarte met komponente word nie op hierdie betaalpunt ondersteun nie.",
+            "selling_plan_mismatch": "Die intekening is opgedateer.",
+            "selling_plan_not_supported": "Subskripsies word nie ondersteun nie.",
+            "selling_plan_not_supported_b2b": "Subskripsies word nie ondersteun vir B2B-afhandeling nie.",
+            "price_mismatch": "Die voorheen voorgestelde prys vir hierdie handelsware was ongeldig en is opgedateer.",
+            "inventory_not_found": "Geen voorraad vir hierdie handelsware gevind nie.",
+            "product_not_published": "Produk is nie gepubliseer nie.",
+            "product_not_published_in_buyer_location": "Produk is nie in koperligging gepubliseer nie.",
+            "duplicated_stable_id": "Hierdie handelsware-lyn het dieselfde stal-ID as 'n ander lyn.",
+            "minimum_quantity_not_met": "Die hoeveelheid van sommige items voldoen nie aan die minimumvereiste nie.",
+            "maximum_quantity_exceeded": "Die hoeveelheid van sommige items oorskry die maksimum wat toegelaat word.",
+            "quantity_increment_not_met": "Die hoeveelheid van sommige items voldoen nie aan die bestellimiete nie.",
+            "quantity_rules_not_met": "Die hoeveelheid van sommige items voldoen nie aan die bestellimiete nie.",
+            "bundle_requires_components": "Hierdie bundelprodukte het geen komponente nie.",
+            "title_too_long": "Die titel van die handelsware is te lank.",
+            "title_empty": "Handelswaretitel is leeg."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Maatskappykontak het nie toegang tot die maatskappy nie.",
+            "customer_account_required": "Jy moet aanmeld om voort te gaan.",
+            "company_location_required": "Klient moet 'n maatskappyligging kies om voort te gaan.",
+            "company_purchase_permission_required": "Die kliënt het nie toestemming om maatskappybestellings te plaas nie.",
+            "personal_order_not_allowed": "Persoonlike bestellings word nie vir hierdie winkel toegelaat nie.",
+            "lost_access_to_company": "Klient het toegang tot enige maatskappy verloor.",
+            "contact_info_does_not_match_customer_account": "Kontakbesonderhede moet ooreenstem met die rekening waarby jy aangemeld is.",
+            "phone_number_does_not_match_expected_pattern": "Die gespesifiseerde telefoonnommer stem nie ooreen met die verwagte patroon nie.",
+            "email_required": "'n E-posadres word vereis wanneer die goedere met 'n intekening gekoop word.",
+            "email_domain_is_invalid": "Hierdie gespesifiseerde domein kan nie opgelos word nie.",
+            "missing_contact_method": "'n Geldige kontakmetode ontbreek.",
+            "checkout_completion_target_is_missing": "Teiken vir voltooiing van die afhandeling ontbreek.",
+            "invalid_customer_profile": "'n Ongeldige kliëntprofiel is verskaf.",
+            "customer_profile_access_restricted": "Afhandeling het nie toestemming om toegang tot die kliëntprofiel te verkry nie.",
+            "checkout_completion_target_is_invalid_proc": "Ongeldige afhandelingsteiken vir voltooiing.",
+            "buyer_identity_presentment_currency_does_not_match": "Daar was 'n probleem met die verwerking van jou bestelling. Probeer weer oor 'n paar minute."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Mandjie moet slegs een afleweringslyn hê.",
+            "wrong_number_of_delivery_lines": "'n Afleweringslyn moet vir elke groep goedere gespesifiseer word.",
+            "external_delivery_promise_error": "'n Eksterne afleweringsbelofte-haalfout.",
+            "options_instructions_invalid": "Die gespesifiseerde instruksies stem nie ooreen met die verwagte patroon nie.",
+            "destination_address_required": "'n Bestemmingsadres is nodig om voort te gaan.",
+            "pickup_points_unavailable": "Afhaalpunte is tans nie beskikbaar nie.",
+            "local_pickup_delivery_line_detail_changed": "Die huidige plaaslike afhaal-afleweringstrategie moet verander word om voort te gaan.",
+            "selected_pickup_option_no_longer_available": "Die voorheen gekose afhaalopsie is nie meer beskikbaar nie.",
+            "local_pickup_no_delivery_strategy_available": "Geen beskikbare plaaslike afhaal-afleweringstrategie gevind nie.",
+            "origin_location_id_required": "'n Oorsprongligging-ID word vereis wanneer die KLEINHANDEL-afleweringsmetode versoek word.",
+            "invalid_origin_location_id": "Kon nie 'n ligging vind wat ooreenstem met die oorsprongligging-ID nie."
+          },
+          "captcha": {
+            "token_invalid": "Die verskafde captcha-token was ongeldig. Voltooi 'n nuwe captcha om met die afhandeling voort te gaan.",
+            "token_not_valid_for_session": "Die verskafde captcha kan nie met hierdie afhandeling gebruik word nie."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Die bedrag wat ontvang word, moet in die winkel se geldeenheid wees."
+          },
+          "checkout_source": {
+            "revoked": "Hierdie afhandeling is nie meer beskikbaar nie."
+          }
+        },
+        "full_price": "Volle prys:",
+        "title": "Afhandeling - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Afhandeling",
+        "loading": "Laai tans…",
+        "loading_title": "Afhandeling - {{shopName}}",
+        "confirm_order_button_label": "Bevestig bestelling",
+        "submit_order_button_label": "Dien bestelling in",
+        "submit_for_review_button_label": "Dien in vir hersiening",
+        "submit_for_review_notice_label": "Betaling sal nie verskuldig wees totdat jou bestelling hersien is nie",
+        "continue_to_payment_plans_button_label": "Gaan voort na betalingsplanne",
+        "back_button_label": "Terugkeer",
+        "choose_delivery_strategy": "Kies 'n afleweringsmetode",
+        "autocomplete_zero_item": "Geen items beskikbaar nie",
+        "autocomplete_powered_by_google": "Aangedryf deur {{brandName}}",
+        "submit": "Dien in",
+        "processing": "Verwerk…",
+        "stepper": {
+          "increase": "Verhoog {{type}}",
+          "decrease": "Verminder {{type}}",
+          "minimum_reached": "Minimum van {{value}} bereik",
+          "maximum_reached": "Maksimum van {{value}} bereik"
+        },
+        "remove_chip": "Verwyder item",
+        "remove_item": "Verwyder %{etiket}",
+        "remove_tag": "Verwyder etiket",
+        "dates": {
+          "weekdays": {
+            "monday": "Maandag",
+            "tuesday": "Dinsdag",
+            "wednesday": "Woensdag",
+            "thursday": "Donderdag",
+            "friday": "Vrydag",
+            "saturday": "Saterdag",
+            "sunday": "Sondag"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Ma",
+            "tuesday": "Di",
+            "wednesday": "Ons",
+            "thursday": "Do",
+            "friday": "Vr",
+            "sunday": "So"
+          },
+          "months": {
+            "january": "Januarie",
+            "february": "Februarie",
+            "march": "Maart",
+            "may": "Mei",
+            "june": "Junie",
+            "july": "Julie",
+            "august": "Augustus",
+            "october": "Oktober",
+            "december": "Desember"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Wys vorige maand, {{month}} {{year}}",
+          "show_next_month": "Wys volgende maand, {{month}} {{year}}",
+          "range_start": "Reikwydte begin",
+          "in_range": "Binne bereik",
+          "range_end": "Reikwydte einde"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Groep van {{number}} merker",
+            "other": "Groep van {{number}} merkers"
+          }
+        },
+        "sheet": {
+          "expand": "Brei uit"
+        },
+        "dropzone": {
+          "add_file": "Voeg lêer by",
+          "invalid_file_type": "Lêertipe word nie ondersteun nie",
+          "dragged_over": "Laat lêer los om op te laai"
+        }
+      },
+      "contact": {
+        "title": "Inligting",
+        "address_title": "Adres",
+        "shipping_used_as_billing_notice": "Dit sal ook as jou faktuuradres vir hierdie bestelling gebruik word.",
+        "delivery_option_title": "Afleweringsmetode",
+        "contact_method_title": "Kontak",
+        "email_label": "E-pos",
+        "email_rollup_accessibility_label": "E-posopsies",
+        "email_placeholder": "E-pos",
+        "email_or_phone_label": "E-pos of selfoonnommer",
+        "email_or_phone_placeholder": "E-pos of selfoonnommer",
+        "stored_addresses_label": "Gestoorde adresse",
+        "available_addresses_label": "Beskikbare adresse",
+        "new_address_label": "Gebruik 'n nuwe adres",
+        "first_name_label": "Voornaam",
+        "optional_first_name_label": "Voornaam (opsioneel)",
+        "last_name_label": "Vannaam",
+        "company_label": "Maatskappy",
+        "company_attention_label": "Maatskappy/Aandag",
+        "optional_company_attention_label": "Maatskappy/Aandag (opsioneel)",
+        "optional_company_label": "Maatskappy (opsioneel)",
+        "address1_label": "Adres",
+        "address2_label": "Woonstel, suite, ens.",
+        "optional_address2_label": "Woonstel, suite, ens. (opsioneel)",
+        "city_label": "Stad",
+        "country_label": "Land/Streek",
+        "country_code": "Land-/Streekkode",
+        "province_label": "Provinsie",
+        "province_placeholder": "Provinsie",
+        "county_label": "Graafskap",
+        "county_placeholder": "Graafskap",
+        "state_label": "Staat",
+        "state_placeholder": "Staat",
+        "region_label": "Streek",
+        "region_placeholder": "Streek",
+        "region_none": "Geen gekies nie"
+      }
+    }
+  }
+}
