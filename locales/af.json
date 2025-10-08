@@ -2424,6 +2424,138 @@
       "manage_accessiblity_label": "Bestuur bestelling {{orderId}}",
       "group_title_label": "Deel van: {{groupTitle}}",
       "group_title_label_with_parent": "Vir: {{groupTitle}}"
+    },
+    "address_form": {
+      "loading_form_accessibility_message": "Laai adresvorm",
+      "loading_finished_accessibility_message": "Adresvorm is gelaai",
+      "save": "Stoor",
+      "save_accessibility_label": "Stoor adres {{address}}",
+      "section_title_accessibility_label": "Voeg adres by",
+      "update_success_notification": "Adres opgedateer"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Maatskappynaam",
+        "company_card_section_accessibility_label": "Maatskappy"
+      },
+      "locations": {
+        "contact_email": "E-pos",
+        "contact_list_title": "Mense",
+        "contact_name": "Naam",
+        "contact_permissions": "Toestemmings",
+        "contact_phone_number": "Telefoonnommer",
+        "location_picker_label": "Liggingnaam",
+        "location_picker_accessibility_label": "Liggingnaam: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : betalings verskuldig binne {{numberOfDays}} dae",
+        "deposit_percentage": "{{percentage}} deposito",
+        "own_role_contact_name": "Jy",
+        "pagination": {
+          "load_more": "Laai meer",
+          "load_more_accessibility_label": "Laai meer liggings"
+        },
+        "payment_details_title": "Betalingsbesonderhede",
+        "payment_terms": "Betalingsvoorwaardes",
+        "permissions_label": "Jou toestemmings",
+        "permissions_title": "Toestemmings",
+        "section_title": "Ligging",
+        "shipping_address_required": "Voeg 'n afleweringsadres by hierdie ligging om bestellings te begin plaas.",
+        "staff_and_permissions_title": "Personeel en toestemmings",
+        "tax_details_title": "Belastingbesonderhede",
+        "tax_id": "Belasting-ID",
+        "tax_exemptions": "Belastingvrystellings",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} meer",
+        "multiple_tax_exemptions_and": "en",
+        "tax_exemptions_modal_close": "Maak toe",
+        "taxes_none": "Geen",
+        "tax_exemptions_modal_button_accessibility_label": "Bekyk alle belastingvrystellings"
+      },
+      "location_selection": {
+        "continue_to_store": "Gaan voort om te stoor",
+        "description": "As jy reeds items in jou mandjie het, kan die verandering van liggings mandjiepryse en hoeveelhede beïnvloed.",
+        "description_switch_later": "Jy kan altyd later oorskakel",
+        "list_accessibility_label": "Liggingslys",
+        "list_item_without_address_accessibility_label": "{{name}} : Geen adres nie",
+        "list_loading_accessibility_message": "Laai lys van liggings",
+        "list_loading_address_accessibility_message": "Laai adres vir {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lys van liggings is gelaai",
+        "loading_store_accessibility_message": "Gaan winkel toe",
+        "no_location_title": "Slegs persoonlike bestellings",
+        "no_location_description": "Jy het nie meer toestemming om bestellings vir {{company}} te plaas nie. Jy kan steeds persoonlike bestellings plaas.",
+        "no_locations_found": "Geen liggings gevind nie",
+        "search": "Soek liggings",
+        "search_location_title": "Kies 'n ligging",
+        "selection_cancel_button": "Kanselleer",
+        "selection_confirmation_button": "Kies ligging",
+        "selection_continue_button": "Gaan voort",
+        "title": "Vir watter ligging koop jy?",
+        "title_choose_location": "Kies 'n ligging",
+        "clear_search": "Vee soektog uit",
+        "try_new_search": "Probeer 'n nuwe soektog"
+      },
+      "addresses": {
+        "add_billing_address_button": "Voeg faktuuradres by",
+        "add_billing_address_section_accessibility_label": "Voeg faktuuradres by",
+        "add_shipping_address_button": "Voeg afleweringsadres by",
+        "add_shipping_address_section_accessibility_label": "Voeg afleweringsadres by",
+        "billing_address_card_title": "Faktuuradres",
+        "cancel_adding_billing_address_accessibility_label": "Kanselleer die byvoeging van faktuuradres",
+        "cancel_adding_shipping_address_accessibility_label": "Kanselleer die byvoeging van afleweringsadres",
+        "save_new_billing_address_accessibility_label": "Stoor faktuuradres",
+        "save_new_shipping_address_accessibility_label": "Stoor afleweringsadres",
+        "shipping_address_card_title": "Versendingsadres"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Versteek alles",
+          "show_all": "Wys alles",
+          "hide_all_accessibility_label": "Versteek alle bestellings wat hersien word",
+          "show_all_accessibility_label": "Wys alle bestellings wat hersien word",
+          "show_all_orders_in_review": "Wys alle bestellings wat hersien word",
+          "show_less_orders_in_review": "Wys minder bestellings in hersiening",
+          "title": "Hangende",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Jy het geen hangende bestellings nie",
+            "pending_orders": {
+              "one": "Jy het {{count}} hangende bestelling",
+              "other": "Jy het {{count}} hangende bestellings"
+            },
+            "more_than_pagination_length": "Jy het meer as {{count}} hangende bestellings"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "Bestellings in hersiening navigasieknoppies"
+          }
+        },
+        "order_list_column_headers_location": "Ligging",
+        "order_list_column_headers_contact": "Kontak",
+        "removed_company_contact_tooltip": "Verwyder van maatskappy"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bevestig {{date}} van bestelling {{draftOrderName}}",
+        "loading": "Laai bestellingsbesonderhede",
+        "loading_finished_accessibility_message": "Bestellingsbesonderhede is gelaai",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Jou betaling is {{count}} dae agterstallig",
+              "other": "Jou betaling is {{count}} dae agterstallig"
+            },
+            "banner_due": {
+              "one": "Jou betaling is binne {{count}} dag verskuldig",
+              "other": "Jou betaling is binne {{count}} dae betaalbaar"
+            },
+            "banner_due_today": "Jou betaling is vandag verskuldig",
+            "title": "Betaling verskuldig",
+            "title_with_date": "Betaling verskuldig op {{date}}",
+            "title_due_on_receipt": "Betaling nog nie verskuldig nie",
+            "title_due_on_fulfillment": "Betaling verskuldig met vervulling",
+            "description_overdue": "Jou betaling is laat.",
+            "description_partially_paid": "Hierdie bestelling is gedeeltelik betaal. Jy het 'n oorblywende saldo.",
+            "description_authorized": "Jou betaalmetode sal op die vervaldatum gehef word, of jy kan nou betaal.",
+            "description_waiting_for_manual_payment": "Hierdie bestelling het 'n hangende betaling. Die saldo sal opgedateer word wanneer betaling ontvang word."
+          }
+        }
+      }
     }
   },
   "products": {
