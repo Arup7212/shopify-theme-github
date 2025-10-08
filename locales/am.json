@@ -253,7 +253,39 @@
         "state_placeholder": "ግዛት",
         "region_label": "ክልል",
         "region_placeholder": "ክልል",
-        "region_none": "ምንም አልተመረጠም።"
+        "region_none": "ምንም አልተመረጠም።",
+        "prefecture_label": "ክልል",
+        "prefecture_placeholder": "ክልል",
+        "governorate_label": "ጠቅላይ ግዛት",
+        "governorate_placeholder": "ጠቅላይ ግዛት",
+        "emirate_label": "ኢምሬት",
+        "emirate_placeholder": "ኢምሬት",
+        "state_and_territory_label": "ግዛት/ግዛት።",
+        "state_and_territory_placeholder": "ግዛት/ግዛት።",
+        "phone_label": "ስልክ",
+        "phone_rollup_accessibility_label": "የስልክ አማራጮች",
+        "optional_phone_label": "ስልክ (አማራጭ)",
+        "phone_placeholder": "ስልክ",
+        "phone_tooltip": "ስለ ትእዛዝዎ እርስዎን ማግኘት ከፈለጉ",
+        "zip_code_label": "አካባቢያዊ መለያ ቁጥር",
+        "optional_zip_code_label": "ዚፕ ኮድ (አማራጭ)",
+        "zip_code_placeholder": "አካባቢያዊ መለያ ቁጥር",
+        "postal_code_label": "የፖስታ መላኪያ ኮድ",
+        "optional_postal_code_label": "የፖስታ ኮድ (አማራጭ)",
+        "postal_code_placeholder": "የፖስታ መላኪያ ኮድ",
+        "postcode_label": "የፖስታ ኮድ",
+        "optional_postcode_label": "የፖስታ ኮድ (አማራጭ)",
+        "postcode_placeholder": "የፖስታ ኮድ",
+        "pincode_label": "ፒን ኮድ",
+        "optional_pincode_label": "ፒን ኮድ (አማራጭ)",
+        "pincode_placeholder": "ፒን ኮድ",
+        "civic_number_warning": "የቤት ቁጥር ካለህ ጨምር",
+        "optional_last_name_label": "የአያት ስም (አማራጭ)",
+        "different_shipping_address_label": "ወደ ሌላ አድራሻ ይላኩ።",
+        "different_shipping_address_text": "ለዚህ ትዕዛዝ የአንድ ጊዜ አድራሻ ይጠቀሙ",
+        "change_company_location_link_label": "የኩባንያውን ቦታ ይለውጡ",
+        "change_location_link_label": "አካባቢን ቀይር",
+        "ship_to_company": "ወደ {{companyName}} ይላኩ"
       },
       "order_summary": {
         "payment_terms_totals": {
@@ -665,6 +697,92 @@
           "first_cycles": {
             "one": "የመጀመሪያ ክፍያ %{total_price}"
           }
+        }
+      },
+      "delivery_options": {
+        "free_total_label": "ፍርይ",
+        "ship": "መርከብ",
+        "ship_to_address": "ወደ አድራሻው ይላኩ።",
+        "shipping_address": "የመላኪያ አድራሻ",
+        "pick_up": "ማንሳት",
+        "pick_up_from_store": "በመደብር ውስጥ መውሰድ",
+        "pick_up_locations": "የመውሰጃ ቦታዎች",
+        "pick_up_in_one_hour": "ብዙውን ጊዜ በ 1 ሰዓት ውስጥ ዝግጁ ነው",
+        "pick_up_in_two_hours": "ብዙውን ጊዜ በ 2 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "pick_up_in_four_hours": "ብዙውን ጊዜ በ 4 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "pick_up_in_twenty_four_hours": "ብዙውን ጊዜ በ 24 ሰዓታት ውስጥ ዝግጁ ነው።",
+        "pick_up_in_two_to_four_days": "ብዙውን ጊዜ በ2-4 ቀናት ውስጥ ዝግጁ ነው",
+        "pick_up_in_five_or_more_days": "ብዙውን ጊዜ በ5+ ቀናት ውስጥ ዝግጁ ነው።",
+        "pick_up_in_zero_to_two_hours": "በ 2 ሰዓታት ውስጥ ለመውሰድ ዝግጁ",
+        "pick_up_in_two_to_four_hours": "በ 4 ሰዓታት ውስጥ ለመውሰድ ዝግጁ",
+        "pick_up_immediately": "አሁን ለመውሰድ ዝግጁ",
+        "pick_up_next_day": "በሚቀጥለው ቀን ለመውሰድ ዝግጁ",
+        "pickup_point_method_definition": "ወደ መውሰጃ ቦታ ይላኩ።",
+        "retail_method_definition": "የችርቻሮ መላኪያ",
+        "company_location_no_address_banner": "አድራሻ ወደሌላቸው አካባቢዎች የሚላኩ ትዕዛዞች ለግምገማ ገቢ ይሆናሉ።",
+        "none_method_definition": "ምንም መላኪያ የለም።",
+        "subscription_pickup_information": "ይህ የመላኪያ ዘዴ በዚህ ቅደም ተከተል ለሁሉም እቃዎች እና ለዚህ ምዝገባ ወደፊት ለሚደረጉ ትዕዛዞች ሁሉ ተፈጻሚ ይሆናል።"
+      },
+      "customer_account": {
+        "not_user_label": "%{first_name} አይደለም?",
+        "have_an_account_label": "መለያ አለህ?",
+        "sign_in_link_label": "ይግቡ",
+        "sign_out_link_label": "ዘግተህ ውጣ",
+        "save_my_information_label": "ይህን መረጃ ለቀጣይ ጊዜ አስቀምጥ",
+        "invalid_address": "የተመረጠው አድራሻ ልክ ያልሆነ ነው። %{update_address_link} ወይም የተለየ አድራሻ ይምረጡ።",
+        "incomplete_address": "የተመረጠው አድራሻ ያልተሟላ ነው። %{update_address_link} ወይም የተለየ አድራሻ ይምረጡ።",
+        "rollup_label": "መለያ",
+        "rollup_accessibility_label": "የመለያ አማራጮች",
+        "invalid_shipping_method_summary": "ያሉትን የመላኪያ ዘዴዎች ለማየት የሚሰራ የመላኪያ አድራሻ ይምረጡ",
+        "saved_address_option_description": {
+          "one": "{{count}} የተቀመጠ አድራሻ አለህ።",
+          "other": "{{count}} የተቀመጡ አድራሻዎች አሉህ።"
+        },
+        "saved_address_option_link": "የተቀመጠ አድራሻ ተጠቀም",
+        "saved_address_modal_title": "የተቀመጠውን አድራሻዬን ተጠቀም"
+      },
+      "remote_merchandise_only": {
+        "title": "ግዢዎን ያጠናቅቁ",
+        "remote_only_notice": "እነዚህ እቃዎች በሌሎች መደብሮች ይሸጣሉ እና ይላካሉ. ግዢዎን ለማጠናቀቅ በእያንዳንዱ መደብር ይመልከቱ። መረጃዎ ለ%{shop_name} ይጋራል።",
+        "return_to_store_label": "ወደ መደብሩ ተመለስ",
+        "detail_item_label": {
+          "one": "{{count}} ንጥል ነገር",
+          "other": "{{count}} ንጥሎች"
+        },
+        "checkout_on_shop_label": "%{shop_name}ን ይመልከቱ",
+        "single_shop_transition": "ግዢዎን ለማጠናቀቅ ወደ %{advertiser} በማዞርዎ ላይ። የእርስዎ መረጃ ለ%{publisher} ተመልሶ ይጋራል።"
+      },
+      "stock": {
+        "page_title": "የእቃ ዝርዝር ጉዳዮች",
+        "title": "ክምችት አልቋል",
+        "items_unavailable_notice": "አንዳንድ ንጥሎች ከአሁን በኋላ አይገኙም።",
+        "product_column_header": "ምርቶች",
+        "quantity_column_header": "ብዛት",
+        "price_column_header": "ዋጋ",
+        "status_column_header": "ሁኔታ",
+        "removed_from_cart_notice": "ከጋሪው ተወግዷል",
+        "sold_out_label": "ተሽጧል",
+        "reduced_label": "ቀንሷል",
+        "reduced_with_quantity_label": "%{quantity_available} ብቻ ቀርቷል።",
+        "remove_from_cart_button_label": "ከጋሪው አስወግድ",
+        "continue_shopping_button_label": "ቀጥል",
+        "go_back_to_cart_button_label": "ወደ ጋሪዬ ተመለስ",
+        "remove": "አስወግድ",
+        "return_to_store_label": "ወደ መደብሩ ተመለስ",
+        "continue_cta_label": "ማጣራቱን ይቀጥሉ",
+        "item_label": {
+          "one": "{{count}} ንጥል ነገር",
+          "other": "{{count}} ንጥሎች"
+        },
+        "empty_cart_label": "ጋሪህ ባዶ ነው።",
+        "quantity_update": {
+          "page_title": "የብዛት ዝማኔ",
+          "title": "የብዛት ዝማኔ",
+          "description": "ለእነዚህ እቃዎች ያሉት መጠኖች ተለውጠዋል እና በጋሪዎ ውስጥ ተዘምነዋል።"
+        },
+        "unpurchasable_product": {
+          "title": "የማይገዛ ምርት",
+          "header": "አንዳንድ ንጥሎች ከእርስዎ ጋሪ ተወግደዋል።"
         }
       }
     },
