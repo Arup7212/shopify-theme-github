@@ -1326,7 +1326,111 @@
         "bank_account_missing": "Bankrekening moet gekoppel wees",
         "separate_payments_label": "Jou items is van meer as een winkel. Jy sal in %{separate_payments_link} gehef word.",
         "separate_payments_text": "aparte betalings",
-        "payments": "Betalings"
+        "payments": "Betalings",
+        "pay_with_payment_method": "Betaal met %{payment_method}",
+        "different_credit_card_label": "Gebruik 'n ander kredietkaart",
+        "same_billing_address_label": "Dieselfde as afleweringsadres",
+        "different_billing_address_label": "Gebruik 'n ander faktuuradres",
+        "billing_address_associated_with_mandate": "Gebruik adres wat met betaalmetode geassosieer word",
+        "billing_address_associated_with_mandate_info": "Indien u u faktuuradres wil verander, verwyder asseblief u kredietkaartbesonderhede en voer dit weer in.",
+        "free_order_notice_html": "Jou bestelling is <strong>gratis</strong> . Geen betaling is nodig nie.",
+        "express_checkout_free_order": "Jy sal nie vir 'n gratis bestelling gehef word nie",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Jou bestelling word deur jou geskenkbewys gedek.",
+          "other": "Jou bestelling word deur jou geskenkkaarte gedek."
+        },
+        "offsite_gateway_redirect_hint": "Nadat jy op “%{button_label}” geklik het, sal jy na %{gateway_label} herlei word om jou aankoop veilig te voltooi.",
+        "offsite_gateway_review_page_redirect_hint": "Nadat jy jou bestelling nagegaan het, sal jy na %{gateway_label} herlei word om jou aankoop veilig te voltooi.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} totaal %{total_shop_price}",
+        "offsite_gateway_redirect_hint_no_button_label": "Nadat u voortgegaan het, sal u na %{gateway_label} herlei word om u aankoop veilig te voltooi.",
+        "receiver_payment_experience_hint": "Nadat u u bestelling geplaas het, sal u betalingsbesonderhede ontvang. Maak die betaling by Multibanco of aanlyn binne %{due_days} dae.",
+        "billing_address_title": "Faktuuradres",
+        "billing_address_rollup_accessibility_label": "Faktuuradresopsies",
+        "billing_address_description": "Kies die adres wat ooreenstem met jou kaart of betaalmetode.",
+        "billing_address_description_no_shipping_address": "Voer die adres in wat ooreenstem met jou kaart of betaalmetode.",
+        "no_js_credit_card_fields_redirect_hint": "Jy sal herlei word om jou betalingsinligting by te voeg.",
+        "card_fields_container_prefix": "Veldhouer vir:",
+        "card_fields_unavailable_html": {
+          "one": "Krediet- en debietkaartbetalings is tans nie beskikbaar nie.<br> <a href=\"%{current_url}\">Verfris hierdie bladsy</a> of probeer later weer.",
+          "other": "Krediet- en debietkaartbetalings is tans nie beskikbaar nie.<br> <a href=\"%{current_url}\">Verfris hierdie bladsy</a> of probeer 'n ander betaalmetode."
+        },
+        "card_fields_processing_error": "Daar was 'n probleem met die verwerking van die betaling. Probeer om hierdie bladsy te verfris of jou internetverbinding na te gaan.",
+        "technical_error": "Betalings kan nie tans verwerk word nie weens 'n tegniese probleem. Probeer weer oor 'n paar minute.",
+        "no_method_error": "Hierdie winkel kan tans nie betalings aanvaar nie.",
+        "not_configured_error": "Hierdie winkel kan tans nie betalings aanvaar nie.",
+        "missing_credit_card_error": "Voer jou kaartbesonderhede in om die betaling te voltooi",
+        "shop_pay_ideal_unavailable_error": "iDEAL is nie beskikbaar vir hierdie bestelling nie. Kies 'n ander betaalmetode.",
+        "payment_method_not_available_for_shipping_address_error": "Betaalmetode nie beskikbaar vir gekose afleweringsadres nie. Kies 'n ander betaalmetode.",
+        "billing_address_not_supported_for_payment_method_error": "Hierdie betaalmetode is nie beskikbaar vir jou faktuuradres en geldeenheid nie. Probeer asseblief 'n ander betaalmetode.",
+        "generic_incorrect_card_info": "Jou betalingsbesonderhede kon nie geverifieer word nie. Gaan jou kaartbesonderhede na en probeer weer.",
+        "sofort_label": "Sofort-bankoorplasing",
+        "paypal_wallet_label": "PayPal-beursie",
+        "shop_pay_installments_label": "Winkel Betaal Paaiemente",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Subskripsie",
+          "order_contains_fixed_selling_plans": "Totaal mag nie belasting, versending, uitgestelde koste en sommige afslag insluit nie. Gaan voort met die afhandeling vir die bedrag wat vandag verskuldig is."
+        },
+        "klarna_pay_later_label": "Betaal later met Klarna",
+        "klarna_pay_now_label": "Betaal nou met Klarna",
+        "eps_label": "eps-oordrag",
+        "klarna_slice_it_label": "Finansiering met Klarna",
+        "afterpay_label": "Agterbetaling",
+        "cashapppay_label": "Kontant-app-betaal",
+        "mobilepay_label": "MobieleBetaal",
+        "kcp_creditcard_label": "KCP Kredietkaart",
+        "usdc_cashback_title": "1% kontantterugbetaling",
+        "usdc_cashback_additional_info": "Kry 1% terug in USDC direk in jou beursie.",
+        "usdc_cashback_terms": "Voorwaardes geld",
+        "purchase_options_card_update_agreement_label_html": "Deur jou betaalmetode op te dateer, magtig jy betalings vir enige herhalende of uitgestelde aankoop volgens hierdie winkel se <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">kansellasiebeleid</a> .",
+        "subscription_card_update_agreement_label": "As jy die betaalmetode verander, sal jou intekening en toekomstige herhalende betalings opgedateer word.",
+        "subscription_agreement_label": "Een of meer items in jou mandjie is 'n uitgestelde of intekeningaankoop. Deur voort te gaan met jou betaling, stem jy in dat jou betaalmetode outomaties gehef sal word teen die prys en frekwensie wat op hierdie bladsy gelys word totdat dit eindig of jy kanselleer. Alle kansellasies is onderhewig aan die %{cancelled}.",
+        "subscription_agreement_cancelled": "kansellasiebeleid",
+        "subscription_heading": "Subskripsieooreenkoms",
+        "subscription_agreement_label_html": "Ek verstaan ​​dat ek instem tot 'n intekening. Dit sal hernu word teen die prys en frekwensie wat gelys word totdat dit eindig of\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">gekanselleer</a> .\n",
+        "purchase_options_agreement_label": "Een of meer items in jou mandjie is 'n uitgestelde of herhalende aankoop. Deur voort te gaan met jou betaling, stem jy in dat jou betaalmetode outomaties gehef sal word teen die prys en frekwensie wat op hierdie bladsy gelys word totdat dit eindig of jy kanselleer. Alle kansellasies is onderhewig aan die %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Ek verstaan ​​dat een of meer items in my mandjie 'n uitgestelde of herhalende aankoop is. Deur voort te gaan, stem ek in tot die \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">kansellasiebeleid</a>\n en magtig jou om my betaalmetode te debiteer teen die pryse, frekwensie en datums wat op hierdie bladsy gelys word tot my\n bestelling is voltooi of ek kanselleer, indien toegelaat.\n",
+        "purchase_options_agreement_label_wallets": "Deur voort te gaan met u betaling, stem u in tot die toekomstige koste wat op hierdie bladsy gelys word en die kansellasiebeleid.",
+        "change_currency_section_description": "Kies 'n geldeenheidopsie",
+        "no_real_orders_dev_store": "Hierdie winkel kan nie regte bestellings of regte betalings aanvaar nie.",
+        "waiting_on_payment_methods": "Kry beskikbare betaalmetodes...",
+        "apple_pay_payment_error": "Jou betaling kon nie voltooi word nie. Probeer weer of gebruik 'n ander betaalmetode.",
+        "taxes_not_included": "Belasting nie ingesluit nie",
+        "no_taxes_banner_content": "Belasting sal nie op hierdie bestelling gehef word nie. Sodra jy betaling ontvang het, kan belasting nie meer bygevoeg word nie.",
+        "paypal": {
+          "connect": "Klik om jou PayPal-rekening te koppel"
+        },
+        "apple": {
+          "connect": "Klik om jou Apple Pay-rekening te koppel",
+          "not_available": "Apple Pay is nie in hierdie blaaier beskikbaar nie. Om jou Apple Pay-rekening te koppel, moet jy Safari op 'n Apple-toestel gebruik."
+        },
+        "google": {
+          "connect": "Klik om met jou Google Pay-rekening te koppel",
+          "error_authorizing": "Fout tydens magtiging van betaling"
+        },
+        "account_connected": "Rekening gekoppel.",
+        "mor_disclaimer_html": "Deur hieronder te klik en u bestelling te voltooi, stem u in om u item(s) van Global-e as geregistreerde handelaar te koop.\n vir hierdie transaksie, op Global-e se <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Terme en Voorwaardes</a>\n en <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privaatheidsbeleid</a> . Global-e is 'n internasionale\n vervullingsdiensverskaffer aan %{shop_name}\n",
+        "pending_payment": {
+          "due_notice": "Jou betaling van %{amount_due} is betaalbaar op %{due_date}.",
+          "multibanco": {
+            "buyer_action_info": "Jou betaling van %{amount_due} is verskuldig.",
+            "instruction_html": "Maak u betaling by Multibanco of aanlyn deur die onderstaande besonderhede te gebruik. Vir vrae of om betalingsbesonderhede op te dateer, %{contact_us}.",
+            "entity": "Entiteit",
+            "reference": "Verwysing",
+            "amount": "Bedrag",
+            "find_nearest_atm": "Vind die naaste OTM"
+          }
+        },
+        "update_payment_method": "Dateer betaalmetode op",
+        "order_covered_by_store_credit_notice": "Jou bestelling word deur jou winkelkrediet gedek.",
+        "order_covered_by_redeemables_notice": "Jou bestelling is gedek.",
+        "store_credit": {
+          "label": "Winkelkrediet",
+          "apply_label": "Dien winkelkrediet toe",
+          "add_label": "Voeg winkelkrediet by",
+          "manage_label": "Bestuur winkelkrediet",
+          "buying_gift_card": "Jy kan nie winkelkrediet gebruik om 'n geskenkbewys te koop nie",
+          "no_fixed_selling_plans": "Jy kan nie winkelkrediet met uitgestelde aankoopopsies gebruik nie."
+        }
       },
       "billing": {
         "billing_address_title": "Rekening aan",
