@@ -1103,7 +1103,15 @@
         "merchandise_line_transformers": {
           "run_error": "በጋሪህ ላይ ስህተት ተከስቷል።"
         },
-        "merchandise_not_applicable": "ንጥሉ እንደ ተዋቀረ ሊገዛ አይችልም።"
+        "merchandise_not_applicable": "ንጥሉ እንደ ተዋቀረ ሊገዛ አይችልም።",
+        "only_n_items_available": "ወደ ጋሪው %{count} %{name} ብቻ ማከል ይችላሉ።",
+        "too_many_items_in_cart": "ወደ ጋሪው ተጨማሪ %{name} ማከል አይችሉም።",
+        "only_one_added_to_cart": "በተገኝነት ምክንያት 1 ንጥል ብቻ ወደ ጋሪዎ ታክሏል።",
+        "only_n_added_to_cart": "በተገኝነት ምክንያት %{quantity} ንጥሎች ብቻ ወደ ጋሪህ ታክለዋል።",
+        "maximum_available_quantity_reached": "የዚህ ንጥል ከፍተኛው መጠን አስቀድሞ በጋሪዎ ውስጥ አለ።",
+        "less_than_minimum": "ይህ ንጥል ቢያንስ %{min} አለው።",
+        "more_than_maximum": "ይህ ንጥል ነገር ቢበዛ %{max} አለው።",
+        "not_respect_step": "ይህን ንጥል በ%{step} ጭማሪ ብቻ ነው ማከል የሚችሉት።"
       },
       "storefront": {
         "invalid_password": "የይለፍ ቃል ትክክል አይደለም፣ እባክዎ እንደገና ይሞክሩ።"
@@ -1113,6 +1121,68 @@
         "add_products": "%{tag} መለያ ወደሚዛመዱ ምርቶች ምርጫ ጠባብ",
         "remove_articles": "%{tag} ላልተሰጣቸው ጽሑፎች ፍለጋን አስፋ።",
         "remove_products": "መለያ %{tag} አስወግድ"
+      },
+      "customer": {
+        "password_reset_error": "የይለፍ ቃል ዳግም ማስጀመር ስህተት",
+        "subscribe_error": "የደንበኝነት ምዝገባ ስህተት",
+        "unsubscribe_error": "ከደንበኝነት ምዝገባ የመውጣት ስህተት",
+        "no_account_found": "በዚያ ኢሜይል ምንም መለያ አልተገኘም።",
+        "invalid_credentials": "የተሳሳተ ኢሜይል ወይም የይለፍ ቃል።",
+        "denylisted_reset_password": "የአሁኑ የይለፍ ቃል ደህንነቱ የተጠበቀ ስላልሆነ መለያዎ ሊደረስበት አልቻለም። የይለፍ ቃልዎን ለማዘመን ኢሜይል ይደርስዎታል።",
+        "signup_disabled": "የደንበኛ መለያ መፍጠር ተሰናክሏል።"
+      },
+      "address": {
+        "updated": "አድራሻ በተሳካ ሁኔታ ዘምኗል።",
+        "error_updating": "አድራሻን ማዘመን ላይ ስህተት",
+        "created": "አድራሻ በተሳካ ሁኔታ ተፈጥሯል።",
+        "error_creating": "አድራሻ መፍጠር ላይ ስህተት",
+        "deleted": "አድራሻ በተሳካ ሁኔታ ተሰርዟል።",
+        "error_deleting": "አድራሻን መሰረዝ ላይ ስህተት።"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} ታክሏል",
+          "increment_item": "%{delta} ታክሏል",
+          "decrement_item": "ከ%{total} %{delta} ተወግዷል",
+          "decrement_fulfilled_line_item": "ከ%{total} %{delta} ተመልሷል",
+          "decrement_return_line_item": "%{delta} ከመመለስ ተወግዷል"
+        }
+      },
+      "order": {
+        "not_available": "ይህ ትዕዛዝ አይገኝም",
+        "financial_status": {
+          "authorized": "የተፈቀደ",
+          "pending": "በመጠባበቅ ላይ",
+          "paid": "የተከፈለ",
+          "unpaid": "ያልተከፈለ",
+          "voided": "ባዶ ሆነ",
+          "partially_paid": "በከፊል ተከፍሏል።",
+          "partially_refunded": "በከፊል ተመላሽ ተደርጓል",
+          "refunded": "ተመላሽ ተደርጓል",
+          "expired": "ጊዜው አልፎበታል።"
+        },
+        "fulfillment_status": {
+          "fulfilled": "ተፈጸመ",
+          "complete": "ተጠናቀቀ",
+          "partial": "ከፊል",
+          "unfulfilled": "ያልተሟላ",
+          "restocked": "እንደገና ተከማችቷል።"
+        },
+        "transaction_status": {
+          "success": "ስኬት",
+          "pending": "በመጠባበቅ ላይ",
+          "failure": "ውድቀት",
+          "error": "ስህተት"
+        },
+        "cancel_reason": {
+          "declined": "ክፍያ ውድቅ ተደርጓል",
+          "inventory": "ንጥሎች አይገኙም።",
+          "fraud": "የማጭበርበር ትዕዛዝ",
+          "customer": "ደንበኛ ተለውጧል/ተሰርዟል።",
+          "staff": "የሰራተኞች ስህተት",
+          "other": "ሌላ"
+        },
+        "cash_on_delivery": "በማድረስ ላይ ያለ ገንዘብ (COD)"
       }
     },
     "email_marketing": {
@@ -1224,6 +1294,74 @@
       "buyer_consent_product": "ይህ ንጥል ተደጋጋሚ ወይም የዘገየ ግዢ ነው። በመቀጠል፣ በ%{cancellationPolicyLink} ተስማምቼ የመክፈያ ዘዴዬን በዚህ ገጽ ላይ በተዘረዘሩት ዋጋዎች፣ ድግግሞሾች እና ቀናቶች እንድትከፍሉ ፍቃድ እሰጥሃለሁ ትዕዛዜ እስኪፈጸም ወይም ከፈቀድኩ እሰርዝሃለሁ።",
       "buyer_consent_cart": "በጋሪዎ ውስጥ ካሉት አንድ ወይም ተጨማሪ እቃዎች ተደጋጋሚ ወይም የዘገየ ግዢ ነው። በመቀጠል፣ በ%{cancellationPolicyLink} ተስማምቼ የመክፈያ ዘዴዬን በዚህ ገጽ ላይ በተዘረዘሩት ዋጋዎች፣ ድግግሞሾች እና ቀናቶች እንድትከፍሉ ፍቃድ እሰጥሃለሁ ትዕዛዜ እስኪፈጸም ወይም ከፈቀድኩ እሰርዝሃለሁ።",
       "cancellation_policy": "የስረዛ ፖሊሲ"
+    },
+    "errors": {
+      "bad_domain": "ልክ ያልሆነ የጎራ ስም ይዟል",
+      "taken": "አስቀድሞ ተወስዷል",
+      "contains_html_tags": "HTML መለያዎችን ሊይዝ አይችልም።",
+      "too_short": "በጣም አጭር ነው (ቢያንስ %{count} ቁምፊዎች ነው)",
+      "too_long": "በጣም ረጅም ነው (ከፍተኛው %{count} ቁምፊዎች ነው)",
+      "password_mismatch": "ከተሰጠው የይለፍ ቃል ጋር መዛመድ አለበት።",
+      "contains_spaces": "በቦታዎች ይጀምራል ወይም ያበቃል.",
+      "invalid_for_country": "ለ%{ሀገር} አይሰራም",
+      "invalid_for_country_and_province": "ለ%{province} እና %{country} አይሰራም",
+      "invalid_province_in_country": "በ%{country} ውስጥ የሚሰራ ጠቅላይ ግዛት አይደለም",
+      "invalid_state_in_country": "በ%{country} ውስጥ የሚሰራ ግዛት አይደለም",
+      "invalid_region_in_country": "በ%{country} ውስጥ የሚሰራ ክልል አይደለም",
+      "less_than_or_equal_to": "ከ%{count} ያነሰ ወይም እኩል መሆን አለበት",
+      "not_supported": "አይደገፍም።",
+      "full_name_required": "የመጀመሪያ ስም እና የአያት ስም ያስገቡ",
+      "invalid_for_card_type": "ትክክል አይደለም",
+      "invalid_type": "ይቅርታ፣ የዚህ አይነት ካርዶችን አንቀበልም።",
+      "invalid_format": "ቅርጸት ልክ አይደለም",
+      "expired": "ጊዜው አልፎበታል።",
+      "invalid_start_date_or_issue_number_for_debit": "የሚሰራ የመጀመሪያ ቀን ወይም እትም ቁጥር ያስፈልጋል",
+      "invalid_expiry_year": "የሚያበቃበት ዓመት አይደለም",
+      "reset_password_html": "ይህ ኢሜይል አድራሻ አስቀድሞ ከመለያ ጋር የተያያዘ ነው። ይህ መለያ የአንተ ከሆነ <a href=\"/account/login#recover\">የይለፍ ቃልህን ዳግም ማስጀመር</a> ትችላለህ",
+      "verify_email": "ወደ %{customer_email} ኢሜይል ልከናል፣ እባክዎ የኢሜል አድራሻዎን ለማረጋገጥ የተካተተውን ማገናኛ ጠቅ ያድርጉ።",
+      "product_not_available": "ምርቱ ለዚህ ደንበኛ አልታተመም።",
+      "shop_404": {
+        "title": "የኢኮሜርስ ድር ጣቢያ ይፍጠሩ እና በመስመር ላይ ይሽጡ! የኢኮሜርስ ሶፍትዌር በ Shopify",
+        "heros": {
+          "store_unavailable": "ይቅርታ፣ ይህ መደብር በአሁኑ ጊዜ አይገኝም።",
+          "store_not_exist": "ይህ መደብር የለም።",
+          "no_storefront": "ይህ መደብር እስካሁን ድር ጣቢያ የለውም።"
+        },
+        "links": {
+          "explore_other_stores": "ሌሎች መደብሮችን ያስሱ",
+          "start_free_trial": "ነጻ ሙከራ ጀምር"
+        },
+        "owner_ctas": {
+          "header": "የሱቁ ባለቤት ነዎት?",
+          "fix_domain": "አዲሱን የድር አድራሻዎን ማዋቀር ይጨርሱ፣ ወደ %{domain_settings_link} ይሂዱ። «ጎራ አገናኝ» ን ጠቅ ያድርጉ እና ያስገቡ፡ %{domain}።<br> ወደ ሱቅዎ ለመግባት ከተቸገሩ፣ %{የረሱት_ስቶር_link} ገጹን ይሞክሩ።",
+          "fix_domain_link_text": "የእርስዎ ጎራ ቅንብሮች",
+          "forgot_your_store_link_text": "ሱቅህን ረሳህ",
+          "add_storefront": "በእርስዎ %{admin_link} ውስጥ የመስመር ላይ መደብር ቻናሉን በማከል ድር ጣቢያዎን ማዋቀር ይችላሉ። ወደ ሱቅዎ ለመግባት ከተቸገሩ፣ %{የረሱት_ስቶር_link} ገጹን ይሞክሩ።",
+          "admin_link_text": "አስተዳዳሪ"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "በአካል መሸጥ",
+            "caption": "እየጀመርክም ሆነ እየሰፋህ የችርቻሮ መደብርህን ለማስኬድ የሚያስፈልጉህን ባህሪያት አግኝ።",
+            "link_text": "ነጻ ሙከራን ጀምር"
+          },
+          "open_a_store": {
+            "header": "አዲስ የ Shopify መደብር ይክፈቱ",
+            "caption": "የ3-ቀን ነጻ ሙከራ ይጀምሩ፣ ከዚያ ለሚቀጥሉት 3 ወራት በወር በ$1 ይቀጥሉ።",
+            "link_text": "አሁን ይመዝገቡ"
+          },
+          "editions": {
+            "header": "የ Shopify እትሞችን ይመልከቱ",
+            "caption": "ከ100+ የምርት ዝመናዎች ጋር፣ ከምትገምተው በላይ የበለጠ ውጤታማ እና ፈጠራ፣ እና በንግድ ስራ ላይ ሀይለኛ መሆን ትችላለህ።",
+            "link_text": "የቅርብ ጊዜ እትሞችን ያስሱ"
+          },
+          "store_owner": {
+            "header": "የሱቁ ባለቤት ነዎት?",
+            "caption": "ወደ ሱቅዎ ለመግባት እየተቸገሩ ነው? የ%{forgot_your_store_link} ባህሪን ይሞክሩ። ማከማቻህን እንደገና ማግበር ከፈለግክ %{shopify_support_link}ን አግኝ።",
+            "shopify_support_link_text": "Shopify ድጋፍ"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {
@@ -1651,7 +1789,75 @@
       "quantity": "ብዛት",
       "total": "ጠቅላላ",
       "total_refunded": "ተመላሽ ተደርጓል",
-      "fulfilled_at_html": "የተፈጸመው {{ date }}"
+      "fulfilled_at_html": "የተፈጸመው {{ date }}",
+      "track_shipment": "ጭነትን ይከታተሉ",
+      "tracking_url": "የመከታተያ አገናኝ",
+      "tracking_company": "ተሸካሚ",
+      "tracking_number": "የመከታተያ ቁጥር",
+      "subtotal": "ንዑስ ድምር",
+      "total_duties": "ግዴታዎች"
+    },
+    "orders": {
+      "title": "የትዕዛዝ ታሪክ",
+      "order_number": "እዘዝ",
+      "order_number_link": "የትዕዛዝ ቁጥር {{ number }}",
+      "date": "ቀን",
+      "payment_status": "የክፍያ ሁኔታ",
+      "fulfillment_status": "የማሟያ ሁኔታ",
+      "total": "ጠቅላላ",
+      "none": "እስካሁን ምንም ትዕዛዝ አላስተላለፉም።"
+    },
+    "recover_password": {
+      "title": "የይለፍ ቃልዎን ዳግም ያስጀምሩ",
+      "subtext": "የይለፍ ቃልዎን እንደገና ለማስጀመር ኢሜይል እንልክልዎታለን",
+      "success": "የይለፍ ቃልህን የምታዘምንበት አገናኝ ያለው ኢሜይል ልከንልሃል።"
+    },
+    "register": {
+      "title": "መለያ ይፍጠሩ",
+      "first_name": "የመጀመሪያ ስም",
+      "last_name": "የአያት ስም",
+      "email": "ኢሜይል",
+      "password": "የይለፍ ቃል",
+      "submit": "ፍጠር"
+    },
+    "reset_password": {
+      "title": "የመለያ ይለፍ ቃል ዳግም ያስጀምሩ",
+      "subtext": "አዲስ የይለፍ ቃል ያስገቡ",
+      "password": "የይለፍ ቃል",
+      "password_confirm": "የይለፍ ቃል ያረጋግጡ",
+      "submit": "የይለፍ ቃል ዳግም አስጀምር"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "የስጦታ ካርድ ኮድን በመስመር ላይ ወይም በመደብር ውስጥ QR ኮድ ይጠቀሙ",
+      "title": "ለ {{ value }} {{ shop }} } የስጦታ ካርድ ቀሪ ሒሳብዎ እነሆ!",
+      "subtext": "የስጦታ ካርድዎ",
+      "gift_card_code": "የስጦታ ካርድ ኮድ",
+      "shop_link": "የመስመር ላይ መደብርን ይጎብኙ",
+      "add_to_apple_wallet": "ወደ Apple Wallet አክል",
+      "qr_image_alt": "QR ኮድ - የስጦታ ካርድን ለመውሰድ ይቃኙ",
+      "copy_code": "የስጦታ ካርድ ኮድ ቅዳ",
+      "expiration_date": "ጊዜው የሚያልፍበት {{ expires_on }}",
+      "copy_code_success": "ኮድ በተሳካ ሁኔታ ተቀድቷል።",
+      "expired": "ጊዜው አልፎበታል።"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "ይህንን እንደ ስጦታ መላክ እፈልጋለሁ",
+      "expanded": "የስጦታ ካርድ ተቀባይ ቅጽ ተዘርግቷል።",
+      "collapsed": "የስጦታ ካርድ ተቀባይ ቅጽ ወድቋል",
+      "email_label": "የተቀባይ ኢሜይል",
+      "email_label_optional_for_no_js_behavior": "የተቀባይ ኢሜይል (አማራጭ)",
+      "email": "ኢሜይል",
+      "name_label": "የተቀባይ ስም (አማራጭ)",
+      "name": "ስም",
+      "message_label": "መልእክት (አማራጭ)",
+      "message": "መልእክት",
+      "max_characters": "{{ max_chars }} ከፍተኛ ቁምፊዎች",
+      "send_on": "ዓዓዓ-ወወ-ቀን",
+      "send_on_label": "ላክ (አማራጭ)"
     }
   }
 }
