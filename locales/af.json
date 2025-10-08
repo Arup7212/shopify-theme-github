@@ -860,8 +860,44 @@
         },
         "payment_terms_totals": {
           "due_today": "Totaal betaalbaar vandag",
-          "due_today_next": "Verskuldig vandag"
-        }
+          "due_today_next": "Verskuldig vandag",
+          "due_later": "Totaal verskuldig %{due_at}",
+          "due_on_fulfillment": "Totaal verskuldig met vervulling",
+          "due_on_fulfillment_next": "Verskuldig op vervulling",
+          "due_on_receipt": "Totaal verskuldig met ontvangs",
+          "due_later_checkout_to_draft": "Totaal betaalbaar later",
+          "total_paid": "Totaal betaal"
+        },
+        "maximum_discount_code_limit_reached": "Jy het die maksimum aantal afslagkodes bereik. Verwyder 'n bestaande kode om <strong style=\"text-transform:uppercase\">%{code}</strong> te gebruik.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> werk nie tans nie. Kontak ons ​​vir hulp.",
+        "due_on_fulfillment": "Verskuldig op vervulling",
+        "gift_card_masked": "•••• %{laaste_karakters}",
+        "subscriptions": "Subskripsies",
+        "duties_label": "Pligte",
+        "duties_and_taxes_label": "Pligte en belastings",
+        "error_duties_tooltip": "Hierdie bestelling word vanaf 'n ander land gestuur, daarom kan belasting en heffings met aflewering gehef word.",
+        "may_be_charged_on_delivery": "Kan met aflewering gehef word",
+        "total_updated_label_with_price": "Opgedateerde totale prys: %{totalPrice}",
+        "updated_shipping_method": "Opgedateerde versendingsmetode: %{shipping_method}",
+        "recurring_payments": "Herhalende Betalings",
+        "recurring_total_multiple_label": "Hierdie bestelling het 'n herhalende koste vir verskeie items.",
+        "deferred_total_due_date_label": "Totaal verskuldig {{date}}",
+        "deferred_total_due_date_label_next": "Verskuldig %{datum}",
+        "full_price": "Volle prys: %{prys}",
+        "custom_discount": "Pasgemaakte afslag",
+        "expand_component_information": {
+          "one": "Wys %{count} item",
+          "other": "Wys %{count} items"
+        },
+        "collapse_component_information": {
+          "one": "Versteek %{count} item",
+          "other": "Versteek %{count} items"
+        },
+        "component_quantity_title": "%{hoeveelheid} × %{produktitel}",
+        "discount_discovery": {
+          "add_code": "Voeg afslag by"
+        },
+        "alternative_payment_currency_total": "Gehef as %{amount_due}"
       },
       "subscriptions": {
         "recurring_totals_with_policies": {
@@ -1685,6 +1721,42 @@
           "free_for_first_n_order": {
             "one": "Vir eerste bestelling",
             "other": "Vir die eerste %{count} bestellings"
+          },
+          "free_shipping_cycles": {
+            "one": "Gratis aflewering vir %{count} meer aflewering",
+            "other": "Gratis aflewering vir %{count} meer aflewerings"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Gratis versending vir %{count} aflewering",
+            "other": "Gratis versending vir %{count} aflewerings"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Gratis aflewering vir %{count} meer aflewering, dan %{recurring_order_shipping_price}",
+            "other": "Gratis aflewering vir %{count} meer aflewerings, dan %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Gratis versending vir %{count} aflewering, dan %{recurring_order_shipping_price}",
+            "other": "Gratis aflewering vir %{count} aflewerings, dan %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} meer aflewering vir %{shipping_price}",
+            "other": "%{count} meer aflewerings vir %{shipping_price} elk"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} aflewering vir %{shipping_price}",
+            "other": "%{count} meer aflewerings vir %{shipping_price} elk"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Gratis aflewering vir die eerste %{cycle}, gevolg deur %{recurring_order_shipping_price}",
+            "other": "Gratis aflewering vir die eerste %{cycle}, gevolg deur %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} vir %{count} meer aflewering",
+            "other": "%{shipping_price} vir %{count} meer aflewerings (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} vir %{count} aflewering",
+            "other": "%{shipping_price} vir %{count} aflewerings (%{per_delivery_cost})"
           }
         },
         "one_time_purchase_shipping": "Eenmalige versending",
@@ -1757,7 +1829,67 @@
         "split_shipping_option_lowest_price": "Laagste prys",
         "split_shipping_option_fastest": "Vinnigste",
         "split_shipping_option_recommended": "Aanbeveel",
-        "split_shipping_option_custom": "Pasgemaak"
+        "split_shipping_option_custom": "Pasgemaak",
+        "title": "Versending",
+        "delivery_title": "Aflewering",
+        "shipping_method_title": "Versendingsmetode",
+        "shipping_method_rollup_accessibility_label": "Versendingsmetode-opsies",
+        "shipping_method_one_time_purchase_group_title": "Eenmalige aankoop",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Eerste besending",
+          "other": "Eerste verskepings"
+        },
+        "shipping_method_subscription_group_title": "Subskripsie",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Herhalende versending",
+          "other": "Herhalende versendings"
+        },
+        "subscription_shipping": "Subskripsieversending",
+        "subscription_local_delivery": "Plaaslike aflewering intekening",
+        "subscription_pickup": "Intekening afhaal",
+        "waiting_on_rate_notice": "Kry beskikbare verskepingstariewe…",
+        "waiting_on_pickup_location_notice": "Kry beskikbare afhaalplekke…",
+        "no_rates_for_cart_or_destination_notice": "Daar is geen versendingsmetodes beskikbaar vir jou mandjie of adres nie",
+        "no_pickup_location_notice": "Ten minste een van u produkte is nie beskikbaar vir afhaal nie",
+        "no_rates_for_country_notice": "Geen verskepingstariewe vir hierdie adres gevind nie.",
+        "no_rates_contact_notice": "Kontak ons ​​vir meer inligting",
+        "free_rate_label": "Gratis",
+        "cheapest_rate_label": "Goedkoopste",
+        "please_enter_your_shipping_information_notice": "Voer asseblief u versendingsinligting in.",
+        "estimated_delivery_date": {
+          "one": "%{count} werksdag",
+          "other": "%{count} werksdae"
+        },
+        "estimated_delivery_date_range": "%{minimum} tot %{maximum} werksdae",
+        "delivery_date_range": "%{min_tyd}–%{maks_tyd}",
+        "estimated_delivery_time": "Geraamde aflewering %{time}",
+        "estimated_delivery_time_range": "Geraamde aflewering %{min_time}–%{max_time}",
+        "delivery_today": "Aflewering op dieselfde dag %{time}",
+        "delivery_tomorrow": "Aflewering volgende dag %{time}",
+        "two_day_delivery": "2-dae aflewering %{time}",
+        "delivery": "Aflewering %{tyd}",
+        "arrives_time": "Arriveer %{time}",
+        "arrives_time_range": "Arriveer %{min_time}–%{max_time}",
+        "estimated_time": "Geraamde %{tyd}",
+        "estimated_time_range": "Geskatte %{min_time}–%{max_time}",
+        "default_description": "Verskeep binne 1 werksdag",
+        "unbranded_default_description": "Gereed om te versend",
+        "shipping_line_phone_label": "Selfoonnommer (verpligtend)",
+        "shipping_line_phone": "Jou koerier mag hierdie nommer gebruik om jou te kontak.",
+        "shipping_line_delivery_phone_label": "Selfoonnommer",
+        "shipping_line_delivery_phone": "Jy mag dalk gekontak word met opdaterings oor jou aflewering.",
+        "optional_shipping_line_delivery_instructions_label": "Afleweringsinstruksies (opsioneel)",
+        "shipping_line_delivery_instructions": "Voer nodige inligting soos deurkodes of afleweringsinstruksies in.",
+        "other_method": {
+          "zero": "Geen ander metodes beskikbaar nie",
+          "one": "%{count} ander metode beskikbaar by",
+          "other": "%{count} ander metodes beskikbaar vanaf"
+        },
+        "shipping_rate_discounted_amount": "Was: %{original_amount}. Nou: %{amount}",
+        "local_delivery": "Plaaslike aflewering",
+        "prime_not_available": {
+          "default": "Prime-aflewering is nie beskikbaar vir jou bestelling nie. Jou versendingsopsies is opgedateer."
+        }
       },
       "localized_fields": {
         "additional_information": {
@@ -2007,7 +2139,20 @@
         "other": "{{count}} items beskikbaar"
       },
       "removeItem": "Verwyder {{label}}",
-      "removeTag": "Verwyder etiket"
+      "removeTag": "Verwyder etiket",
+      "month": {
+        "one": "maand",
+        "other": "maande"
+      },
+      "mapClusterTitle": {
+        "one": "Groep van {{number}} merker",
+        "other": "Groep van {{number}} merkers"
+      },
+      "expandSheet": "Brei uit",
+      "qrCode": "QR-kode",
+      "addFile": "Voeg lêer by",
+      "dropzoneInvalidFileType": "Lêertipe word nie ondersteun nie",
+      "dropzoneDraggedOver": "Laat lêer los om op te laai"
     },
     "order_details": {
       "shipment_timeline": {
@@ -2556,6 +2701,119 @@
           }
         }
       }
+    },
+    "profile_preview_bar": {
+      "customize_button": "Pasmaak",
+      "hide_bar": "Versteek balk",
+      "navigate_to_admin": "Navigeer na admin",
+      "close_preview": "Maak voorskou toe",
+      "previewing": "Jy kyk tans na:",
+      "saved_at": "Gestoor {{date}} om {{time}}",
+      "viewing": "Jy bekyk tans:",
+      "not_available": "Profieldata nie beskikbaar nie",
+      "actions_button": "Aksies"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Kies die uitbreiding met die naam {{extensionName}}",
+        "unselect": "Ontkies die uitbreiding met die naam {{extensionName}}",
+        "move_down": "Skuif uitbreiding na die volgende posisie",
+        "move_up": "Skuif uitbreiding na die vorige posisie",
+        "remove": "Verwyder uitbreiding",
+        "move_down_tooltip": "Beweeg na die volgende posisie",
+        "move_up_tooltip": "Beweeg na vorige posisie",
+        "remove_tooltip": "Verwyder"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Hierdie skakel kan nie binne die redigeerder oopgemaak word nie. Dit sal in 'n nuwe venster oopgemaak word ( {{resolved_to_link}} ). Klik OK om voort te gaan."
+    },
+    "settings": {
+      "title": "Instellings",
+      "loading_accessibility_message": "Laai tans instellingsbladsy",
+      "log_out_everywhere": {
+        "title": "Meld oral af",
+        "description": "As jy 'n toestel verloor het of sekuriteitskwessies het, meld oral af om die sekuriteit van jou rekening te verseker.",
+        "button": "Meld oral af",
+        "warning_message": "Jy sal ook op hierdie toestel afgemeld word."
+      }
+    },
+    "shop_ads": {
+      "title": "Eksklusiewe aanbiedinge van Winkel",
+      "subtitle": "Beskikbaar vir 'n beperkte tyd",
+      "button": "Verken op Winkel",
+      "previous_button": "Vorige",
+      "next_button": "Volgende"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Kliënte kan self terugsendings aanvra en bestuur.",
+        "disabled": "Kliënte moet die handelaar kontak om 'n terugbesorging aan te vra."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Vervang betaalmetode",
+        "loading": "Laai betaalmetodes",
+        "no_payment_methods_available": "Geen betaalmetodes beskikbaar nie",
+        "select_new_payment_method": "Kies 'n nuwe betaalmetode",
+        "current_method": "Huidige",
+        "cancel": "Kanselleer",
+        "save": "Stoor",
+        "success": "Betaalmetode opgedateer",
+        "use_new_payment_method": "+ Gebruik nuwe betaalmetode"
+      },
+      "subscription_contracts": {
+        "title": "Gebruik betaalmetode vir herhalende bestellings",
+        "more_items": {
+          "one": "en {{count}} meer produkte",
+          "other": "en {{count}} meer produkte"
+        },
+        "product_count": {
+          "one": "{{count}} produk",
+          "other": "{{count}} produkte"
+        },
+        "contracts_update_failed": "Kon nie sommige intekenkontrakte opdateer nie",
+        "subscription_contracts_updated": "Opgedateer {{succeeded}} van {{total}} intekeninge",
+        "product_details": "Produkbesonderhede",
+        "load_more": "Laai meer"
+      },
+      "updating_contracts": {
+        "one": "Opdatering van {{count}} intekeningkontrak...",
+        "other": "Opdatering van {{count}} intekenkontrakte..."
+      },
+      "contracts_updated": {
+        "one": "{{count}} intekeningkontrak suksesvol opgedateer",
+        "other": "{{count}} intekenkontrakte suksesvol opgedateer"
+      },
+      "contracts_update_failed": "Kon nie sommige intekenkontrakte opdateer nie"
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name}-logo",
+      "processing": "Verwerk…",
+      "step_one": {
+        "page_title": "Aanmeld - %{shop_name}",
+        "heading": "Teken aan",
+        "subheading": "Voer jou e-posadres in en ons sal vir jou 'n verifikasiekode stuur",
+        "subheading_with_sign_in_options": "Kies hoe jy wil aanmeld",
+        "input_field_label": "E-pos",
+        "button": "Gaan voort",
+        "or": "of"
+      },
+      "step_two": {
+        "page_title": "Voer kode in - %{shop_name}",
+        "heading": "Voer kode in",
+        "subheading": "Gestuur na %{e-pos}",
+        "restart_link": "Meld aan met 'n ander e-posadres",
+        "input_field_label": "6-syferkode",
+        "button": "Dien in"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Voer 'n geldige e-posadres in",
+          "invalid_code": "Voer die korrekte 6-syferkode in"
+        }
+      }
     }
   },
   "products": {
@@ -2889,6 +3147,36 @@
       "max_characters": "{{ max_chars }} karakters maksimum",
       "send_on": "JJJJ-MM-DD",
       "send_on_label": "Stuur aan (opsioneel)"
+    }
+  },
+  "sections": {
+    "announcements": {
+      "previous_announcement": "Vorige aankondiging",
+      "next_announcement": "Volgende aankondiging",
+      "carousel": "Karrousel",
+      "announcement": "Aankondiging",
+      "announcement_bar": "Aankondigingsbalk"
+    },
+    "header": {
+      "announcement": "Aankondiging",
+      "menu": "Kieslys",
+      "cart_count": {
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      }
+    },
+    "cart": {
+      "title": "Jou mandjie",
+      "caption": "Winkelmandjie-items",
+      "remove_title": "Verwyder {{ title }}",
+      "estimated_total": "Geraamde totaal",
+      "new_estimated_total": "Nuwe beraamde totaal",
+      "note": "Bestel spesiale instruksies",
+      "checkout": "Uitteken",
+      "empty": "Jou mandjie is leeg",
+      "cart_error": "Daar was 'n fout tydens die opdatering van jou mandjie. Probeer asseblief weer.",
+      "cart_quantity_error_html": "Jy kan slegs {{ quantity }} van hierdie item by jou mandjie voeg.",
+      "taxes_and_shipping_policy_at_checkout_html": "Belasting, afslag en <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">versending</a> word by die betaalpunt bereken"
     }
   }
 }
