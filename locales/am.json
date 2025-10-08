@@ -3064,7 +3064,24 @@
             "description_due_on_receipt": "ክፍያ ሲደርስ ደረሰኝ ይደርስዎታል።",
             "description_due_on_receipt_partially_paid": "ይህ ትዕዛዝ በከፊል ተከፍሏል። ቀሪ ሂሳብ አለህ። ክፍያ ሲደርስ ደረሰኝ ይደርስዎታል።",
             "description_due_on_fulfillment": "በዚህ ትዕዛዝ ውስጥ ያሉት ሁሉም እቃዎች ከተሟሉ በኋላ ክፍያ መከፈል አለበት።",
-            "description_due_on_fulfillment_partially_paid": "ይህ ትዕዛዝ በከፊል ተከፍሏል። ቀሪ ሂሳብ አለህ። በዚህ ትዕዛዝ ውስጥ ያሉት ሁሉም እቃዎች ከተሟሉ በኋላ ክፍያ መከፈል አለበት።"
+            "description_due_on_fulfillment_partially_paid": "ይህ ትዕዛዝ በከፊል ተከፍሏል። ቀሪ ሂሳብ አለህ። በዚህ ትዕዛዝ ውስጥ ያሉት ሁሉም እቃዎች ከተሟሉ በኋላ ክፍያ መከፈል አለበት።",
+            "banner_overdue": {
+              "one": "ክፍያዎ {{count}} ቀን ቀርቷል።",
+              "other": "ክፍያዎ {{count}} ቀናት ቀርቷል።"
+            },
+            "banner_due": {
+              "one": "ክፍያዎ የሚከፈለው በ {{count}} ቀን ነው።",
+              "other": "ክፍያዎ በ {{count}} ቀናት ውስጥ ነው።"
+            },
+            "banner_due_today": "ክፍያዎ ዛሬ ነው።",
+            "title": "የሚከፈልበት ክፍያ",
+            "title_with_date": "የሚከፈልበት ጊዜ {{date}}",
+            "title_due_on_receipt": "ክፍያ ገና አልተጠናቀቀም።",
+            "title_due_on_fulfillment": "በመሙላት ላይ የሚከፈል ክፍያ",
+            "description_overdue": "ክፍያዎ ዘግይቷል።",
+            "description_partially_paid": "ይህ ትዕዛዝ በከፊል ተከፍሏል። ቀሪ ሂሳብ አለህ።",
+            "description_authorized": "የመክፈያ ዘዴዎ በማለቂያው ቀን እንዲከፍል ይደረጋል ወይም አሁን መክፈል ይችላሉ።",
+            "description_waiting_for_manual_payment": "ይህ ትዕዛዝ በመጠባበቅ ላይ ያለ ክፍያ አለው። ክፍያ ሲደርስ ቀሪ ሒሳቡ ይዘምናል።"
           },
           "draft": {
             "description": "የክፍያ ዝርዝሮች ትዕዛዙ ሲረጋገጥ ይወሰናል.",
@@ -3118,7 +3135,10 @@
           "hide_events_accessibility_label": "ረቂቅ የትዕዛዝ ዝርዝሮችን ደብቅ"
         },
         "subtitle": "የቀረበው {{date}}",
-        "title": "እዘዝ {{name}}"
+        "title": "እዘዝ {{name}}",
+        "draft_order_subtitle": "ከትእዛዝ {{draftOrderName}} {{date}} } ተረጋግጧል",
+        "loading": "የትዕዛዝ ዝርዝሮችን በመጫን ላይ",
+        "loading_finished_accessibility_message": "የትዕዛዝ ዝርዝሮች ተጭነዋል"
       },
       "payment_methods": {
         "payment_delete": {
@@ -3144,6 +3164,104 @@
         "modal_po_number_input_max_length_error": "የፖስታ ቁጥሮች ቢበዛ {{maxLength}} ቁምፊዎች አላቸው።",
         "save": "አስቀምጥ",
         "title": "ፖስታ # {{poNumber}}"
+      },
+      "account_information": {
+        "company_card_name_label": "የኩባንያው ስም",
+        "company_card_section_accessibility_label": "ኩባንያ"
+      },
+      "locations": {
+        "contact_email": "ኢሜይል",
+        "contact_list_title": "ሰዎች",
+        "contact_name": "ስም",
+        "contact_permissions": "ፈቃዶች",
+        "contact_phone_number": "ስልክ ቁጥር",
+        "location_picker_label": "የአካባቢ ስም",
+        "location_picker_accessibility_label": "የአካባቢ ስም {{locationName}}",
+        "net_payment_terms_description": "{{name}} ፡ በ {{numberOfDays}} ቀናት ውስጥ የሚከፈሉ ክፍያዎች",
+        "deposit_percentage": "{{percentage}} ተቀማጭ",
+        "own_role_contact_name": "አንተ",
+        "pagination": {
+          "load_more": "ተጨማሪ ጫን",
+          "load_more_accessibility_label": "ተጨማሪ ቦታዎችን ጫን"
+        },
+        "payment_details_title": "የክፍያ ዝርዝሮች",
+        "payment_terms": "የክፍያ ውሎች",
+        "permissions_label": "የእርስዎ ፈቃዶች",
+        "permissions_title": "ፈቃዶች",
+        "section_title": "አካባቢ",
+        "shipping_address_required": "ማዘዝ ለመጀመር የመላኪያ አድራሻ ወደዚህ ቦታ ያክሉ።",
+        "staff_and_permissions_title": "ሰራተኞች እና ፈቃዶች",
+        "tax_details_title": "የግብር ዝርዝሮች",
+        "tax_id": "የግብር መታወቂያ",
+        "tax_exemptions": "የግብር ነፃነቶች",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} ተጨማሪ",
+        "multiple_tax_exemptions_and": "እና",
+        "tax_exemptions_modal_close": "ገጠመ",
+        "taxes_none": "ምንም",
+        "tax_exemption_not_applicable": "ኤን/ኤ",
+        "tax_exemptions_modal_button_accessibility_label": "ሁሉንም የግብር ነፃነቶች ይመልከቱ"
+      },
+      "location_selection": {
+        "continue_to_store": "ማጠራቀሙን ይቀጥሉ",
+        "description": "በጋሪዎ ውስጥ እቃዎች ካሉዎት፣ ቦታዎችን መቀየር በጋሪው ዋጋ እና መጠን ላይ ተጽእኖ ሊያሳድር ይችላል።",
+        "description_switch_later": "ሁልጊዜ በኋላ መቀየር ይችላሉ",
+        "list_accessibility_label": "የቦታዎች ዝርዝር",
+        "list_item_without_address_accessibility_label": "{{name}} አድራሻ የለም",
+        "list_loading_accessibility_message": "የቦታዎች ዝርዝር በመጫን ላይ",
+        "list_loading_address_accessibility_message": "ለ {{locationName}} አድራሻ በመጫን ላይ",
+        "list_loading_finished_accessibility_message": "የቦታዎች ዝርዝር ተጭኗል",
+        "loading_store_accessibility_message": "ወደ መደብር በመሄድ ላይ",
+        "no_location_title": "የግል ትዕዛዞች ብቻ",
+        "no_location_description": "ከአሁን በኋላ ለ {{company}} ትዕዛዝ የማዘዝ ፍቃድ የለዎትም። አሁንም የግል ትዕዛዞችን ማዘዝ ይችላሉ።",
+        "no_locations_found": "ምንም አካባቢዎች አልተገኙም።",
+        "search": "ቦታዎችን ይፈልጉ",
+        "search_location_title": "ቦታ ይምረጡ",
+        "selection_cancel_button": "ሰርዝ",
+        "selection_confirmation_button": "ቦታ ይምረጡ",
+        "selection_continue_button": "ቀጥል",
+        "title": "ለየትኛው አካባቢ ነው የሚገዙት?",
+        "title_choose_location": "ቦታ ይምረጡ",
+        "clear_search": "ፍለጋን አጽዳ",
+        "try_new_search": "አዲስ ፍለጋ ይሞክሩ"
+      },
+      "addresses": {
+        "add_billing_address_button": "የመክፈያ አድራሻ ያክሉ",
+        "add_billing_address_section_accessibility_label": "የመክፈያ አድራሻ ያክሉ",
+        "add_shipping_address_button": "የመላኪያ አድራሻ ያክሉ",
+        "add_shipping_address_section_accessibility_label": "የመላኪያ አድራሻ ያክሉ",
+        "billing_address_card_title": "የመክፈያ አድራሻ",
+        "cancel_adding_billing_address_accessibility_label": "የመክፈያ አድራሻ ማከልን ይሰርዙ",
+        "cancel_adding_shipping_address_accessibility_label": "የመላኪያ አድራሻ ማከልን ሰርዝ",
+        "save_new_billing_address_accessibility_label": "የክፍያ መጠየቂያ አድራሻ ያስቀምጡ",
+        "save_new_shipping_address_accessibility_label": "የመላኪያ አድራሻ ያስቀምጡ",
+        "shipping_address_card_title": "የመላኪያ አድራሻ"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "ሁሉንም ደብቅ",
+          "show_all": "ሁሉንም አሳይ",
+          "hide_all_accessibility_label": "በግምገማ ውስጥ ያሉትን ሁሉንም ትዕዛዞች ደብቅ",
+          "show_all_accessibility_label": "ሁሉንም ትዕዛዞች በግምገማ አሳይ",
+          "show_all_orders_in_review": "ሁሉንም ትዕዛዞች በግምገማ አሳይ",
+          "show_less_orders_in_review": "በግምገማ ውስጥ ያነሱ ትዕዛዞችን አሳይ",
+          "title": "በመጠባበቅ ላይ",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "ምንም በመጠባበቅ ላይ ያሉ ትዕዛዞች የሉዎትም።",
+            "pending_orders": {
+              "one": "{{count}} በመጠባበቅ ላይ ያለ ትዕዛዝ አለዎት",
+              "other": "{{count}} በመጠባበቅ ላይ ያሉ ትዕዛዞች አሉዎት"
+            },
+            "more_than_pagination_length": "ከ {{count}} በላይ በመጠባበቅ ላይ ያሉ ትዕዛዞች አሉዎት"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "በግምገማ የአሰሳ አዝራሮች ውስጥ ያሉ ትዕዛዞች"
+          }
+        },
+        "order_list_column_headers_location": "አካባቢ",
+        "order_list_column_headers_contact": "ተገናኝ",
+        "order_list_column_headers_status": "ሁኔታ",
+        "removed_company_contact_tooltip": "ከኩባንያው ተወግዷል"
       }
     },
     "errors": {
@@ -3391,6 +3509,14 @@
         }
       },
       "add_button": "አክል"
+    },
+    "address_form": {
+      "loading_form_accessibility_message": "የአድራሻ ቅጽ በመጫን ላይ",
+      "loading_finished_accessibility_message": "የአድራሻ ቅጽ ተጭኗል",
+      "save": "አስቀምጥ",
+      "save_accessibility_label": "አድራሻ አስቀምጥ {{address}}",
+      "section_title_accessibility_label": "አድራሻ ጨምር",
+      "update_success_notification": "አድራሻ ተዘምኗል"
     }
   },
   "products": {
