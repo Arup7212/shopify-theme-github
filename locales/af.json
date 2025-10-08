@@ -123,17 +123,135 @@
             "selected_pickup_option_no_longer_available": "Die voorheen gekose afhaalopsie is nie meer beskikbaar nie.",
             "local_pickup_no_delivery_strategy_available": "Geen beskikbare plaaslike afhaal-afleweringstrategie gevind nie.",
             "origin_location_id_required": "'n Oorsprongligging-ID word vereis wanneer die KLEINHANDEL-afleweringsmetode versoek word.",
-            "invalid_origin_location_id": "Kon nie 'n ligging vind wat ooreenstem met die oorsprongligging-ID nie."
+            "invalid_origin_location_id": "Kon nie 'n ligging vind wat ooreenstem met die oorsprongligging-ID nie.",
+            "origin_location_id_not_allowed": "Die aangevraagde afleweringsmetodes ondersteun nie 'n oorsprongligging-ID nie.",
+            "auto_fulfill_not_allowed": "Hierdie sessie is nie gemagtig om vervullingsgedrag te ignoreer nie.",
+            "auto_fulfill_required": "Outomatiese vervulling word vereis wanneer die KLEINHANDEL-afleweringsmetode versoek word.",
+            "prefetch_shipping_rates_used": "Voorafgehaalde verskepingstariewe moet nooit tariewe teruggee nie.",
+            "fulfillment_constraints_not_satisfied": "Een of meer vervullingsbeperkings is nie nagekom nie.",
+            "must_fulfill_from_constraint_not_satisfied": "Vervullingsbeperkings word nie nagekom nie, want items kan nie vanaf die vereiste liggings vervul word nie.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Vervullingsbeperkings word nie nagekom nie, want items kan nie vanaf dieselfde plek vervul word nie.",
+            "delivery_strategy_conditions_not_satisfied": "Afleweringstrategieë is beskikbaar vir hierdie ligging, maar hul voorwaardes word nie nagekom nie.",
+            "out_of_stock_at_origin_location": "Geen voorraad by die oorsprongligging nie.",
+            "invalid_signature": "Ongeldige afslaghandtekening."
           },
           "captcha": {
             "token_invalid": "Die verskafde captcha-token was ongeldig. Voltooi 'n nuwe captcha om met die afhandeling voort te gaan.",
-            "token_not_valid_for_session": "Die verskafde captcha kan nie met hierdie afhandeling gebruik word nie."
+            "token_not_valid_for_session": "Die verskafde captcha kan nie met hierdie afhandeling gebruik word nie.",
+            "metadata_missing": "Die voltooiing van 'n captcha is vereis vir hierdie afhandeling.",
+            "metadata_mismatch": "Die verskafde captcha-verskaffer en -tipe stem nie ooreen met die verwagte waardes nie.",
+            "token_missing": "'n Captcha-token moet verskaf word om hierdie afhandeling te voltooi.",
+            "job_enqueue_failed": "Die captcha-valideringstaak kon nie in die waglys geplaas word nie.",
+            "job_already_queued": "Captcha-validering is reeds in die waglys vir hierdie captcha-token.",
+            "token_expired": "Die verskafde captcha-token het verval. Voltooi 'n nuwe captcha om met die afhandeling voort te gaan."
           },
           "fx_reconciliation_override": {
             "shop_currency_mismatch": "Die bedrag wat ontvang word, moet in die winkel se geldeenheid wees."
           },
           "checkout_source": {
             "revoked": "Hierdie afhandeling is nie meer beskikbaar nie."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Afslag word nie in B2B-winkels toegelaat nie.",
+            "custom_discount_not_honoured": "Die verskafde persoonlike afslag is nie nagekom nie.",
+            "unsupported_expectation": "Die verskafde afslagreël het 'n verwagting bevat wat die polis nie kon interpreteer nie.",
+            "additional_requested_discount_code_discarded": "{{code}} is geldig maar nie van toepassing nie. Gaan afslagvoorwaardes na.",
+            "additional_requested_discount_discarded": "Jou afslag is geldig maar nie van toepassing nie. Gaan die afslagvoorwaardes na.",
+            "allocations_mismatch": "Jou afslagkode het verander. Gaan jou mandjie na en probeer weer.",
+            "discount_code_not_honoured": "<strong style=\"text-transform:uppercase\">%{afslag_verwerpingsboodskap}</strong>",
+            "discount_title_too_long": "Afslagtitel kan nie langer as 255 karakters wees nie."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Belasting wat met jou bestelling verband hou, het verander. Hersien en probeer weer.",
+            "unresolvable_tax_terms": "Die voorgestelde terme is onoplosbaar gegewe die huidige onderhandelingskonteks.",
+            "delivery_price_is_abstract": "Die verwante afleweringsprys is abstrak.",
+            "tax_inclusivity_mismatch": "Heronderhandel met die konkrete totalTaxAndDutyAmount- of totalAmountIncludedInTarget-waarde.",
+            "tax_exemption_not_supported": "Belastingvrystellings word nie vir die huidige onderhandelingsessie ondersteun nie.",
+            "delivery_tax_exemption_not_supported": "Belastingvrystellings vir afleweringslyne word tans nie ondersteun nie.",
+            "proposed_allocations_required": "Ontbrekende veld vir 'voorgestelde toewysings'.",
+            "merchandise_terms_must_be_defined": "Handelswareterme moet gedefinieer word.",
+            "delivery_terms_must_be_defined": "Afleweringsterme moet gedefinieer word.",
+            "merchandise_discount_terms_must_be_defined": "Terme vir afslag op handelsware moet gedefinieer word.",
+            "delivery_discount_terms_must_be_defined": "Afleweringskortingsvoorwaardes moet gedefinieer word.",
+            "allocated_required": "Ontbrekende 'toegekende' veld.",
+            "value_required": "Ontbrekende 'waarde'-veld.",
+            "line_splits_not_supported": "Die veld 'handelswarelyne' moet verdeel word sodat elkeen 'n enkele lynkomponent in die verkopervoorstel het."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Handmatige betalings word nie in B2B-winkels toegelaat nie.",
+            "positive_amount_expected": "Bedrag om te betaal moet groter as 0 wees.",
+            "total_amount_mismatch": "Die totaal om te betaal stem nie ooreen met die som van die betalingsbedrag nie.",
+            "subscription_terms_not_accepted": "Subskripsievoorwaardes nie aanvaar nie.",
+            "missing_session_id": "Ontbrekende kredietkaartsessie-inligting.",
+            "gateway_not_supported": "Betalingsportaal ondersteun nie die berging van die betaalmetode nie.",
+            "credit_card_last_name_required": "''van'' kan nie nul wees nie.",
+            "credit_card_update_failed": "Kredietkaartopdatering het misluk.",
+            "installments_amount_invalid": "Ongeldige bedrag vir paaiementtransaksie.",
+            "installments_test_mode_not_allowed": "Toetsmodus nie toegelaat nie.",
+            "installments_gift_card_not_allowed": "Afbetalings laat nie die gebruik van geskenkkaarte toe nie.",
+            "installments_unsupported_currency": "Afbetalings ondersteun nie hierdie geldeenheid nie.",
+            "installments_unsupported_shipping": "Afbetalings ondersteun nie versending na hierdie adres nie.",
+            "installments_unsupported_billing": "Afbetalings ondersteun nie hierdie faktuuradres nie.",
+            "installments_unsupported_subscriptions": "Afbetalings ondersteun nie intekeninge nie.",
+            "installments_ineligible_line_item": "Paaiemente is gedeaktiveer vir 'n lynitem in hierdie aankoop.",
+            "shop_cash_not_found": "Winkelkontant is nie gevind nie.",
+            "shop_cash_not_allowed": "Winkelkontant word nie toegelaat sonder Shop Pay nie.",
+            "shop_cash_unsupported_checkout_source": "Shop Cash ondersteun nie hierdie afhandeling nie.",
+            "shop_cash_gift_card_not_allowed": "Shop Cash laat nie die aankoop van geskenkkaarte toe nie.",
+            "shop_cash_not_enabled": "Winkelkontant is nie vir hierdie winkel geaktiveer nie.",
+            "shop_cash_not_available": "Winkelkontant word nie in hierdie afhandeling ondersteun nie.",
+            "shop_cash_unsupported_subscriptions": "Shop Cash ondersteun nie intekeninge nie.",
+            "shop_cash_unsupported_shipping": "Shop Cash ondersteun nie goedere sonder versending nie.",
+            "invalid_address_type": "Die verskafde adrestipe is ongeldig vir hierdie betaalmetode.",
+            "missing_retail_attributions": "Kleinhandel-attribusies word vereis vir handmatig ingevoerde kredietkaartbetalings.",
+            "unexpected_retail_attributions": "Kleinhandel-toeskrywings is onverwags vir kredietkaartbetalings verskaf.",
+            "invalid_card_source": "Hierdie sessie het nie toestemming om hierdie kaartbron te gebruik nie.",
+            "wallet_content_missing": "Beursie-inhoud ontbreek.",
+            "payment_instrument_not_found": "Kon nie betaalmetode vind nie",
+            "unauthorized_capture_method": "Die konfigurasie van die betalingsopnamemetode word nie toegelaat nie.",
+            "saved_payment_methods_not_allowed": "Gestoorde betaalmetodes word nie toegelaat nie.",
+            "saved_payment_methods_not_enabled": "Gestoorde betaalmetodes is nie vir hierdie winkel geaktiveer nie.",
+            "saved_payment_methods_cvv_verification_disabled": "Die gekose betaalmetode vereis CVV-verifikasie wat nie vir hierdie winkel geaktiveer is nie. Kies 'n ander betaalmetode.",
+            "store_credit_not_enabled": "Winkelkrediet is nie vir hierdie winkel geaktiveer nie.",
+            "store_credit_account_not_found": "Winkelkredietrekening nie gevind nie.",
+            "store_credit_account_mismatch": "Winkelkredietrekening stem nie ooreen met die koper se identiteit nie.",
+            "store_credit_mismatched_currency": "Die winkelkredietrekening se geldeenheid stem nie ooreen met die betaalgeldeenheid nie.",
+            "store_credit_insufficient_funds": "Daar is onvoldoende fondse in die winkel se kredietrekening.",
+            "store_credit_buying_gift_card": "Jy kan nie winkelkrediet gebruik om 'n geskenkbewys te koop nie.",
+            "gift_cards_not_allowed_for_b2b": "Geskenkkaarte word nie in B2B-winkels toegelaat nie.",
+            "method_required": "'n Betaalmetode moet voorgestel word.",
+            "paypal_express_address_invalid": "PayPal het 'n ongeldige adres teruggegee.",
+            "shop_cash_unsupported_currency": "Shop Cash ondersteun nie hierdie geldeenheid nie."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Winkel aanvaar nie fooitjies nie.",
+            "only_one_tip_line_allowed": "Veelvuldige wenklyne word nie ondersteun nie.",
+            "tips_not_allowed_for_b2b": "Fooitjies word nie in B2B-winkels toegelaat nie.",
+            "currency_change_reset": "Fooitjie is teruggestel weens geldeenheidverandering.",
+            "tips_not_allowed_for_deferred_purchase_options": "Wenke word nog nie vir uitgestelde aankoopopsies ondersteun nie."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Hierdie konsepbestelling bestaan ​​nie in die huidige winkel nie.",
+            "staff_member_not_exist": "Hierdie personeel bestaan ​​nie in die huidige winkel nie.",
+            "location_not_exist": "Hierdie ligging bestaan ​​nie in die huidige winkel nie.",
+            "point_of_sale_device_not_exist": "Hierdie verkooppunttoestel bestaan ​​nie in die huidige winkel nie.",
+            "unresolvable_target_merchandise_lines": "Die voorgestelde verkooptoeskrywings is onoplosbaar gegewe die huidige onderhandelingskonteks."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Jou koper se voorstel moet nie-onderhandelbare_terme bevat.",
+            "invalid_signature": "Die handtekening vir {{target_terms}} is ongeldig."
+          },
+          "inventory": {
+            "missing_quantity_value": "Hoeveelheidsveld ontbreek in die koper se voorraadlyne.",
+            "changing_behavior_not_allowed": "Hierdie kliënt het nie toestemming om voorraadgedrag te verander nie.",
+            "only_one_inventory_behavior_allowed": "Tans word slegs een voorraadgedrag per afhandeling toegelaat."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Dit is nie toegelaat om diens te weier vir hierdie uitcheck nie."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Kleinhandel-erkenning word nie vir hierdie afhandeling toegelaat nie.",
+            "retail_attribution_required": "Kleinhandel-erkenning word vir hierdie afhandeling vereis."
           }
         },
         "full_price": "Volle prys:",
