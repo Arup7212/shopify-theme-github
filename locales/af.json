@@ -748,6 +748,143 @@
       },
       "removeItem": "Verwyder {{label}}",
       "removeTag": "Verwyder etiket"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_accessibility_label": "Wys bestellingsversendingsbesonderhede",
+        "hide_events_label": "Versteek besonderhede",
+        "hide_events_accessibility_label": "Versteek bestellingsversendingsbesonderhede"
+      },
+      "addresses_section_title": "Fakturering en versending",
+      "order_details": "Bestellingsbesonderhede",
+      "order_details_skeleton_accessibility_label": "Meld aan om alle bestellingsbesonderhede te sien.",
+      "billing_address": "Faktuuradres",
+      "card_ending_with": "eindig met {{lastDigits}}",
+      "contact": "Kontak",
+      "contact_information": "Kontakbesonderhede",
+      "company": "Maatskappy",
+      "company_and_location": "Maatskappy en ligging",
+      "fully_refunded_label": "TERUGBETAAL",
+      "group_title_label": "Deel van: {{groupTitle}}",
+      "group_title_label_with_parent": "Vir: {{groupTitle}}",
+      "view_controls": {
+        "gallery": "Galery",
+        "list": "Lys"
+      },
+      "grouped_view_components": {
+        "expand_line_items": "Wys {{count}} items",
+        "collapse_line_items": "Versteek {{count}} items",
+        "line_item_summary_list_accessibility_label": "Items in die {{productTitle}} bondel"
+      },
+      "discount": "Afslag",
+      "hide_items": "Versteek items",
+      "loading": "Laai bestellingsbesonderhede",
+      "loading_finished_accessibility_message": "Bestellingsbesonderhede is gelaai",
+      "location": "Ligging",
+      "image_gallery": {
+        "next": "Wys volgende items",
+        "previous": "Wys vorige items",
+        "load_more_items": {
+          "one": "Laai {{count}} meer items",
+          "other": "Laai {{count}} meer items"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Wys bestellingsopsomming",
+        "closed": "Versteek bestellingsopsomming"
+      },
+      "no_data": "Geen",
+      "no_data_provided_accessibility_label": "{{fieldName}} is leeg",
+      "paid_amount": "Betaal",
+      "partially_refunded_label": "GEDEELTELIK TERUGBETAAL",
+      "payment": {
+        "status_in_review": "Betaling verskuldig na hersiening",
+        "status_unpaid": "Betaling verskuldig op {{date}}",
+        "title": "Betaling",
+        "payment_type": {
+          "gift_card": "Geskenkbewys",
+          "store_credit": "Winkelkrediet",
+          "money_order": "Geldorder",
+          "cash_on_delivery": "Kontant by aflewering (COD)",
+          "bank_deposit": "Bankdeposito",
+          "manual": "Handleiding"
+        },
+        "card_payment_details": "eindig met {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "eindig met {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Winkelkrediet - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Betaal met Shop Pay-paaiemente",
+          "view_schedule": "Bekyk skedule"
+        },
+        "manual_payment_methods": {
+          "money_order": "Posorder - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Kontant by aflewering (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankdeposito - {{formattedTransactionAmount}}",
+          "manual": "Handleiding - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Wys alles",
+          "show_less": "Wys minder",
+          "details": "Besonderhede",
+          "payment_details": "Betalingsbesonderhede"
+        },
+        "emv_details": {
+          "auth": "OUTORISASIE:",
+          "aid": "HULP:",
+          "source": "BRON:"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Betaal met Shop Pay-paaiemente",
+        "description": "Bly op hoogte van jou betalingsskedule met herinnerings in die Winkel-app.",
+        "payment_reminders_button": "Kry betalingsherinneringe",
+        "desktop_qr_code_content": {
+          "title": "Skandeer vir herinnerings",
+          "description": "Kry herinnerings van jou paaiemente met Winkel."
+        }
+      },
+      "refunded_amount": "Terugbetaal",
+      "request_return_failed": "Daar was 'n probleem met die verwerking van jou versoek. Probeer asseblief weer.",
+      "login_card": {
+        "resend_link_and_login": "Om jou bestellingsbesonderhede te sien, meld aan of stuur 'n nuwe skakel na die e-posadres of telefoonnommer wat by die betaalpunt gebruik is.",
+        "resend_link_only": "Om jou bestellingsbesonderhede te sien, stuur 'n nuwe skakel na die e-posadres of telefoonnommer wat by die betaalpunt gebruik is.",
+        "log_in": "Teken aan",
+        "resend_link": "Stuur nuwe skakel",
+        "link_expired": "Skakel het verval"
+      },
+      "remaining_amount": "Oorblywend",
+      "marketing_section_title": "Nuus en aanbiedinge",
+      "marketing_description": "Jy sal bemarkings-e-posse ontvang. Jy kan te eniger tyd uitschryf.",
+      "marketing_checkbox_label": "Stuur vir my 'n e-pos met nuus en aanbiedinge",
+      "marketing_checkmark_label": "Jy is ingeteken om e-posnuus en aanbiedinge te ontvang",
+      "returns": {
+        "expand_events_label": "Wys besonderhede",
+        "hide_events_label": "Versteek besonderhede",
+        "ineligible_return_message": "Geen items in hierdie bestelling kwalifiseer vir terugbesorging nie.",
+        "ineligible_return_message_when_returned": "Geen bykomende items in hierdie bestelling kwalifiseer vir terugbesorging nie.",
+        "print_shipping_label": "Druk verskepingsetiket",
+        "return_and_refund_modal_header": "Terugbetalingsbeleid",
+        "tracking_number": "Spoornommer:",
+        "exchange_header": "Ruil items",
+        "exchange_subheader": "Ruilitems sal by die bestelling gevoeg word sodra die terugbesorging voltooi is."
+      },
+      "shipping": {
+        "address": "Versendingsadres",
+        "address_map_marker": "Versendingsadres",
+        "method": "Versendingsmetode",
+        "summary": "Versending",
+        "free": "Gratis",
+        "free_shipping_discount": "Gratis Versending",
+        "one_time": "Eenmalige versending",
+        "subscription": "Subskripsieversending"
+      },
+      "pickup": {
+        "pickup": "Afhaal",
+        "pickup_location": "Afhaalplek",
+        "pickup_point": "Afhaalpunt"
+      },
+      "show_items": "Wys items",
+      "show_order_summary": "Wys bestellingsopsomming"
     }
   },
   "products": {
