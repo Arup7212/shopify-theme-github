@@ -1269,7 +1269,118 @@
             "web_component_error": "ይህን ገጽ መጫን ላይ ችግር ነበር።"
           }
         },
-        "saved_by_payment_method": "በ%{payment_method} ተቀምጧል"
+        "saved_by_payment_method": "በ%{payment_method} ተቀምጧል",
+        "pay_with_payment_method": "በ%{payment_method} ይክፈሉ",
+        "different_credit_card_label": "የተለየ ክሬዲት ካርድ ይጠቀሙ",
+        "same_billing_address_label": "እንደ የመላኪያ አድራሻ ተመሳሳይ",
+        "different_billing_address_label": "የተለየ የክፍያ መጠየቂያ አድራሻ ይጠቀሙ",
+        "billing_address_associated_with_mandate": "ከመክፈያ ዘዴ ጋር የተያያዘ አድራሻ ይጠቀሙ",
+        "billing_address_associated_with_mandate_info": "የክፍያ መጠየቂያ አድራሻዎን መቀየር ከፈለጉ፣ እባክዎን ያስወግዱ እና የክሬዲት ካርድ ዝርዝሮችዎን እንደገና ያስገቡ",
+        "free_order_notice_html": "ትዕዛዝህ <strong>ነፃ</strong> ነው። ምንም ክፍያ አያስፈልግም.",
+        "express_checkout_free_order": "ለነጻ ትዕዛዝ እንዲከፍሉ አይደረጉም።",
+        "order_covered_by_gift_cards_notice": {
+          "one": "ትዕዛዝዎ በስጦታ ካርድዎ የተሸፈነ ነው።",
+          "other": "ትዕዛዝዎ በስጦታ ካርዶችዎ የተሸፈነ ነው።"
+        },
+        "offsite_gateway_redirect_hint": "«%{button_label}»ን ጠቅ ካደረጉ በኋላ ግዢዎን ደህንነቱ በተጠበቀ ሁኔታ ለማጠናቀቅ ወደ %{gateway_label} ይመራሉ።",
+        "offsite_gateway_review_page_redirect_hint": "ትዕዛዝዎን ከገመገሙ በኋላ ግዢዎን ደህንነቱ በተጠበቀ መልኩ ለማጠናቀቅ ወደ %{gateway_label} ይመራሉ።",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} ጠቅላላ %{total_shop_price}",
+        "offsite_gateway_redirect_hint_no_button_label": "ከቀጠሉ በኋላ፣ ግዢዎን ደህንነቱ በተጠበቀ ሁኔታ ለማጠናቀቅ ወደ %{gateway_label} ይዘዋወራሉ።",
+        "receiver_payment_experience_hint": "ትዕዛዝዎን ካስገቡ በኋላ የክፍያ ዝርዝሮችን ይደርስዎታል. ክፍያውን በ Multibanco ወይም በመስመር ላይ በ%{due_days} ቀናት ውስጥ ይፈጽሙ።",
+        "billing_address_title": "የመክፈያ አድራሻ",
+        "billing_address_rollup_accessibility_label": "የማስከፈያ አድራሻ አማራጮች",
+        "billing_address_description": "ከካርድዎ ወይም ከመክፈያ ዘዴዎ ጋር የሚዛመደውን አድራሻ ይምረጡ።",
+        "billing_address_description_no_shipping_address": "ከካርድዎ ወይም ከመክፈያ ዘዴዎ ጋር የሚዛመደውን አድራሻ ያስገቡ።",
+        "no_js_credit_card_fields_redirect_hint": "የክፍያ መረጃዎን ለመጨመር አቅጣጫ ይዛወራሉ።",
+        "card_fields_container_prefix": "የመስክ መያዣ ለ:",
+        "card_fields_unavailable_html": {
+          "one": "የብድር እና የዴቢት ካርድ ክፍያዎች አሁን አይገኙም።<br> <a href=\"%{current_url}\">ይህን ገጽ ያድሱ</a> ወይም ቆይተው እንደገና ይሞክሩ።",
+          "other": "የብድር እና የዴቢት ካርድ ክፍያዎች አሁን አይገኙም።<br> <a href=\"%{current_url}\">ይህን ገጽ ያድሱ</a> ወይም ሌላ የመክፈያ ዘዴ ይሞክሩ።"
+        },
+        "card_fields_processing_error": "ክፍያውን ማካሄድ ላይ ችግር ነበር። ይህን ገጽ ለማደስ ይሞክሩ ወይም የበይነመረብ ግንኙነትዎን ያረጋግጡ።",
+        "technical_error": "በቴክኒክ ችግር ምክንያት ክፍያዎች አሁን ሊከናወኑ አይችሉም። ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ።",
+        "no_method_error": "ይህ መደብር አሁን ክፍያዎችን መቀበል አይችልም።",
+        "not_configured_error": "ይህ መደብር አሁን ክፍያዎችን መቀበል አይችልም።",
+        "missing_credit_card_error": "ክፍያውን ለማጠናቀቅ የካርድዎን ዝርዝሮች ያስገቡ",
+        "shop_pay_ideal_unavailable_error": "iDEAL ለዚህ ትዕዛዝ አይገኝም። ሌላ የመክፈያ ዘዴ ይምረጡ።",
+        "payment_method_not_available_for_shipping_address_error": "የመክፈያ ዘዴ ለተመረጠው የመላኪያ አድራሻ አይገኝም። ሌላ የመክፈያ ዘዴ ይምረጡ።",
+        "billing_address_not_supported_for_payment_method_error": "ይህ የመክፈያ ዘዴ ለእርስዎ የክፍያ መጠየቂያ አድራሻ እና ምንዛሬ አይገኝም። እባክዎ የተለየ የመክፈያ ዘዴ ይሞክሩ።",
+        "generic_incorrect_card_info": "የክፍያ ዝርዝሮችዎ ሊረጋገጡ አልቻሉም። የካርድዎን ዝርዝሮች ይፈትሹ እና እንደገና ይሞክሩ።",
+        "sofort_label": "የሶፎርት ባንክ ማስተላለፍ",
+        "paypal_wallet_label": "የ PayPal Wallet",
+        "shop_pay_installments_label": "የክፍያ ጭነቶችን ይግዙ",
+        "paypal_modal": {
+          "order_contains_subscriptions": "የደንበኝነት ምዝገባ",
+          "order_contains_fixed_selling_plans": "ጠቅላላ ግብሮችን፣ መላኪያዎችን፣ የተላለፉ ክፍያዎችን እና አንዳንድ ቅናሾችን ላያካትት ይችላል። ዛሬ የሚከፈለውን ገንዘብ መፈተሽ ይቀጥሉ።"
+        },
+        "klarna_label": "ክላርና",
+        "klarna_pay_later_label": "በኋላ ክላርና ጋር ይክፈሉ።",
+        "klarna_pay_now_label": "አሁን ክላርና ጋር ይክፈሉ።",
+        "bancontact_label": "አግኙ",
+        "multibanco_label": "መልቲባንኮ",
+        "klarna_slice_it_label": "ከ Klarna ጋር ፋይናንስ",
+        "bank_picker_label": "ባንክ",
+        "afterpay_label": "ከክፍያ በኋላ",
+        "cashapppay_label": "የጥሬ ገንዘብ መተግበሪያ ክፍያ",
+        "przelewy24_label": "ፕሪዘሌቭይ24",
+        "blik_label": "ብሊክ",
+        "mobilepay_label": "የሞባይል ክፍያ",
+        "swish_label": "ስዊች",
+        "vipps_label": "ቪፕስ",
+        "kcp_creditcard_label": "KCP ክሬዲት ካርድ",
+        "usdc_cashback_title": "1% ተመላሽ ገንዘብ",
+        "usdc_cashback_additional_info": "1% ወደ USDC በቀጥታ በኪስ ቦርሳዎ ውስጥ ያግኙ።",
+        "usdc_cashback_terms": "ውሎች ተፈጻሚ ይሆናሉ",
+        "purchase_options_card_update_agreement_label_html": "የመክፈያ ዘዴዎን በማዘመን፣ በዚህ የመደብር <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">ስረዛ መመሪያ</a> መሰረት ለማንኛውም ተደጋጋሚ ወይም የዘገየ ግዢ ክፍያዎችን ይፈቀዳሉ።",
+        "subscription_card_update_agreement_label": "የመክፈያ ዘዴን መቀየር የእርስዎን የደንበኝነት ምዝገባ እና የወደፊት ተደጋጋሚ ክፍያዎችን ያዘምናል።",
+        "subscription_agreement_label": "በጋሪዎ ውስጥ ያሉ አንድ ወይም ተጨማሪ እቃዎች የዘገየ ወይም የደንበኝነት ምዝገባ ግዢ ናቸው። በክፍያዎ በመቀጠል፣ የመክፈያ ዘዴዎ እስኪያልቅ ወይም እስኪሰርዝ ድረስ በዚህ ገጽ ላይ በተዘረዘረው ዋጋ እና ድግግሞሽ በራስ-ሰር እንዲከፍል ተስማምተዋል። ሁሉም ስረዛዎች ለ%{የተሰረዙ} ተገዢ ናቸው።",
+        "subscription_agreement_cancelled": "የስረዛ ፖሊሲ",
+        "subscription_heading": "የደንበኝነት ምዝገባ ስምምነት",
+        "subscription_agreement_label_html": "ለደንበኝነት መስማማት መሆኔን ተረድቻለሁ። እስኪያልቅ ወይም እስኪያልቅ ድረስ በተዘረዘረው ዋጋ እና ድግግሞሽ ይታደሳል\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">ተሰርዟል</a> .\n",
+        "purchase_options_agreement_label": "በጋሪዎ ውስጥ ያሉ አንድ ወይም ተጨማሪ እቃዎች የዘገየ ወይም ተደጋጋሚ ግዢ ነው። በክፍያዎ በመቀጠል፣ የመክፈያ ዘዴዎ እስኪያልቅ ወይም እስኪሰርዝ ድረስ በዚህ ገጽ ላይ በተዘረዘረው ዋጋ እና ድግግሞሽ በራስ-ሰር እንዲከፍል ተስማምተዋል። ሁሉም ስረዛዎች ለ%{መሰረዝ_ፖሊሲ_label} ተገዢ ናቸው።",
+        "purchase_options_agreement_label_html": "በጋሪዬ ውስጥ አንድ ወይም ከዚያ በላይ እቃዎች የዘገየ ወይም ተደጋጋሚ ግዢ እንደሆኑ ተረድቻለሁ። በመቀጠል፣ በዚህ እስማማለሁ። \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">የስረዛ ፖሊሲ</a>\n እና የመክፈያ ዘዴዬን በዚህ ገጽ ላይ በተዘረዘሩት ዋጋዎች፣ ድግግሞሾች እና ቀናቶች እስከ የእኔ ድረስ እንዲከፍሉ መፍቀድ\n ትዕዛዙ ተሟልቷል ወይም ከተፈቀደልኝ እሰርዛለሁ።\n",
+        "purchase_options_agreement_label_wallets": "በክፍያዎ በመቀጠል፣ በዚህ ገጽ ላይ በተዘረዘሩት የወደፊት ክፍያዎች እና በስረዛ መመሪያው ተስማምተዋል።",
+        "change_currency_section_description": "የመገበያያ ገንዘብ አማራጭ ይምረጡ",
+        "no_real_orders_dev_store": "ይህ መደብር እውነተኛ ትዕዛዞችን ወይም እውነተኛ ክፍያዎችን መቀበል አይችልም።",
+        "waiting_on_payment_methods": "የሚገኙ የመክፈያ ዘዴዎችን በማግኘት ላይ...",
+        "apple_pay_payment_error": "ክፍያዎ ሊጠናቀቅ አልቻለም። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+        "taxes_not_included": "ግብሮች አልተካተቱም።",
+        "no_taxes_banner_content": "በዚህ ትዕዛዝ ግብር አይከፈልም። አንዴ ክፍያ ከሰበሰቡ፣ ታክሶች ሊታከሉ አይችሉም።",
+        "paypal": {
+          "connect": "የ PayPal መለያዎን ለማገናኘት ጠቅ ያድርጉ"
+        },
+        "apple": {
+          "connect": "የ Apple Pay መለያዎን ለማገናኘት ጠቅ ያድርጉ",
+          "not_available": "አፕል ክፍያ በዚህ አሳሽ ውስጥ አይገኝም። የአፕል ክፍያ መለያዎን ለማገናኘት Safariን በአፕል መሳሪያ ላይ መጠቀም ያስፈልግዎታል።"
+        },
+        "google": {
+          "connect": "ከGoogle Pay መለያዎ ጋር ለመገናኘት ጠቅ ያድርጉ",
+          "error_authorizing": "ክፍያን በመፍቀድ ላይ ስህተት"
+        },
+        "account_connected": "መለያ ተገናኝቷል።",
+        "mor_disclaimer_html": "ከታች ጠቅ በማድረግ እና ትዕዛዝዎን በማጠናቀቅ ከ Global-e የእርስዎን ዕቃ(ዎች) እንደ የመዝገብ ነጋዴ ለመግዛት ተስማምተዋል\n ለዚህ ግብይት፣ በ Global-e's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">ውሎች እና ሁኔታዎች</a> ላይ\n እና <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">የግላዊነት ፖሊሲ</a> . ግሎባል-ኢ ዓለም አቀፍ ነው\n አገልግሎት አቅራቢን ወደ %{shop_name} ማሟላት\n",
+        "pending_payment": {
+          "due_notice": "የ%{amount_due} ክፍያዎ በ%{due_date} ላይ ነው።",
+          "multibanco": {
+            "buyer_action_info": "የ%{amount_due} ክፍያዎ መከፈል አለበት።",
+            "instruction_html": "ከዚህ በታች ያሉትን ዝርዝሮች በመጠቀም ክፍያዎን በ Multibanco ወይም በመስመር ላይ ያድርጉ። ለጥያቄዎች ወይም የክፍያ ዝርዝሮችን ለማዘመን፣ %{contact_us}።",
+            "entity": "አካል",
+            "reference": "ማጣቀሻ",
+            "amount": "መጠን",
+            "find_nearest_atm": "በአቅራቢያ የሚገኘውን ኤቲኤም ያግኙ"
+          }
+        },
+        "update_payment_method": "የመክፈያ ዘዴን ያዘምኑ",
+        "order_covered_by_store_credit_notice": "ትዕዛዝህ በመደብርህ ክሬዲት የተሸፈነ ነው።",
+        "order_covered_by_redeemables_notice": "ትዕዛዝህ ተሸፍኗል።",
+        "store_credit": {
+          "label": "የማከማቻ ክሬዲት",
+          "apply_label": "የሱቅ ክሬዲት ተግብር",
+          "add_label": "የመደብር ክሬዲት ያክሉ",
+          "manage_label": "የመደብር ክሬዲት ያስተዳድሩ",
+          "buying_gift_card": "የስጦታ ካርድ ለመግዛት የሱቅ ክሬዲት መጠቀም አይችሉም",
+          "no_fixed_selling_plans": "በተዘገዩ የግዢ አማራጮች የመደብር ክሬዲት መጠቀም አይችሉም"
+        }
       },
       "billing": {
         "billing_address_title": "ቢል ለ",
