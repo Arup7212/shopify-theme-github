@@ -1198,7 +1198,24 @@
         "draft_order_payment_due_later_terms": "አንዴ ትዕዛዝህ ከተረጋገጠ በ {{translatedName}} ውሎች ላይ ትሆናለህ።",
         "draft_order_payment_due_on_fulfillment": "ክፍያዎ የሚከፈለው ትዕዛዝዎ ከተረጋገጠ እና ከተፈጸመ በኋላ ነው።",
         "draft_order_deposit_due_later": "{{depositAmount}} ትዕዛዝህ ሲረጋገጥ መከፈል አለበት። ሒሳቡ በ {{translatedName}} ውሎች ላይ ይሆናል።",
-        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} ትዕዛዝህ ሲረጋገጥ መከፈል አለበት። ሒሳቡ ትዕዛዝዎ ከተፈጸመ በኋላ ይሆናል።"
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} ትዕዛዝህ ሲረጋገጥ መከፈል አለበት። ሒሳቡ ትዕዛዝዎ ከተፈጸመ በኋላ ይሆናል።",
+        "credit_card_label": "ክሬዲት ካርድ",
+        "bank_deposit_label": "የባንክ ተቀማጭ ገንዘብ",
+        "cash_on_delivery_label": "በማድረስ ላይ ያለ ገንዘብ (COD)",
+        "money_order_label": "የገንዘብ ማዘዣ",
+        "debit_card_label": "የዴቢት ካርድ",
+        "deferred_payment_label": "በኋላ የመክፈያ ዘዴ ይምረጡ",
+        "fixed_payment_label": "ክፍያዎ የሚከፈለው በ {{dueDate}} ነው።",
+        "generic_payment_terms": "በ {{translatedName}} ውሎች ላይ ነዎት። ክፍያዎ የሚከፈለው በ {{dueDate}} ነው።",
+        "login_prompt": {
+          "no_access": {
+            "message": "የተቀመጡ የመክፈያ ዘዴዎችን ለመጨመር ወይም ለመጠቀም የዚህ አካባቢ መዳረሻ ወዳለው መለያ {{logIn}} ።",
+            "link": "ግባ"
+          }
+        },
+        "direct_payment_terms": "በ {{translatedName}} ውሎች ላይ ነዎት። ካርድዎ በ {{dueDate}} ላይ እንዲከፍል ይደረጋል።",
+        "fixed_direct_payment_terms": "ካርድዎ በ {{dueDate}} ላይ እንዲከፍል ይደረጋል።",
+        "order_due_on_fulfillment_choose_later": "ክፍያዎ የሚከፈለው ትዕዛዝዎ ከተፈጸመ በኋላ ነው።"
       },
       "thank_you": {
         "title": "ለግዢዎ እናመሰግናለን!",
@@ -1919,7 +1936,120 @@
         "payment_method_not_applicable": "ይህ የመክፈያ ዘዴ ተግባራዊ አይሆንም። የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
         "card_declined": "ካርድዎ ተቀባይነት አላገኘም። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
         "processing_error": "ክፍያዎን ማስኬድ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
-        "processing_error_checkout_as_guest": "ክፍያዎን ማስኬድ ላይ ችግር ነበር። በተለየ የመክፈያ ዘዴ ወይም {{checkout_as_guest_link}} እንደገና ይሞክሩ።"
+        "processing_error_checkout_as_guest": "ክፍያዎን ማስኬድ ላይ ችግር ነበር። በተለየ የመክፈያ ዘዴ ወይም {{checkout_as_guest_link}} እንደገና ይሞክሩ።",
+        "selected_payment_method": "በመረጡት የመክፈያ ዘዴ ላይ ችግር ነበር እና እርስዎ እንዲከፍሉ አልተደረጉም። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+        "payment_method_billing_address": "በመረጡት የመክፈያ ዘዴ የመክፈያ አድራሻ ላይ ችግር ነበር እና እርስዎ እንዲከፍሉ አልተደረጉም። አድራሻውን ይፈትሹ እና እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+        "call_issuer": "ካርድዎ ተቀባይነት አላገኘም። የተለየ የመክፈያ ዘዴ ይጠቀሙ ወይም ለበለጠ መረጃ ባንክዎን ያነጋግሩ።",
+        "test_mode_live_card": "ይህ መደብር እውነተኛ ትዕዛዞችን ወይም እውነተኛ ክፍያዎችን መቀበል አይችልም።",
+        "test_mode_enabled_only_test_cards": "የሙከራ ሁነታ ነቅቷል፣ የሙከራ ክሬዲት ካርዶችን ብቻ ማከል ይችላሉ።",
+        "transient_error": "ክፍያዎን ማስኬድ ላይ ችግር ነበር። ይህን ገጽ ለማደስ ይሞክሩ ወይም የበይነመረብ ግንኙነትዎን ያረጋግጡ።",
+        "missing_shipping_address": "የመላኪያ አድራሻዎ ስለጎደለ ክፍያዎ ሊካሄድ አልቻለም። የመላኪያ አድራሻ ያክሉ እና እንደገና ይሞክሩ።",
+        "invalid_shipping_address": "የመላኪያ አድራሻዎን ማግኘት ስላልቻልን ክፍያዎ ሊካሄድ አልቻለም። የመላኪያ አድራሻዎን ይፈትሹ እና እንደገና ይሞክሩ።",
+        "successful_offsite_with_gift_card_error": "የስጦታ ካርድ ክፍያዎን ማስኬድ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+        "development_store_order_limit_reached": "በዚህ የክፍያ ፕሮሰሰር ለግንባታ መደብር ትዕዛዞች ገደብ ደርሰዋል። ሌላ ትዕዛዝ ለማዘዝ የሙከራ ክፍያ መግቢያን መጠቀም ያስፈልግዎታል። ስለ%{development_store_order_testing_docs_link} የበለጠ ይወቁ።",
+        "development_store_with_order_limit": "ለሙከራ ትዕዛዝ ለመስጠት፣ የሙከራ ክፍያ መግቢያን መጠቀም ያስፈልግዎታል። ስለ%{development_store_order_testing_docs_link} የበለጠ ይወቁ።",
+        "development_store_order_testing_docs_link": "በልማት መደብሮች ውስጥ የሙከራ ትዕዛዞች",
+        "payment_above_threshold": "የክፍያው መጠን ለዚህ ክልል ካለው የገንዘብ ገደብ በላይ ነው። አጠቃላይውን ይቀንሱ እና እንደገና ይሞክሩ",
+        "risky": "ክፍያዎን ማስኬድ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+        "expired_buyer_action": "የመክፈያ ዘዴው ጊዜው አልፎበታል። እባክዎ እንደገና ይሞክሩ።",
+        "name_mismatch": "እባክዎ የካርድዎን ዝርዝሮች ያረጋግጡ። በካርድዎ ላይ ያለው ስም እና የክፍያ መጠየቂያ አድራሻ አይዛመዱም።",
+        "shop_pay_wallet_not_available": "የሱቅ ክፍያ ለዚህ ፍተሻ አይገኝም።",
+        "market_manager_blocks_wallet_payments": "የመክፈያ ዘዴ በአገርዎ ውስጥ አይደገፍም።",
+        "paypal_over_capture": "የትዕዛዝዎ አጠቃላይ ሁኔታ ተዘምኗል። ትዕዛዝዎን ለማጠናቀቅ በ {{walletName}} ይክፈሉ።"
+      },
+      "shipping_errors": {
+        "shipping_method": "ለትዕዛዝዎ የማጓጓዣ አማራጮች ተለውጠዋል። እባክዎ ምርጫዎን ይከልሱ።",
+        "shipping_method_not_available": "ጋሪዎ ተዘምኗል እና ያከሏቸው ንጥሎች ወደ አድራሻዎ ሊላኩ አይችሉም። ትዕዛዝዎን ለማጠናቀቅ እቃዎቹን ያስወግዱ።",
+        "shipping_method_not_available_generic": {
+          "one": "ትዕዛዝዎ ወደ ተመረጠው አድራሻ መላክ አይቻልም። አድራሻዎን ትክክል መሆኑን ለማረጋገጥ ይገምግሙ እና እንደገና ይሞክሩ ወይም የተለየ አድራሻ ይምረጡ።",
+          "other": "በጋሪህ ውስጥ ያሉ አንዳንድ እቃዎች ያስገባህበት አድራሻ ሊላኩ አይችሉም። አድራሻዎን ትክክል መሆኑን ለማረጋገጥ ይገምግሙ እና እንደገና ይሞክሩ ወይም የተለየ አድራሻ ይምረጡ።"
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "በጋሪው ውስጥ ያሉት እቃዎች ለመጓጓዣ ብቁ ለመሆን የዋጋ ወይም የክብደት መስፈርቶችን አያሟሉም። ጋሪዎን ያዘምኑ እና እንደገና ይሞክሩ።",
+        "shipping_method_not_available_updated": {
+          "one": "ያከሉት ንጥል ወደ ቦታዎ አይላክም። ለማጣራት ያስወግዱት ወይም መደብሩን ያግኙ።",
+          "other": "እርስዎ ያከሏቸው አንድ ወይም ከዚያ በላይ ንጥሎች ወደ እርስዎ አካባቢ አይላኩም። ለማየት ያስወግዷቸው፣ ወይም መደብሩን ያግኙ።"
+        },
+        "payment_method_not_supported": "ይህን የመክፈያ ዘዴ ለ%{country} መጠቀም አይችሉም። ወደዚህ ሀገር ለመላክ እባክዎ የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
+        "empty_state": "ያሉትን የመላኪያ ዘዴዎች ለማየት የመላኪያ አድራሻዎን ያስገቡ።",
+        "title": "ማጓጓዣ አይገኝም",
+        "invalid_selected_address": "የተመረጠው የመላኪያ አድራሻ ልክ ያልሆነ ነው።",
+        "invalid_selected_address_with_update_link": "የተመረጠው የመላኪያ አድራሻ ልክ ያልሆነ ነው። %{update_address_link} ወይም የተለየ አድራሻ ይምረጡ",
+        "unavailable_addresses_only_countries": "ትዕዛዝህ ወደ {{countriesList}} ብቻ ነው የሚላከው። ለመቀጠል አዲስ አድራሻ ያክሉ።",
+        "unavailable_selected_address": "ለተመረጠው አድራሻ መላኪያ አይገኝም",
+        "unavailable_selected_address_for_region": "ማጓጓዣ ለ {{region}} አይገኝም። ለመቀጠል የተለየ አድራሻ ይምረጡ"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "ፍተሻን ይግለጹ",
+        "or": "ወይም",
+        "or_pay_another_way": "ወይም በሌላ መንገድ ይክፈሉ።",
+        "or_check_out_another_way": "ወይም ሌላ መንገድ ተመልከት",
+        "or_pay_with_credit_card": "ወይም በክሬዲት ካርድ ይክፈሉ።",
+        "show_more_options": "ተጨማሪ አማራጮችን አሳይ",
+        "hide_more_options": "ተጨማሪ አማራጮችን ደብቅ"
+      },
+      "post_purchase": {
+        "page_title": "ከግዢ በኋላ",
+        "title": "ከግዢ በኋላ",
+        "escape_confirmation": "ለትዕዛዝህ ከፍለዋል።",
+        "escape_action": "የትዕዛዝ ማረጋገጫ ይመልከቱ ›",
+        "components": {
+          "close": "ገጠመ",
+          "expand": "ተጨማሪ ይመልከቱ",
+          "processing": "በማስሄድ ላይ…",
+          "submit": "አስገባ"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "በማዞር ላይ…",
+        "redirecting_title": "በማዞር ላይ…",
+        "redirecting_notice": "እርስዎን እስክንዞር ድረስ ይጠብቁ።",
+        "redirecting_to_bank": "ወደ {{bank}} በማዞር ላይ",
+        "complete_your_purchase_title": "ግዢዎን ያጠናቅቁ",
+        "continue_to_payment_gateway_notice": "የክፍያ መረጃዎን ለመጨመር መክፈሉን ይቀጥሉ።",
+        "continue_to_payment_gateway_button_label": "መክፈሉን ይቀጥሉ",
+        "complete_your_purchase_title_error": "የክፍያ መረጃዎን ያስተካክሉ",
+        "continue_to_payment_gateway_notice_error": "የክፍያ መረጃዎ ሊረጋገጥ አልቻለም።",
+        "continue_to_payment_gateway_button_label_error": "የክፍያ መረጃን ያዘምኑ",
+        "page_title": "ትእዛዝ በማስኬድ ላይ",
+        "title": "ትእዛዝ በማስኬድ ላይ",
+        "your_order_has_been_received_title": "ለትዕዛዝህ አመሰግናለሁ",
+        "you_will_receive_confirmation": "አሁን ብዙ ትዕዛዞችን እያገኘን ነው። በቅርቡ ማረጋገጫ በኢሜል ወይም በጽሁፍ መቀበል አለቦት። በሚቀጥለው ሰዓት ውስጥ ካልደረሰዎት ያሳውቁን።",
+        "you_will_not_be_charged": "እስካሁን እንዲከፍሉ አይደረጉም።",
+        "wait": {
+          "short": "ትዕዛዝህ በሂደት ላይ ነው።",
+          "medium": {
+            "one": "ትዕዛዝህ በሂደት ላይ ነው። የሚገመተው የጥበቃ ጊዜ %{count} ደቂቃ ነው።",
+            "other": "ትዕዛዝህ በሂደት ላይ ነው። የሚገመተው የጥበቃ ጊዜ %{count} ደቂቃዎች ነው።"
+          },
+          "long": "ትዕዛዝዎ እንደተጠናቀቀ ኢሜይል ይደርሰዎታል። በአሁኑ ጊዜ ከፍተኛ መጠን ያላቸው ትዕዛዞች አሉ።",
+          "no_auto_refresh_html": "በራስ-ሰር ካልተዛወርክ፣ %{link}።",
+          "refresh_this_page": "ይህን ገጽ አድስ"
+        },
+        "remote_shops_payments_processing": "ክፍያዎችን በማስኬድ ላይ",
+        "action_required": "እርምጃ ያስፈልጋል",
+        "modal_notice": "{{paymentMethod}} እያገኘን ነው",
+        "remote_checkout_count": "%{current} ከ%{total}"
+      },
+      "payment_challenge_modal": {
+        "instructions": "የእርስዎን {{paymentMethod}} ኮድ በመጠቀም ግዢዎን ያጠናቅቁ",
+        "timer_message": "ለመክፈል {{timeLeft}} አለዎት",
+        "copy_text": "የ {{paymentMethod}} ኮድ ቅዳ",
+        "open_app_text": "{{paymentMethod}} መተግበሪያን ይክፈቱ",
+        "header": "በ {{paymentMethod}} ይክፈሉ",
+        "qr_code": {
+          "instructions": "የእርስዎን {{paymentMethod}} ኮድ በመጠቀም ግዢዎን ያጠናቅቁ"
+        },
+        "external": {
+          "instructions": "ይህን ግዢ ለማጠናቀቅ በመተግበሪያዎ ላይ ክፍያ ያረጋግጡ"
+        },
+        "close": "ፈተናውን ዝጋ"
+      },
+      "failed_payment": {
+        "page_title": "ክፍያ ሊሰራ አልቻለም",
+        "title": "ክፍያ ሊሰራ አልቻለም",
+        "payment_not_processed_title": "ክፍያዎ ሊካሄድ አልቻለም",
+        "payment_not_processed_text": "አልተከሰሱም። ግዢዎን ለማጠናቀቅ ወደ ጋሪዎ ይመለሱ።",
+        "return_to_cart_button_label": "ወደ ጋሪው ተመለስ"
       }
     },
     "notices": {
