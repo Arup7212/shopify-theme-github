@@ -1068,6 +1068,122 @@
         "thank_you_payments_app_pending_payment_description_default_with_email_payment": "የማረጋገጫ ኢሜይል ከትዕዛዝ ቁጥርዎ ጋር በቅርቡ ይደርስዎታል።",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "የማረጋገጫ ኢሜይል ከትዕዛዝ ቁጥርዎ ጋር በቅርቡ ይደርስዎታል።",
         "thank_you_payments_app_pending_payment_description_default_with_phone": "የማረጋገጫ ጽሁፍ ከትዕዛዝ ቁጥርዎ ጋር በቅርቡ ይደርሰዎታል።"
+      },
+      "payment": {
+        "payment_method_rollup_accessibility_label": "የመክፈያ ዘዴ አማራጮች",
+        "expired_payment_method": "የተመረጠው የመክፈያ ዘዴ ጊዜው አልፎበታል።",
+        "payment_method_update_failed": "የመክፈያ ዘዴ ማዘመን አልተሳካም።",
+        "payment_method_incompatible_with_payment_terms": "የመክፈያ ዘዴ ከክፍያ ውሎች ጋር ተኳሃኝ አይደለም።",
+        "proposed_gateway_unavailable": "የታቀደው የክፍያ መግቢያ በር የለም።",
+        "pay_in_installments_split_pay_short": "የ%{መጠን} 4 ክፍያዎች",
+        "gift_cards_unavailable": "የስጦታ ካርድዎ በዚህ ትዕዛዝ ላይ ሊተገበር አይችልም እና ተወግዷል",
+        "payment_flexibility_terms_id_mismatch": "የክፍያ ተለዋዋጭነት ውሎች መታወቂያ አለመመጣጠን",
+        "payment_option": {
+          "accessibility_label": "የክፍያ አማራጭ ይምረጡ"
+        },
+        "bank_account_type": {
+          "checking": "በማጣራት ላይ",
+          "savings": "ቁጠባዎች"
+        },
+        "bank_account_choose": "ግዢዎን ደህንነቱ በተጠበቀ ሁኔታ ለማጠናቀቅ መለያ ይምረጡ",
+        "bank_account_connect_another": "ሌላ የባንክ ሂሳብ ያገናኙ",
+        "bank_account_connect": "የባንክ ሂሳብን ያገናኙ",
+        "bank_account_missing": "የባንክ ሂሳብ መገናኘት አለበት።",
+        "separate_payments_label": "የእርስዎ እቃዎች ከአንድ በላይ ሱቅ ናቸው። በ%{separate_payments_link} ይከፍላሉ።",
+        "separate_payments_text": "የተለየ ክፍያዎች",
+        "payments": "ክፍያዎች"
+      },
+      "billing": {
+        "billing_address_title": "ቢል ለ",
+        "billing_address_rollup_accessibility_label": "ቢል ወደ አማራጮች",
+        "same_as_shipping": "እንደ የመላኪያ አድራሻ ተመሳሳይ",
+        "add_address": "የተለየ አድራሻ ይጠቀሙ",
+        "edit": "አርትዕ",
+        "delete": "ሰርዝ",
+        "address_more": "ለዚህ አድራሻ ተጨማሪ እርምጃዎች",
+        "address_edit": "አድራሻ አርትዕ",
+        "address_delete": "አድራሻ ሰርዝ",
+        "address_confirm": "እርግጠኛ ነዎት ይህን አድራሻ ከመለያዎ መሰረዝ ይፈልጋሉ?",
+        "address_form": {
+          "add_address": "አድራሻ ጨምር",
+          "save": "አስቀምጥ",
+          "cancel": "ሰርዝ"
+        }
+      },
+      "company_location": {
+        "location_title": "የኩባንያው ቦታ",
+        "location_rollup_accessibility_label": "የኩባንያው አቀማመጥ አማራጮች"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "የአሁኑ ቀሪ ሂሳብ %{መጠን}",
+        "credit_card_expires_on_notice": "በ%{month}/%{year} ላይ ጊዜው ያበቃል",
+        "express_payment_gateway_label": "ይግለጹ",
+        "manual_payment_gateway_label": "መመሪያ",
+        "billing_address_title": "የመክፈያ አድራሻ",
+        "free_label": "ፍርይ"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "የሚሰራ ስልክ ቁጥር አስገባ",
+        "handle_email_invalid": "የሚሰራ ኢሜይል አስገባ",
+        "email_invalid": "የሚሰራ ኢሜይል አስገባ",
+        "email_or_phone_blank": "ኢሜል ወይም ስልክ ቁጥር ያስገቡ",
+        "email_or_phone_invalid": "የሚሰራ ኢሜይል ወይም የሞባይል ስልክ ቁጥር አስገባ",
+        "address_first_name_blank": "የመጀመሪያ ስም አስገባ",
+        "address_first_name_too_long": "የመጀመሪያ ስም በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+        "address_first_name_contains_emojis": "የመጀመሪያ ስም ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_first_name_contains_html_tags": "የመጀመሪያ ስም HTML መለያዎችን ሊይዝ አይችልም።",
+        "address_first_name_contains_url": "የመጀመሪያ ስም ዩአርኤል ሊይዝ አይችልም።",
+        "address_first_name_contains_mathematical_symbols": "የመጀመሪያ ስም የሂሳብ ምልክቶችን ሊይዝ አይችልም።",
+        "address_last_name_blank": "የመጨረሻ ስም አስገባ",
+        "address_last_name_too_long": "የአያት ስም በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+        "address_last_name_contains_emojis": "የአያት ስም ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_last_name_contains_html_tags": "የአያት ስም HTML መለያዎችን ሊይዝ አይችልም።",
+        "address_last_name_contains_url": "የአያት ስም ዩአርኤል ሊይዝ አይችልም።",
+        "address_last_name_contains_mathematical_symbols": "የአያት ስም የሂሳብ ምልክቶችን ሊይዝ አይችልም።",
+        "address_address1_blank": "አድራሻ አስገባ",
+        "address_address1_too_long": "የመጀመሪያው የአድራሻ መስመር በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+        "address_address1_contains_emojis": "አድራሻ1 ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_address1_contains_html_tags": "አድራሻ1 HTML መለያዎችን ሊይዝ አይችልም።",
+        "address_address1_contains_mathematical_symbols": "የመጀመሪያው የአድራሻ መስመር የሂሳብ ምልክቶችን ሊይዝ አይችልም።",
+        "address_address2_blank": "አፓርታማ ፣ ክፍል ፣ ወዘተ ያስገቡ ።",
+        "address_address2_too_long": "ሁለተኛው የአድራሻ መስመር በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+        "address_address2_contains_emojis": "አድራሻ2 ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_address2_contains_html_tags": "አድራሻ2 HTML መለያዎችን ሊይዝ አይችልም።",
+        "address_address2_contains_mathematical_symbols": "ሁለተኛው የአድራሻ መስመር የሂሳብ ምልክቶችን ሊይዝ አይችልም",
+        "address_city_blank": "ከተማ ግባ",
+        "address_city_too_long": "ከተማው በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+        "address_city_contains_emojis": "ከተማ ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_city_contains_html_tags": "ከተማ HTML መለያዎችን ሊይዝ አይችልም።",
+        "address_city_contains_mathematical_symbols": "ከተማው የሂሳብ ምልክቶችን ሊይዝ አይችልም",
+        "address_country_blank": "አገር/ክልል ይምረጡ",
+        "address_country_not_supported": "ወደዚህ ሀገር ወይም ክልል አንልክም። አዲስ የመላኪያ አድራሻ ያስገቡ እና እንደገና ይሞክሩ።",
+        "address_province_blank": "ግዛት/አውራጃ ይምረጡ",
+        "address_province_invalid": "የሚሰራ ግዛት/አውራጃ ይምረጡ",
+        "address_company_blank": "የድርጅት ስም አስገባ",
+        "address_company_too_long": "የኩባንያው ስም በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+        "address_company_contains_emojis": "ኩባንያው ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_company_contains_html_tags": "ኩባንያው የኤችቲኤምኤል መለያዎችን መያዝ አይችልም።",
+        "address_company_contains_mathematical_symbols": "ኩባንያው የሂሳብ ምልክቶችን መያዝ አይችልም።",
+        "address_phone_blank": "የሚሰራ ስልክ ቁጥር አስገባ",
+        "address_phone_contains_emojis": "ስልክ ቁጥር ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_phone_invalid": "የሚሰራ ስልክ ቁጥር አስገባ",
+        "address_zip_blank": "ዚፕ/ፖስታ ኮድ አስገባ",
+        "address_zip_blocked_address": "ይህ አካባቢ አይደገፍም።",
+        "address_zip_too_long": "ዚፕ/ፖስታ ኮድ በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+        "address_zip_not_supported": "ይህ አካባቢ አይደገፍም።",
+        "address_zip_invalid_for_country": "ለ%{country} የሚሰራ ዚፕ/ፖስታ ኮድ ያስገቡ",
+        "address_zip_invalid_for_province": "ለ%{province} የሚሰራ ዚፕ/ፖስታ ኮድ ያስገቡ",
+        "address_zip_invalid_for_country_and_province": "ለ%{province}፣ %{country} የሚሰራ ዚፕ/ፖስታ ኮድ ያስገቡ",
+        "address_zip_contains_emojis": "ዚፕ/ፖስታ ኮድ ስሜት ገላጭ ምስሎችን ሊይዝ አይችልም።",
+        "address_zip_contains_mathematical_symbols": "ዚፕ/ፖስታ ኮድ የሂሳብ ምልክቶችን ሊይዝ አይችልም።",
+        "address_generic_blank": "አስፈላጊ መስክ",
+        "address_generic_invalid": "ልክ ያልሆነ ግቤት",
+        "address_generic_error": "የመስክ ስህተት",
+        "credit_card_name_blank": "በካርድዎ ላይ እንደተጻፈው ስምዎን በትክክል ያስገቡ",
+        "credit_card_name_invalid": "በካርድዎ ላይ እንደተጻፈው ስምዎን በትክክል ያስገቡ",
+        "credit_card_number_invalid": "የሚሰራ የካርድ ቁጥር አስገባ",
+        "credit_card_expiry_invalid": "የሚሰራ የማለቂያ ቀን ያስገቡ",
+        "credit_card_month_invalid": "የሚሰራ የማለቂያ ወር ያስገቡ"
       }
     },
     "notices": {
@@ -1502,7 +1618,27 @@
         "unavailable": {
           "text": "የብድር እና የዴቢት ካርድ ክፍያዎች አሁን አይገኙም።"
         }
-      }
+      },
+      "replacement_payment_method_title": "መተኪያ የመክፈያ ዘዴ",
+      "title": "የመክፈያ ዘዴዎች",
+      "add_payment_method_button": "የመክፈያ ዘዴ ያክሉ",
+      "add_payment_method_dropdown": {
+        "credit_or_debit_card": "ክሬዲት ወይም ዴቢት ካርድ",
+        "bank_account": "የባንክ ሂሳብ",
+        "bank_account_consent": "የመክፈያ ዘዴ በማከል፣ እስኪሰርዙ ድረስ ካርድዎ እንዲከፍል ወይም የባንክ ሒሳብ እንዲከፍል ፍቃድ ይሰጣሉ ለወደፊት ለሚፈቅዷቸው ግዢዎች።"
+      },
+      "generic_error": "የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።",
+      "bank_account": {
+        "loading_accessibility_message": "የባንክ ሒሳብ ቁልፍ በመጫን ላይ ነው።",
+        "iframe_title_accessibility_label": "የባንክ ሂሳብ ማዋቀር",
+        "display_name": "የባንክ ሂሳብ"
+      },
+      "add_payment_method_banner": "ለፈጣን ፍተሻ ወይም ቅድመ-ተፈቀደላቸው አገልግሎቶች የመክፈያ ዘዴን ያክሉ",
+      "no_payment_methods_banner": "ምንም የመክፈያ ዘዴዎች አልተጨመሩም።",
+      "edit_payment_method_button_accessibility_label": "በ {{lastDigits}} የሚያበቃውን {{paymentMethodName}} } ያርትዑ",
+      "edit_payment_method_brand_button_accessibility_label": "{{paymentMethodName}} ን ያርትዑ",
+      "delete_payment_method_button": "ሰርዝ",
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}} ን ሰርዝ"
     },
     "orders": {
       "order_status": {
@@ -1650,6 +1786,162 @@
     "order_details": {
       "shipment_timeline": {
         "expand_events_label": "ዝርዝሮችን አሳይ"
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "description_due_on_receipt": "ክፍያ ሲደርስ ደረሰኝ ይደርስዎታል።",
+            "description_due_on_receipt_partially_paid": "ይህ ትዕዛዝ በከፊል ተከፍሏል። ቀሪ ሂሳብ አለህ። ክፍያ ሲደርስ ደረሰኝ ይደርስዎታል።",
+            "description_due_on_fulfillment": "በዚህ ትዕዛዝ ውስጥ ያሉት ሁሉም እቃዎች ከተሟሉ በኋላ ክፍያ መከፈል አለበት።",
+            "description_due_on_fulfillment_partially_paid": "ይህ ትዕዛዝ በከፊል ተከፍሏል። ቀሪ ሂሳብ አለህ። በዚህ ትዕዛዝ ውስጥ ያሉት ሁሉም እቃዎች ከተሟሉ በኋላ ክፍያ መከፈል አለበት።"
+          },
+          "draft": {
+            "description": "የክፍያ ዝርዝሮች ትዕዛዙ ሲረጋገጥ ይወሰናል.",
+            "title": "ክፍያ ገና አልተጠናቀቀም።",
+            "in_review": {
+              "description": "የክፍያ ዝርዝሮች ትዕዛዙ ሲረጋገጥ ይወሰናል.",
+              "title": "ክፍያ ገና አልተጠናቀቀም።"
+            },
+            "submitted": {
+              "description": "ይህንን ትዕዛዝ ለማረጋገጥ ክፍያ ያስገቡ።",
+              "title": "ለማረጋገጥ ይክፈሉ።",
+              "deposit": {
+                "title": "ክፍያ መከፈል አለበት።",
+                "due_later": "ቀሪ ሒሳቡ በ {{translatedName}} ውሎች ላይ ነው እና በ {{dueDate}} መከፈል አለበት።",
+                "due_on_fulfillment": "በዚህ ቅደም ተከተል ውስጥ ያሉት ሁሉም እቃዎች ከተሟሉ በኋላ ቀሪ ሒሳቡ መከፈል አለበት።",
+                "due_on_receipt": "ለቀሪው ቀሪ ሂሳብ ደረሰኝ ይደርስዎታል።",
+                "due_on_date": "ቀሪ ሒሳቡ የሚከፈለው በ {{dueDate}} ነው።"
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} ትዕዛዝህ ሲረጋገጥ መከፈል አለበት። ሒሳቡ በ {{translatedName}} ውሎች ላይ ይሆናል።",
+              "due_on_fulfillment": "{{depositAmount}} ትዕዛዝህ ሲረጋገጥ መከፈል አለበት። ትዕዛዙ ሲፈፀም ቀሪው ይሆናል.",
+              "due_on_receipt": "{{depositAmount}} ትዕዛዝህ ሲረጋገጥ መከፈል አለበት። ሚዛኑ በኋላ ላይ ይደርሳል.",
+              "due_on_date": "{{depositAmount}} ትዕዛዝህ ሲረጋገጥ መከፈል አለበት። ቀሪ ሒሳቡ በ {{dueDate}} መከፈል አለበት።"
+            }
+          },
+          "paid": {
+            "title": "የተከፈለ",
+            "title_with_date": "የተከፈለበት {{date}}",
+            "description": "ትዕዛዝዎ ሙሉ በሙሉ ተከፍሏል።"
+          },
+          "refund": {
+            "title": "ተመላሽ ተደርጓል",
+            "title_with_date": "ተመላሽ የተደረገው {{date}}",
+            "description_full_refund": "ለዚህ ትዕዛዝ ሙሉ ገንዘብ ተመላሽ አግኝተዋል።",
+            "description_single_refund": "ለዚህ ትዕዛዝ ከፊል ተመላሽ ገንዘብ ተቀብለዋል።",
+            "description_multiple_refunds": "ለዚህ ትዕዛዝ ከፊል ተመላሽ ገንዘቦች ተቀብለዋል።"
+          },
+          "canceled": {
+            "title": "ክፍያ ተሰርዟል።",
+            "description": "አልተከሰሱም።"
+          },
+          "pay_now": "አሁን ይክፈሉ።",
+          "pay_now_accessibility_label": "ለትዕዛዝ {{orderName}} አሁን ይክፈሉ",
+          "title": "የክፍያ ሁኔታ"
+        },
+        "order_timeline": {
+          "expand_events_label": "ዝርዝሮችን አሳይ",
+          "expand_events_accessibility_label": "ረቂቅ የትዕዛዝ ዝርዝሮችን አሳይ",
+          "hide_events_label": "ዝርዝሮችን ደብቅ",
+          "hide_events_accessibility_label": "ረቂቅ የትዕዛዝ ዝርዝሮችን ደብቅ"
+        },
+        "subtitle": "የቀረበው {{date}}",
+        "title": "እዘዝ {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "ይህ የመክፈያ ዘዴ ከአሁን በኋላ ከዚህ አካባቢ ለሚደረጉ ግዢዎች አይገኝም።",
+          "description_with_replacement": "ይህን የመክፈያ ዘዴ መሰረዝ ለዚህ አካባቢ አስቀድሞ የተፈቀዱ ክፍያዎች ላይ ተጽእኖ ይኖረዋል። መጪ ትዕዛዞችን መቀበልን ለመቀጠል በአማራጭ የመክፈያ ዘዴ ይቀይሩት።"
+        },
+        "payment_details": {
+          "order_label": "እዘዝ {{name}}",
+          "draft_label": "ረቂቅ ትዕዛዝ {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "የፖስታ ቁጥር ያክሉ",
+        "add_modal_title": "የፖስታ ቁጥር ያክሉ",
+        "cancel": "ሰርዝ",
+        "close_modal_accessibility_label": "የፖስታ ቁጥር ሞዳልን ዝጋ",
+        "discard": "አስወግድ",
+        "discard_changes_modal_title": "ለውጦች ይወገዱ?",
+        "edit_accessibility_label": "የፖስታ ቁጥርን ያርትዑ",
+        "edit_modal_title": "የፖስታ ቁጥርን ያርትዑ",
+        "empty_state": "የፖስታ ቁጥር የለም።",
+        "modal_po_number_input_label": "የፖስታ ቁጥር",
+        "modal_po_number_input_max_length_error": "የፖስታ ቁጥሮች ቢበዛ {{maxLength}} ቁምፊዎች አላቸው።",
+        "save": "አስቀምጥ",
+        "title": "ፖስታ # {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "ይህን አድራሻ መሰረዝ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም ገጹን ያድሱ።"
+      },
+      "addresses_loading_issue": {
+        "description": "የግንኙነት ስህተት። የበይነመረብ ግንኙነትዎን ይፈትሹ እና እንደገና ይሞክሩ።"
+      },
+      "banner_title": {
+        "one": "{{count}} ስህተት አለ።",
+        "other": "{{count}} ስህተቶች አሉ።"
+      },
+      "failed_address_creation": {
+        "description": "አድራሻህን መፍጠር ላይ ችግር ነበር። ይህን ገጽ ለማደስ ይሞክሩ ወይም የበይነመረብ ግንኙነትዎን ያረጋግጡ።"
+      },
+      "failed_address_update": {
+        "description": "አድራሻህን ማዘመን ላይ ችግር ነበር። ይህን ገጽ ለማደስ ይሞክሩ ወይም የበይነመረብ ግንኙነትዎን ያረጋግጡ።"
+      },
+      "load_address_form_error": {
+        "title": "የአድራሻ ቅጽ መጫን አልተቻለም",
+        "description": "የአድራሻ ቅጽ መጫን አልተቻለም።",
+        "refresh_button": "ገጽ አድስ"
+      },
+      "load_orders_error": {
+        "title": "ትዕዛዞችን መጫን አልተቻለም",
+        "description": "እንደገና ይሞክሩ ወይም ቆይተው ይመለሱ።",
+        "retry_button": "እንደገና ይሞክሩ"
+      },
+      "load_paypal_error": {
+        "description": "PayPalን መጫን ላይ ችግር አለ። እባክዎ እንደገና ይሞክሩ።"
+      },
+      "logout_everywhere": {
+        "description": "በመውጣት ጊዜ የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።"
+      },
+      "no_access_to_locations": {
+        "description": "ወደ ማናቸውም አካባቢዎች መዳረሻ የለዎትም።"
+      },
+      "not_found": {
+        "description": "ዩአርኤሉን ይመልከቱ ወይም ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ።",
+        "title": "ይህን ገጽ መጫን ላይ ችግር አለ።"
+      },
+      "order_not_found": {
+        "description": "ይህ ትዕዛዝ የለም ወይም እሱን ለማየት ፍቃድ የለዎትም።",
+        "title": "ትዕዛዝ አልተገኘም።"
+      },
+      "profile_update_error": {
+        "description": "መገለጫህን ማዘመን ላይ ችግር ነበር። ይህን ገጽ ለማደስ ይሞክሩ ወይም የበይነመረብ ግንኙነትዎን ያረጋግጡ።"
+      },
+      "profile_name_update_error": {
+        "description": "ስምህን ማዘመን ላይ ችግር ነበር። ይህን ገጽ ለማደስ ይሞክሩ ወይም የበይነመረብ ግንኙነትዎን ያረጋግጡ።"
+      },
+      "retry_action_label": "እንደገና ይሞክሩ",
+      "resend_link": {
+        "too_many_requests": "በጣም ብዙ ጥያቄዎች። ቆይተው እንደገና ይሞክሩ።",
+        "generic": "ያልተሳካ ጥያቄ"
+      },
+      "load_extension_error": {
+        "title": "ስህተት",
+        "description": "ይህን ገጽ ያድሱ ወይም ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ።",
+        "refresh_button": "ገጽ አድስ"
+      }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "በጣም ብዙ ሙከራዎች",
+        "description": "እባክዎ ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ"
       }
     }
   },
