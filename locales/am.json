@@ -558,67 +558,7 @@
         "deferred_balance_info": {
           "title": "የ {{amount_due}} ቀሪ ሒሳብ በ {{due_at}} መከፈል አለበት።",
           "due_on_fulfillment_title": "የ {{amount_due}} ቀሪ ሒሳብ ሲሟላ ነው።"
-        },
-        "title": "የትዕዛዝ ማጠቃለያ",
-        "group_title_label": "የ\"%{group_title}\" አካል",
-        "for_add_on": "ለ፡ %{group_title}",
-        "from_shop_heading": "ከ%{shop_name}",
-        "from_other_stores_heading": "ከሌሎች መደብሮች",
-        "number_items": {
-          "one": "%{count} ንጥል",
-          "other": "%{count} ንጥሎች"
-        },
-        "view_all_items": {
-          "one": "%{count} ንጥልን አሳይ",
-          "other": "ሁሉንም %{count} ንጥሎች ይመልከቱ"
-        },
-        "more_items_modal": {
-          "search_item": "ፈልግ",
-          "clear_search": "ፍለጋን አጽዳ",
-          "empty_results": "ለ\"%{searchText}\" ምንም ውጤቶች አልተገኙም። አጻጻፉን ያረጋግጡ ወይም የተለየ ቃል ወይም ሐረግ ይጠቀሙ።",
-          "number_items_shown": "%{shownNumber} ከ%{totalNumber} ንጥሎች"
-        },
-        "order_name_label": "እዘዝ %{name}",
-        "shopping_cart_label": "የግዢ ጋሪ",
-        "discount_title": "ቅናሽ",
-        "discount_title_stacking": {
-          "one": "ቅናሽ",
-          "other": "ቅናሾች"
-        },
-        "discount_order_stacking": {
-          "one": "ቅናሽ ማዘዝ",
-          "other": "ቅናሾችን ይዘዙ"
-        },
-        "discount_label": "የቅናሽ ኮድ",
-        "discount_not_found": "ከገባው ኮድ ጋር የሚዛመድ ትክክለኛ ቅናሽ ማግኘት አልተቻለም",
-        "discount_placeholder": "የቅናሽ ኮድ",
-        "discount_code_applied": "የቅናሽ ኮድ ተተግብሯል።",
-        "discount_code_allocations_mismatch": "<strong style=\"text-transform:uppercase\">የ%{code}</strong> ቅናሽ ኮድህ ተለውጧል። ጋሪዎን ይገምግሙ እና እንደገና ይሞክሩ።",
-        "order_discounts_apply_to_local_shop": "የትዕዛዝ ቅናሾች የሚተገበሩት ከ%{shop_name} ንጥሎች ላይ ብቻ ነው",
-        "gift_card_applied": "የስጦታ ካርድ ተተግብሯል።",
-        "enter_shipping_address": "የመላኪያ አድራሻ ያስገቡ",
-        "gift_card_title": "የስጦታ ካርድ",
-        "gift_card_label": "የስጦታ ካርድ",
-        "gift_card_placeholder": "የስጦታ ካርድ",
-        "gift_card_and_discount_title": "የቅናሽ ኮድ ወይም የስጦታ ካርድ",
-        "gift_card_and_discount_label": "የቅናሽ ኮድ ወይም የስጦታ ካርድ",
-        "gift_card_and_discount_placeholder": "የቅናሽ ኮድ ወይም የስጦታ ካርድ",
-        "gift_cards_apply_to_local_shop": "የስጦታ ካርዶች ከ%{shop_name} ንጥሎች ላይ ብቻ ነው የሚሰራው",
-        "add_discount_or_gift_card": "የቅናሽ ኮድ ወይም የስጦታ ካርድ ያክሉ",
-        "remove_gift_card_label": "የስጦታ ካርድ አጽዳ",
-        "remove_discount_label": "ቅናሽ አስወግድ",
-        "return_restocking_fee_label": "የመልሶ ማቋቋም ክፍያ",
-        "return_shipping_fee_label": "መላኪያ ይመለሱ",
-        "free_shipping_discount_label": "ነጻ ማጓጓዣ",
-        "applied_free_shipping_discount_label": "ተተግብሯል",
-        "apply_discount_button_label": "ያመልክቱ",
-        "applied_discount_message": "ከጠቅላላ የትዕዛዝ ዋጋ %{amount}",
-        "discount_has_been_applied": "ቅናሽ ተተግብሯል።",
-        "discount_has_been_removed": "ቅናሽ ተወግዷል",
-        "gift_card_has_been_applied": "የስጦታ ካርድ ተተግብሯል።",
-        "gift_card_has_been_removed": "የስጦታ ካርድ ተወግዷል",
-        "gift_card_subscriptions_notice": "የስጦታ ካርዶች ለመጀመሪያ ክፍያዎ ብቻ ነው የሚተገበሩት።",
-        "discount_already_applied": "በዚህ ትዕዛዝ ላይ ቅናሽ ተተግብሯል። ሌላ ቅናሽ ማከል አይችሉም።"
+        }
       },
       "shipping": {
         "title": "መላኪያ",
@@ -1089,53 +1029,8 @@
         },
         "unpurchasable_product": {
           "title": "የማይገዛ ምርት",
-          "header": "አንዳንድ ንጥሎች ከእርስዎ ጋሪ ተወግደዋል።",
-          "message": "እነዚህ እቃዎች ለ B2B ትዕዛዞች አይገኙም።",
-          "status_column_header": "አይገኝም"
-        },
-        "unpurchasable_product_generic": {
-          "title": "የማይገዛ ምርት",
-          "header": "አንዳንድ ንጥሎች ከእርስዎ ጋሪ ተወግደዋል።",
-          "message": "እነዚህ እቃዎች አይገኙም።",
-          "status_column_header": "አይገኝም"
-        },
-        "unfulfillable_product": {
-          "title": "ማድረስ አይገኝም",
-          "message": {
-            "one": "%{delivery_method} ከአሁን በኋላ ለዚህ ንጥል አይገኝም።",
-            "other": "%{delivery_method} ለእነዚህ ንጥሎች አይገኝም።"
-          },
-          "default_message": {
-            "one": "የተመረጠው የመላኪያ ዘዴ ለዚህ ንጥል አይገኝም።",
-            "other": "የተመረጠው የመላኪያ ዘዴ ለእነዚህ ዕቃዎች አይገኝም።"
-          }
-        },
-        "unshippable_product": {
-          "title": "ምንም መላኪያ የለም።",
-          "header": {
-            "one": "ለ%{count} ንጥል ነገር መላክ የለም።",
-            "other": "ለ%{count} ንጥሎች ምንም መላኪያ የለም።"
-          },
-          "message": {
-            "one": "ለአድራሻዎ ምንም የማድረስ ዘዴዎች ስለሌለ ይህ ንጥል ከጋሪዎ ይወገዳል።",
-            "other": "ለአድራሻዎ ምንም የማድረስ ዘዴዎች ስለሌለ እነዚህ ነገሮች ከጋሪዎ ይወገዳሉ።"
-          },
-          "status_column_header": "ምንም መላኪያ የለም።"
-        },
-        "price_update": {
-          "title": "የዋጋ ዝማኔ",
-          "description": "የእነዚህ እቃዎች ዋጋዎች ተለውጠዋል እና በጋሪዎ ውስጥ ተዘምነዋል።",
-          "updated_price": "የዘመነ ዋጋ"
-        },
-        "price_and_quantity_update": {
-          "title": "የዋጋ እና የመጠን ማሻሻያ",
-          "description": "የእነዚህ እቃዎች ዋጋዎች እና የሚገኙ መጠኖች ተለውጠዋል እና በጋሪዎ ውስጥ ተዘምነዋል።"
-        },
-        "out_of_stock": {
-          "description": "እነዚህ እቃዎች ከአሁን በኋላ አይገኙም እና ከጋሪዎ ተወግደዋል።",
-          "items_unavailable": "አንዳንድ ንጥሎች ከአሁን በኋላ አይገኙም እና ከጋሪዎ ተወግደዋል።"
-        },
-        "out_of_stock_in_context_label": "ይህ ምርት በአገርዎ/በክልልዎ አይገኝም።"
+          "header": "አንዳንድ ንጥሎች ከእርስዎ ጋሪ ተወግደዋል።"
+        }
       },
       "customer_payment_methods": {
         "page_title": "የመክፈያ ዘዴዎች",
@@ -2025,52 +1920,6 @@
         "card_declined": "ካርድዎ ተቀባይነት አላገኘም። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
         "processing_error": "ክፍያዎን ማስኬድ ላይ ችግር ነበር። እንደገና ይሞክሩ ወይም የተለየ የመክፈያ ዘዴ ይጠቀሙ።",
         "processing_error_checkout_as_guest": "ክፍያዎን ማስኬድ ላይ ችግር ነበር። በተለየ የመክፈያ ዘዴ ወይም {{checkout_as_guest_link}} እንደገና ይሞክሩ።"
-      },
-      "contextual_availability": {
-        "title": {
-          "one": "የማይገኝ ምርት",
-          "other": "የማይገኙ ምርቶች"
-        },
-        "products_not_available": {
-          "one": "ይህ ምርት በአገርዎ/በክልልዎ ስለሌለ ከጋሪዎ ይወገዳል።",
-          "other": "እነዚህ ምርቶች በአገርዎ/በክልልዎ ስለማይገኙ ከጋሪዎ ይወገዳሉ።"
-        },
-        "all_products_in_cart_unavailable": {
-          "one": "ይህ ምርት በአገርዎ/በክልልዎ አይገኝም።",
-          "other": "እነዚህ ምርቶች በአገርዎ/በክልልዎ አይገኙም።"
-        },
-        "unavailable_label": "አይገኝም"
-      },
-      "merchandise_unavailable_in_buyer_location": {
-        "banner_title": {
-          "some_products_one": "ይህ ምርት ወደ %{location_name} ለማድረስ አይገኝም።",
-          "some_products_other": "እነዚህ ምርቶች ወደ %{location_name} ለማድረስ አይገኙም።",
-          "all_products_one": "በጋሪዎ ውስጥ ያለው ምርት ወደ %{location_name} ለማድረስ አይገኝም።",
-          "all_products_other": "በጋሪህ ውስጥ ያሉት ምርቶች ወደ %{location_name} ለማድረስ አይገኙም።"
-        },
-        "missing_country_fallback": "ሀገርህ",
-        "indeterminate_location_fallback": "የእርስዎ አካባቢ",
-        "cart_updated": "ጋሪህ ተዘምኗል።",
-        "change_address_only": "ለመቀጠል የመላኪያ አድራሻ ቀይር።",
-        "change_address_or_remove": "የመላኪያ አድራሻ ይቀይሩ ወይም %{remove_action}።",
-        "remove_items_action": {
-          "one": "የማይገኝን ንጥል አስወግድ",
-          "other": "የማይገኙ ዕቃዎችን ያስወግዱ"
-        },
-        "empty_cart_action": "ባዶ ጋሪ እና ወደ መደብር ይመለሱ"
-      },
-      "deliverability": {
-        "not_deliverable": {
-          "title": {
-            "one": "ለ%{count} ንጥል ነገር መላክ የለም።",
-            "other": "ለ%{count} ንጥሎች ምንም መላኪያ የለም።"
-          },
-          "message": {
-            "one": "ለአድራሻዎ ምንም የማድረስ ዘዴዎች ስለሌለ ይህ ንጥል ከጋሪዎ ይወገዳል።",
-            "other": "ለአድራሻዎ ምንም የማድረስ ዘዴዎች ስለሌለ እነዚህ ነገሮች ከጋሪዎ ይወገዳሉ።"
-          },
-          "label": "ምንም መላኪያ የለም።"
-        }
       }
     },
     "notices": {
@@ -2435,8 +2284,13 @@
     "date": {
       "humanize": {
         "lessThanOneHourAgo": {
-          "one": "{{count}} ደቂቃ በፊት"
-        }
+          "one": "{{count}} ደቂቃ በፊት",
+          "other": "{{count}} ደቂቃዎች በፊት"
+        },
+        "lessThanOneMinuteAgo": "ልክ አሁን",
+        "yesterday": "ትላንት በ {{time}}",
+        "today": "ዛሬ በ {{time}}",
+        "tomorrow": "ነገ በ {{time}}"
       }
     },
     "payment_methods": {
@@ -2776,7 +2630,23 @@
       "manage": "አስተዳድር",
       "manage_accessiblity_label": "ትዕዛዝ አስተዳድር {{orderId}}",
       "group_title_label": "ክፍል {{groupTitle}}",
-      "group_title_label_with_parent": "ለ {{groupTitle}}"
+      "group_title_label_with_parent": "ለ {{groupTitle}}",
+      "list_layout_accessibility_label": "የአቀማመጥ አማራጮች",
+      "list_title": "ትዕዛዞች",
+      "list_title_with_pending_orders": "ትዕዛዞች፡-",
+      "list_title_confirmed_orders_accessibility_label": "ትዕዛዞች: ተረጋግጧል",
+      "list_title_pending_orders_accessibility_label": "ትዕዛዞች፡ በመጠባበቅ ላይ",
+      "switch_order_type_pending_orders_accessibility_label": "የትዕዛዝ አይነት ቀይር፣ በአሁኑ ጊዜ በመጠባበቅ ላይ ያሉ ትዕዛዞች",
+      "switch_order_type_confirmed_orders_accessibility_label": "የትዕዛዝ አይነት ይቀይሩ፣ በአሁኑ ጊዜ የተረጋገጡ ትዕዛዞችን በማየት ላይ",
+      "order_list": {
+        "column_headers": {
+          "order": "እዘዝ",
+          "total": "ጠቅላላ",
+          "actions_accessibility_label": "ድርጊቶች",
+          "products_accessibility_label": "ምርቶች"
+        },
+        "delivered": "የደረሰው {{date}}"
+      }
     },
     "order_details": {
       "shipment_timeline": {
@@ -3012,6 +2882,111 @@
       },
       "removeItem": "አስወግድ {{label}}",
       "removeTag": "መለያን ያስወግዱ"
+    },
+    "enable_javascript": "መለያህን ለማየት በአሳሽህ ቅንጅቶች ውስጥ ጃቫስክሪፕትን አንቃ ወይም በሌላ አሳሽ ግባ።",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "የመለያ ምናሌን ደብቅ",
+        "label": "መለያ",
+        "show_accessibility_label": "የመለያ ምናሌን አሳይ",
+        "nav_accessibility_label": "የመለያ አሰሳ",
+        "open_menu_accessibility_label": "የመለያ ዳሰሳን ክፈት",
+        "close_menu_accessibility_label": "የመለያ አሰሳን ዝጋ",
+        "loading_message": "የመለያ አሰሳን በመጫን ላይ"
+      },
+      "action_menu_accessibility_label": "ተጨማሪ ድርጊቶች",
+      "close_menu_accessibility_label": "ዋናውን ዳሰሳ ዝጋ",
+      "contact_email_subject": "ከ {{shopName}} የመስመር ላይ መደብር ያነጋግሩ",
+      "contact_link": "የእውቂያ መረጃ",
+      "delete_confirmation": {
+        "cancel": "ሰርዝ",
+        "delete": "ሰርዝ"
+      },
+      "dismiss_toast": "አሰናብት",
+      "document_title": "{{sectionName}} - {{shopName}} - መለያ",
+      "go_to_store_link": "ወደ መደብር ሂድ",
+      "loading_message": "በመጫን ላይ",
+      "loading_policy_content_accessibility_label": "የመመሪያ ይዘትን በመጫን ላይ",
+      "log_out_link": "ዘግተህ ውጣ",
+      "logout_overlay_label": "በመውጣት ላይ...",
+      "nav_label_accessibility_label": "ዋና አሰሳ",
+      "navigation_accessibility_message": "ወደ {{sectionName}} ሄድክ",
+      "open_menu_accessibility_label": "ዋናውን ዳሰሳ ክፈት",
+      "orders_link_label": "ትዕዛዞች",
+      "shop_logo_accessibility_label": "{{shopName}} አርማ",
+      "subscriptions_link_label": "የደንበኝነት ምዝገባዎች",
+      "settings_link": "ቅንብሮች",
+      "country_switcher_toast_message": "አገር ወደ {{countryName}} ተቀይሯል",
+      "switch_country": "አገር ቀይር",
+      "no_countries_found": "ምንም አገሮች አልተገኙም።",
+      "location_switcher_toast_message": "አካባቢ ወደ {{locationName}} ተቀይሯል",
+      "switch_location": "አካባቢ ቀይር",
+      "no_locations_found": "ምንም አካባቢዎች አልተገኙም።",
+      "try_new_search": "አዲስ ፍለጋ ይሞክሩ",
+      "view_details": "ዝርዝሮችን ይመልከቱ",
+      "company_location": "የኩባንያው ቦታ",
+      "search": "ፈልግ",
+      "skip_to_content": "ወደ ይዘት ዝለል"
+    },
+    "announcement_bar": {
+      "expand_label": "የማስታወቂያ አሞሌን ዘርጋ",
+      "collapse_label": "የማስታወቂያ አሞሌ ሰብስብ",
+      "close_label": "የማስታወቂያ አሞሌን ዝጋ"
+    },
+    "account_information": {
+      "loading_accessibility_message": "የመለያ መረጃን በመጫን ላይ",
+      "loading_finished_accessibility_message": "የመለያ መረጃ ተጭኗል",
+      "profile_card": {
+        "cancel": "ሰርዝ",
+        "cancel_accessibility_label": "የአርትዖት መገለጫን ሰርዝ",
+        "edit": "አርትዕ",
+        "edit_accessibility_label": "መገለጫ አርትዕ",
+        "email_help_text": "ኢሜል ሊስተካከል አይችልም።",
+        "editable_email_help_text": "ይህ ኢሜይል ለመግቢያ እና ለማዘመን ጥቅም ላይ ይውላል።",
+        "first_name": "የመጀመሪያ ስም",
+        "last_name": "የአያት ስም",
+        "email": "ኢሜይል",
+        "no_name_provided_accessibility_label": "ምንም ስም አልተጨመረም።",
+        "phone_number_help_text": "ስልክ ቁጥር ሊስተካከል አይችልም።",
+        "save": "አስቀምጥ",
+        "save_accessibility_label": "መገለጫ አስቀምጥ",
+        "title": "መገለጫ",
+        "errors": {
+          "name_too_long": "{{fieldName}} በጣም ረጅም ነው (ከፍተኛው 255 ቁምፊዎች ነው)",
+          "name_cannot_contain_url": "{{fieldName}} URL ሊይዝ አይችልም።",
+          "name_cannot_contain_html_tags": "{{fieldName}} HTML መለያዎችን ሊይዝ አይችልም።",
+          "email_cant_be_blank": "ኢሜል ባዶ ሊሆን አይችልም።",
+          "invalid_email_format": "የሚሰራ ኢሜይል አስገባ"
+        }
+      },
+      "verify_new_email_modal": {
+        "title": "ኢሜይል ያረጋግጡ",
+        "description": "ወደ {{email}} የተላከውን ኮድ አስገባ",
+        "one_time_password_label": "ባለ 6-አሃዝ ኮድ",
+        "email_resend_button": "ኮድ እንደገና ላክ",
+        "email_resend_button_accessibility_label": "የማረጋገጫ ኮድ እንደገና ላክ",
+        "verify_button": "አረጋግጥ",
+        "verify_button_accessibility_label": "የአንድ ጊዜ የይለፍ ቃል ያረጋግጡ",
+        "cancel_button": "ሰርዝ",
+        "cancel_button_accessibility_label": "ኢሜል ማረም ሰርዝ",
+        "email_resend_button_success_toast_message": "የማረጋገጫ ኮድ ተልኳል።",
+        "email_resend_button_error_banner_message": "የማረጋገጫ ኮድ መላክ አልተቻለም"
+      },
+      "email_update_success_modal": {
+        "title": "ኢሜይል ያረጋግጡ",
+        "description": "ኢሜል በተሳካ ሁኔታ ዘምኗል። ወደ መግቢያ በማዞር ላይ።"
+      },
+      "profile_update_confirmation_message": "መገለጫ ተዘምኗል",
+      "email_update_confirmation_message": "ኢሜይል ወደ {{email}} ተዘምኗል",
+      "title": "መገለጫ",
+      "people": {
+        "pagination": {
+          "load_more": "ተጨማሪ ጫን",
+          "load_more_accessibility_label": "ተጨማሪ ሰዎችን ጫን",
+          "loading_accessibility_label": "ሰዎችን በመጫን ላይ"
+        }
+      },
+      "add_button": "አክል"
     }
   },
   "products": {
