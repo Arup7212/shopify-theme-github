@@ -1057,7 +1057,43 @@
         "name_mismatch": "Kontroleer asseblief u kaartbesonderhede. Die naam op u kaart en faktuuradres stem nie ooreen nie.",
         "shop_pay_wallet_not_available": "Shop Pay is nie vir hierdie betaalpunt beskikbaar nie.",
         "market_manager_blocks_wallet_payments": "Betaalmetode word nie in jou land ondersteun nie.",
-        "paypal_over_capture": "Jou bestellingstotaal is opgedateer. Betaal met {{walletName}} om jou bestelling te voltooi."
+        "paypal_over_capture": "Jou bestellingstotaal is opgedateer. Betaal met {{walletName}} om jou bestelling te voltooi.",
+        "amount_too_small": "Die minimum betaalbedrag moet hoër as $0.50 USD wees. Probeer asseblief weer met 'n hoër bedrag.",
+        "method_not_available": "Die versoekte betaalmetode is nie beskikbaar nie. Kies 'n ander betaalmetode en probeer weer.",
+        "available_methods_updated": "Beskikbare betaalmetodes is opgedateer.",
+        "generic_error": "Daar was 'n probleem met die verwerking van jou betaling. Probeer weer of gebruik 'n ander betaalmetode.",
+        "rejected_transaction": "Jou betaling is afgekeur. Probeer weer of gebruik 'n ander betaalmetode.",
+        "credit_card_processing": "Jou betaling kan nie om tegniese redes verwerk word nie. Probeer weer oor 'n paar minute of gebruik 'n ander betaalmetode.",
+        "checkout_amount_changed": "Jou betaling kon nie verwerk word nie, want die bedrag wat by die betaalpunt verskuldig is, het verander. Kontroleer asseblief jou bestelling en probeer weer.",
+        "deferred_payment_not_allowed": "Uitgestelde betalings word nie toegelaat nie. Kontroleer asseblief u bestelling en probeer weer.",
+        "deferred_payment_required": "Hierdie bestelling vereis 'n uitgestelde betaling. Kontroleer asseblief u bestelling en probeer weer.",
+        "deferred_amount_changed": "Jou betaling kon nie verwerk word nie, want die uitgestelde betalingbedrag het verander. Kontroleer asseblief jou bestelling en probeer weer.",
+        "deferred_date_changed": "Jou betaling kon nie verwerk word nie, want die uitgestelde betalingsdatum het verander. Kontroleer asseblief jou bestelling en probeer weer.",
+        "order_total_changed": "Jou bestellingstotaal het verander. Hersien en probeer weer.",
+        "payment_processing": "Jou betaling kan nie om tegniese redes verwerk word nie. Probeer weer of gebruik 'n ander betaalmetode.",
+        "payment_processing_no_retry": "Jou betaling kan nie om tegniese redes verwerk word nie. Probeer asseblief 'n ander betaalmetode.",
+        "paypal_zero_amount": "Jy kan nie PayPal gebruik vir %{amount} bestellings nie. Bevestig dat jou bestelling korrek is en betaal sonder PayPal.",
+        "paypal_invalid_token": "PayPal was nie beskikbaar nie. Probeer weer of gebruik 'n ander betaalopsie.",
+        "pay_later_failed": "Daar was 'n fout tydens die verwerking van jou betaling met Betaal later. Kies 'n ander betaalmetode en probeer weer.",
+        "three_d_secure_failed": "Jou betaling kon nie geverifieer word nie. Probeer weer of gebruik 'n ander betaalmetode.",
+        "three_d_secure_failed_duplicate": "Die kredietkaart se 3D Secure-verifikasie het misluk omdat 'n ander een reeds aan die gang is.",
+        "three_d_secure_failed_payment_method": "Jou kaart kon nie geverifieer word nie. Probeer weer of voeg 'n ander kaart by.",
+        "three_d_secure_throttled": "Te veel pogings; wag asseblief voordat u weer probeer",
+        "subscription_agreement_blank": "Om 'n intekening te koop, moet jou betalingsbesonderhede gestoor word. Om voort te gaan, bevestig dat jy instem of verwyder intekeningitems van jou bestelling.",
+        "insufficient_funds": "Jou betaling is geweier weens onvoldoende fondse. Probeer weer of gebruik 'n ander betaalmetode.",
+        "multiple_deferred_payment_not_allowed": "Slegs een uitgestelde betaling word per versoek toegelaat. Gaan asseblief u versoek na en probeer weer.",
+        "shipping_must_match_billing": "Faktuuradres moet ooreenstem met afleweringsadres. Gebruik asseblief 'n ander betaalmetode.",
+        "decision_rule_block": "Daar was 'n probleem met die verwerking van jou betaling. Kontak asseblief die winkeleienaar.",
+        "pick_up_card": "Jou kaart is geweier. Probeer weer of gebruik 'n ander betaalmetode.",
+        "cannot_verify": "Jou betalingsbesonderhede kon nie geverifieer word nie. Gaan jou kaartbesonderhede na en probeer weer.",
+        "invalid_number": "Voer 'n geldige kaartnommer in",
+        "invalid_expiry_date": "Voer 'n geldige vervaldatum in",
+        "invalid_cvc": "Voer 'n geldige sekuriteitskode in",
+        "expired_card": "Jou kaart het verval. Gebruik 'n ander betaalmetode.",
+        "payment_method_not_applicable": "Hierdie betaalmetode is nie van toepassing nie. Gebruik 'n ander betaalmetode.",
+        "card_declined": "Jou kaart is geweier. Probeer weer of gebruik 'n ander betaalmetode.",
+        "processing_error": "Daar was 'n probleem met die verwerking van jou betaling. Probeer weer of gebruik 'n ander betaalmetode.",
+        "processing_error_checkout_as_guest": "Daar was 'n probleem met die verwerking van jou betaling. Probeer weer met 'n ander betaalmetode of {{checkout_as_guest_link}} ."
       },
       "shipping_errors": {
         "shipping_method": "Die versendingsopsies het vir jou bestelling verander. Hersien asseblief jou keuse.",
@@ -1522,7 +1558,217 @@
         "credit_card_name_invalid": "Voer jou naam presies in soos dit op jou kaart geskryf is",
         "credit_card_number_invalid": "Voer 'n geldige kaartnommer in",
         "credit_card_expiry_invalid": "Voer 'n geldige vervaldatum in",
-        "credit_card_month_invalid": "Voer 'n geldige vervaldatum in"
+        "credit_card_month_invalid": "Voer 'n geldige vervaldatum in",
+        "credit_card_year_invalid": "Voer 'n geldige vervaljaar in",
+        "credit_card_start_invalid": "Voer 'n geldige kaartbegindatum in",
+        "credit_card_start_month_invalid": "Voer 'n geldige kaartbeginmaand in",
+        "credit_card_start_year_invalid": "Voer 'n geldige kaartbeginjaar in",
+        "credit_card_number_blank": "Voer 'n kaartnommer in",
+        "credit_card_verification_value_blank": "Voer die CVV of sekuriteitskode op jou kaart in",
+        "delivery_line_detail_changed": "Sommige afleweringsbesonderhede het dalk verander. Verifieer jou versendingsmetode en probeer weer.",
+        "delivery_zone_not_found": "Die gespesifiseerde sone is nie in die gespesifiseerde land gevind nie.",
+        "reduction_code_code_not_found": "Voer 'n geldige afslagkode of geskenkbewys in",
+        "reduction_code_discount_not_found": "Voer 'n geldige afslagkode in",
+        "reduction_code_gift_card_code_invalid": "Voer 'n geldige geskenkbewys in",
+        "reduction_code_gift_card_unusable": "Jy kan nie 'n geskenkbewys gebruik om 'n ander geskenkbewys te koop nie.",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Geskenkkaarte word nie met uitgestelde aankoopopsies ondersteun nie.",
+        "shipping_line_phone_blank": "Voer 'n telefoonnommer in om hierdie afleweringsmetode te gebruik",
+        "shipping_line_phone_invalid": "Voer 'n geldige telefoonnommer in",
+        "tips_invalid_tip_amount": "Voer 'n fooitjie van minder as %{amount} in",
+        "gift_card_already_applied": "Hierdie geskenkbewys is reeds op jou bestelling toegepas",
+        "gift_card_disabled": "Hierdie geskenkbewys is nie meer beskikbaar nie",
+        "gift_card_expired": "Hierdie geskenkbewys het verval",
+        "gift_card_depleted": "Hierdie geskenkbewys het geen fondse oor nie",
+        "gift_card_currency_mismatch": "Slegs geskenkkaarte in %{checkout_currency} kan met hierdie bestelling gebruik word",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Geskenkkaarte word nie met uitgestelde aankoopopsies ondersteun nie.",
+        "gift_card_buying_gift_card": "Jy kan nie 'n geskenkbewys gebruik om 'n ander geskenkbewys te koop nie.",
+        "payment_gateway_missing": "Kies 'n betaalmetode.",
+        "payment_gateway_needs_paid_plan_error": "Hierdie betaalmetode is tans nie in die winkel beskikbaar nie.",
+        "payment_gateway_not_in_test_mode": "is nie opgestel om bestellings te toets nie. Hierdie winkel kan nie regte bestellings of regte betalings aanvaar nie.",
+        "payment_gateway_incompatible_with_multi_currency": "Om hierdie afhandeling in jou plaaslike geldeenheid te voltooi, moet jy met 'n kredietkaart betaal.",
+        "payment_gateway_unsupported_for_subscriptions": "Hierdie betaalmetode is nie beskikbaar vir intekeningbestellings nie.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Hierdie betaalmetode is nie beskikbaar vir uitgestelde aankoopopsies nie.",
+        "payment_gateway_unsupported_for_country": "Hierdie betaalmetode is nie beskikbaar vir jou versendingsland nie.",
+        "payment_gateway_unsupported_for_development_store_html": "Om 'n toetsbestelling te plaas, moet jy 'n toetsbetalingspoort gebruik. Leer meer oor <a href=\"%{docs_link}\">toetsbestellings in ontwikkelingswinkels</a> .",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Jy het die limiet vir ontwikkelingswinkelbestellings met hierdie betalingsverwerker bereik. Om nog 'n bestelling te plaas, moet jy 'n toetsbetalingspoort gebruik. Leer meer oor <a href=\"%{docs_link}\">die toets van bestellings in ontwikkelingswinkels</a> .",
+        "purchase_options_agreement_blank": "Om met jou aankoop voort te gaan, stem in tot die uitgestelde of herhalende aankoopvoorwaardes.",
+        "physical_gift_card_invalid_quantity": "Fisiese geskenkbewys-lynitems moet 'n hoeveelheid hê wat ooreenstem met die aantal geskenkbewyskodes.",
+        "physical_gift_card_duplicate_code": "Fisiese geskenkbewys-lynitem bevat duplikaatkode.",
+        "physical_gift_card_invalid_code": "Fisiese geskenkbewyskode is ongeldig.",
+        "email_blank": "Voer 'n e-posadres in",
+        "phone_blank": "Voer 'n telefoonnommer in",
+        "address_country_invalid": "Kies 'n land/streek uit die lys",
+        "address_zip_invalid": "Voer 'n geldige poskode in",
+        "gift_card_invalid": "Geskenkbewys \"••••%{last_four_characters}\" is nie meer geldig nie",
+        "vaulting_agreement_blank": "Jou betaalmetode moet gestoor word, want betaling vir die saldo van hierdie bestelling is later betaalbaar.",
+        "sms_marketing_phone_invalid": "Voer 'n geldige telefoonnommer in",
+        "address_suggestion_did_you_mean_html": "Het jy %{html} bedoel?",
+        "split_cart_international_shipping_not_supported": "Alle items moet dieselfde afleweringsmetode gebruik wanneer dit internasionaal verskeep word. Dateer die afleweringsmetode op of skep veelvuldige bestellings.",
+        "invalid_delivery_address_reference_handle": "Die afleweringsadresverwysingshandvatsel kon nie met enige beskikbare afleweringsadresse ooreenstem nie.",
+        "must_use_available_delivery_address": "Afleweringsadres moet gekies word uit die beskikbare afleweringsadresse.",
+        "must_use_available_shipping_rate": "Versendingstarief moet gekies word uit die beskikbare versendingstariewe."
+      },
+      "store_credit_errors": {
+        "generic_error": "Daar was 'n probleem met jou winkelkrediet. Probeer weer of herlaai die bladsy."
+      },
+      "redeemable_errors": {
+        "shop_cash": {
+          "currency_mismatch": "Die geldeenheid het verander. Hersien asseblief jou Winkelkontant en aanbod."
+        },
+        "gift_card": {
+          "duplicate": "Die geskenkbewys is reeds op jou bestelling toegepas",
+          "insufficient_funds": "Hierdie geskenkbewys het geen fondse oor nie",
+          "expired": "Hierdie geskenkbewys het verval",
+          "not_available": "Hierdie geskenkbewys is nie meer beskikbaar nie",
+          "invalid": "Voer 'n geldige geskenkbewys in",
+          "currency_mismatch": "Slegs geskenkkaarte in %{shop_currency} word aanvaar",
+          "generic": "Die geskenkbewys kon nie by die afhandeling gevoeg word nie",
+          "throttle_limit_exceeded": "Jy het die maksimum aantal pogings oorskry. Probeer later weer.",
+          "no_longer_available": "Hierdie geskenkbewys kan nie meer met hierdie betaalpunt gebruik word nie."
+        }
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Die %{position} %{name} handelsware-instruksie bevat 'n leë stabiele ID.",
+        "invalid_stable_id_target": "Die %{position} %{name} handelsware-instruksie verwys na stabiele ID %{stable_id}, maar daardie stabiele ID is nie in handelsware-lyne nie.",
+        "duplicate_variant_id": "Die %{position} %{name} handelsware-instruksie bevat 'n duplikaat variant-ID %{variant_id}.",
+        "invalid_variant_id_target": "Die %{name} handelsware-instruksie verwys na variant-ID %{variant_id}, maar daardie variant is nie in handelsware-lyne nie.",
+        "invalid_price_override_target": "Die prysoorskrywing-handelsware-instruksie vir lynitem %{stable_id} is ongeldig aangesien dit 'n bundelkomponent is."
+      },
+      "shipping": {
+        "subscription_delivery_description": {
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} vir %{count} meer aflewering, gevolg deur %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} vir %{count} meer aflewerings (%{per_delivery_cost}), gevolg deur %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} vir %{count} aflewering, gevolg deur %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} vir %{count} aflewerings (%{per_delivery_cost}), gevolg deur %{recurring_order_shipping_price}"
+          },
+          "subscription_free_with_frequency_label": "Gratis aflewering %{afleweringsfrekwensie}",
+          "prepaid_delivery_frequency": {
+            "one": "vir %{count} aflewering",
+            "other": "vir %{count} aflewerings"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "elke dag",
+              "other": "elke %{count} dae"
+            },
+            "week": {
+              "one": "elke week",
+              "other": "elke %{count} weke"
+            },
+            "month": {
+              "one": "elke maand",
+              "other": "elke %{count} maande"
+            },
+            "year": {
+              "one": "elke jaar",
+              "other": "elke %{count} jaar"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per aflewering",
+          "prepaid_shipping_price_label": "%{shipping_price} per aflewering x %{delivery_interval_count}",
+          "initial_order_discounted": "Eerste versendingskoste %{discounted_shipping_cost}, dan %{frequency_description}",
+          "prepaid_initial_order_discounted": "Eerste versendingskoste %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Eerste versendingskoste %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Eerste versendingskoste %{discounted_shipping_price} %{prepaid_delivery_frequency}, dan %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Eerste versendingskoste %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), dan %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Ingesluit",
+          "recurring_order_shipping_price": "gevolg deur %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Eerste bestelling ingesluit, gevolg deur %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per aflewering), gevolg deur %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Eerste bestelling gratis",
+            "other": "Eerste %{count} bestellings gratis"
+          },
+          "free_for_first_n_order": {
+            "one": "Vir eerste bestelling",
+            "other": "Vir die eerste %{count} bestellings"
+          }
+        },
+        "one_time_purchase_shipping": "Eenmalige versending",
+        "duties_and_taxes_title": "Pligte en belastings",
+        "shipping_information_required_notice": "Versendingsinligting word vereis. {{link}} .",
+        "shipping_information_redirect_link": "Voer jou inligting hier in",
+        "loading_progressive_rates": "Soek na meer tariewe…",
+        "no_other_methods_available": "Geen ander metodes beskikbaar nie",
+        "duties_and_taxes_options": {
+          "ddu_title": "Betaal by aflewering",
+          "ddu_caption": "Bykomende fooie kan van toepassing wees",
+          "ddp_title": "Betaal nou",
+          "ddp_caption": "Geen bykomende fooie met aflewering nie"
+        },
+        "shipping_method_combinations": {
+          "without_separator": "%{eersteMetode}, %{tweedeMetode}",
+          "with_separator": "%{rus}, %{huidige},",
+          "combination": "%{rus} en %{huidige}"
+        },
+        "shipping_used_as_billing_notice": "Dit sal ook as jou faktuuradres vir hierdie bestelling gebruik word.",
+        "address_update": "Opdateer adres",
+        "shipping_address_title": "Stuur na",
+        "shipping_address_rollup_accessibility_label": "Versend-na-adres opsies",
+        "add_address": "Gebruik 'n ander adres",
+        "add_delivery_instructions": "Voeg afleweringsinstruksies by",
+        "edit": "Wysig",
+        "delete": "Vee uit",
+        "address_more": "Meer aksies vir hierdie adres",
+        "address_edit": "Wysig adres",
+        "address_delete": "Vee adres uit",
+        "address_confirm": "Is jy seker jy wil hierdie adres van jou rekening verwyder?",
+        "address_default": "Stel as verstek",
+        "address_form": {
+          "add_address": "Voeg adres by",
+          "save": "Stoor",
+          "cancel": "Kanselleer",
+          "generic_error": "Daar was 'n probleem met die stoor van jou adres. Probeer asseblief weer.",
+          "one_time_address_subtitle": "Gebruik 'n eenmalige adres vir hierdie bestelling"
+        },
+        "different_shipping_method_summary": "Voer 'n ander afleweringsadres in om beskikbare afleweringsmetodes te sien",
+        "invalid_shipping_method_summary": "Voer 'n geldige afleweringsadres in om beskikbare afleweringsmetodes te sien",
+        "method_summary": {
+          "incomplete_address_entered": "Voer 'n volledige afleweringsadres in om beskikbare afleweringsmetodes te sien",
+          "incomplete_address_selected": "Kies 'n volledige afleweringsadres om beskikbare afleweringsmetodes te sien"
+        },
+        "local_pickup": {
+          "search_address": "Soek vir adres",
+          "rollup_title": "Afhaalplek",
+          "rollup_accessibility_label": "Opsies vir afhaalplekke"
+        },
+        "missing_shipping_address": "Versendingsadres ontbreek",
+        "split_shipping_merchandise_quantity_label_additional": "+%{hoeveelheid} meer",
+        "split_shipping_merchandise_shipment_number": "Versending %{number} van %{total}",
+        "pre_order_ships_now": "Verskeep nou",
+        "pre_order_ships_later": "Verskeep later",
+        "pre_order_ships_date": "Verskeep %{datum}",
+        "split_shipping_shipped_by_shop": "Versend deur %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Veelvuldige verskepings",
+        "split_shipping_shipping_label": "Metode",
+        "split_shipping_shipment_notice": "Jou bestelling sal in %{quantity_shipments} aankom",
+        "split_shipping_first_shipment_notice": "Jou eerste bestelling sal in %{quantity_shipments} aankom",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} verskepings",
+        "split_shipping_multiple_shipment_notice": "Jou bestelling sal in verskeie versendings aankom",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Jou bestelling sal in %{quantity} verskepings aankom",
+        "split_shipping_more_shipping_options": "Meer versendingsopsies",
+        "split_shipping_shipment_number": "Versending %{nommer}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Hoeveelheid: %{hoeveelheid}",
+        "split_shipping_merchandise_quantity_label_inline": "%{handelsware_titel} ×%{hoeveelheid}",
+        "split_shipping_option_free": "Gratis aflewering",
+        "split_shipping_option_lowest_price": "Laagste prys",
+        "split_shipping_option_fastest": "Vinnigste",
+        "split_shipping_option_recommended": "Aanbeveel",
+        "split_shipping_option_custom": "Pasgemaak"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Bykomende inligting",
+          "tax_credential_br": "GPF/CNPJ",
+          "shipping_credential_br": "GPF/CNPJ",
+          "shipping_credential_kr": "Persoonlike Doeanekode",
+          "shipping_credential_cn": "Inwoner ID-nommer",
+          "tax_credential_it": "Fiskale kode (opsioneel)",
+          "tax_email_it": "PEC (opsioneel)"
+        }
       }
     }
   },
