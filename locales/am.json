@@ -3055,7 +3055,69 @@
         "pickup_point": "የመውሰጃ ነጥብ"
       },
       "show_items": "ንጥሎችን አሳይ",
-      "show_order_summary": "የትዕዛዝ ማጠቃለያ አሳይ"
+      "show_order_summary": "የትዕዛዝ ማጠቃለያ አሳይ",
+      "hide_order_summary": "የትዕዛዝ ማጠቃለያን ደብቅ",
+      "subtitle": "የተረጋገጠ {{date}}",
+      "subtotal": "ንዑስ ድምር",
+      "summary_list_title_accessibility_label": "እቃዎችን ይዘዙ",
+      "summary_title": "የትዕዛዝ ማጠቃለያ",
+      "summary_totals_title_accessibility_label": "የትእዛዝ ድምር",
+      "shop_order_tracking": {
+        "download_shop_to_track": "ጥቅል ለመከታተል ይግዙ ያውርዱ",
+        "track_order_with_shop": "በሱቅ ትዕዛዝ ይከታተሉ",
+        "title_header": "በስልክዎ ይቃኙ",
+        "real_time_delivery_updates": "ሱቅ ትዕዛዝዎ ከተላከ በኋላ የአሁናዊ መላኪያ ዝማኔዎችን ይልክልዎታል።"
+      },
+      "edit_summary": {
+        "added": "ታክሏል።",
+        "added_with_quantity": "{{quantity}} ታክሏል",
+        "removed": "ተወግዷል",
+        "removed_with_quantity": "{{quantity}} ተወግዷል",
+        "updated_at": "ትዕዛዝህ የተዘመነው በ {{date}}",
+        "returned": "ተመልሷል",
+        "returned_with_quantities": "ከ {{delta}} {{total}} ተመልሷል",
+        "removed_with_quantities": "ከ {{delta}} {{total}} ተወግዷል",
+        "return_line_item_removed": "ከመመለስ ተወግዷል",
+        "return_line_item_removed_with_quantities": "{{delta}} ከመመለስ ተወግዷል"
+      },
+      "shop_pay": {
+        "order_completed_with": "ትዕዛዙ ተጠናቀቀ",
+        "learn_more": "የበለጠ ተማር"
+      },
+      "taxes": "ግብሮች",
+      "taxes_included": "በግብር ውስጥ {{amount}} ን ጨምሮ",
+      "duties_and_taxes_included": "ጠቅላላ ግብሮችን እና ግብሮችን ያጠቃልላል። በማድረስ ላይ ምንም ተጨማሪ ክፍያዎች የሉም።",
+      "duties": "ግዴታዎች",
+      "ok_duties_tooltip": "ይህ ትእዛዝ ከሌላ ሀገር እየተላከ ነው፣ ስለዚህ ግዴታዎች ወደ ትእዛዝዎ ጠቅላላ ታክለዋል።",
+      "error_duties_tooltip": "ይህ ትእዛዝ ከሌላ ሀገር እየተላከ ነው፣ ስለዚህ በሚላክበት ጊዜ ቀረጥ እና ቀረጥ ሊከፈል ይችላል።",
+      "zero_duties_tooltip": "ይህ ትዕዛዝ ከሌላ ሀገር እየተላከ ነው። ግዴታዎች በዚህ ዋጋ ትእዛዝ አይከፈሉም።",
+      "tip": "ጠቃሚ ምክር",
+      "title": "እዘዝ {{name}}",
+      "total": "ጠቅላላ",
+      "unit_price": "{{price}} /ኢ",
+      "pagination": {
+        "load_more": "ተጨማሪ ጫን",
+        "load_more_accessibility_label": "ተጨማሪ እቃዎችን ጫን",
+        "loading_accessibility_label": "ንጥሎችን በመጫን ላይ"
+      },
+      "login_to_view_all_order_details": "ሁሉንም የትዕዛዝ ዝርዝሮች ለማየት ይግቡ።",
+      "log_in": "ይግቡ",
+      "logged_in_account_no_permission_to_order": "እንደ {{email}} ገብተሃል። ይህ መለያ ይህን ትዕዛዝ ለማስተዳደር ፈቃድ የለውም።",
+      "log_in_to_a_different_account": "ወደ ሌላ መለያ ይግቡ",
+      "fees": {
+        "restocking_fee": "የመልሶ ማቋቋም ክፍያ",
+        "return_shipping_fee": "መላኪያ ይመለሱ"
+      },
+      "vat_invoices": {
+        "title": "የተ.እ.ታ ደረሰኞች"
+      },
+      "link_sent": "ማገናኛ ተልኳል።",
+      "cash_rounding": "የገንዘብ ማሰባሰብ",
+      "adjusted_payment": "የተስተካከለ ክፍያ",
+      "adjusted_total": "የተስተካከለ ጠቅላላ",
+      "due_on_date": "የሚያበቃው {{date}}",
+      "due_on_fulfillment": "በመሙላት ምክንያት",
+      "due_on_receipt": "ደረሰኝ ላይ የሚከፈል"
     },
     "B2B": {
       "draft_order_details": {
@@ -3516,7 +3578,65 @@
       "save": "አስቀምጥ",
       "save_accessibility_label": "አድራሻ አስቀምጥ {{address}}",
       "section_title_accessibility_label": "አድራሻ ጨምር",
-      "update_success_notification": "አድራሻ ተዘምኗል"
+      "update_success_notification": "አድራሻ ተዘምኗል",
+      "attention": "ትኩረት",
+      "attention_company": "ኩባንያ / ትኩረት",
+      "attention_help_text": "የአንድ ሰው ወይም የመምሪያው ስም",
+      "auto_complete_close_accessibility_label": "ጥቆማዎችን ዝጋ",
+      "auto_complete_title": "ጥቆማዎች",
+      "billing_address": "እንደ የክፍያ መጠየቂያ አድራሻ ይጠቀሙ",
+      "cancel": "ሰርዝ",
+      "cancel_accessibility_label": "የአርትዖት አድራሻን ሰርዝ {{address}}",
+      "creation_success_notification": "አድራሻ ታክሏል።",
+      "default_address": "ይህ የእኔ ነባሪ አድራሻ ነው።",
+      "default_address_creation_success_notification": "ነባሪ አድራሻ ታክሏል።",
+      "default_address_update_success_notification": "ነባሪ አድራሻ ተዘምኗል",
+      "loading_add_form_accessibility_message": "አዲስ አድራሻ ቅጽ በመጫን ላይ",
+      "loading_edit_form_accessibility_message": "የአርትዖት አድራሻ ቅጽን በመጫን ላይ"
+    },
+    "addresses": {
+      "add_button": "አድራሻ ጨምር",
+      "add_button_text": "አክል",
+      "add_button_accessibility_label": "አድራሻ ጨምር",
+      "back_button": "ተመለስ",
+      "back_button_accessibility_label": "ወደ የአርትዖት አድራሻ ተመለስ {{address}}",
+      "add_address_banner": "ተመዝግበው መውጫ ላይ የሚጠቀሙባቸውን አድራሻዎች ያክሉ",
+      "no_addresses_banner": "ምንም አድራሻዎች አልተጨመሩም።",
+      "address_deleted_notification": "አድራሻ ተሰርዟል።",
+      "cancel_adding_address_accessibility_label": "አድራሻ ማከልን ሰርዝ",
+      "cancel_deletion_button": "ሰርዝ",
+      "cancel_deletion_button_accessibility_label": "{{address}} ን መሰረዝን ሰርዝ",
+      "default_address": {
+        "title": "ነባሪ አድራሻ",
+        "title_accessibility_label": "ነባሪ አድራሻ {{address}}"
+      },
+      "delete_button": "ሰርዝ",
+      "delete_button_accessibility_label": "ሰርዝ {{address}}",
+      "delete_confirmation_button": "አድራሻ ሰርዝ",
+      "delete_confirmation_button_accessibility_label": "ሰርዝ {{address}}",
+      "delete_confirmation_message": "አድራሻ ይሰረዝ? ነባር ትዕዛዞች አይነኩም።",
+      "delete_confirmation_title": "አድራሻ ይሰረዝ?",
+      "delete_confirmation_description": "ነባር ትዕዛዞች አይነኩም።",
+      "edit_button": "አርትዕ",
+      "edit_button_accessibility_label": "{{address}} አርትዕ",
+      "edit_section_accessibility_label": "{{address}} አርትዕ",
+      "edit_modal_title": {
+        "default": "አድራሻ አርትዕ",
+        "billing": "የክፍያ መጠየቂያ አድራሻን ያርትዑ",
+        "shipping": "የመላኪያ አድራሻን ያርትዑ"
+      },
+      "loading_accessibility_message": "አድራሻ በመጫን ላይ",
+      "loading_addresses_accessibility_message": "አድራሻዎችን በመጫን ላይ",
+      "loading_billing_accessibility_message": "የክፍያ መጠየቂያ አድራሻን በመጫን ላይ",
+      "loading_finished_accessibility_message": "አዲስ የአድራሻ ገጽ ተጭኗል",
+      "loading_shipping_accessibility_message": "የመላኪያ አድራሻን በመጫን ላይ",
+      "pagination": {
+        "load_more": "ተጨማሪ ጫን",
+        "load_more_accessibility_label": "ተጨማሪ አድራሻዎችን ጫን"
+      },
+      "save_new_address_accessibility_label": "አድራሻ አስቀምጥ",
+      "title": "አድራሻዎች",
+      "billing_address_dropdown_placeholder": "የመክፈያ አድራሻ"
     }
   },
   "products": {
