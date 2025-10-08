@@ -1935,7 +1935,43 @@
       "quantity": "Hoeveelheid",
       "total": "Totaal",
       "total_refunded": "Terugbetaal",
-      "fulfilled_at_html": "Vervul {{ date }}"
+      "fulfilled_at_html": "Vervul {{ date }}",
+      "track_shipment": "Volg besending",
+      "tracking_url": "Spoorskakel",
+      "tracking_company": "Vervoerder",
+      "tracking_number": "Spoornommer",
+      "subtotal": "Subtotaal",
+      "total_duties": "Pligte"
+    },
+    "orders": {
+      "title": "Bestellingsgeskiedenis",
+      "order_number": "Bestelling",
+      "order_number_link": "Bestelnommer {{ number }}",
+      "date": "Datum",
+      "payment_status": "Betalingsstatus",
+      "fulfillment_status": "Vervullingsstatus",
+      "total": "Totaal",
+      "none": "Jy het nog geen bestellings geplaas nie."
+    },
+    "recover_password": {
+      "title": "Stel jou wagwoord terug",
+      "subtext": "Ons sal vir jou 'n e-pos stuur om jou wagwoord te herstel",
+      "success": "Ons het vir jou 'n e-pos gestuur met 'n skakel om jou wagwoord op te dateer."
+    },
+    "register": {
+      "title": "Skep rekening",
+      "first_name": "Voornaam",
+      "last_name": "Vannaam",
+      "email": "E-pos",
+      "password": "Wagwoord",
+      "submit": "Skep"
+    },
+    "reset_password": {
+      "title": "Stel rekeningwagwoord terug",
+      "subtext": "Voer 'n nuwe wagwoord in",
+      "password": "Wagwoord",
+      "password_confirm": "Bevestig wagwoord",
+      "submit": "Herstel wagwoord"
     }
   },
   "accessibility": {
@@ -1966,5 +2002,37 @@
   "onboarding": {
     "product_title": "Voorbeeld produktitel",
     "collection_title": "Jou versameling se naam"
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "Gebruik die geskenkbewyskode aanlyn of QR-kode in die winkel",
+      "title": "Hier is jou {{ value }} geskenkbewysbalans vir {{ shop }} !",
+      "subtext": "Jou geskenkbewys",
+      "gift_card_code": "Geskenkbewyskode",
+      "shop_link": "Besoek aanlynwinkel",
+      "add_to_apple_wallet": "Voeg by Apple Wallet",
+      "qr_image_alt": "QR-kode — skandeer om geskenkbewys te gebruik",
+      "copy_code": "Kopieer geskenkbewyskode",
+      "expiration_date": "Vervaldatum {{ expires_on }}",
+      "copy_code_success": "Kode suksesvol gekopieer",
+      "expired": "Verstryk"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Ek wil dit as 'n geskenk stuur",
+      "expanded": "Geskenkbewysontvangervorm uitgebrei",
+      "collapsed": "Geskenkbewysontvangervorm ingevou",
+      "email_label": "Ontvanger se e-posadres",
+      "email_label_optional_for_no_js_behavior": "Ontvanger se e-posadres (opsioneel)",
+      "email": "E-pos",
+      "name_label": "Ontvangernaam (opsioneel)",
+      "name": "Naam",
+      "message_label": "Boodskap (opsioneel)",
+      "message": "Boodskap",
+      "max_characters": "{{ max_chars }} karakters maksimum",
+      "send_on": "JJJJ-MM-DD",
+      "send_on_label": "Stuur aan (opsioneel)"
+    }
   }
 }
