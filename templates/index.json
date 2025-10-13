@@ -192,6 +192,34 @@
         "slide_5_button_link": "",
         "slide_5_background_color": "#f0fff4"
       }
+    },
+    "collectiongrid_MYHhFY": {
+      "type": "collectiongrid",
+      "name": "Collection grid",
+      "settings": {
+        "collection_1": "active-wear",
+        "collection_2": "palazzo",
+        "collection_3": "teens",
+        "collection_4": "loungewear",
+        "collection_5": "loungewear",
+        "collection_6": "leggings-churidar",
+        "collection_7": "",
+        "collection_8": "",
+        "collection_width": 350,
+        "image_height": 430,
+        "grid_gap": 20,
+        "horizontal_padding": 20,
+        "section_padding_top": 40,
+        "section_padding_bottom": 40,
+        "border_radius": 8,
+        "hover_lift": 4,
+        "image_scale": 1.1,
+        "overlay_opacity": 0.6,
+        "text_color": "#ffffff",
+        "text_size": 20,
+        "text_transform": "uppercase",
+        "letter_spacing": 1
+      }
     }
   },
   "order": [
@@ -202,6 +230,7 @@
     "1752056308bc1e6eaf",
     "1753257562c33f6716",
     "wwww_pjkNHL",
-    "product_slider_XKrDja"
+    "product_slider_XKrDja",
+    "collectiongrid_MYHhFY"
   ]
 }
